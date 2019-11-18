@@ -241,7 +241,7 @@
     </div>
 
     <!-- LINKS -->
-    <navigation :current-excursion="1" />
+    <navigation :current-excursion="$route.params.id" />
 
     <!--
     <div class="map-source-position">
@@ -270,6 +270,8 @@ export default {
     return /^\d+$/.test(params.id)
   },
   data() {
+    // console.log(this.$route.params.id, typeof this.$route.params.id)
+
     return {
       extras: [
         {
