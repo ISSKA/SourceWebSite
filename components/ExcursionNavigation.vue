@@ -64,13 +64,13 @@ export default {
       prev: {
         title: `Excursion ${prevIndex}`,
         sumary: 'This is a wider card with supporting text as a natural lead-in to additional content. This content is a little bit longer.',
-        link: `/excursions/excursion-${prevIndex}`,
+        link: `/excursions/${prevIndex}`,
         img: 'https://picsum.photos/400/400/?image=11'
       },
       next: {
         title: `Excursion ${nextIndex}`,
         sumary: 'This is a wider card with supporting text as a natural lead-in to additional content. This content is a little bit longer.',
-        link: `/excursions/excursion-${nextIndex}`,
+        link: `/excursions/${nextIndex}`,
         img: 'https://picsum.photos/400/400/?image=10'
       }
     }

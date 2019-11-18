@@ -1,8 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="title">
-      Excursion 1
-    </h1>
+    <h1 class="title">Excursion {{ $route.params.id }}</h1>
 
     <div style="margin-bottom: 20px;">
       Difficuleté : Modérée
@@ -266,6 +264,10 @@ export default {
   components: {
     Navigation,
     ImageLinkCard
+  },
+  validate({ params }) {
+    // Doit être un nombre
+    return /^\d+$/.test(params.id)
   },
   data() {
     return {

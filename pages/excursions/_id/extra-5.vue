@@ -94,7 +94,7 @@
       <!-- LINKS -->
       <div class="row justify-content-between" style="margin-top: 40px;">
         <div class="col-6">
-          <nuxt-link to="/excursions/excursion-1/extra-4" class="next-page-link">
+          <nuxt-link to="/excursions/1/extra-4" class="next-page-link">
             <b-card no-body class="overflow-hidden" style="max-width: 540px;">
               <b-row no-gutters>
                 <b-col md="4">
@@ -112,7 +112,7 @@
           </nuxt-link>
         </div>
         <div class="col-6">
-          <nuxt-link to="/excursions/excursion-1/extra-6" class="next-page-link">
+          <nuxt-link to="/excursions/1/extra-6" class="next-page-link">
             <b-card no-body class="overflow-hidden text-right" style="max-width: 540px;">
               <b-row no-gutters>
                 <b-col md="8">

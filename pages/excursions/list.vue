@@ -19,7 +19,7 @@
             <b-card-text>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </b-card-text>
-            <nuxt-link to="/excursions/excursion-1" class="button--green">
+            <nuxt-link to="/excursions/1" class="button--green">
               Excursion 1
             </nuxt-link>
             <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
@@ -29,7 +29,7 @@
             <b-card-text>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </b-card-text>
-            <nuxt-link to="/excursions/excursion-2" class="button--green">
+            <nuxt-link to="/excursions/2" class="button--green">
               Excursion 2
             </nuxt-link>
             <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
@@ -39,7 +39,7 @@
             <b-card-text>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </b-card-text>
-            <nuxt-link to="/excursions/excursion-3" class="button--green">
+            <nuxt-link to="/excursions/3" class="button--green">
               Excursion 3
             </nuxt-link>
             <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
@@ -50,7 +50,7 @@
             <b-card-text>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </b-card-text>
-            <nuxt-link to="/excursions/excursion-1" class="button--green">
+            <nuxt-link to="/excursions/1" class="button--green">
               Excursion 1
             </nuxt-link>
             <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
@@ -60,7 +60,7 @@
             <b-card-text>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </b-card-text>
-            <nuxt-link to="/excursions/excursion-2" class="button--green">
+            <nuxt-link to="/excursions/2" class="button--green">
               Excursion 2
             </nuxt-link>
             <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
@@ -70,7 +70,7 @@
             <b-card-text>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </b-card-text>
-            <nuxt-link to="/excursions/excursion-3" class="button--green">
+            <nuxt-link to="/excursions/3" class="button--green">
               Excursion 3
             </nuxt-link>
             <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
@@ -81,7 +81,7 @@
             <b-card-text>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </b-card-text>
-            <nuxt-link to="/excursions/excursion-1" class="button--green">
+            <nuxt-link to="/excursions/1" class="button--green">
               Excursion 1
             </nuxt-link>
             <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
@@ -91,7 +91,7 @@
             <b-card-text>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </b-card-text>
-            <nuxt-link to="/excursions/excursion-2" class="button--green">
+            <nuxt-link to="/excursions/2" class="button--green">
               Excursion 2
             </nuxt-link>
             <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
@@ -101,7 +101,7 @@
             <b-card-text>
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </b-card-text>
-            <nuxt-link to="/excursions/excursion-3" class="button--green">
+            <nuxt-link to="/excursions/3" class="button--green">
               Excursion 3
             </nuxt-link>
             <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
