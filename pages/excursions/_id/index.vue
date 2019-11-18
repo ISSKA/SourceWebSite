@@ -267,7 +267,7 @@ export default {
   },
   validate({ params }) {
     // Doit être un nombre
-    return /^\d+$/.test(params.id)
+    return /^\d+$/.test(params.id) && params.id > 0 && params.id <= 12
   },
   data() {
     // console.log(this.$route.params.id, typeof this.$route.params.id)
