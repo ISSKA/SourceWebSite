@@ -277,44 +277,7 @@
     </div>
 
     <!-- LINKS -->
-    <div class="row justify-content-between">
-      <div class="col-6">
-        <nuxt-link to="/excursions/excursion-12" class="next-page-link">
-          <b-card no-body class="overflow-hidden" style="max-width: 540px;">
-            <b-row no-gutters>
-              <b-col md="4">
-                <b-card-img src="https://picsum.photos/400/400/?image=11" class="rounded-0"></b-card-img>
-              </b-col>
-              <b-col md="8">
-                <b-card-body title="Excursion 12">
-                  <b-card-text>
-                    This is a wider card with supporting text as a natural lead-in to additional content. This content is a little bit longer.
-                  </b-card-text>
-                </b-card-body>
-              </b-col>
-            </b-row>
-          </b-card>
-        </nuxt-link>
-      </div>
-      <div class="col-6">
-        <nuxt-link to="/excursions/excursion-2" class="next-page-link">
-          <b-card no-body class="overflow-hidden text-right" style="max-width: 540px;">
-            <b-row no-gutters>
-              <b-col md="8">
-                <b-card-body title="Excursion 2">
-                  <b-card-text>
-                    This is a wider card with supporting text as a natural lead-in to additional content. This content is a little bit longer.
-                  </b-card-text>
-                </b-card-body>
-              </b-col>
-              <b-col md="4">
-                <b-card-img src="https://picsum.photos/400/400/?image=10" class="rounded-0"></b-card-img>
-              </b-col>
-            </b-row>
-          </b-card>
-        </nuxt-link>
-      </div>
-    </div>
+    <navigation :current-excursion="1" />
 
     <!--
     <div class="map-source-position">
@@ -330,7 +293,12 @@
 </template>
 
 <script>
+import Navigation from '~/components/ExcursionNavigation.vue'
+
 export default {
+  components: {
+    Navigation
+  }
   /* data() {
     return {
       items: [

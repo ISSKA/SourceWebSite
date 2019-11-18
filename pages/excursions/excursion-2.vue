@@ -10,11 +10,19 @@
         </nuxt-link>
       </div>
     </div>
+
+    <navigation :current-excursion="2" />
   </div>
 </template>
 
 <script>
-export default {}
+import Navigation from '~/components/ExcursionNavigation.vue'
+
+export default {
+  components: {
+    Navigation
+  }
+}
 </script>
 
 <style></style>
