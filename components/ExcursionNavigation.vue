@@ -55,8 +55,11 @@ export default {
   data() {
     // console.log(this.currentExcursion, typeof this.currentExcursion)
 
-    const prevIndex = this.currentExcursion > 1 ? this.currentExcursion - 1 : ITEMS_COUNT
-    const nextIndex = (this.currentExcursion + 1) % ITEMS_COUNT
+    // Ensure to cast currentExcursion to Number (when passed from $route.params)
+    const currentExcursion = parseInt(this.currentExcursion)
+
+    const prevIndex = currentExcursion > 1 ? currentExcursion - 1 : ITEMS_COUNT
+    const nextIndex = (currentExcursion + 1) % ITEMS_COUNT
 
     // console.log(prevIndex, nextIndex)
 
