@@ -36,6 +36,19 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module'
   ],
+  generate: {
+    // routes: ['/excursions/1', '/excursions/2', '/excursions/3']
+    routes() {
+      const ITEMS_COUNT = 12
+      const routes = []
+
+      for (let idx = 1; idx <= ITEMS_COUNT; idx++) {
+        routes.push('/excursions/' + idx)
+      }
+
+      return routes
+    }
+  },
   /*
    ** Nuxt.js modules
    */
