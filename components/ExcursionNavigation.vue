@@ -74,8 +74,7 @@ export default {
         img: 'https://picsum.photos/400/400/?image=10'
       }
     }
-  },
-  mounted() {}
+  }
 }
 </script>
 

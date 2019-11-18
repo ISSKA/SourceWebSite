@@ -210,41 +210,7 @@
 
     <b-card-group deck>
       <div class="row" style="margin-top: 40px; margin-bottom: 40px;">
-        <div class="col-6" style="margin-bottom: 40px;">
-          <nuxt-link to="/excursions/excursion-1/extra-4" class="next-page-link">
-            <b-card
-              overlay
-              img-src="https://picsum.photos/900/250/?image=15"
-              img-height="200px"
-              img-alt="Card Image"
-              text-variant="white"
-              title="Extra 4"
-              sub-title="xxx"
-            >
-              <b-card-text>
-                xxx
-              </b-card-text>
-            </b-card>
-          </nuxt-link>
-        </div>
-
-        <div class="col-6" style="margin-bottom: 40px;">
-          <nuxt-link to="/excursions/excursion-1/extra-5" class="next-page-link">
-            <b-card
-              overlay
-              img-src="https://picsum.photos/900/250/?image=18"
-              img-height="200px"
-              img-alt="Card Image"
-              text-variant="white"
-              title="Extra 5"
-              sub-title="L’alimentation en eau de La Chaux-de-Fonds"
-            >
-              <b-card-text>
-                xxx
-              </b-card-text>
-            </b-card>
-          </nuxt-link>
-        </div>
+        <image-link-card v-for="extra in extras" :key="extra.index" :content="extra" />
       </div>
     </b-card-group>
 
@@ -294,14 +260,36 @@
 
 <script>
 import Navigation from '~/components/ExcursionNavigation.vue'
+import ImageLinkCard from '~/components/ImageLinkCard.vue'
 
 export default {
   components: {
-    Navigation
-  }
-  /* data() {
+    Navigation,
+    ImageLinkCard
+  },
+  data() {
     return {
-      items: [
+      extras: [
+        {
+          index: 3,
+          title: 'Extra 3',
+          subTitle: 'xxx',
+          img: 'https://picsum.photos/900/250/?image=14'
+        },
+        {
+          index: 4,
+          title: 'Extra 4',
+          subTitle: 'xxx',
+          img: 'https://picsum.photos/900/250/?image=18'
+        },
+        {
+          index: 5,
+          title: 'Extra 5',
+          subTitle: 'L’alimentation en eau de La Chaux-de-Fonds',
+          img: 'https://picsum.photos/900/250/?image=15'
+        }
+      ]
+      /* items: [
         {
           Départ: 'Gare de Noiraigue',
           Arrivée: 'Gare de Chambrelien',
@@ -310,9 +298,9 @@ export default {
           Durée: '4 heures',
           Restaurants: 'Noiraigue / Champ du Moulin / Chambrelien'
         }
-      ]
+      ] */
     }
-  } */
+  }
 }
 </script>
 
