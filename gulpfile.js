@@ -12,7 +12,7 @@ const password = process.env.FTP_PASSWORD
 const host = 'ops.ftp.infomaniak.com'
 const port = 21
 const localFilesGlob = ['./dist/**/*']
-const remoteFolder = '/'
+const remoteFolder = '/fr'
 
 // helper function to build an FTP connection based on our configuration
 function getFtpConnection() {
