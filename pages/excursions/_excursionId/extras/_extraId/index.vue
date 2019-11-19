@@ -1,9 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="title">
-        Excursion 1 - Extra 5 / L’alimentation en eau de La Chaux-de-Fonds
-      </h1>
+      <h1 class="title">Excursion {{ $route.params.excursionId }} - Extra {{ $route.params.extraId }} / L’alimentation en eau de La Chaux-de-Fonds</h1>
       <div>
         <p>
           La ville de La Chaux-de-Fonds est perchée à 1000 m d’altitude en pleine région karstique. Jusqu’au milieu du XIXe siècle, ses habitants se contentent
@@ -92,50 +90,29 @@
       </div>
 
       <!-- LINKS -->
-      <div class="row justify-content-between" style="margin-top: 40px;">
-        <div class="col-6">
-          <nuxt-link to="/excursions/1/extra-4" class="next-page-link">
-            <b-card no-body class="overflow-hidden" style="max-width: 540px;">
-              <b-row no-gutters>
-                <b-col md="4">
-                  <b-card-img src="https://picsum.photos/400/400/?image=11" class="rounded-0"></b-card-img>
-                </b-col>
-                <b-col md="8">
-                  <b-card-body title="Extra 4">
-                    <b-card-text>
-                      This is a wider card with supporting text as a natural lead-in to additional content. This content is a little bit longer.
-                    </b-card-text>
-                  </b-card-body>
-                </b-col>
-              </b-row>
-            </b-card>
-          </nuxt-link>
-        </div>
-        <div class="col-6">
-          <nuxt-link to="/excursions/1/extra-6" class="next-page-link">
-            <b-card no-body class="overflow-hidden text-right" style="max-width: 540px;">
-              <b-row no-gutters>
-                <b-col md="8">
-                  <b-card-body title="Extra 6">
-                    <b-card-text>
-                      This is a wider card with supporting text as a natural lead-in to additional content. This content is a little bit longer.
-                    </b-card-text>
-                  </b-card-body>
-                </b-col>
-                <b-col md="4">
-                  <b-card-img src="https://picsum.photos/400/400/?image=10" class="rounded-0"></b-card-img>
-                </b-col>
-              </b-row>
-            </b-card>
-          </nuxt-link>
-        </div>
-      </div>
+      <navigation :current-excursion="$route.params.excursionId" :current-extra="$route.params.extraId" />
     </div>
   </div>
 </template>
 
 <script>
+import Navigation from '~/components/ExtraNavigation.vue'
+
 export default {
+  components: {
+    Navigation
+  },
+  validate({ params }) {
+    // Doit être un nombre
+    return (
+      /^\d+$/.test(params.excursionId) &&
+      params.excursionId > 0 &&
+      params.excursionId <= 12 && // todo: change this dynamically
+      /^\d+$/.test(params.extraId) &&
+      params.extraId > 0 &&
+      params.extraId <= 4 // todo: change this dynamically
+    )
+  },
   data() {
     return {
       slide: 0,

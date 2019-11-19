@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="title">Excursion {{ $route.params.id }}</h1>
+    <h1 class="title">Excursion {{ $route.params.excursionId }}</h1>
 
     <div style="margin-bottom: 20px;">
       Difficuleté : Modérée
@@ -241,7 +241,7 @@
     </div>
 
     <!-- LINKS -->
-    <navigation :current-excursion="$route.params.id" />
+    <navigation :current-excursion="$route.params.excursionId" />
 
     <!--
     <div class="map-source-position">
@@ -267,10 +267,10 @@ export default {
   },
   validate({ params }) {
     // Doit être un nombre
-    return /^\d+$/.test(params.id) && params.id > 0 && params.id <= 12
+    return /^\d+$/.test(params.excursionId) && params.excursionId > 0 && params.excursionId <= 12
   },
   data() {
-    // console.log(this.$route.params.id, typeof this.$route.params.id)
+    // console.log(this.$route.params.excursionId, typeof this.$route.params.excursionId)
 
     return {
       extras: [
@@ -280,7 +280,7 @@ export default {
           subTitle: 'xxx',
           description: 'ssssssss',
           img: 'https://picsum.photos/900/250/?image=14',
-          link: `/excursions/${this.$route.params.id}/extras/3`
+          link: `/excursions/${this.$route.params.excursionId}/extras/3`
         },
         {
           index: 4,
@@ -288,7 +288,7 @@ export default {
           subTitle: 'xxx',
           description: '',
           img: 'https://picsum.photos/900/250/?image=18',
-          link: `/excursions/${this.$route.params.id}/extras/4`
+          link: `/excursions/${this.$route.params.excursionId}/extras/4`
         },
         {
           index: 5,
@@ -296,7 +296,7 @@ export default {
           subTitle: 'L’alimentation en eau de La Chaux-de-Fonds',
           description: '',
           img: 'https://picsum.photos/900/250/?image=15',
-          link: `/excursions/${this.$route.params.id}/extras/5`
+          link: `/excursions/${this.$route.params.excursionId}/extras/5`
         }
       ]
       /* items: [
