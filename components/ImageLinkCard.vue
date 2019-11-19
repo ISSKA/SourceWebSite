@@ -1,9 +1,18 @@
 <template>
   <div class="col-6" style="margin-bottom: 40px;">
-    <nuxt-link :to="'/excursions/1/extra-' + content.index" class="next-page-link">
-      <b-card :title="content.title" :sub-title="content.subTitle" :img-src="content.img" overlay img-height="200px" img-alt="Card Image" text-variant="white">
+    <nuxt-link :to="content.link" class="next-page-link">
+      <b-card
+        :title="content.title"
+        :sub-title="content.subTitle"
+        :img-src="content.img"
+        :img-alt="content.title + ' ' + content.subTitle"
+        overlay
+        img-height="200px"
+        text-variant="white"
+        sub-title-text-variant="white"
+      >
         <b-card-text>
-          xxx
+          {{ content.description }}
         </b-card-text>
       </b-card>
     </nuxt-link>

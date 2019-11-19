@@ -278,19 +278,25 @@ export default {
           index: 3,
           title: 'Extra 3',
           subTitle: 'xxx',
-          img: 'https://picsum.photos/900/250/?image=14'
+          description: 'ssssssss',
+          img: 'https://picsum.photos/900/250/?image=14',
+          link: `/excursions/${this.$route.params.id}/extras/3`
         },
         {
           index: 4,
           title: 'Extra 4',
           subTitle: 'xxx',
-          img: 'https://picsum.photos/900/250/?image=18'
+          description: '',
+          img: 'https://picsum.photos/900/250/?image=18',
+          link: `/excursions/${this.$route.params.id}/extras/4`
         },
         {
           index: 5,
           title: 'Extra 5',
           subTitle: 'L’alimentation en eau de La Chaux-de-Fonds',
-          img: 'https://picsum.photos/900/250/?image=15'
+          description: '',
+          img: 'https://picsum.photos/900/250/?image=15',
+          link: `/excursions/${this.$route.params.id}/extras/5`
         }
       ]
       /* items: [
