@@ -1,6 +1,6 @@
 export default {
   _title: 'Excursion 1',
-  subtitle: "Source de la Noiraigue et Gorges de l'Areuse (NE)",
+  subtitle: 'Source de la Noiraigue et Gorges de l’Areuse (NE)',
   summary: {
     difficulty: 'Modérée',
     duration: '4 heures',
@@ -48,7 +48,7 @@ export default {
         'Le long des gorges, près d’une vingtaine de captages servent à l’alimentation en eau potable de la ville de La Chaux-de-Fonds et de 19 autres communes du canton de Neuchâtel.'
     },
     {
-      title: "C. Le système d'adduction d'eau en direction de La Chaux-de-Fonds",
+      title: 'C. Le système d’adduction d’eau en direction de La Chaux-de-Fonds',
       description: 'Grâce à une prouesse technique, l’eau des sources des gorges est conduite jusqu’à La Chaux-de-Fonds...'
     },
     {

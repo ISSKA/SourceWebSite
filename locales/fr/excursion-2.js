@@ -1,5 +1,5 @@
 export default {
-  subtitle: "Source de l'Orbe (Le Pont - Vallorbe, Jura vaudois)",
+  subtitle: 'Source de l’Orbe (Le Pont - Vallorbe, Jura vaudois)',
   summary: {
     difficulty: 'Modéré',
     duration: '6 heures (avec la visite des grottes)',
@@ -8,9 +8,9 @@ export default {
   },
   description: [
     {
-      label: "La source de l'Orbe",
+      label: 'La source de l’Orbe',
       details:
-        'se situe à l’ouest de Vallorbe. Mais, en fait, plus en amont, il existe une autre source de l’Orbe, située au niveau du Lac des Rousses (France). Après un parcours sinueux, l’Orbe «supé- rieure» se jette dans le Lac de Joux puis le Lac Brenet au fond duquel... elle disparaît! Après un parcours souterrain, on l’a retrouve près de Vallorbe (Orbe inférieure). L’excur- sion proposée ici permet de suivre en surface le parcours emprunté, sous terre, par la rivière entre le Lac Brenet et les grottes de Vallorbe.'
+        'se situe à l’ouest de Vallorbe. Mais, en fait, plus en amont, il existe une autre source de l’Orbe, située au niveau du Lac des Rousses (France). Après un parcours sinueux, l’Orbe «supérieure» se jette dans le Lac de Joux puis le Lac Brenet au fond duquel... elle disparaît! Après un parcours souterrain, on l’a retrouve près de Vallorbe (Orbe inférieure). L’excursion proposée ici permet de suivre en surface le parcours emprunté, sous terre, par la rivière entre le Lac Brenet et les grottes de Vallorbe.'
     }
   ],
   route: {
@@ -24,18 +24,18 @@ export default {
       restauration: 'Le Pont / Juraparc / Parking des grottes / Vallorbe'
     },
     description: [
-      'De la gare du Pont, suivre le sentier qui fait le tour du lac Brenet en passant par le village des Charbon- nières.',
+      'De la gare du Pont, suivre le sentier qui fait le tour du lac Brenet en passant par le village des Charbonnières.',
       'Parvenus sur la rive opposée, on découvre, entre la falaise et le lac, plusiseurs grandes dépressions. Ce sont les «Entonnoirs» par lesquels l’eau s’infiltre sous terre pour partir en direction des grottes de Vallorbe.',
       'Après environ 1 km, on passe à côté de la prise d’eau du système hydroélectrique Tornaz – usine de La Dernier. C’est par là que, depuis plus d’un siècle, l’eau est évacuée en direction de Vallorbe, assurant du même coup la régulation du niveau du lac.',
-      'Quitter le bord du lac pour se diriger en direction du Col du Mont d’Orzeires. Un petit kilomètre plus loin, on parvient au parc animalier «Juraparc». Continuer en entamant la descente en direction de Vallorbe. Parvenus au pt. 922, suivre la route sur environ 200 m et prendre le sentier assez raide qui descend sur la droite vers la Grotte aux Fées puis rejoindre l’Orbe et prendre sur la droite pour parvenir à l’en- trée des grottes de Vallorbe.',
-      'Au niveau du parking des grottes, rester en rive droite pour suivre un sentier qui longe la rivière. Re- joindre ensuite la gare.'
+      'Quitter le bord du lac pour se diriger en direction du Col du Mont d’Orzeires. Un petit kilomètre plus loin, on parvient au parc animalier «Juraparc». Continuer en entamant la descente en direction de Vallorbe. Parvenus au pt. 922, suivre la route sur environ 200 m et prendre le sentier assez raide qui descend sur la droite vers la Grotte aux Fées puis rejoindre l’Orbe et prendre sur la droite pour parvenir à l’entrée des grottes de Vallorbe.',
+      'Au niveau du parking des grottes, rester en rive droite pour suivre un sentier qui longe la rivière. Rejoindre ensuite la gare.'
     ]
   },
   point_of_interest: [
     {
       title: 'A. Les entonnoirs',
       description:
-        'Ces grandes dépressions sont connec- tées aux fissures du calcaire. Avant que l’homme ne les modifient en aménageant des digues, les entonnoirs fonctionnaient comme exutoires.'
+        'Ces grandes dépressions sont connectées aux fissures du calcaire. Avant que l’homme ne les modifient en aménageant des digues, les entonnoirs fonctionnaient comme exutoires.'
     },
     {
       title: 'B. Prise d’eau',
@@ -44,7 +44,7 @@ export default {
     {
       title: 'C. Col du Mont d’Orzeires',
       description:
-        'Ce point se trouve à l’aplomb de l’extrémité connue actuellement des grottes de Val- lorbe. La galerie souterraine en question (uniquement atteignable en plongée) se situe 200 m sous le niveau du sol.'
+        'Ce point se trouve à l’aplomb de l’extrémité connue actuellement des grottes de Vallorbe. La galerie souterraine en question (uniquement atteignable en plongée) se situe 200 m sous le niveau du sol.'
     },
     {
       title: 'D. Parc animalier du Mont d’Orzeires',
@@ -61,7 +61,7 @@ export default {
     },
     {
       title: 'G. Sources des Gerlettes',
-      description: 'Connectées au réseau sou- terrain de la grotte des Fées, ces sources méritent le détour surtout lors d’épisodes de crue.'
+      description: 'Connectées au réseau souterrain de la grotte des Fées, ces sources méritent le détour surtout lors d’épisodes de crue.'
     }
   ],
   in_the_region: [],
@@ -74,8 +74,8 @@ export default {
       title: 'Les entonnoirs du lac Brenet',
       sumary: 'xxx',
       description: [
-        'Avant que l’homme n’entreprenne des travaux pour réguler le niveau de ces deux lacs et utiliser son potentiel éner- gétique, de nombreux entonnoirs jouaient le rôle d’exutoires. La plupart de ces pertes (ou emposieux) se situaient en rive nord-ouest des lacs. Aujourd’hui, seule une partie d’entre eux sont encore visibles.',
-        'Ces entonnoirs se présentent sous l’as- pect de dépressions larges et profondes de plusieurs mètres, connectées avec les fissures de la roche calcaire. Pour comprendre leur fonctionnement, il suf- fit d’imaginer une baignoire en cours de remplissage. Si l’on oublie de fer- mer le robinet, son débordement sera empêché par le trop-plein. Dans le cas des lacs de la Vallée de Joux, c’est le même principe: les entonnoirs fonc- tionnent comme déversoirs.',
+        'Avant que l’homme n’entreprenne des travaux pour réguler le niveau de ces deux lacs et utiliser son potentiel énergétique, de nombreux entonnoirs jouaient le rôle d’exutoires. La plupart de ces pertes (ou emposieux) se situaient en rive nord-ouest des lacs. Aujourd’hui, seule une partie d’entre eux sont encore visibles.',
+        'Ces entonnoirs se présentent sous l’aspect de dépressions larges et profondes de plusieurs mètres, connectées avec les fissures de la roche calcaire. Pour comprendre leur fonctionnement, il suffit d’imaginer une baignoire en cours de remplissage. Si l’on oublie de fermer le robinet, son débordement sera empêché par le trop-plein. Dans le cas des lacs de la Vallée de Joux, c’est le même principe: les entonnoirs fonctionnent comme déversoirs.',
         'En plus de la dizaine d’entonnoirs connus – et qui aujourd’hui ne sont plus actifs, il existe sans doute plusieurs fissures sous lacustres par lesquelles l’eau continue de s’écouler en direction de la résurgence de l’Orbe.'
       ],
       images: [
@@ -99,7 +99,7 @@ export default {
       description: [
         'Jusqu’au début du XXe siècle, la gestion des entonnoirs était une préoccupation pour les habitants de la Vallée de Joux.',
         'Lors de fortes pluies, il arrivait que les entonnoirs refoulent l’eau au lieu de l’absorber... Les habitants de la vallée profitaient donc des périodes de basses eaux pour curer les entonnoirs ou même pour ouvrir d’autres fissures afin de mettre fin à l’inondation périodique des maisons situées près des lacs.',
-        'Indépendamment des tracas qu’ils provoquaient, les entonnoirs présentaient aussi un avantage non négli- geable : celui de pouvoir profiter de l’énergie hydraulique. Ainsi,durantlesXVIIIeetXIXesiècles,plusieursd’entreeux furent aménagés en scierie, moulin, aciérie, affinerie... Au début du XXe siècle, tous les entonnoirs furent endi- gués et une galerie fut creusée entre l’extrémité est du lac Brenet et les hauteurs de Vallorbe afin d’alimenter l’usine hydroélectrique de La Dernier. C’est désormais cette galerie qui assure la régulation du niveau des lacs.'
+        'Indépendamment des tracas qu’ils provoquaient, les entonnoirs présentaient aussi un avantage non négligeable : celui de pouvoir profiter de l’énergie hydraulique. Ainsi,durant les XVIIIe et XIXe siècles, plusieurs d’entre eux furent aménagés en scierie, moulin, aciérie, affinerie... Au début du XXe siècle, tous les entonnoirs furent endigués et une galerie fut creusée entre l’extrémité est du lac Brenet et les hauteurs de Vallorbe afin d’alimenter l’usine hydroélectrique de La Dernier. C’est désormais cette galerie qui assure la régulation du niveau des lacs.'
       ],
       images: [
         {
@@ -123,9 +123,9 @@ export default {
       title: 'Les grottes de l’Orbe',
       sumary: 'xxx',
       description: [
-        'Les galeries aménagées pour les visites touris- tiques ne représentent qu’une petite partie du réseau souterrain exploré par les spéléologues depuis une cinquantaine d’années.',
-        'À ce jour, plus de six kilomètres de galeries ont été découverts et des possibilités de continua- tion existent encore. Cependant, l’Orbe sou- terraine ne se laisse pas dompter si faci- lement et les difficultés ne manquent pas. En particulier, la présence de plusieurs passages noyés (siphons) complique les recherches.',
-        'Le terminus actuel des explorations se situe à 2 km de l’entrée de la grotte, au bas d’une salle aux dimensions impressionnantes (200 x 50 x 30 m). Pour parvenir à cet endroit reculé dans la mon- tagne, il faut franchir trois siphons, dont un profond de 56 m. La salle en question se situe à l’aplomb exact du parc animalier du Mont d’Orzeires. Deux mondes si différents, mais pourtant si proches!'
+        'Les galeries aménagées pour les visites touristiques ne représentent qu’une petite partie du réseau souterrain exploré par les spéléologues depuis une cinquantaine d’années.',
+        'À ce jour, plus de six kilomètres de galeries ont été découverts et des possibilités de continuation existent encore. Cependant, l’Orbe souterraine ne se laisse pas dompter si facilement et les difficultés ne manquent pas. En particulier, la présence de plusieurs passages noyés (siphons) complique les recherches.',
+        'Le terminus actuel des explorations se situe à 2 km de l’entrée de la grotte, au bas d’une salle aux dimensions impressionnantes (200 x 50 x 30 m). Pour parvenir à cet endroit reculé dans la montagne, il faut franchir trois siphons, dont un profond de 56 m. La salle en question se situe à l’aplomb exact du parc animalier du Mont d’Orzeires. Deux mondes si différents, mais pourtant si proches!'
       ],
       images: [
         {
@@ -152,8 +152,8 @@ export default {
       description: [
         '3 km à vol d’oiseau de l’Entonnoir du Bon Port et 230 m plus bas, l’Orbe retrouve la lumière du jour pour poursuivre son étonnant parcours.',
         'La résurgence de l’Orbe est l’une des plus remarquables et des plus importantes de la chaîne du Jura. En basses eaux, son débit est de 2 m3/ sec, mais, lors de grandes crues, il peut dépasser les 100 m3/sec (ou 360’000 m3/heure).',
-        'Insolite, la source de l’Orbe a fait l’objet de narrations de voyageurs dès le XVIIIe siècle. En 1893, l’en- vie de savoir ce qui se passe sous la montagne titille les hommes et une première plongée est réalisée jusqu’à 11 m de profondeur. Puis, au milieu du siècle dernier, les ex- plorateurs s’enhardissent et c’est en 1964 que des plongeurs genevois parviennent à franchir le siphon: l’Orbe souterraine est découverte!',
-        'Au-delà du verrou d’entrée, on dé- couvre de vastes galeries parcou- rues par la rivière, de magnifiques concrétions et de grandes salles... Rapidement, le projet d’aménager la cavité prend forme et, en 1973, un tunnel artificiel est percé. Dès l’an- née suivante, le public peut décou- vrir ces beautés souterraines.'
+        'Insolite, la source de l’Orbe a fait l’objet de narrations de voyageurs dès le XVIIIe siècle. En 1893, l’envie de savoir ce qui se passe sous la montagne titille les hommes et une première plongée est réalisée jusqu’à 11 m de profondeur. Puis, au milieu du siècle dernier, les explorateurs s’enhardissent et c’est en 1964 que des plongeurs genevois parviennent à franchir le siphon: l’Orbe souterraine est découverte!',
+        'Au-delà du verrou d’entrée, on découvre de vastes galeries parcourues par la rivière, de magnifiques concrétions et de grandes salles... Rapidement, le projet d’aménager la cavité prend forme et, en 1973, un tunnel artificiel est percé. Dès l’année suivante, le public peut découvrir ces beautés souterraines.'
       ],
       images: [
         {
@@ -170,7 +170,7 @@ export default {
           name: 'img-3.jpg'
         },
         {
-          legend: "La rivière un peu en contrebas de sa source lors d'une forte crue.",
+          legend: 'La rivière un peu en contrebas de sa source lors d’une forte crue.',
           name: 'img-4.jpg'
         }
       ]
