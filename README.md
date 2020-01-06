@@ -42,3 +42,13 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Deployment
+
+```bash
+# build static website
+$ npm run generate
+
+# deploy the source code to the server
+$ gulp deploy
+```
