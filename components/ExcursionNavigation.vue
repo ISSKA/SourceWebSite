@@ -1,7 +1,7 @@
 <template>
-  <div class="row justify-content-between">
+  <div v-if="itemsCount > 1" class="row justify-content-between">
     <div class="col-6">
-      <nuxt-link :to="prev.link" class="next-page-link">
+      <nuxt-link :to="prev.link" v-if="prev.show" class="next-page-link">
         <b-card no-body class="overflow-hidden" style="max-width: 540px;">
           <b-row no-gutters>
             <b-col md="4">
@@ -19,7 +19,7 @@
       </nuxt-link>
     </div>
     <div class="col-6">
-      <nuxt-link :to="next.link" class="next-page-link">
+      <nuxt-link :to="next.link" v-if="next.show" class="next-page-link">
         <b-card no-body class="overflow-hidden text-right" style="max-width: 540px;">
           <b-row no-gutters>
             <b-col md="8">
@@ -40,7 +40,9 @@
 </template>
 
 <script>
-const ITEMS_COUNT = 12
+import excursionData from '~/assets/script.js'
+
+const EXCURSIONS_COUNT = excursionData.getExcursionsCount()
 
 export default {
   props: {
@@ -48,7 +50,7 @@ export default {
       type: Number,
       required: true,
       validator(value) {
-        return value >= 1 && value <= ITEMS_COUNT
+        return value >= 1 && value <= EXCURSIONS_COUNT
       }
     }
   },
@@ -58,24 +60,29 @@ export default {
     // Ensure to cast currentExcursion to Number (when passed from $route.params)
     const currentExcursion = parseInt(this.currentExcursion)
 
-    const prevIndex = currentExcursion > 1 ? currentExcursion - 1 : ITEMS_COUNT
-    const nextIndex = (currentExcursion + 1) % ITEMS_COUNT
-
+    const prevIndex = currentExcursion > 1 ? currentExcursion - 1 : EXCURSIONS_COUNT
+    const nextIndex = currentExcursion < EXCURSIONS_COUNT ? currentExcursion + 1 : 1
     // console.log(prevIndex, nextIndex)
+
+    const prev = excursionData.getExcursion(prevIndex)
+    const next = excursionData.getExtras(nextIndex)
 
     return {
       prev: {
+        show: EXCURSIONS_COUNT > 2 || currentExcursion === 2,
         title: `Excursion ${prevIndex}`,
-        sumary: 'This is a wider card with supporting text as a natural lead-in to additional content. This content is a little bit longer.',
+        sumary: prev.subtitle,
         link: `/excursions/${prevIndex}`,
         img: 'https://picsum.photos/400/400/?image=11'
       },
       next: {
+        show: EXCURSIONS_COUNT > 2 || currentExcursion === 1,
         title: `Excursion ${nextIndex}`,
-        sumary: 'This is a wider card with supporting text as a natural lead-in to additional content. This content is a little bit longer.',
+        sumary: next.subtitle,
         link: `/excursions/${nextIndex}`,
         img: 'https://picsum.photos/400/400/?image=10'
-      }
+      },
+      itemsCount: EXCURSIONS_COUNT
     }
   }
 }

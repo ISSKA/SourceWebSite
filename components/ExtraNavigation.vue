@@ -1,7 +1,7 @@
 <template>
-  <div class="row justify-content-between">
+  <div v-if="itemsCount > 1" class="row justify-content-between">
     <div class="col-6">
-      <nuxt-link :to="prev.link" class="next-page-link">
+      <nuxt-link :to="prev.link" v-if="prev.show" class="next-page-link">
         <b-card no-body class="overflow-hidden" style="max-width: 540px;">
           <b-row no-gutters>
             <b-col md="4">
@@ -19,7 +19,7 @@
       </nuxt-link>
     </div>
     <div class="col-6">
-      <nuxt-link :to="next.link" class="next-page-link">
+      <nuxt-link :to="next.link" v-if="next.show" class="next-page-link">
         <b-card no-body class="overflow-hidden text-right" style="max-width: 540px;">
           <b-row no-gutters>
             <b-col md="8">
@@ -40,8 +40,9 @@
 </template>
 
 <script>
-const EXCURSIONS_COUNT = 12
-const EXTRA_COUNT = 4
+import excursionData from '~/assets/script.js'
+
+const EXCURSIONS_COUNT = excursionData.getExcursionsCount()
 
 export default {
   props: {
@@ -56,34 +57,43 @@ export default {
       type: Number,
       required: true,
       validator(value) {
-        return value >= 1 && value <= EXTRA_COUNT
+        return value >= 1 && value <= 15 /* excursionData.getExtrasCount(this.currentExcursion) // it is not possible to access an other prop */
       }
     }
   },
   data() {
+    // console.log(this.currentExcursion, typeof this.currentExcursion)
     // console.log(this.currentExtra, typeof this.currentExtra)
+
+    const EXTRAS_COUNT = excursionData.getExtrasCount(this.currentExcursion)
+    // console.log(totalExtras, typeof totalExtras)
 
     // Ensure to cast currentExtra to Number (when passed from $route.params)
     const currentExtra = parseInt(this.currentExtra)
 
-    const prevIndex = currentExtra > 1 ? currentExtra - 1 : EXTRA_COUNT
-    const nextIndex = (currentExtra + 1) % EXTRA_COUNT
-
+    const prevIndex = currentExtra > 1 ? currentExtra - 1 : EXTRAS_COUNT
+    const nextIndex = currentExtra < EXTRAS_COUNT ? currentExtra + 1 : 1
     // console.log(prevIndex, nextIndex)
+
+    const prev = excursionData.getExtras(this.currentExcursion, prevIndex)
+    const next = excursionData.getExtras(this.currentExcursion, nextIndex)
 
     return {
       prev: {
+        show: EXTRAS_COUNT > 2 || currentExtra === 2,
         title: `Extra ${prevIndex}`,
-        sumary: 'This is a wider card with supporting text as a natural lead-in to additional content. This content is a little bit longer.',
+        sumary: prev.sumary,
         link: `/excursions/${this.currentExcursion}/extras/${prevIndex}`,
         img: 'https://picsum.photos/400/400/?image=11'
       },
       next: {
+        show: EXTRAS_COUNT > 2 || currentExtra === 1,
         title: `Extra ${nextIndex}`,
-        sumary: 'This is a wider card with supporting text as a natural lead-in to additional content. This content is a little bit longer.',
+        sumary: next.sumary,
         link: `/excursions/${this.currentExcursion}/extras/${nextIndex}`,
         img: 'https://picsum.photos/400/400/?image=10'
-      }
+      },
+      itemsCount: EXTRAS_COUNT
     }
   }
 }

@@ -1,3 +1,5 @@
+import excursionData from './assets/script.js'
+
 export default {
   mode: 'spa',
   /*
@@ -39,11 +41,14 @@ export default {
   generate: {
     // routes: ['/excursions/1', '/excursions/2', '/excursions/3']
     routes() {
-      const ITEMS_COUNT = 12
       const routes = []
 
-      for (let idx = 1; idx <= ITEMS_COUNT; idx++) {
+      for (let idx = 1; idx <= excursionData.getExcursionsCount(); idx++) {
         routes.push('/excursions/' + idx)
+
+        for (let idy = 1; idy <= excursionData.getExtrasCount(idx); idy++) {
+          routes.push('/excursions/' + idx + '/extras/' + idy)
+        }
       }
 
       return routes

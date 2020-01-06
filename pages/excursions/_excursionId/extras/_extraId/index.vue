@@ -1,25 +1,11 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="title">Excursion {{ $route.params.excursionId }} - Extra {{ $route.params.extraId }} / L’alimentation en eau de La Chaux-de-Fonds</h1>
+      <h1 class="title">{{ extra.title }}</h1>
+      <small>Excursion {{ $route.params.excursionId }} - Extra {{ $route.params.extraId }}</small>
       <div>
-        <p>
-          La ville de La Chaux-de-Fonds est perchée à 1000 m d’altitude en pleine région karstique. Jusqu’au milieu du XIXe siècle, ses habitants se contentent
-          tant bien que mal de l’eau fournie par les puits creusés et les citernes collectant l’eau des toits, mais, avec le développement de l’horlogerie, la
-          ville s’agrandit rapidement. De 1850 à 1885, la population passe de 12000 à 25000 âmes et il faut absolument trouver des solutions pour leur fournir
-          de l’eau potable.
-        </p>
-        <p>
-          Différentes études sont lancées. On envisage de capter l’eau dans le Doubs ou dans le lac des Taillières, mais finalement, comme pour Neuchâtel, c’est
-          l’ingénieur Guillaume Ritter qui présente le projet audacieux d’aller chercher l’eau dans les gorges de l’Areuse.
-        </p>
-        <p>
-          Les travaux – monumentaux – sont engagés au début de 1886 et le système est inauguré... en novembre de l’année suivante! Un véritable exploit réalisé
-          sans pétrole, mais avec une motivation collective aujourd’hui quasiment révolue...
-        </p>
-        <p>
-          En 18 mois, on construit l’usine des Moyats, un aqueduc souterrain de 20 km avec refoulement de l’eau jusqu’à Jogne, 490 m plus haut que Les Moyats,
-          un réservoir de 4600 m3 et plus de 20 km de conduites de distribution de l’eau dans la ville. Au premier essai, tout fonctionne parfaitement!
+        <p v-for="(content, index) in extra.description" :key="index">
+          {{ content }}
         </p>
       </div>
 
@@ -73,6 +59,7 @@
         </p>- ->
       </div>-->
 
+      <!-- IMAGES CAROUSEL -->
       <div stlye="height: 300px;">
         <b-carousel
           id="carousel-fade"
@@ -84,18 +71,25 @@
           img-width="1024"
           img-height="480"
         >
-          <b-carousel-slide caption="First slide" img-src="/docs/excursion-1/extra-1/img-1.jpg" style="height: 500px;"></b-carousel-slide>
-          <b-carousel-slide caption="Second Slide" img-src="/docs/excursion-1/extra-1/img-2.jpg" style="height: 500px;"></b-carousel-slide>
+          <b-carousel-slide
+            v-for="(image, index) in extra.images"
+            :key="index"
+            :img-src="`/docs/excursion-${$route.params.excursionId}/extra-${$route.params.extraId}/${image.name}`"
+            :caption="image.legend"
+            style="height: 500px;"
+          ></b-carousel-slide>
         </b-carousel>
       </div>
 
       <!-- LINKS -->
-      <navigation :current-excursion="$route.params.excursionId" :current-extra="$route.params.extraId" />
+      <navigation :current-excursion="parseInt($route.params.excursionId, 10)" :current-extra="parseInt($route.params.extraId, 10)" />
     </div>
   </div>
 </template>
 
 <script>
+import excursionData from '~/assets/script.js'
+
 import Navigation from '~/components/ExtraNavigation.vue'
 
 export default {
@@ -110,22 +104,23 @@ export default {
       params.excursionId <= 12 && // todo: change this dynamically
       /^\d+$/.test(params.extraId) &&
       params.extraId > 0 &&
-      params.extraId <= 4 // todo: change this dynamically
+      params.extraId <= 6 // todo: change this dynamically
     )
   },
   data() {
     return {
-      slide: 0,
-      sliding: null
+      extra: excursionData.getExtra(this.$route.params.excursionId, this.$route.params.extraId)
+      // slide: 0,
+      // sliding: null
     }
   },
   methods: {
-    onSlideStart(slide) {
+    /* onSlideStart(slide) {
       this.sliding = true
     },
     onSlideEnd(slide) {
       this.sliding = false
-    }
+    } */
   }
 }
 </script>
