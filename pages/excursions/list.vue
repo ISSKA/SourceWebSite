@@ -14,96 +14,20 @@
       </div>-->
 
       <div>
-        <b-card-group deck style="margin-bottom: 20px;">
-          <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article">
+        <b-card-group v-for="(excursionsGroup, groupIndex) in excursionsGroups" :key="groupIndex" deck style="margin-bottom: 20px;">
+          <b-card
+            v-for="(excursion, index) in excursionsGroup"
+            :key="index"
+            :title="excursion.subtitle"
+            img-src="https://picsum.photos/600/300/?image=25"
+            img-alt="Image"
+            img-top
+            tag="article"
+          >
             <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
+              xxx
             </b-card-text>
-            <nuxt-link to="/excursions/1" class="button--green">
-              Excursion 1
-            </nuxt-link>
-            <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
-          </b-card>
-
-          <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article">
-            <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </b-card-text>
-            <nuxt-link to="/excursions/2" class="button--green">
-              Excursion 2
-            </nuxt-link>
-            <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
-          </b-card>
-
-          <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article">
-            <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </b-card-text>
-            <nuxt-link to="/excursions/3" class="button--green">
-              Excursion 3
-            </nuxt-link>
-            <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
-          </b-card>
-        </b-card-group>
-        <b-card-group deck style="margin-bottom: 20px;">
-          <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article">
-            <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </b-card-text>
-            <nuxt-link to="/excursions/1" class="button--green">
-              Excursion 1
-            </nuxt-link>
-            <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
-          </b-card>
-
-          <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article">
-            <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </b-card-text>
-            <nuxt-link to="/excursions/2" class="button--green">
-              Excursion 2
-            </nuxt-link>
-            <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
-          </b-card>
-
-          <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article">
-            <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </b-card-text>
-            <nuxt-link to="/excursions/3" class="button--green">
-              Excursion 3
-            </nuxt-link>
-            <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
-          </b-card>
-        </b-card-group>
-        <b-card-group deck>
-          <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article">
-            <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </b-card-text>
-            <nuxt-link to="/excursions/1" class="button--green">
-              Excursion 1
-            </nuxt-link>
-            <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
-          </b-card>
-
-          <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article">
-            <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </b-card-text>
-            <nuxt-link to="/excursions/2" class="button--green">
-              Excursion 2
-            </nuxt-link>
-            <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
-          </b-card>
-
-          <b-card title="Card Title" img-src="https://picsum.photos/600/300/?image=25" img-alt="Image" img-top tag="article">
-            <b-card-text>
-              Some quick example text to build on the card title and make up the bulk of the card's content.
-            </b-card-text>
-            <nuxt-link to="/excursions/3" class="button--green">
-              Excursion 3
-            </nuxt-link>
+            <nuxt-link :to="`/excursions/${groupIndex + index + 1}`" class="button--green"> Excursion {{ groupIndex + index + 1 }} </nuxt-link>
             <!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
           </b-card>
         </b-card-group>
@@ -113,7 +37,32 @@
 </template>
 
 <script>
-export default {}
+import excursionData from '~/assets/script.js'
+
+export default {
+  data() {
+    return {
+      excursionsGroups: []
+    }
+  },
+  created() {
+    const excursions = excursionData.getExcursions()
+
+    const GROUP_BY = 3
+
+    for (let idx = 0; idx < excursions.length; idx += GROUP_BY) {
+      const group = []
+      for (let idy = 0; idy < 3; idy++) {
+        if (excursions.length > idx + idy) {
+          group.push(excursions[idx + idy])
+        }
+      }
+      this.excursionsGroups.push(group)
+    }
+
+    console.log(this.excursionsGroups)
+  }
+}
 </script>
 
 <style></style>
