@@ -1,19 +1,11 @@
 {
-  "eslint.validate": [
-    {
-      "language": "vue",
-      "autoFix": true
-    },
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "javascriptreact",
-      "autoFix": true
-    }
-  ],
-  "eslint.autoFixOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["vue", "javascript", "javascriptreact"],
   "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
   "vetur.validation.template": true
 }
