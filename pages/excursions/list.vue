@@ -59,8 +59,6 @@ export default {
       }
       this.excursionsGroups.push(group)
     }
-
-    console.log(this.excursionsGroups)
   }
 }
 </script>
