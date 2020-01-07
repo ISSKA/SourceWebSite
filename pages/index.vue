@@ -81,13 +81,13 @@ export default {
     map.addLayer(lyr1)
 
     // Create an overlay layer
-    const lyr2 = window.ga.layer.create('ch.swisstopo.fixpunkte-agnes')
+    /* const lyr2 = window.ga.layer.create('ch.swisstopo.fixpunkte-agnes')
 
     // Add the overlay layer in the map
     map.addLayer(lyr2)
 
     const lyrtest = window.ga.layer.create('ch.are.alpenkonvention')
-    map.addLayer(lyrtest)
+    map.addLayer(lyrtest) */
   }
 }
 </script>
