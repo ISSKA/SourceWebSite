@@ -75,20 +75,20 @@ export default {
     const nextIndex = currentExtra < EXTRAS_COUNT ? currentExtra + 1 : 1
     // console.log(prevIndex, nextIndex)
 
-    const prev = excursionData.getExtras(this.currentExcursion, prevIndex)
-    const next = excursionData.getExtras(this.currentExcursion, nextIndex)
+    const prev = excursionData.getExtra(this.currentExcursion, prevIndex)
+    const next = excursionData.getExtra(this.currentExcursion, nextIndex)
 
     return {
       prev: {
         show: EXTRAS_COUNT > 2 || currentExtra === 2,
-        title: `Extra ${prevIndex}`,
+        title: `Extra ${prevIndex} - ${prev.title}`,
         sumary: prev.sumary,
         link: `/excursions/${this.currentExcursion}/extras/${prevIndex}`,
         img: 'https://picsum.photos/400/400/?image=11'
       },
       next: {
         show: EXTRAS_COUNT > 2 || currentExtra === 1,
-        title: `Extra ${nextIndex}`,
+        title: `Extra ${nextIndex} - ${next.title}`,
         sumary: next.sumary,
         link: `/excursions/${this.currentExcursion}/extras/${nextIndex}`,
         img: 'https://picsum.photos/400/400/?image=10'
