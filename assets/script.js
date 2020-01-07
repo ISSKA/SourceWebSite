@@ -1,10 +1,25 @@
 'use strict'
 
-// todo: dynamic loading
+// import fs from 'fs'
+
 import excursion1 from '../locales/fr/excursion-1.js'
 import excursion2 from '../locales/fr/excursion-2.js'
 
 const excursions = [excursion1, excursion2]
+
+/*
+// this does not works because node is not available in the client..
+
+// Dynamically load excursions content
+const excursions = []
+
+fs.readdirSync('locales/fr')
+  .filter((file) => /^excursion-\d+.js$/.test(file))
+  .forEach((file) => {
+    console.log(file)
+    excursions.push(require(`../locales/fr/${file}`))
+  })
+*/
 
 function getExcursion(excursionIndex) {
   return excursions[excursionIndex - 1]
