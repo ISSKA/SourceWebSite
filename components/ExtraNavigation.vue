@@ -1,6 +1,6 @@
 <template>
   <div v-if="itemsCount > 1" class="row justify-content-between">
-    <div class="col-6">
+    <div class="col-5">
       <nuxt-link :to="prev.link" v-if="prev.show" class="next-page-link">
         <b-card no-body class="overflow-hidden" style="max-width: 540px;">
           <b-row no-gutters>
@@ -18,7 +18,16 @@
         </b-card>
       </nuxt-link>
     </div>
-    <div class="col-6">
+    <div class="col-2">
+      <nuxt-link :to="`/excursions/${currentExcursion}`" class="next-page-link">
+        <b-card no-body class="overflow-hidden text-center" style="max-width: 540px; height: 150px;">
+          <b-card-body title="Excursion">
+            <b-card-text> Retour à l'excursion {{ currentExcursion }} </b-card-text>
+          </b-card-body>
+        </b-card>
+      </nuxt-link>
+    </div>
+    <div class="col-5">
       <nuxt-link :to="next.link" v-if="next.show" class="next-page-link">
         <b-card no-body class="overflow-hidden text-right" style="max-width: 540px;">
           <b-row no-gutters>
