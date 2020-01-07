@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="title">{{ extra.title }}</h1>
       <small>Excursion {{ $route.params.excursionId }} - Extra {{ $route.params.extraId }}</small>
+      <h1 class="title">{{ extra.title }}</h1>
       <div>
         <p v-for="(content, index) in extra.description" :key="index">
           {{ content }}
@@ -60,26 +60,61 @@
       </div>-->
 
       <!-- IMAGES CAROUSEL -->
-      <div stlye="height: 300px;">
+      <!--<div style="margin-bottom: 30px;">
         <b-carousel
           id="carousel-fade"
           :interval="4000"
-          style="text-shadow: 0px 0px 2px #000; background-color: #eee"
+          style="text-shadow: 0px 0px 2px #000; background-color: #eee; height: 500px;"
           fade
           controls
           indicators
-          img-width="1024"
-          img-height="480"
+          _img-width="1024px"
+          _img-height="480px"
+          img-center
         >
           <b-carousel-slide
             v-for="(image, index) in extra.images"
             :key="index"
             :img-src="`/docs/excursion-${$route.params.excursionId}/extra-${$route.params.extraId}/${image.name}`"
             :caption="image.legend"
-            style="height: 500px;"
+            _img-height="480"
+            _img-width="480"
+            style="max-height: 500px; width: auto;"
           ></b-carousel-slide>
         </b-carousel>
-      </div>
+      </div>-->
+
+      <v-gallery :images="images" :index="imgIdx" @close="imgIdx = null"></v-gallery>
+      <b-row style="margin-bottom: 60px;">
+        <b-col
+          v-for="(image, imageIndex) in images"
+          :key="imageIndex"
+          @click="imgIdx = imageIndex"
+          :style="{ backgroundImage: 'url(' + image.href + ')' }"
+          style="height: 300px; background-size: cover; background-repeat: no-repeat;"
+          class="image"
+        ></b-col>
+      </b-row>
+
+      <!--<b-row>
+        <b-col v-for="(image, imageIndex) in images" :key="imageIndex">
+          <b-img :src="image" thumbnail fluid alt="Image 1"></b-img>
+        </b-col>
+      </b-row>-->
+
+      <!--<div>
+        <b-img
+          v-for="(image, imageIndex) in images"
+          :key="imageIndex"
+          :src="image"
+          @click="imgIdx = imageIndex"
+          class="image"
+          thumbnail
+          style="max-height: 500px; max-width: 500px;"
+          fluid
+          alt="Responsive image"
+        ></b-img>
+      </div>-->
 
       <!-- LINKS -->
       <navigation :current-excursion="parseInt($route.params.excursionId, 10)" :current-extra="parseInt($route.params.extraId, 10)" />
@@ -109,10 +144,21 @@ export default {
   },
   data() {
     return {
-      extra: excursionData.getExtra(this.$route.params.excursionId, this.$route.params.extraId)
+      extra: excursionData.getExtra(this.$route.params.excursionId, this.$route.params.extraId),
+      images: [],
+      imgIdx: null
       // slide: 0,
       // sliding: null
     }
+  },
+  created() {
+    this.extra.images.forEach((image) => {
+      this.images.push({
+        // title: '',
+        description: image.legend,
+        href: `/docs/excursion-${this.$route.params.excursionId}/extra-${this.$route.params.extraId}/${image.name}`
+      })
+    })
   },
   methods: {
     /* onSlideStart(slide) {
@@ -125,4 +171,24 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.image {
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #ebebeb;
+  margin: 5px;
+}
+
+/* imporove the gallery design */
+#blueimp-gallery .prev,
+#blueimp-gallery .next,
+#blueimp-gallery .close {
+  color: white !important;
+}
+#blueimp-gallery .description {
+  top: auto;
+  bottom: 30px;
+}
+</style>
