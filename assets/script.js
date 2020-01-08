@@ -1,11 +1,17 @@
 'use strict'
 
-// import fs from 'fs'
-
+/*
 import excursion1 from '../locales/fr/excursion-1.js'
 import excursion2 from '../locales/fr/excursion-2.js'
+*/
 
-const excursions = [excursion1, excursion2]
+// Dynamically load excursions content
+const EXCURSIONS_NUMBER = 4
+const excursions = []
+
+for (let idx = 1; idx <= EXCURSIONS_NUMBER; idx++) {
+  excursions.push(require(`../locales/fr/excursion-${idx}.js`).default)
+}
 
 /*
 // this does not works because node is not available in the client..
