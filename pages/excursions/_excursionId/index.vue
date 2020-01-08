@@ -86,6 +86,13 @@
       </b-list-group-item>
     </b-list-group>
 
+    <!--<b-tabs content-class="mt-3" align="center">
+      <b-tab v-for="(content, index) in excursion.point_of_interest" :key="index" :title="letters[index]">
+        <h5>{{ content.title }}</h5>
+        <p>{{ content.description }}</p>
+      </b-tab>
+    </b-tabs>-->
+
     <!-- EXTRAS -->
     <h3 class="subtitle" style="margin-top: 40px;">
       {{ $t('excursion.extras') }}
@@ -158,6 +165,7 @@ export default {
 
     return {
       excursion: excursionData.getExcursion(this.$route.params.excursionId)
+      // letters: 'abcdefghijklmnopqrstuvwxyz'.toUpperCase()
     }
   }
 }
