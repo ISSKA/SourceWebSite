@@ -3,7 +3,6 @@ export default {
   summary: {
     difficulty: 'Modéré',
     duration: '6 heures (avec la visite des grottes)',
-    download_link: 'Télécharger la fiche didactique',
     download_file: 'Orbe_fichier_A4_min.pdf'
   },
   description: [
@@ -14,7 +13,6 @@ export default {
     }
   ],
   route: {
-    title: 'Description de l’itinéraire',
     details: {
       start: 'Gare du Pont',
       end: 'Grottes de Vallorbe > Gare de Vallorbe',
@@ -69,6 +67,9 @@ export default {
     'Au fil de l’Orbe. À la découverte d’une rivière d’exception. Guide d’excursions, Ed. ISSKA, 2015. www.isska.ch',
     'Site internet: https://arnexhistoire.blogspot.com'
   ],
+  cff: {
+    link: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Le+Pont%2C+gare'
+  },
   extras: [
     {
       title: 'Les entonnoirs du lac Brenet',

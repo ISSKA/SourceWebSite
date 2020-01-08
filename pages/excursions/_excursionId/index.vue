@@ -1,13 +1,15 @@
 <template>
   <div class="container">
-    <h1 class="title">Excursion {{ $route.params.excursionId }}</h1>
+    <h1 class="title">{{ $t('excursion.excursion_label') }} {{ $route.params.excursionId }}</h1>
 
     <div style="margin-bottom: 20px;">
-      Difficuleté : {{ excursion.summary.difficulty }}
+      {{ $t('excursion.infos.level') }} : {{ excursion.summary.difficulty }}
       <br />
-      Durée : {{ excursion.summary.duration }}
+      {{ $t('excursion.infos.duration') }} : {{ excursion.summary.duration }}
       <br />
-      <a :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`" target="_blank">{{ excursion.summary.download_link }}</a>
+      <a :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`" target="_blank">{{
+        $t('excursion.education_sheet_link')
+      }}</a>
     </div>
 
     <h2 class="subtitle">{{ excursion.subtitle.toUpperCase() }}</h2>
@@ -17,21 +19,21 @@
     </p>
 
     <!-- ITINERAIRE -->
-    <h2 class="subtitle">{{ excursion.route.title }}</h2>
+    <h2 class="subtitle">{{ $t('excursion.route.title') }}</h2>
 
     <dl class="row" style="border: 1px solid gray; padding: 10px; border-radius: 10px;">
-      <dt class="col-sm-2">Départ</dt>
+      <dt class="col-sm-2">{{ $t('excursion.infos.start') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.start }}</dd>
-      <dt class="col-sm-2">Arrivée</dt>
+      <dt class="col-sm-2">{{ $t('excursion.infos.end') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.end }}</dd>
-      <dt class="col-sm-2">Distance</dt>
+      <dt class="col-sm-2">{{ $t('excursion.infos.distance') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.distance }}</dd>
       <!-- todo: Dénivellation -> Dénivelé ? -->
-      <dt class="col-sm-2">Dénivellation</dt>
+      <dt class="col-sm-2">{{ $t('excursion.infos.delta_height') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.delta_height }}</dd>
-      <dt class="col-sm-2">Durée</dt>
+      <dt class="col-sm-2">{{ $t('excursion.infos.duration') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.duration }}</dd>
-      <dt class="col-sm-2">Restaurants</dt>
+      <dt class="col-sm-2">{{ $t('excursion.infos.restaurant') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.restauration }}</dd>
     </dl>
 
@@ -86,7 +88,7 @@
 
     <!-- EXTRAS -->
     <h3 class="subtitle" style="margin-top: 40px;">
-      Extras
+      {{ $t('excursion.extras') }}
     </h3>
 
     <b-card-group deck>
@@ -95,20 +97,22 @@
       </div>
     </b-card-group>
 
-    <p>Pour en savoir plus :</p>
+    <p>{{ $t('excursion.more') }} :</p>
     <ul>
       <li v-for="(content, index) in excursion.more" :key="index">
         {{ content }}
         <!-- <a href="https://www.isska.ch" target="_blank">Gorges de l’Areuse. Guide d’excursions hydrogéologiques</a>-->
       </li>
     </ul>
-    <p>Lien vers l'horraire CFF : <a href="https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Noiraigue" target="_blank">cliquez ici svp</a></p>
+    <p>
+      {{ $t('excursion.cff.text') }} : <a :href="excursion.cff.link" target="_blank">{{ $t('excursion.cff.link') }}</a>
+    </p>
 
     <!-- MORE -->
     <div v-if="excursion.in_the_region.length > 0" style="margin-top: 20px; height: 500px;">
       <div style="position: absolute; left: 0; right: 0; padding-top: 40px; padding-bottom: 40px; background-color: #eee;">
         <b-container>
-          <h2 style="margin-bottom: 30px;">A voir aussi dans la région</h2>
+          <h2 style="margin-bottom: 30px;">{{ $t('excursion.to_see_in_the_region') }}</h2>
           <div v-for="(content, index) in excursion.in_the_region" :key="index">
             <h4>{{ content.title }}</h4>
             <p>{{ content.description }}</p>

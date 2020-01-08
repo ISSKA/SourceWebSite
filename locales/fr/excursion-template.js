@@ -3,7 +3,6 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_link: 'Télécharger la fiche didactique',
     download_file: 'xxx'
   },
   description: [
@@ -13,7 +12,6 @@ export default {
     }
   ],
   route: {
-    title: 'Description de l’itinéraire',
     details: {
       start: 'xxx',
       end: 'xxx',
@@ -49,6 +47,9 @@ export default {
     }
   ],
   more: ['xxx'],
+  cff: {
+    link: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach='
+  },
   extras: [
     {
       title: 'xxx',

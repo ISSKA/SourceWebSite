@@ -1,10 +1,8 @@
 export default {
-  _title: 'Excursion 1',
   subtitle: 'Source de la Noiraigue et Gorges de l’Areuse (NE)',
   summary: {
     difficulty: 'Modérée',
     duration: '4 heures',
-    download_link: 'Télécharger la fiche didactique',
     download_file: 'Areuse_Fichier_A4_min.pdf'
   },
   description: [
@@ -19,7 +17,6 @@ export default {
     }
   ],
   route: {
-    title: 'Description de l’itinéraire',
     details: {
       start: 'Gare de Noiraigue',
       end: 'Gare de Chambrelien',
@@ -74,6 +71,9 @@ export default {
     }
   ],
   more: ['Gorges de l’Areuse. Guide d’excursions hydrogéologiques, Ed. ISSKA, 2011. www.isska.ch'],
+  cff: {
+    link: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Noiraigue'
+  },
   extras: [
     {
       title: 'La source de la Noiraigue',

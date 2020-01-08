@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <h1 class="title">
-        Liste des excursions
+        {{ $t('excursions_list.title') }}
       </h1>
       <!--<h2 class="subtitle">
         Détails

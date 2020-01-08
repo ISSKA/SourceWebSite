@@ -1,4 +1,5 @@
 import excursionData from './assets/script.js'
+import translations from './scripts/translations.js'
 
 export default {
   mode: 'spa',
@@ -62,8 +63,20 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    'nuxt-i18n'
   ],
+  /*
+   ** i18n configuration
+   */
+  i18n: {
+    locales: ['fr', 'de'],
+    defaultLocale: 'fr',
+    vueI18n: {
+      fallbackLocale: 'fr',
+      messages: translations.getTranslations()
+    }
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options

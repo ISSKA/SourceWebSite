@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <small>Excursion {{ $route.params.excursionId }} - Extra {{ $route.params.extraId }}</small>
+      <small>{{ $t('extra.excursion_label') }} {{ $route.params.excursionId }} - {{ $t('extra.extra_label') }} {{ $route.params.extraId }}</small>
       <h1 class="title">{{ extra.title }}</h1>
       <div>
         <p v-for="(content, index) in extra.description" :key="index">

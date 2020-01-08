@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <h1 class="title">
-        Contact
+        {{ $t('contact.title') }}
       </h1>
       <div>
         ...
