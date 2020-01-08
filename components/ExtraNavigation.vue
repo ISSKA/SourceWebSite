@@ -1,7 +1,7 @@
 <template>
   <div v-if="itemsCount > 1" class="row justify-content-between">
     <div class="col-5">
-      <nuxt-link :to="prev.link" v-if="prev.show" class="next-page-link">
+      <nuxt-link v-if="prev.show" :to="prev.link" class="next-page-link">
         <b-card no-body class="overflow-hidden" style="max-width: 540px;">
           <b-row no-gutters style="max-height: 148px; overflow: hidden;">
             <b-col md="4">
@@ -28,7 +28,7 @@
       </nuxt-link>
     </div>
     <div class="col-5">
-      <nuxt-link :to="next.link" v-if="next.show" class="next-page-link">
+      <nuxt-link v-if="next.show" :to="next.link" class="next-page-link">
         <b-card no-body class="overflow-hidden text-right" style="max-width: 540px;">
           <b-row no-gutters style="max-height: 148px; overflow: hidden;">
             <b-col md="8">

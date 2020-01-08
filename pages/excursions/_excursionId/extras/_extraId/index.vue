@@ -89,10 +89,10 @@
         <b-col
           v-for="(image, imageIndex) in images"
           :key="imageIndex"
-          @click="imgIdx = imageIndex"
           :style="{ backgroundImage: 'url(' + image.href + ')' }"
-          style="height: 300px; background-size: cover; background-repeat: no-repeat;"
           class="image"
+          style="height: 300px; background-size: cover; background-repeat: no-repeat;"
+          @click="imgIdx = imageIndex"
         ></b-col>
       </b-row>
 
