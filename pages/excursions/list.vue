@@ -29,7 +29,7 @@
               xxx
 
               <!-- this is a hack to have the full card clickable without visible button -->
-              <nuxt-link :to="`/excursions/${groupIndex + index + 1}`" class="stretched-link"></nuxt-link>
+              <nuxt-link :to="`/excursions/${groupIndex * 3 + index + 1}`" class="stretched-link"></nuxt-link>
             </b-card-text>
             <!--<div class="text-center">
               <nuxt-link :to="`/excursions/${groupIndex + index + 1}`" class="button--green stretched-link"> Excursion {{ groupIndex + index + 1 }} </nuxt-link>
