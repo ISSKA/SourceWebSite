@@ -36,13 +36,50 @@
       <div style="margin: auto; margin-top: 40px;">
         <div id="map" class="map"></div>
       </div>
+
+      <hr style="width: 40%; margin: auto; margin-bottom: 20px;" />
+
+      <!-- excursion selection -->
+      <h2 style="margin-bottom: 30px;">
+        Sélection d'excursions
+      </h2>
+
+      <div>
+        <b-card-group deck style="margin-bottom: 20px;">
+          <b-card
+            v-for="(excursion, index) in selectedExcursion"
+            :key="index"
+            :title="excursion.subtitle"
+            img-src="https://picsum.photos/600/300/?image=15"
+            img-alt="Image"
+            img-top
+            tag="article"
+          >
+            <b-card-text>
+              xxx
+
+              <!-- this is a hack to have the full card clickable without visible button -->
+              <nuxt-link :to="`/excursions/${excursion._index}`" class="stretched-link"></nuxt-link>
+            </b-card-text>
+          </b-card>
+        </b-card-group>
+      </div>
+
+      <b-button href="/excursions/list" variant="outline-secondary">Afficher toutes les excursions ...</b-button>
     </b-container>
   </div>
 </template>
 
 <script>
+import excursionData from '~/assets/script.js'
+
 export default {
   layout: 'landing',
+  data() {
+    return {
+      selectedExcursion: []
+    }
+  },
   mounted() {
     // Create a GeoAdmin Map
     // To make this works in production, you need to register here before (if not CORS errors will appear) !
@@ -88,6 +125,44 @@ export default {
 
     const lyrtest = window.ga.layer.create('ch.are.alpenkonvention')
     map.addLayer(lyrtest) */
+
+    const NUMBER_OF_ITEM_TO_DISPLAY = 3
+
+    const excursions = JSON.parse(JSON.stringify(excursionData.getExcursions()))
+
+    for (let idx = 0; idx < excursions.length; idx++) {
+      excursions[idx]._index = idx + 1
+    }
+
+    // Select 3 or excursions.length random excursions
+    if (excursions.length <= NUMBER_OF_ITEM_TO_DISPLAY) {
+      this.selectedExcursion = excursions
+    } else {
+      const selection = []
+      let idx, arrayLength
+      for (idx = 0, arrayLength = excursions.length; idx < NUMBER_OF_ITEM_TO_DISPLAY; idx++, arrayLength--) {
+        const randomIndex = this.getRandomInt(0, arrayLength)
+
+        const selectedItem = excursions.splice(randomIndex, 1)
+        if (selectedItem && selectedItem.length === 1 && selectedItem[0]) {
+          selection.push(selectedItem[0])
+        } /* else {
+          console.log('err')
+        } */
+      }
+
+      this.selectedExcursion = selection
+    }
+
+    // console.log(this.selectedExcursion)
+  },
+  methods: {
+    // https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Math/random
+    getRandomInt(min, max) {
+      min = Math.ceil(min)
+      max = Math.floor(max)
+      return Math.floor(Math.random() * (max - min)) + min
+    }
   }
 }
 </script>
