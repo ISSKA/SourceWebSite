@@ -12,12 +12,6 @@
 
     <h2 class="subtitle">{{ excursion.subtitle.toUpperCase() }}</h2>
 
-    <!--
-        trouver ou mettre carte de situation
-        points d'intérets sous forme de collaps, cards (avec ou sans image de fond), cards avec image a coté ? cards simples ?
-        ajouter le lien pour télécharger le pdf complet (ou imprimer la page web ?)
-      -->
-
     <p v-for="(description, index) in excursion.description" :key="'desc-' + index">
       <b>{{ description.label }}</b> {{ description.details }}
     </p>
@@ -25,7 +19,7 @@
     <!-- ITINERAIRE -->
     <h2 class="subtitle">{{ excursion.route.title }}</h2>
 
-    <dl class="row" style="border: 1px solid gray; padding: 10px;">
+    <dl class="row" style="border: 1px solid gray; padding: 10px; border-radius: 10px;">
       <dt class="col-sm-2">Départ</dt>
       <dd class="col-sm-4">{{ excursion.route.details.start }}</dd>
       <dt class="col-sm-2">Arrivée</dt>

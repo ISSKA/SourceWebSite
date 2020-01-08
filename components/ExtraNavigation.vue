@@ -3,7 +3,7 @@
     <div class="col-5">
       <nuxt-link :to="prev.link" v-if="prev.show" class="next-page-link">
         <b-card no-body class="overflow-hidden" style="max-width: 540px;">
-          <b-row no-gutters>
+          <b-row no-gutters style="max-height: 148px; overflow: hidden;">
             <b-col md="4">
               <b-card-img :src="prev.img" class="rounded-0"></b-card-img>
             </b-col>
@@ -20,9 +20,9 @@
     </div>
     <div class="col-2">
       <nuxt-link :to="`/excursions/${currentExcursion}`" class="next-page-link">
-        <b-card no-body class="overflow-hidden text-center" style="max-width: 540px; height: 150px;">
+        <b-card no-body class="overflow-hidden text-center" style="max-width: 540px; height: 148px;">
           <b-card-body title="Excursion">
-            <b-card-text> Retour à l'excursion {{ currentExcursion }} </b-card-text>
+            <b-card-text>Retour à l'excursion {{ currentExcursion }}</b-card-text>
           </b-card-body>
         </b-card>
       </nuxt-link>
@@ -30,7 +30,7 @@
     <div class="col-5">
       <nuxt-link :to="next.link" v-if="next.show" class="next-page-link">
         <b-card no-body class="overflow-hidden text-right" style="max-width: 540px;">
-          <b-row no-gutters>
+          <b-row no-gutters style="max-height: 148px; overflow: hidden;">
             <b-col md="8">
               <b-card-body :title="next.title">
                 <b-card-text>
