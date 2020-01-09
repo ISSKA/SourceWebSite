@@ -5,6 +5,10 @@ export default {
     duration: 'xxx heures',
     download_file: 'xxx'
   },
+  source: {
+    coordinates: [],
+    name: 'xxx'
+  },
   description: [
     {
       label: 'xxx',

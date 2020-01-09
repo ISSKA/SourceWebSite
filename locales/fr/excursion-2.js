@@ -5,6 +5,10 @@ export default {
     duration: '6 heures (avec la visite des grottes)',
     download_file: 'Orbe_fichier_A4_min.pdf'
   },
+  source: {
+    coordinates: [2550000, 1180000],
+    name: 'Source de l’Orbe'
+  },
   description: [
     {
       label: 'La source de l’Orbe',

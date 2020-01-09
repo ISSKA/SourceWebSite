@@ -5,6 +5,10 @@ export default {
     duration: '4 heures',
     download_file: 'Areuse_Fichier_A4_min.pdf'
   },
+  source: {
+    coordinates: [2600000, 1200000],
+    name: 'Source de la Noiraigue'
+  },
   description: [
     {
       label: 'La source de la Noiraigue',
