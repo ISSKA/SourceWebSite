@@ -88,6 +88,12 @@ export default {
       // Define the div where the map is placed
       target: 'map',
 
+      // Customize the map interactions
+      // https://openlayers.org/en/latest/apidoc/module-ol_interaction.html
+      interactions: window.ol.interaction.defaults({
+        mouseWheelZoom: false
+      }),
+
       // Create a view
       view: new window.ol.View({
         // Define the default resolution
@@ -126,6 +132,8 @@ export default {
     const lyrtest = window.ga.layer.create('ch.are.alpenkonvention')
     map.addLayer(lyrtest) */
 
+    // ---------------------------
+    // RANDOM EXCURSIONS SELECTION
     const NUMBER_OF_ITEM_TO_DISPLAY = 3
 
     const excursions = JSON.parse(JSON.stringify(excursionData.getExcursions()))
