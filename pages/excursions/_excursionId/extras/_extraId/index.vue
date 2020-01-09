@@ -190,5 +190,7 @@ export default {
 #blueimp-gallery .description {
   top: auto;
   bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 10px;
 }
 </style>
