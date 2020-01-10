@@ -41,19 +41,7 @@ export default {
   ],
   generate: {
     // routes: ['/excursions/1', '/excursions/2', '/excursions/3']
-    routes() {
-      const routes = []
-
-      for (let idx = 1; idx <= excursionData.getExcursionsCount(); idx++) {
-        routes.push('/excursions/' + idx)
-
-        for (let idy = 1; idy <= excursionData.getExtrasCount(idx); idy++) {
-          routes.push('/excursions/' + idx + '/extras/' + idy)
-        }
-      }
-
-      return routes
-    }
+    routes: _getRoutes()
   },
   /*
    ** Nuxt.js modules
@@ -64,7 +52,8 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    'nuxt-i18n'
+    'nuxt-i18n',
+    '@nuxtjs/sitemap'
   ],
   /*
    ** i18n configuration
@@ -75,6 +64,19 @@ export default {
     vueI18n: {
       fallbackLocale: 'fr',
       messages: translations.getTranslations()
+    }
+  },
+  /*
+   ** Sitemap configuration
+   */
+  sitemap: {
+    hostname: 'https://www.randosources.ch',
+    routes: _getRoutes(),
+    defaults: {
+      changefreq: 'weekly',
+      priority: 0.8,
+      lastmod: new Date(),
+      lastmodrealtime: true
     }
   },
   /*
@@ -91,4 +93,21 @@ export default {
      */
     extend(config, ctx) {}
   }
+}
+
+/**
+ * Generate dynamic routes
+ */
+function _getRoutes() {
+  const routes = []
+
+  for (let idx = 1; idx <= excursionData.getExcursionsCount(); idx++) {
+    routes.push('/excursions/' + idx)
+
+    for (let idy = 1; idy <= excursionData.getExtrasCount(idx); idy++) {
+      routes.push('/excursions/' + idx + '/extras/' + idy)
+    }
+  }
+
+  return routes
 }
