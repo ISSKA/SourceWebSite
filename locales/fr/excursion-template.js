@@ -29,11 +29,19 @@ export default {
   point_of_interest: [
     {
       title: 'A. xxx',
-      description: ''
+      description: '',
+      position: {
+        x: 10,
+        y: 10
+      }
     },
     {
       title: 'B. ',
-      description: ''
+      description: '',
+      position: {
+        x: 10,
+        y: 10
+      }
     }
   ],
   in_the_region: [

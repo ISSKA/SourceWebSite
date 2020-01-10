@@ -37,33 +37,62 @@ export default {
     {
       title: 'A. Les entonnoirs',
       description:
-        'Ces grandes dépressions sont connectées aux fissures du calcaire. Avant que l’homme ne les modifient en aménageant des digues, les entonnoirs fonctionnaient comme exutoires.'
+        'Ces grandes dépressions sont connectées aux fissures du calcaire. Avant que l’homme ne les modifient en aménageant des digues, les entonnoirs fonctionnaient comme exutoires.',
+      position: {
+        x: 10,
+        y: 10
+      }
     },
     {
       title: 'B. Prise d’eau',
-      description: 'C’est par là que depuis plus d’un siècle, l’eau du lac est évacuée en direction de l’usine électrique de La Dernier (Vallorbe).'
+      description: 'C’est par là que depuis plus d’un siècle, l’eau du lac est évacuée en direction de l’usine électrique de La Dernier (Vallorbe).',
+      position: {
+        x: 10,
+        y: 10
+      }
     },
     {
       title: 'C. Col du Mont d’Orzeires',
       description:
-        'Ce point se trouve à l’aplomb de l’extrémité connue actuellement des grottes de Vallorbe. La galerie souterraine en question (uniquement atteignable en plongée) se situe 200 m sous le niveau du sol.'
+        'Ce point se trouve à l’aplomb de l’extrémité connue actuellement des grottes de Vallorbe. La galerie souterraine en question (uniquement atteignable en plongée) se situe 200 m sous le niveau du sol.',
+      position: {
+        x: 10,
+        y: 10
+      }
     },
     {
       title: 'D. Parc animalier du Mont d’Orzeires',
-      description: 'Observation d’ours bruns et de bisons en captivité. Restaurant.'
+      description: 'Observation d’ours bruns et de bisons en captivité. Restaurant.',
+      position: {
+        x: 10,
+        y: 10
+      }
     },
     {
       title: 'E. Grotte aux Fées',
       description:
-        'Grâce aux récentes découvertes faites par les spéléologues, ce réseau souterrain est devenu depuis quelques années le plus long de la chaîne jurassienne avec plus de 32 km de galeries répertoriées.'
+        'Grâce aux récentes découvertes faites par les spéléologues, ce réseau souterrain est devenu depuis quelques années le plus long de la chaîne jurassienne avec plus de 32 km de galeries répertoriées.',
+      position: {
+        x: 10,
+        y: 10
+      }
     },
     {
       title: 'F. Grottes de Vallorbe',
-      description: 'L’aménagement touristique de cette cavité permet de découvrir dans des conditions idéales le cours spectaculaire d’une rivière souterraine.'
+      description:
+        'L’aménagement touristique de cette cavité permet de découvrir dans des conditions idéales le cours spectaculaire d’une rivière souterraine.',
+      position: {
+        x: 10,
+        y: 10
+      }
     },
     {
       title: 'G. Sources des Gerlettes',
-      description: 'Connectées au réseau souterrain de la grotte des Fées, ces sources méritent le détour surtout lors d’épisodes de crue.'
+      description: 'Connectées au réseau souterrain de la grotte des Fées, ces sources méritent le détour surtout lors d’épisodes de crue.',
+      position: {
+        x: 10,
+        y: 10
+      }
     }
   ],
   in_the_region: [],

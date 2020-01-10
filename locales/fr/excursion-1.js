@@ -41,21 +41,37 @@ export default {
     {
       title: 'A. La source de la Noiraigue',
       description:
-        'Emergence des eaux de la vallée de la Sagne, la source de la Noiraigue est caractérisée par la couleur sombre de son eau due aux terrains tourbeux qu’elle a traversé avant de s’enfouir sous terre près des Ponts-de-Martel.'
+        'Emergence des eaux de la vallée de la Sagne, la source de la Noiraigue est caractérisée par la couleur sombre de son eau due aux terrains tourbeux qu’elle a traversé avant de s’enfouir sous terre près des Ponts-de-Martel.',
+      position: {
+        x: 93,
+        y: 325
+      }
     },
     {
       title: 'B. Les captages',
       description:
-        'Le long des gorges, près d’une vingtaine de captages servent à l’alimentation en eau potable de la ville de La Chaux-de-Fonds et de 19 autres communes du canton de Neuchâtel.'
+        'Le long des gorges, près d’une vingtaine de captages servent à l’alimentation en eau potable de la ville de La Chaux-de-Fonds et de 19 autres communes du canton de Neuchâtel.',
+      position: {
+        x: 435,
+        y: 450
+      }
     },
     {
       title: 'C. Le système d’adduction d’eau en direction de La Chaux-de-Fonds',
-      description: 'Grâce à une prouesse technique, l’eau des sources des gorges est conduite jusqu’à La Chaux-de-Fonds...'
+      description: 'Grâce à une prouesse technique, l’eau des sources des gorges est conduite jusqu’à La Chaux-de-Fonds...',
+      position: {
+        x: 627,
+        y: 438
+      }
     },
     {
       title: 'D. La Gelyelle de Monard',
       description:
-        'Crustacé minuscule mais exceptionnel, la Geylelle de Monard vit depuis des millions d’années dans les eaux souterraines des gorges de l’Areuse.'
+        'Crustacé minuscule mais exceptionnel, la Geylelle de Monard vit depuis des millions d’années dans les eaux souterraines des gorges de l’Areuse.',
+      position: {
+        x: 1265,
+        y: 287
+      }
     }
   ],
   in_the_region: [

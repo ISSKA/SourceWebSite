@@ -27,7 +27,8 @@ export default {
     },
     education_sheet_link: 'Télécharger la fiche didactique',
     route: {
-      title: 'Description de l’itinéraire'
+      title: 'Description de l’itinéraire',
+      legend: 'Cliquez sur un point d’intérêt pour afficher les informations.'
     },
     extras: 'Extras',
     more: 'Pour en savoir plus',

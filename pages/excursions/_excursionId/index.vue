@@ -46,10 +46,25 @@
     </div>-->
 
     <div class="text-centesr" style="height: 650px; overflow: hiden;">
-      <img
-        :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`"
-        style="position: absolute; right: 0; left: 0; width: 100%; overflow-y: hidden; max-height: 600px;"
-      />
+      <figure style="position: absolute; right: 0; left: 0; overflow-y: hidden; max-height: 600px;">
+        <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="width: 100%;" usemap="#workmap" />
+        <figcaption style="position: absolute; bottom: 0; background-color: rgba(255, 255, 255, 0.8); padding: 2px 8px;">
+          {{ $t('excursion.route.legend') }}
+        </figcaption>
+      </figure>
+
+      <!-- https://www.image-map.net -->
+      <map name="workmap">
+        <area
+          v-for="(content, index) in excursion.point_of_interest"
+          :key="index"
+          shape="circle"
+          :coords="`${content.position.x}, ${content.position.y}, 35`"
+          alt="Computer"
+          href="#"
+          @click.prevent="interactivePoint(index)"
+        />
+      </map>
     </div>
 
     <!-- POINTS D INTERET -->
@@ -76,7 +91,13 @@
     </b-card-group>-->
 
     <b-list-group>
-      <b-list-group-item v-for="(content, index) in excursion.point_of_interest" :key="index" href="#" class="flex-column align-items-start">
+      <b-list-group-item
+        v-for="(content, index) in excursion.point_of_interest"
+        :key="index"
+        href="#"
+        class="flex-column align-items-start"
+        :class="{ active: activeInterestPoint === index }"
+      >
         <div class="d-flex w-100 justify-content-between">
           <h5 class="mb-1">{{ content.title }}</h5>
           <!--<small>3 days ago</small>-->
@@ -142,10 +163,25 @@
       ></b-embed>
     </div>
     -->
+
+    <!-- Interest modal -->
+    <b-modal
+      v-for="(content, index) in excursion.point_of_interest"
+      :id="'modal-interest-' + index"
+      :key="index"
+      size="lg"
+      centered
+      :title="content.title"
+      ok-only
+    >
+      {{ content.description }}
+    </b-modal>
   </div>
 </template>
 
 <script>
+import ImageMap from 'image-map'
+
 import excursionData from '~/assets/script.js'
 
 import Navigation from '~/components/ExcursionNavigation.vue'
@@ -164,8 +200,20 @@ export default {
     // console.log(this.$route.params.excursionId, typeof this.$route.params.excursionId)
 
     return {
-      excursion: excursionData.getExcursion(this.$route.params.excursionId)
+      excursion: excursionData.getExcursion(this.$route.params.excursionId),
+      activeInterestPoint: null
       // letters: 'abcdefghijklmnopqrstuvwxyz'.toUpperCase()
+    }
+  },
+  created() {
+    ImageMap('img[usemap]')
+  },
+  methods: {
+    interactivePoint(index) {
+      // window.alert('pressé :' + index)
+      this.activeInterestPoint = index
+
+      this.$bvModal.show('modal-interest-' + index)
     }
   }
 }
