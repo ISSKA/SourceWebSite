@@ -6,8 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [2650000, 1150000],
-    name: 'xxx'
+    coordinates: [2609800, 1265500],
+    name: 'Sources de Binningen',
+    canton: 'BL'
   },
   description: [
     {

@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2559300, 1203800],
+    name: 'Source de la Serrières',
+    canton: 'NE'
   },
   description: [
     {

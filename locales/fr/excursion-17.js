@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2558500, 1117500],
+    name: 'Source thermale du Val d’Illiez',
+    canton: 'VS'
   },
   description: [
     {

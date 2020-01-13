@@ -6,8 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [2750000, 1200000],
-    name: 'xxx'
+    coordinates: [2632300, 1153800],
+    name: 'Source du Sefinental',
+    canton: 'BE'
   },
   description: [
     {

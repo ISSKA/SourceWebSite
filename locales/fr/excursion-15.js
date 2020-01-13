@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2756000, 1202500],
+    name: 'Source thermale des gorges de la Tamina',
+    canton: 'SG'
   },
   description: [
     {

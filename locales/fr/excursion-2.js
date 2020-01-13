@@ -6,8 +6,9 @@ export default {
     download_file: 'Orbe_fichier_A4_min.pdf'
   },
   source: {
-    coordinates: [2550000, 1180000],
-    name: 'Source de l’Orbe'
+    coordinates: [2515870, 1171700],
+    name: 'Source de l’Orbe inférieure',
+    canton: 'VD'
   },
   description: [
     {

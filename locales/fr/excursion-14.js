@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2731000, 1222000],
+    name: 'Rinquelle et chutes du Seerenbach',
+    canton: 'SG'
   },
   description: [
     {

@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2603800, 1140500],
+    name: 'Sieben Brunnen, La Lenk',
+    canton: 'BE/VD'
   },
   description: [
     {

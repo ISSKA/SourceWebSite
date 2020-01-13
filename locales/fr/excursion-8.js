@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2740500, 1189200],
+    name: 'Source de Flims',
+    canton: 'GR'
   },
   description: [
     {

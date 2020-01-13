@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2598200, 1115000],
+    name: 'Sources chaudes de Combioule',
+    canton: 'VS'
   },
   description: [
     {

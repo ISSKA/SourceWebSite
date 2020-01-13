@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2687000, 1159000],
+    name: 'Sources du massif du Gothard',
+    canton: 'BE/GR/TI/UR/VS'
   },
   description: [
     {

@@ -6,8 +6,9 @@ export default {
     download_file: 'Areuse_Fichier_A4_min.pdf'
   },
   source: {
-    coordinates: [2600000, 1200000],
-    name: 'Source de la Noiraigue'
+    coordinates: [2546800, 1200500],
+    name: 'Sources des gorges de l’Areuse',
+    canton: 'NE'
   },
   description: [
     {

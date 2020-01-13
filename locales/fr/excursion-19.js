@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2531000, 1185000],
+    name: 'Sources de Covatannaz',
+    canton: 'VD'
   },
   description: [
     {

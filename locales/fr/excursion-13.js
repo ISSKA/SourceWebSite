@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2703000, 1203000],
+    name: 'Schlichenden Brünnen et Hölloch ',
+    canton: 'SZ'
   },
   description: [
     {

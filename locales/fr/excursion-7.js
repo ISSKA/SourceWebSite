@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2819000, 1187000],
+    name: 'Sources minérales de Basse Engadine',
+    canton: 'GR'
   },
   description: [
     {

@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2695300, 1281500],
+    name: 'Quellpark Kundelfingerhof',
+    canton: 'SH'
   },
   description: [
     {

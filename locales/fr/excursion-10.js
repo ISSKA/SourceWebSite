@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2572700, 1251900],
+    name: 'Sources de Porrentruy',
+    canton: 'JU'
   },
   description: [
     {

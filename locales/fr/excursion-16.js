@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2685300, 1116900],
+    name: 'Bagni di Craveggia',
+    canton: 'TI'
   },
   description: [
     {

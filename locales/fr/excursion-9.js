@@ -6,9 +6,9 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
-    name: 'xxx',
-    canton: ''
+    coordinates: [2583800, 1239100],
+    name: 'Sources de Soulce',
+    canton: 'JU'
   },
   description: [
     {
