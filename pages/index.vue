@@ -31,7 +31,13 @@
         </b-card>
       </b-card-group>-->
 
-      <div></div>
+      <div class="text-left">
+        <p>La Suisse compte des milliers de sources : petites ou grandes, discrètes ou spectaculaires, facilement accessibles ou pas, belles ou modestes...</p>
+        <p>
+          Vous trouverez ici une série d’itinéraires qui vous amèneront vers des sources remarquables à un titre ou à un autre. Celle-ci est urbaine, celle-là
+          sauvage, une autre bucolique. Mais toutes sont dignes d’intérêt et devraient susciter la curiosité de leurs visiteurs.
+        </p>
+      </div>
 
       <div style="margin: auto; margin-top: 40px;">
         <div id="map" class="map">
