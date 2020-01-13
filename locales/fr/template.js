@@ -41,7 +41,8 @@ export default {
     excursions_label: 'Excursions'
   },
   contact: {
-    title: 'Contact',
+    title: 'Formulaire de contact',
+    infos: 'Pour nous contacter, merci de remplir le formulaire ci-dessous.',
     email: 'Adresse e-mail',
     name: 'Nom et prénom',
     content: 'Message',

@@ -5,6 +5,8 @@
         {{ $t('contact.title') }}
       </h1>
       <div>
+        <p>{{ $t('contact.infos') }}</p>
+
         <b-alert :show="showAlertTime" dismissible variant="success" @dismissed="showAlertTime = 0">
           Votre message a bien été envoyée, nous vous en remercions !
         </b-alert>
@@ -24,7 +26,7 @@
 
           <input id="input-check" v-model="form.check" type="text" name="check" />
 
-          <b-button type="submit" variant="primary">{{ $t('contact.send') }}</b-button>
+          <b-button type="submit" variant="success">{{ $t('contact.send') }}</b-button>
         </b-form>
       </div>
     </div>
