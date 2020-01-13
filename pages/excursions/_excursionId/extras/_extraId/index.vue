@@ -3,7 +3,7 @@
     <div>
       <!--<small>{{ $t('extra.excursions_label') }} / {{ excursionTitle }} / {{ extra.title }}</small>-->
 
-      <h1 class="title" style="margin-bottom: 20px;">{{ extra.title }}</h1>
+      <h1 class="title">{{ extra.title }}</h1>
       <div>
         <p v-for="(content, index) in extra.description" :key="index">
           {{ content }}

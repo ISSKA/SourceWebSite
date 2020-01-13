@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="title">{{ excursion.title }}</h1>
+    <h1 class="title" style="margin-bottom: 0px;">{{ excursion.title }}</h1>
     <h2 class="subtitle">{{ excursion.subtitle }}</h2>
 
     <div style="margin-bottom: 20px;">

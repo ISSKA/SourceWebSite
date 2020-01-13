@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="title" style="margin-bottom: 30px;">
+      <h1 class="title">
         {{ $t('excursions_list.title') }}
       </h1>
       <!--<h2 class="subtitle">
