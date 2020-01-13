@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <h1 class="title">{{ $t('excursion.excursion_label') }} {{ $route.params.excursionId }}</h1>
+    <h1 class="title">{{ excursion.title }}</h1>
+    <h2 class="subtitle">{{ excursion.subtitle }}</h2>
 
     <div style="margin-bottom: 20px;">
       {{ $t('excursion.infos.level') }} : {{ excursion.summary.difficulty }}
@@ -11,8 +12,6 @@
         $t('excursion.education_sheet_link')
       }}</a>
     </div>
-
-    <h2 class="subtitle">{{ excursion.subtitle.toUpperCase() }}</h2>
 
     <p v-for="(description, index) in excursion.description" :key="'desc-' + index">
       <b>{{ description.label }}</b> {{ description.details }}

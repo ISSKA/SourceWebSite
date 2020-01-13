@@ -1,5 +1,6 @@
 export default {
-  subtitle: 'Source de l’Orbe (Le Pont - Vallorbe, Jura vaudois)',
+  title: 'Source de l’Orbe',
+  subtitle: 'Le Pont - Vallorbe, Jura vaudois',
   summary: {
     difficulty: 'Modéré',
     duration: '6 heures (avec la visite des grottes)',

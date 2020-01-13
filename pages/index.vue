@@ -57,14 +57,14 @@
           <b-card
             v-for="(excursion, index) in selectedExcursion"
             :key="index"
-            :title="excursion.subtitle"
+            :title="excursion.title"
             img-src="https://picsum.photos/600/300/?image=15"
             img-alt="Image"
             img-top
             tag="article"
           >
             <b-card-text>
-              xxx
+              {{ excursion.subtitle }}
 
               <!-- this is a hack to have the full card clickable without visible button -->
               <nuxt-link :to="`/excursions/${excursion._index}`" class="stretched-link"></nuxt-link>

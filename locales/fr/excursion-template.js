@@ -1,4 +1,5 @@
 export default {
+  title: 'xxx',
   subtitle: 'xxx',
   summary: {
     difficulty: 'xxx',

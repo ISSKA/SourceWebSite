@@ -22,7 +22,7 @@
       <nuxt-link :to="`/excursions/${currentExcursion}`" class="next-page-link">
         <b-card no-body class="overflow-hidden text-center" style="max-width: 540px; height: 148px;">
           <b-card-body title="Excursion">
-            <b-card-text>Retour à l'excursion {{ currentExcursion }}</b-card-text>
+            <b-card-text>Retour à l'excursion</b-card-text>
           </b-card-body>
         </b-card>
       </nuxt-link>
@@ -90,14 +90,14 @@ export default {
     return {
       prev: {
         show: EXTRAS_COUNT > 2 || currentExtra === 2,
-        title: `Extra ${prevIndex} - ${prev.title}`,
+        title: prev.title, // `Extra ${prevIndex} - ${prev.title}`,
         sumary: prev.sumary,
         link: `/excursions/${this.currentExcursion}/extras/${prevIndex}`,
         img: 'https://picsum.photos/400/400/?image=11'
       },
       next: {
         show: EXTRAS_COUNT > 2 || currentExtra === 1,
-        title: `Extra ${nextIndex} - ${next.title}`,
+        title: next.title, // `Extra ${nextIndex} - ${next.title}`,
         sumary: next.sumary,
         link: `/excursions/${this.currentExcursion}/extras/${nextIndex}`,
         img: 'https://picsum.photos/400/400/?image=10'

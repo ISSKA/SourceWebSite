@@ -1,5 +1,6 @@
 export default {
-  subtitle: 'Source de la Noiraigue et Gorges de l’Areuse (NE)',
+  title: 'Source de la Noiraigue',
+  subtitle: 'Gorges de l’Areuse (NE)',
   summary: {
     difficulty: 'Modérée',
     duration: '4 heures',

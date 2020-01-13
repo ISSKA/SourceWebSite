@@ -70,14 +70,14 @@ export default {
     return {
       prev: {
         show: EXCURSIONS_COUNT > 2 || currentExcursion === 2,
-        title: `Excursion ${prevIndex}`,
+        title: prev.title, // `Excursion ${prevIndex}`,
         sumary: prev.subtitle,
         link: `/excursions/${prevIndex}`,
         img: 'https://picsum.photos/400/400/?image=11'
       },
       next: {
         show: EXCURSIONS_COUNT > 2 || currentExcursion === 1,
-        title: `Excursion ${nextIndex}`,
+        title: next.title, // `Excursion ${nextIndex}`,
         sumary: next.subtitle,
         link: `/excursions/${nextIndex}`,
         img: 'https://picsum.photos/400/400/?image=10'

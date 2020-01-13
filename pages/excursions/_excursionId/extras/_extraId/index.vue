@@ -1,8 +1,9 @@
 <template>
   <div class="container">
     <div>
-      <small>{{ $t('extra.excursion_label') }} {{ $route.params.excursionId }} - {{ $t('extra.extra_label') }} {{ $route.params.extraId }}</small>
-      <h1 class="title">{{ extra.title }}</h1>
+      <!--<small>{{ $t('extra.excursions_label') }} / {{ excursionTitle }} / {{ extra.title }}</small>-->
+
+      <h1 class="title" style="margin-bottom: 20px;">{{ extra.title }}</h1>
       <div>
         <p v-for="(content, index) in extra.description" :key="index">
           {{ content }}
@@ -144,6 +145,7 @@ export default {
   },
   data() {
     return {
+      // excursionTitle: excursionData.getExcursion(this.$route.params.excursionId).title,
       extra: excursionData.getExtra(this.$route.params.excursionId, this.$route.params.extraId),
       images: [],
       imgIdx: null

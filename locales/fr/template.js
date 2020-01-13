@@ -15,7 +15,6 @@ export default {
     title: 'Liste des excursions'
   },
   excursion: {
-    excursion_label: 'Excursion',
     infos: {
       level: 'Difficuleté',
       duration: 'Durée',
@@ -39,8 +38,7 @@ export default {
     to_see_in_the_region: 'A voir aussi dans la région'
   },
   extra: {
-    excursion_label: 'Excursion',
-    extra_label: 'Extra'
+    excursions_label: 'Excursions'
   },
   contact: {
     title: 'Contact',

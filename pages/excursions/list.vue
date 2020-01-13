@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="title">
+      <h1 class="title" style="margin-bottom: 30px;">
         {{ $t('excursions_list.title') }}
       </h1>
       <!--<h2 class="subtitle">
@@ -19,14 +19,14 @@
           <b-card
             v-for="(excursion, index) in excursionsGroup"
             :key="index"
-            :title="excursion.subtitle"
+            :title="excursion.title"
             img-src="https://picsum.photos/600/300/?image=15"
             img-alt="Image"
             img-top
             tag="article"
           >
             <b-card-text>
-              xxx
+              {{ excursion.subtitle }}
 
               <!-- this is a hack to have the full card clickable without visible button -->
               <nuxt-link :to="`/excursions/${groupIndex * 3 + index + 1}`" class="stretched-link"></nuxt-link>
