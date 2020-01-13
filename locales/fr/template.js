@@ -43,7 +43,11 @@ export default {
     extra_label: 'Extra'
   },
   contact: {
-    title: 'Contact'
+    title: 'Contact',
+    email: 'Adresse e-mail',
+    name: 'Nom et prénom',
+    content: 'Message',
+    send: 'Envoyer'
   },
   about: {
     title: 'A propos'
