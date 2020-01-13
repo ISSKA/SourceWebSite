@@ -23,14 +23,14 @@
 
         <div class="row">
           <div class="col-md-6">
-            <b-img blank blank-color="#ccc" height="100" width="200" style="margin-bottom: 20px;" /><br />
+            <img src="/img/logo_sl.svg" height="100" style="margin-bottom: 20px;" /><br />
             <strong>FP / SL</strong><br />
             Fondation suisse pour la protection et l'aménagement du paysage<br />
             Stiftung Landschaftsschutz Schweiz<br />
             <a href="https://www.sl-fp.ch">www.sl-fp.ch</a>
           </div>
           <div class="col-md-6">
-            <img src="img/logo_isska.png" height="100" style="margin-bottom: 20px;" /><br />
+            <img src="/img/logo_isska.png" height="100" style="margin-bottom: 20px;" /><br />
             <strong>ISSKA</strong><br />
             Institut suisse de spéléologie et de karstologie<br />
             <a href="https://www.isska.ch">www.isska.ch</a>
