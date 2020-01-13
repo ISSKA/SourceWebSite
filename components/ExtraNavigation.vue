@@ -3,7 +3,7 @@
     <div class="col-5">
       <nuxt-link v-if="prev.show" :to="prev.link" class="next-page-link">
         <b-card no-body class="overflow-hidden" style="max-width: 540px;">
-          <b-row no-gutters style="max-height: 148px; overflow: hidden;">
+          <b-row no-gutters style="height: 148px; max-height: 148px; overflow: hidden;">
             <b-col md="4">
               <b-card-img :src="prev.img" class="rounded-0"></b-card-img>
             </b-col>
@@ -30,11 +30,11 @@
     <div class="col-5">
       <nuxt-link v-if="next.show" :to="next.link" class="next-page-link">
         <b-card no-body class="overflow-hidden text-right" style="max-width: 540px;">
-          <b-row no-gutters style="max-height: 148px; overflow: hidden;">
+          <b-row no-gutters style="height: 148px; max-height: 148px; overflow: hidden;">
             <b-col md="8">
               <b-card-body :title="next.title">
                 <b-card-text>
-                  {{ prev.sumary }}
+                  {{ next.sumary }}
                 </b-card-text>
               </b-card-body>
             </b-col>
