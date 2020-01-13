@@ -136,10 +136,10 @@ export default {
     return (
       /^\d+$/.test(params.excursionId) &&
       params.excursionId > 0 &&
-      params.excursionId <= 12 && // todo: change this dynamically
+      params.excursionId <= excursionData.getExcursionsCount() &&
       /^\d+$/.test(params.extraId) &&
       params.extraId > 0 &&
-      params.extraId <= 6 // todo: change this dynamically
+      params.extraId <= excursionData.getExtrasCount(params.excursionId)
     )
   },
   data() {

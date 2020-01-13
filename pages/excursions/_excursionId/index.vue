@@ -194,7 +194,7 @@ export default {
   },
   validate({ params }) {
     // Doit être un nombre
-    return /^\d+$/.test(params.excursionId) && params.excursionId > 0 && params.excursionId <= 12
+    return /^\d+$/.test(params.excursionId) && params.excursionId > 0 && params.excursionId <= excursionData.getExcursionsCount()
   },
   data() {
     // console.log(this.$route.params.excursionId, typeof this.$route.params.excursionId)
