@@ -5,7 +5,7 @@
         <b-card no-body class="overflow-hidden" style="max-width: 540px;">
           <b-row no-gutters style="height: 148px; max-height: 148px; overflow: hidden;">
             <b-col md="4">
-              <b-card-img :src="prev.img" class="rounded-0"></b-card-img>
+              <b-card-img :src="prev.img" class="rounded-0" style="height: 100%; width: 100%; object-fit: cover;"></b-card-img>
             </b-col>
             <b-col md="8">
               <b-card-body :title="prev.title">
@@ -39,7 +39,7 @@
               </b-card-body>
             </b-col>
             <b-col md="4">
-              <b-card-img :src="next.img" class="rounded-0"></b-card-img>
+              <b-card-img :src="next.img" class="rounded-0" style="height: 100%; width: 100%; object-fit: cover;"></b-card-img>
             </b-col>
           </b-row>
         </b-card>
@@ -93,14 +93,14 @@ export default {
         title: prev.title, // `Extra ${prevIndex} - ${prev.title}`,
         sumary: prev.sumary,
         link: `/excursions/${this.currentExcursion}/extras/${prevIndex}`,
-        img: 'https://picsum.photos/400/400/?image=11'
+        img: prev.cover ? `/docs/excursion-${this.currentExcursion}/extra-${prevIndex}/${prev.cover}` : 'https://picsum.photos/400/400/?image=11'
       },
       next: {
         show: EXTRAS_COUNT > 2 || currentExtra === 1,
         title: next.title, // `Extra ${nextIndex} - ${next.title}`,
         sumary: next.sumary,
         link: `/excursions/${this.currentExcursion}/extras/${nextIndex}`,
-        img: 'https://picsum.photos/400/400/?image=10'
+        img: next.cover ? `/docs/excursion-${this.currentExcursion}/extra-${nextIndex}/${next.cover}` : 'https://picsum.photos/400/400/?image=10'
       },
       itemsCount: EXTRAS_COUNT
     }

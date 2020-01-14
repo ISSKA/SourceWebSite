@@ -5,11 +5,14 @@
         :title="content.title"
         :sub-title="''"
         :img-alt="content.title"
-        img-src="https://picsum.photos/900/250/?image=14"
+        :img-src="
+          content.cover ? `/docs/excursion-${this.$route.params.excursionId}/extra-${index}/${content.cover}` : 'https://picsum.photos/900/250/?image=14'
+        "
         overlay
         img-height="200px"
         text-variant="white"
         sub-title-text-variant="white"
+        class="img-link-card"
       >
         <b-card-text>
           {{ content.sumary }}
@@ -34,4 +37,11 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.img-link-card img {
+  object-fit: cover;
+}
+.img-link-card .card-body {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+</style>

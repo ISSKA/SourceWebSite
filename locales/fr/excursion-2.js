@@ -132,6 +132,7 @@ export default {
     {
       title: 'Entonnoirs maudits... ou bénits!',
       sumary: 'xxx',
+      cover: 'img-2.jpg',
       description: [
         'Jusqu’au début du XXe siècle, la gestion des entonnoirs était une préoccupation pour les habitants de la Vallée de Joux.',
         'Lors de fortes pluies, il arrivait que les entonnoirs refoulent l’eau au lieu de l’absorber... Les habitants de la vallée profitaient donc des périodes de basses eaux pour curer les entonnoirs ou même pour ouvrir d’autres fissures afin de mettre fin à l’inondation périodique des maisons situées près des lacs.',
@@ -158,6 +159,7 @@ export default {
     {
       title: 'Les grottes de l’Orbe',
       sumary: 'xxx',
+      cover: 'img-1.jpg',
       description: [
         'Les galeries aménagées pour les visites touristiques ne représentent qu’une petite partie du réseau souterrain exploré par les spéléologues depuis une cinquantaine d’années.',
         'À ce jour, plus de six kilomètres de galeries ont été découverts et des possibilités de continuation existent encore. Cependant, l’Orbe souterraine ne se laisse pas dompter si facilement et les difficultés ne manquent pas. En particulier, la présence de plusieurs passages noyés (siphons) complique les recherches.',
@@ -185,6 +187,7 @@ export default {
     {
       title: 'La renaissance de l’Orbe',
       sumary: 'xxx',
+      cover: 'img-1.jpg',
       description: [
         '3 km à vol d’oiseau de l’Entonnoir du Bon Port et 230 m plus bas, l’Orbe retrouve la lumière du jour pour poursuivre son étonnant parcours.',
         'La résurgence de l’Orbe est l’une des plus remarquables et des plus importantes de la chaîne du Jura. En basses eaux, son débit est de 2 m3/ sec, mais, lors de grandes crues, il peut dépasser les 100 m3/sec (ou 360’000 m3/heure).',

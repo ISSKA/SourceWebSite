@@ -100,6 +100,7 @@ export default {
     {
       title: 'La source de la Noiraigue',
       sumary: 'sumary...',
+      cover: 'img-2.jpg',
       description: [
         'Entre Noiraigue et Boudry, on compte une vingtaine de sources karstiques. Onze d’entre elles sont captées. Celle de la source de la Noiraigue, située au haut du village, est sans doute la plus spectaculaire.',
         'De nombreux essais de traçage des eaux sou- terraines (à l’aide de colorants fluorescents détectables en quantités infimes dans les sources) ont été réalisés dans la région pour déterminer la provenance des eaux. Les plus spectaculaires sont ceux qui ont prouvé la relation hydraulique entre le lac des Taillères et la source l’Areuse et celle de la vallée de La Sagne avec la source de la Noiraigue. Tous ces traçages ont permis ensuite de délimiter les zones de protection des captages.'
@@ -123,6 +124,7 @@ export default {
     {
       title: 'Captages d’eau et production d’électricité',
       sumary: 'sumary...',
+      cover: 'img-3.jpg',
       description: [
         'Les usines des Moyats et de Combe Garot sont au cœur d’un vaste réseau d’adduction qui compte 11 sources captées et 9 puits de pompage.',
         'L’usine des Moyats collecte l’eau des sources et puits de pom- page de la rive gauche de l’Areuse en amont de Champ-du- Moulin. Cette eau est propulsée à plus de 1100 m d’altitude en direction de La Chaux-de-Fonds grâce à l’énergie produite par turbinage.',
@@ -147,6 +149,7 @@ export default {
     {
       title: 'Le château d’eau du canton',
       sumary: 'sumary...',
+      cover: 'img-2.jpg',
       description: [
         'Jusqu’au milieu du XIXe siècle, les gorges de l’Areuse of- fraient aux regards de ceux qui s’y aventuraient une nature intacte. En 1858, ce calme est perturbé par la construction de la ligne de train franco-suisse.',
         'Au cours du XIXe siècle, il devient urgent de trouver des solutions pour fournir de l’eau potable aux villes de Neuchâ- tel et de La Chaux-de-Fonds. La population augmente et la qualité de l’eau de consommation est médiocre. En 1882, une épidémie de fièvre typhoïde frappe Neuchâtel et cause plusieurs décès. A La Chaux-de-Fonds, le souvenir du grand incendie de 1794 est encore présent dans les esprits.',
@@ -167,6 +170,7 @@ export default {
     {
       title: 'Comment l’eau est captée aux abords de l’Areuse',
       sumary: 'sumary...',
+      cover: 'img-3.jpg',
       description: [
         'Différentes techniques sont utilisées pour capter les milliers de mètres cube d’eau de boisson amenés chaque jour dans 20 communes du canton depuis la région de l’usine des Moyats:',
         'Puits filtrants au bord de l’Areuse',
@@ -220,6 +224,7 @@ export default {
     {
       title: 'Un crustacé exceptionnel',
       sumary: 'sumary...',
+      cover: 'img-2.jpg',
       description: [
         'Peut-être que dans les eaux souterraines des Gorges de l’Areuse se cache peut-être le plus vieil habitant de la région. En effet, lors de filtrations de la source de Combe Garot en 1985, le biologiste Pascal Moeschler découvrit une nouvelle es- pèce de crustacé, la Gelyelle de Monard (Gelyella Monardi). Cette espèce d’un demi millimètre n’est connue nulle part ailleurs et vit confinée dans cet aquifère karstique depuis des millions d’années.',
         'Elle est un descendant direct des crustacés qui vivaient alors dans la mer présente dans la région au Tertiaire. Lors du retrait marin, il y a 20 millions d’années, ce microcrus- tacé s’est acclimaté à un nouveau gîte dans les eaux souter- raines. La Gelyelle a par la suite évolué et s’est adaptée à son nouveau milieu souterrain ce qui lui a permis de survivre aux glaciations. Elle peut donc à juste titre être considérée comme un «fossile vivant», et l’espèce animale de Suisse la plus digne de protection au niveau international...',
