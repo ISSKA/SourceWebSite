@@ -1,15 +1,17 @@
 export default {
+  layout: {
+    title: 'A la découverte des sources',
+    intro: 'Des excursions pour découvrir la Suisse et ses sources',
+    btn_excursions: 'Les excursions'
+  },
   menu: {
-    website_name: 'Sources de Suisse',
+    website_name: 'Aux sources de la Suisse',
     excursions: 'Liste des excursions',
     about: 'A propos',
     contact: 'Contact'
   },
   footer: {
-    copyright_brand: 'Your WebSite'
-  },
-  home: {
-    btn_excursions: 'Les excursions'
+    copyright_brand: 'RandoSources.ch'
   },
   excursions_list: {
     title: 'Liste des excursions'

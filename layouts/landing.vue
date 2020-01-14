@@ -21,11 +21,13 @@
       </b-navbar>
 
       <!-- HEADER CONTENT -->
-      <b-container class="text-center" style="min-height: 500px; padding-top: 200px; color: white;">
-        <h1>Cover landing</h1>
-        <p>Un petit texte de description !</p>
+      <b-container class="text-center" style="min-height: 500px; padding-top: 150px; color: white;">
+        <div style="background-color: rgba(0, 0, 0, 0.25); padding: 20px 10px; border-radius: 10px;">
+          <h1>{{ $t('layout.title') }}</h1>
+          <p>{{ $t('layout.intro') }}</p>
 
-        <b-button href="/excursions/list" variant="success">{{ $t('home.btn_excursions') }}</b-button>
+          <!--<b-button href="/excursions/list" variant="success">{{ $t('layout.btn_excursions') }}</b-button>-->
+        </div>
       </b-container>
     </div>
 

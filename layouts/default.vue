@@ -21,9 +21,9 @@
       </b-navbar>
 
       <!-- HEADER CONTENT -->
-      <b-container class="text-center" style="min-height: 150px; padding-top: 25px; color: white;">
-        <h1>Cover default</h1>
-        <p>Un petit texte de description !</p>
+      <b-container class="text-center" style="min-height: 150px; padding-top: 40px; color: white; background-color: rgba(0, 0, 0, 0.2);">
+        <h1>{{ $t('layout.title') }}</h1>
+        <!--<p>Un petit texte de description !</p>-->
       </b-container>
     </div>
 
