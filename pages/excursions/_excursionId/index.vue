@@ -68,7 +68,7 @@
       <b-table :items="items" class="col-md-5" stacked style="background-color: lightgray;"></b-table>
     </div>-->
 
-    <div class="full-width" style="max-height: 650px; overflow: hiden;">
+    <div class="full-width" style="max-height: 720px; overflow: hiden; background-color: #eee; padding-top: 0px; margin-top: 40px;">
       <!--<figure style="position: absolute; right: 0; left: 0; overflow-y: hidden; max-height: 600px;">
         <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="width: 100%;" usemap="#workmap" />
         <figcaption style="position: absolute; bottom: 0; background-color: rgba(255, 255, 255, 0.8); padding: 2px 8px;">
@@ -90,6 +90,22 @@
           @click.prevent="interactivePoint(index)"
         />
       </map>
+
+      <div class="text-center" style="margin-top: 20px;">
+        <b-button-group>
+          <b-button
+            v-for="(content, index) in excursion.point_of_interest"
+            :id="'modal-interest-' + index"
+            :key="index"
+            variant="outline-primary"
+            style="padding-right: 40px; padding-left: 40px; font-weight: 600;"
+            @click="interactivePoint(index)"
+            >{{ String.fromCharCode(index + 65) }}</b-button
+          >
+        </b-button-group>
+
+        <div style="margin-top: 10px; font-style: italic; color: #666;">{{ $t('excursion.route.legend') }}</div>
+      </div>
     </div>
 
     <!-- POINTS D INTERET -->
@@ -132,22 +148,6 @@
       </b-list-group-item>
     </b-list-group>-->
 
-    <div class="text-center">
-      <b-button-group>
-        <b-button
-          v-for="(content, index) in excursion.point_of_interest"
-          :id="'modal-interest-' + index"
-          :key="index"
-          variant="outline-primary"
-          style="padding-right: 40px; padding-left: 40px; font-weight: 600;"
-          @click="interactivePoint(index)"
-          >{{ String.fromCharCode(index + 65) }}</b-button
-        >
-      </b-button-group>
-
-      <div style="margin-top: 10px; font-style: italic; color: #888;">{{ $t('excursion.route.legend') }}</div>
-    </div>
-
     <!--<b-tabs content-class="mt-3" align="center">
       <b-tab v-for="(content, index) in excursion.point_of_interest" :key="index" :title="letters[index]">
         <h5>{{ content.title }}</h5>
@@ -161,7 +161,7 @@
     </h3>
 
     <b-card-group deck>
-      <div class="row" style="margin-top: 40px; margin-bottom: 40px;">
+      <div class="row" style="margin-top: 20px; margin-bottom: 40px;">
         <image-link-card v-for="(content, index) in excursion.extras" :key="index" :content="content" :index="index + 1" />
       </div>
     </b-card-group>
