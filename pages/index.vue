@@ -32,11 +32,7 @@
       </b-card-group>-->
 
       <div class="text-left">
-        <p>La Suisse compte des milliers de sources : petites ou grandes, discrètes ou spectaculaires, facilement accessibles ou pas, belles ou modestes...</p>
-        <p>
-          Vous trouverez ici une série d’itinéraires qui vous amèneront vers des sources remarquables à un titre ou à un autre. Celle-ci est urbaine, celle-là
-          sauvage, une autre bucolique. Mais toutes sont dignes d’intérêt et devraient susciter la curiosité de leurs visiteurs.
-        </p>
+        <p v-for="(description, index) in $t('home.text')" :key="index">{{ description }}</p>
       </div>
 
       <div style="margin: auto; margin-top: 40px;">
@@ -49,7 +45,7 @@
 
       <!-- excursion selection -->
       <h2 style="margin-bottom: 30px;">
-        Sélection d'excursions
+        {{ $t('home.excursions_selection') }}
       </h2>
 
       <div>
@@ -73,7 +69,7 @@
         </b-card-group>
       </div>
 
-      <b-button href="/excursions/list" variant="outline-secondary">Afficher toutes les excursions ...</b-button>
+      <b-button href="/excursions/list" variant="outline-secondary">{{ $t('home.display_all_excursions') }} ...</b-button>
     </b-container>
   </div>
 </template>

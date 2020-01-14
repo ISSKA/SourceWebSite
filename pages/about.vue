@@ -5,34 +5,28 @@
         {{ $t('about.title') }}
       </h1>
       <div>
-        <p>
-          Ce site internet a été développé en complément au livre <em>Aux sources de la Suisse</em> édité en 2021 par Haupt Verlag sous la signature de Rémy
-          Wenger, Jean-Claude Lalou et Roman Hapka.
-        </p>
-
-        <p>
-          Il a été développé par l’Institut suisse de spéléologie et de karstologie (ISSKA) à La Chaux-de-Fonds.
-        </p>
-
-        <p>
-          Une partie des informations contenues dans la description des itinéraires de randonnée proposés sur ce site sont extraites du livre.
-        </p>
+        <p v-for="(description, index) in $t('about.description')" :key="index">{{ description }}</p>
 
         <!-- CONTRIBUTEURS -->
-        <h2 style="margin-top: 40px; margin-bottom: 30px;">Contributeurs</h2>
+        <h2 style="margin-top: 40px; margin-bottom: 30px;">{{ $t('about.contributors') }}</h2>
 
         <div class="row">
           <div class="col-md-6">
-            <img src="/img/logo_sl.svg" height="100" style="margin-bottom: 20px;" /><br />
-            <strong>FP / SL</strong><br />
-            Fondation suisse pour la protection et l'aménagement du paysage<br />
-            Stiftung Landschaftsschutz Schweiz<br />
+            <img src="/img/logo_sl.svg" height="100" style="margin-bottom: 20px;" />
+            <br />
+            <strong>{{ $t('about.fp.short_name') }}</strong>
+            <br />
+            {{ $t('about.fp.name') }}
+            <br />
             <a href="https://www.sl-fp.ch">www.sl-fp.ch</a>
           </div>
           <div class="col-md-6">
-            <img src="/img/logo_isska.png" height="100" style="margin-bottom: 20px;" /><br />
-            <strong>ISSKA</strong><br />
-            Institut suisse de spéléologie et de karstologie<br />
+            <img src="/img/logo_isska.png" height="100" style="margin-bottom: 20px;" />
+            <br />
+            <strong>{{ $t('about.isska.short_name') }}</strong>
+            <br />
+            {{ $t('about.isska.name') }}
+            <br />
             <a href="https://www.isska.ch">www.isska.ch</a>
           </div>
         </div>

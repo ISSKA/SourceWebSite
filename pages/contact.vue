@@ -8,7 +8,7 @@
         <p>{{ $t('contact.infos') }}</p>
 
         <b-alert :show="showAlertTime" dismissible variant="success" @dismissed="showAlertTime = 0">
-          Votre message a bien été envoyée, nous vous en remercions !
+          {{ $t('contact.success_message_sent') }}
         </b-alert>
 
         <b-form @submit="onSubmit">
