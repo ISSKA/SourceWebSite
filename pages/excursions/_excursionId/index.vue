@@ -3,26 +3,46 @@
     <h1 class="title" style="margin-bottom: 0px;">{{ excursion.title }}</h1>
     <h2 class="subtitle">{{ excursion.subtitle }}</h2>
 
-    <div style="margin-bottom: 20px;">
-      {{ $t('excursion.infos.level') }} : {{ excursion.summary.difficulty }}
-      <br />
-      {{ $t('excursion.infos.duration') }} : {{ excursion.summary.duration }}
-      <br />
-      <a :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`" target="_blank">{{
-        $t('excursion.education_sheet_link')
-      }}</a>
-    </div>
+    <div class="row" style="margin-bottom: 40px;">
+      <div class="col-md-6">
+        <!-- {{ $t('excursion.infos.level') }} : {{ excursion.summary.difficulty }}
+        <br />
+        {{ $t('excursion.infos.duration') }} : {{ excursion.summary.duration }}
+        <br />
+        <a :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`" target="_blank">{{
+          $t('excursion.education_sheet_link')
+        }}</a>
+        <br />
+        {{ $t('excursion.cff.text') }} : <a :href="excursion.cff.link" target="_blank">{{ $t('excursion.cff.link') }}</a>
+        -->
 
-    <p v-for="(description, index) in excursion.description" :key="'desc-' + index">
-      <b>{{ description.label }}</b> {{ description.details }}
-    </p>
+        <br />
+        <p v-for="(description, index) in excursion.description" :key="'desc-' + index">
+          <b>{{ description.label }}</b> {{ description.details }}
+        </p>
+
+        <a
+          :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`"
+          target="_blank"
+          class="btn btn-outline-primary"
+          role="button"
+          >{{ $t('excursion.education_sheet_link') }}</a
+        >
+      </div>
+      <div class="col-md-6 text-center">
+        <img :src="`/docs/excursion-${$route.params.excursionId}/map_situation.jpg`" width="70%" />
+      </div>
+    </div>
 
     <!-- ITINERAIRE -->
     <h2 class="subtitle">{{ $t('excursion.route.title') }}</h2>
 
-    <dl class="row" style="border: 1px solid gray; padding: 10px; border-radius: 10px;">
+    <dl class="row" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px;">
       <dt class="col-sm-2">{{ $t('excursion.infos.start') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route.details.start }}</dd>
+      <dd class="col-sm-4">
+        {{ excursion.route.details.start }} (<a :href="excursion.cff.link" target="_blank">{{ $t('excursion.cff.text') }}</a
+        >)
+      </dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.end') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.end }}</dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.distance') }}</dt>
@@ -34,6 +54,10 @@
       <dd class="col-sm-4">{{ excursion.route.details.duration }}</dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.restaurant') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.restauration }}</dd>
+      <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
+      <dd class="col-sm-4">
+        <a :href="excursion.cff.link" target="_blank">{{ $t('excursion.cff.link') }}</a>
+      </dd>-->
     </dl>
 
     <p v-for="(content, index) in excursion.route.description" :key="'details-' + index">
@@ -44,13 +68,15 @@
       <b-table :items="items" class="col-md-5" stacked style="background-color: lightgray;"></b-table>
     </div>-->
 
-    <div class="text-centesr" style="height: 650px; overflow: hiden;">
-      <figure style="position: absolute; right: 0; left: 0; overflow-y: hidden; max-height: 600px;">
+    <div class="full-width" style="max-height: 650px; overflow: hiden;">
+      <!--<figure style="position: absolute; right: 0; left: 0; overflow-y: hidden; max-height: 600px;">
         <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="width: 100%;" usemap="#workmap" />
         <figcaption style="position: absolute; bottom: 0; background-color: rgba(255, 255, 255, 0.8); padding: 2px 8px;">
           {{ $t('excursion.route.legend') }}
         </figcaption>
-      </figure>
+      </figure>-->
+
+      <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="max-height: 600px; width: 100%;" usemap="#workmap" />
 
       <!-- https://www.image-map.net -->
       <map name="workmap">
@@ -89,7 +115,7 @@
       </div>
     </b-card-group>-->
 
-    <b-list-group>
+    <!--<b-list-group>
       <b-list-group-item
         v-for="(content, index) in excursion.point_of_interest"
         :key="index"
@@ -99,12 +125,28 @@
       >
         <div class="d-flex w-100 justify-content-between">
           <h5 class="mb-1">{{ content.title }}</h5>
-          <!--<small>3 days ago</small>-->
+          <!- -<small>3 days ago</small>- ->
         </div>
         <p class="mb-1">{{ content.description }}</p>
-        <!--<small>Donec id elit non mi porta.</small>-->
+        <!- -<small>Donec id elit non mi porta.</small>- ->
       </b-list-group-item>
-    </b-list-group>
+    </b-list-group>-->
+
+    <div class="text-center">
+      <b-button-group>
+        <b-button
+          v-for="(content, index) in excursion.point_of_interest"
+          :id="'modal-interest-' + index"
+          :key="index"
+          variant="outline-primary"
+          style="padding-right: 40px; padding-left: 40px; font-weight: 600;"
+          @click="interactivePoint(index)"
+          >{{ String.fromCharCode(index + 65) }}</b-button
+        >
+      </b-button-group>
+
+      <div style="margin-top: 10px; font-style: italic; color: #888;">{{ $t('excursion.route.legend') }}</div>
+    </div>
 
     <!--<b-tabs content-class="mt-3" align="center">
       <b-tab v-for="(content, index) in excursion.point_of_interest" :key="index" :title="letters[index]">
@@ -124,33 +166,31 @@
       </div>
     </b-card-group>
 
-    <p>{{ $t('excursion.more') }} :</p>
-    <ul>
-      <li v-for="(content, index) in excursion.more" :key="index">
-        {{ content }}
-        <!-- <a href="https://www.isska.ch" target="_blank">Gorges de l’Areuse. Guide d’excursions hydrogéologiques</a>-->
-      </li>
-    </ul>
-    <p>
-      {{ $t('excursion.cff.text') }} : <a :href="excursion.cff.link" target="_blank">{{ $t('excursion.cff.link') }}</a>
-    </p>
-
-    <!-- MORE -->
-    <div v-if="excursion.in_the_region.length > 0" style="margin-top: 20px; height: 500px;">
-      <div style="position: absolute; left: 0; right: 0; padding-top: 40px; padding-bottom: 40px; background-color: #eee;">
-        <b-container>
-          <h2 style="margin-bottom: 30px;">{{ $t('excursion.to_see_in_the_region') }}</h2>
-          <div v-for="(content, index) in excursion.in_the_region" :key="index">
-            <h4>{{ content.title }}</h4>
-            <p>{{ content.description }}</p>
-          </div>
-          <!--<b-button variant="primary" href="#">More Info</b-button>-->
-        </b-container>
-      </div>
+    <!-- TO SEE IN THE REGION -->
+    <div v-if="excursion.in_the_region.length > 0" class="full-width" style="background-color: #eee;">
+      <b-container>
+        <h2 style="margin-bottom: 30px;">{{ $t('excursion.to_see_in_the_region') }}</h2>
+        <div v-for="(content, index) in excursion.in_the_region" :key="index">
+          <h4>{{ content.title }}</h4>
+          <p>{{ content.description }}</p>
+        </div>
+        <!--<b-button variant="primary" href="#">More Info</b-button>-->
+      </b-container>
     </div>
 
-    <!-- LINKS -->
-    <navigation :current-excursion="parseInt($route.params.excursionId, 10)" />
+    <!-- PREV / NEXT EXCURSION LINKS -->
+    <navigation :current-excursion="parseInt($route.params.excursionId, 10)" style="margin-top: 50px; margin-bottom: 50px;" />
+
+    <!-- REFERENCES -->
+    <div v-if="excursion.more.length > 0" style="padding-top: 20px; padding-bottom: 10px; margin-bottom: -40px;">
+      <p style="margin-bottom: 2px;">{{ $t('excursion.more') }} :</p>
+      <ul>
+        <li v-for="(content, index) in excursion.more" :key="index">
+          {{ content }}
+          <!-- <a href="https://www.isska.ch" target="_blank">Gorges de l’Areuse. Guide d’excursions hydrogéologiques</a>-->
+        </li>
+      </ul>
+    </div>
 
     <!--
     <div class="map-source-position">
@@ -169,7 +209,7 @@
       :id="'modal-interest-' + index"
       :key="index"
       size="lg"
-      centered
+      _centered
       :title="content.title"
       ok-only
     >
@@ -224,4 +264,12 @@ export default {
   max-width: 800px;
 }
 */
+.full-width {
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 </style>

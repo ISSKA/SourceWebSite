@@ -27,13 +27,13 @@ export default {
     education_sheet_link: 'Télécharger la fiche didactique',
     route: {
       title: 'Description de l’itinéraire',
-      legend: 'Cliquez sur un point d’intérêt pour afficher les informations.'
+      legend: 'Cliquez sur un point d’intérêt pour afficher ses informations.'
     },
-    extras: 'Extras',
-    more: 'Pour en savoir plus',
+    extras: 'En apprendre plus ...',
+    more: 'Références',
     cff: {
-      text: "Lien vers l'horraire CFF",
-      link: 'cliquez ici svp'
+      text: 'horraire CFF',
+      link: 'cliquez ici'
     },
     to_see_in_the_region: 'A voir aussi dans la région'
   },
