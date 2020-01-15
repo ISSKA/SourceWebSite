@@ -244,8 +244,10 @@ export default {
       // letters: 'abcdefghijklmnopqrstuvwxyz'.toUpperCase()
     }
   },
-  created() {
-    ImageMap('img[usemap]')
+  mounted() {
+    setTimeout(() => {
+      ImageMap('img[usemap]')
+    }, 1000)
   },
   methods: {
     interactivePoint(index) {
