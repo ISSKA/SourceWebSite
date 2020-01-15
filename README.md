@@ -1,54 +1,38 @@
-# sources
+# RandoSources
 
-> Website for the sources book
+Website for the sources book.
 
 ## Installation
 
 ``` bash
-$ npx create-nuxt-app sources
+$ git clone git@github.com:ISSKA/SourceWebSite.git
+$ cd SourceWebSite
+$ npm install
 ```
 
-Then follow this configuration :
+## Development
 
-```
-Project name : sources
-Project description : Website for the sources book
-Author name : Sebastien
-Choose the package manager : Npm
-Choose UI framework : Bootstrap Vue
-Choose custom server framework : None (Recommended)
-Choose Nuxt.js modules : Axios, Progressive Web App (PWA) Support
-Choose linting tools : ESLint, Prettier, Lint staged files
-Choose test framework : AVA
-Choose rendering mode : Single Page App
-Choose development tools : jsconfig.json (Recommended for VS Code)
-```
-
-## Build Setup
+Some website configuration are available [here](doc/website_configuration.md).
 
 ``` bash
-# install dependencies
-$ npm run install
-
 # serve with hot reload at localhost:3000
 $ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+``` bash
+# build for production and launch server at localhost:3000
+$ npm run build
+$ npm run start
+```
 
-## Deployment
+## Deployment in production
+
+Before first deployment, [some configurations](doc/server_configuration.md) are required.
 
 ```bash
 # build static website
 $ npm run generate
 
-# deploy the source code to the server
-$ gulp deploy
+# deploy static website to the server
+$ npm run deploy
 ```

@@ -1,10 +1,16 @@
 # Server configuration
 
+## Infomaniak
+
 Configuration for Infomaniak Hosting
 
-## .HTACCESS
+### Environnement variables
 
-Add this to your `.htaccess` :
+Copy and rename the file `.env-template` to `.env` and add the correct configuration.
+
+### .HTACCESS
+
+Add this at the end of the `.htaccess` or create this file in the root directory of the server.
 
 ``` bash
 # Redirect HTTP trafic to HTTPS
