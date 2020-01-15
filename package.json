@@ -25,11 +25,11 @@
     }
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.9.2",
+    "@nuxtjs/axios": "^5.9.3",
     "@nuxtjs/pwa": "^3.0.0-beta.19",
     "@nuxtjs/sitemap": "^2.0.1",
     "bootstrap": "^4.4.1",
-    "bootstrap-vue": "^2.2.0",
+    "bootstrap-vue": "^2.2.1",
     "image-map": "^1.1.7",
     "jquery": "^3.4.1",
     "nuxt": "^2.11.0",
@@ -52,7 +52,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "gulp": "^4.0.2",
     "gulp-util": "^3.0.8",
-    "husky": "^4.0.3",
+    "husky": "^4.0.9",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
     "require-extension-hooks": "^0.3.3",
