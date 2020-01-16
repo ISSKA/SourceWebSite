@@ -204,6 +204,7 @@ export default {
     {
       title: 'L’alimentation en eau de La Chaux-de-Fonds',
       sumary: 'sumary...',
+      cover: 'cover.jpg',
       description: [
         'La ville de La Chaux-de-Fonds est perchée à 1000 m d’altitude en pleine région karstique. Jusqu’au milieu du XIXe siècle, ses habitants se contentent tant bien que mal de l’eau fournie par les puits creusés et les citernes collectant l’eau des toits, mais, avec le développement de l’horlogerie, la ville s’agrandit rapidement. De 1850 à 1885, la population passe de 12000 à 25000 âmes et il faut absolument trouver des solutions pour leur fournir de l’eau potable.',
         'Différentes études sont lancées. On envisage de capter l’eau dans le Doubs ou dans le lac des Taillières, mais finalement, comme pour Neuchâtel, c’est l’ingénieur Guillaume Ritter qui présente le projet audacieux d’aller chercher l’eau dans les gorges de l’Areuse.',
