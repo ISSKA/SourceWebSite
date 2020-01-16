@@ -34,7 +34,7 @@ export default {
       delta_height: 'Dénivellation',
       restaurant: 'Restaurants'
     },
-    education_sheet_link: 'Télécharger la fiche didactique',
+    education_sheet_link: 'Télécharger la version imprimable',
     route: {
       title: 'Description de l’itinéraire',
       legend: 'Cliquez sur un point d’intérêt pour afficher ses informations.'
