@@ -92,17 +92,17 @@
       </map>
 
       <div class="text-center" style="margin-top: 20px;">
-        <b-button-group>
-          <b-button
-            v-for="(content, index) in excursion.point_of_interest"
-            :id="'modal-interest-' + index"
-            :key="index"
-            variant="outline-primary"
-            style="padding-right: 40px; padding-left: 40px; font-weight: 600;"
-            @click="interactivePoint(index)"
-            >{{ String.fromCharCode(index + 65) }}</b-button
-          >
-        </b-button-group>
+        <b-button
+          v-for="(content, index) in excursion.point_of_interest"
+          :id="'modal-interest-' + index"
+          :key="index"
+          pill
+          variant="dark"
+          style="margin-right: 15px; margin-left: 15px; font-weight: 600; color: yellow;"
+          size="lg"
+          @click="interactivePoint(index)"
+          >{{ String.fromCharCode(index + 65) }}</b-button
+        >
 
         <div style="margin-top: 10px; font-style: italic; color: #666;">{{ $t('excursion.route.legend') }}</div>
       </div>
