@@ -30,6 +30,26 @@
             <a href="https://www.isska.ch">www.isska.ch</a>
           </div>
         </div>
+        <div class="row" style="margin-top: 40px;">
+          <div class="col-md-6">
+            <img src="/img/logo_lr.jpg" height="100" style="margin-bottom: 20px;" />
+            <br />
+            <strong>{{ $t('about.lr.short_name') }}</strong>
+            <br />
+            {{ $t('about.lr.name') }}
+            <br />
+            <a href="https://www.loro.ch">www.sl-fp.ch</a>
+          </div>
+          <div class="col-md-6">
+            <img src="/img/logo_ofev.jpg" height="100" style="margin-bottom: 20px;" />
+            <br />
+            <strong>{{ $t('about.ofev.short_name') }}</strong>
+            <br />
+            {{ $t('about.ofev.name') }}
+            <br />
+            <a href="https://www.bafu.admin.ch/bafu/fr/home.html">www.isska.ch</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>

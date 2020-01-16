@@ -74,6 +74,14 @@ export default {
     isska: {
       short_name: 'ISSKA',
       name: 'Institut suisse de spéléologie et de karstologie'
+    },
+    lr: {
+      short_name: 'LoRo',
+      name: 'Loterie Romande'
+    },
+    ofev: {
+      short_name: 'OFEV',
+      name: 'Office fédéral de l’environnement'
     }
   }
 }

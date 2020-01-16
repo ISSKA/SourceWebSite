@@ -5,8 +5,10 @@ export default {
   footer: {
     copyright_brand: 'QuellenWanderungen.ch.ch'
   },
-  fp: {
-    short_name: 'SL',
-    name: 'Stiftung Landschaftsschutz Schweiz'
+  about: {
+    fp: {
+      short_name: 'SL',
+      name: 'Stiftung Landschaftsschutz Schweiz'
+    }
   }
 }
