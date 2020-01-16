@@ -12,7 +12,7 @@
           <b-collapse id="nav-collapse" is-nav>
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ml-auto" flex="false">
-              <b-nav-item href="/excursions/list">{{ $t('menu.excursions') }}</b-nav-item>
+              <!--<b-nav-item href="/excursions/list">{{ $t('menu.excursions') }}</b-nav-item>-->
               <b-nav-item href="/about">{{ $t('menu.about') }}</b-nav-item>
               <b-nav-item href="/contact">{{ $t('menu.contact') }}</b-nav-item>
             </b-navbar-nav>
