@@ -5,7 +5,7 @@
         <b-card no-body class="overflow-hidden" style="max-width: 540px;">
           <b-row no-gutters style="height: 181px; max-height: 181px; overflow: hidden;">
             <b-col md="4">
-              <b-card-img :src="prev.img" class="rounded-0"></b-card-img>
+              <b-card-img :src="prev.img" class="rounded-0" style="height: 100%; width: 100%; object-fit: cover;"></b-card-img>
             </b-col>
             <b-col md="8">
               <b-card-body :title="prev.title">
@@ -30,7 +30,7 @@
               </b-card-body>
             </b-col>
             <b-col md="4">
-              <b-card-img :src="next.img" class="rounded-0"></b-card-img>
+              <b-card-img :src="next.img" class="rounded-0" style="height: 100%; width: 100%; object-fit: cover;"></b-card-img>
             </b-col>
           </b-row>
         </b-card>
@@ -73,14 +73,14 @@ export default {
         title: prev.title, // `Excursion ${prevIndex}`,
         sumary: prev.subtitle,
         link: `/excursions/${prevIndex}`,
-        img: 'https://picsum.photos/400/400/?image=11'
+        img: `/docs/excursion-${prevIndex}/cover.jpg`
       },
       next: {
         show: EXCURSIONS_COUNT > 2 || currentExcursion === 1,
         title: next.title, // `Excursion ${nextIndex}`,
         sumary: next.subtitle,
         link: `/excursions/${nextIndex}`,
-        img: 'https://picsum.photos/400/400/?image=10'
+        img: `/docs/excursion-${nextIndex}/cover.jpg`
       },
       itemsCount: EXCURSIONS_COUNT
     }

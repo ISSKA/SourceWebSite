@@ -20,7 +20,7 @@
             v-for="(excursion, index) in excursionsGroup"
             :key="index"
             :title="excursion.title"
-            img-src="https://picsum.photos/600/300/?image=15"
+            :img-src="`/docs/excursion-${groupIndex * 3 + index + 1}/cover.jpg`"
             img-alt="Image"
             img-top
             tag="article"
@@ -69,4 +69,10 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.card img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+</style>

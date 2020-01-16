@@ -14,7 +14,7 @@ Copy and rename the file `locales/<language>/excursion-template.js` to `locales/
 
 Add the needed images into `static/docs/excursion-<excursion number>/` folder.
 
-The files `map_situation.jpg`, `map.jpg` and the excursion document as PDF should be in this directory.
+The files `map_situation.jpg`, `map.jpg`, `cover.jpg` and the excursion document as PDF should be in this directory.
 
 ### Update an excursion
 
