@@ -5,9 +5,7 @@
         :title="content.title"
         :sub-title="''"
         :img-alt="content.title"
-        :img-src="
-          content.cover ? `/docs/excursion-${this.$route.params.excursionId}/extra-${index}/${content.cover}` : 'https://picsum.photos/900/250/?image=14'
-        "
+        :img-src="`/docs/excursion-${this.$route.params.excursionId}/extra-${index}/${content.cover}`"
         overlay
         img-height="200px"
         text-variant="white"
@@ -40,6 +38,7 @@ export default {
 <style>
 .img-link-card img {
   object-fit: cover;
+  min-width: 200px;
 }
 .img-link-card .card-body {
   background-color: rgba(0, 0, 0, 0.2);

@@ -93,14 +93,14 @@ export default {
         title: prev.title, // `Extra ${prevIndex} - ${prev.title}`,
         sumary: prev.sumary,
         link: `/excursions/${this.currentExcursion}/extras/${prevIndex}`,
-        img: prev.cover ? `/docs/excursion-${this.currentExcursion}/extra-${prevIndex}/${prev.cover}` : 'https://picsum.photos/400/400/?image=11'
+        img: `/docs/excursion-${this.currentExcursion}/extra-${prevIndex}/${prev.cover}`
       },
       next: {
         show: EXTRAS_COUNT > 2 || currentExtra === 1,
         title: next.title, // `Extra ${nextIndex} - ${next.title}`,
         sumary: next.sumary,
         link: `/excursions/${this.currentExcursion}/extras/${nextIndex}`,
-        img: next.cover ? `/docs/excursion-${this.currentExcursion}/extra-${nextIndex}/${next.cover}` : 'https://picsum.photos/400/400/?image=10'
+        img: `/docs/excursion-${this.currentExcursion}/extra-${nextIndex}/${next.cover}`
       },
       itemsCount: EXTRAS_COUNT
     }

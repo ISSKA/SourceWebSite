@@ -54,7 +54,7 @@
             v-for="(excursion, index) in selectedExcursion"
             :key="index"
             :title="excursion.title"
-            img-src="https://picsum.photos/600/300/?image=15"
+            :img-src="`/docs/excursion-${excursion._index}/cover.jpg`"
             img-alt="Image"
             img-top
             tag="article"
@@ -375,4 +375,10 @@ export default {
 /* button {
   cursor: pointer;
 } */
+
+.card img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
 </style>
