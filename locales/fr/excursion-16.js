@@ -60,7 +60,15 @@ export default {
       description: 'xxx'
     }
   ],
-  more: ['xxx'],
+  more: [
+    {
+      text: 'xxx',
+      link: {
+        name: 'The link is optionnal !',
+        url: 'https://www.xxx.ch'
+      }
+    }
+  ],
   cff: {
     link: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach='
   },

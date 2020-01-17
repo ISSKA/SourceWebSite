@@ -186,8 +186,8 @@
       <p style="margin-bottom: 2px;">{{ $t('excursion.more') }} :</p>
       <ul>
         <li v-for="(content, index) in excursion.more" :key="index">
-          {{ content }}
-          <!-- <a href="https://www.isska.ch" target="_blank">Gorges de l’Areuse. Guide d’excursions hydrogéologiques</a>-->
+          {{ content.text }}
+          <a v-if="content.link" :href="content.link.url" target="_blank">{{ content.link.name }}</a>
         </li>
       </ul>
     </div>

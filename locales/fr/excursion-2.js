@@ -99,8 +99,20 @@ export default {
   ],
   in_the_region: [],
   more: [
-    'Au fil de l’Orbe. À la découverte d’une rivière d’exception. Guide d’excursions, Ed. ISSKA, 2015. www.isska.ch',
-    'Site internet: https://arnexhistoire.blogspot.com'
+    {
+      text: 'Au fil de l’Orbe. À la découverte d’une rivière d’exception. Guide d’excursions, Ed. ISSKA, 2015.',
+      link: {
+        name: 'www.isska.ch',
+        url: 'https://www.isska.ch'
+      }
+    },
+    {
+      text: 'Site internet :',
+      link: {
+        name: 'arnexhistoire.blogspot.com',
+        url: 'https://arnexhistoire.blogspot.com'
+      }
+    }
   ],
   cff: {
     link: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Le+Pont%2C+gare'

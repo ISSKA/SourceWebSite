@@ -92,7 +92,15 @@ export default {
         'Coordonnées 529835 / 191670. A proximité de la route qui relie Buttes à Ste-Croix. Belle émergence karstique active uniquement lors de fortes crues.'
     }
   ],
-  more: ['Gorges de l’Areuse. Guide d’excursions hydrogéologiques, Ed. ISSKA, 2011. www.isska.ch'],
+  more: [
+    {
+      text: 'Gorges de l’Areuse. Guide d’excursions hydrogéologiques, Ed. ISSKA, 2011.',
+      link: {
+        name: 'www.isska.ch',
+        url: 'https://www.isska.ch'
+      }
+    }
+  ],
   cff: {
     link: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Noiraigue'
   },
