@@ -67,7 +67,7 @@ export default {
   extras: [
     {
       title: 'xxx',
-      sumary: 'xxx',
+      sumary: '',
       description: ['xxx'],
       images: [
         {
@@ -86,7 +86,7 @@ export default {
     },
     {
       title: 'xxx',
-      sumary: 'xxx',
+      sumary: '',
       description: ['xxx'],
       images: [
         {

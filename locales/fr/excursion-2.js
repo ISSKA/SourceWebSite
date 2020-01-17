@@ -108,7 +108,7 @@ export default {
   extras: [
     {
       title: 'Les entonnoirs du lac Brenet',
-      sumary: 'xxx',
+      sumary: '',
       description: [
         'Avant que l’homme n’entreprenne des travaux pour réguler le niveau de ces deux lacs et utiliser son potentiel énergétique, de nombreux entonnoirs jouaient le rôle d’exutoires. La plupart de ces pertes (ou emposieux) se situaient en rive nord-ouest des lacs. Aujourd’hui, seule une partie d’entre eux sont encore visibles.',
         'Ces entonnoirs se présentent sous l’aspect de dépressions larges et profondes de plusieurs mètres, connectées avec les fissures de la roche calcaire. Pour comprendre leur fonctionnement, il suffit d’imaginer une baignoire en cours de remplissage. Si l’on oublie de fermer le robinet, son débordement sera empêché par le trop-plein. Dans le cas des lacs de la Vallée de Joux, c’est le même principe: les entonnoirs fonctionnent comme déversoirs.',
@@ -131,7 +131,7 @@ export default {
     },
     {
       title: 'Entonnoirs maudits... ou bénits!',
-      sumary: 'xxx',
+      sumary: '',
       cover: 'img-2.jpg',
       description: [
         'Jusqu’au début du XXe siècle, la gestion des entonnoirs était une préoccupation pour les habitants de la Vallée de Joux.',
@@ -158,7 +158,7 @@ export default {
     },
     {
       title: 'Les grottes de l’Orbe',
-      sumary: 'xxx',
+      sumary: '',
       cover: 'img-1.jpg',
       description: [
         'Les galeries aménagées pour les visites touristiques ne représentent qu’une petite partie du réseau souterrain exploré par les spéléologues depuis une cinquantaine d’années.',
@@ -186,7 +186,7 @@ export default {
     },
     {
       title: 'La renaissance de l’Orbe',
-      sumary: 'xxx',
+      sumary: '',
       cover: 'img-1.jpg',
       description: [
         '3 km à vol d’oiseau de l’Entonnoir du Bon Port et 230 m plus bas, l’Orbe retrouve la lumière du jour pour poursuivre son étonnant parcours.',

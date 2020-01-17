@@ -99,7 +99,7 @@ export default {
   extras: [
     {
       title: 'La source de la Noiraigue',
-      sumary: 'sumary...',
+      sumary: '',
       cover: 'img-2.jpg',
       description: [
         'Entre Noiraigue et Boudry, on compte une vingtaine de sources karstiques. Onze d’entre elles sont captées. Celle de la source de la Noiraigue, située au haut du village, est sans doute la plus spectaculaire.',
@@ -123,7 +123,7 @@ export default {
     },
     {
       title: 'Captages d’eau et production d’électricité',
-      sumary: 'sumary...',
+      sumary: '',
       cover: 'img-3.jpg',
       description: [
         'Les usines des Moyats et de Combe Garot sont au cœur d’un vaste réseau d’adduction qui compte 11 sources captées et 9 puits de pompage.',
@@ -148,7 +148,7 @@ export default {
     },
     {
       title: 'Le château d’eau du canton',
-      sumary: 'sumary...',
+      sumary: '',
       cover: 'img-2.jpg',
       description: [
         'Jusqu’au milieu du XIXe siècle, les gorges de l’Areuse of- fraient aux regards de ceux qui s’y aventuraient une nature intacte. En 1858, ce calme est perturbé par la construction de la ligne de train franco-suisse.',
@@ -169,7 +169,7 @@ export default {
     },
     {
       title: 'Comment l’eau est captée aux abords de l’Areuse',
-      sumary: 'sumary...',
+      sumary: '',
       cover: 'img-3.jpg',
       description: [
         'Différentes techniques sont utilisées pour capter les milliers de mètres cube d’eau de boisson amenés chaque jour dans 20 communes du canton depuis la région de l’usine des Moyats:',
@@ -203,7 +203,7 @@ export default {
     },
     {
       title: 'L’alimentation en eau de La Chaux-de-Fonds',
-      sumary: 'sumary...',
+      sumary: '',
       cover: 'cover.jpg',
       description: [
         'La ville de La Chaux-de-Fonds est perchée à 1000 m d’altitude en pleine région karstique. Jusqu’au milieu du XIXe siècle, ses habitants se contentent tant bien que mal de l’eau fournie par les puits creusés et les citernes collectant l’eau des toits, mais, avec le développement de l’horlogerie, la ville s’agrandit rapidement. De 1850 à 1885, la population passe de 12000 à 25000 âmes et il faut absolument trouver des solutions pour leur fournir de l’eau potable.',
@@ -224,7 +224,7 @@ export default {
     },
     {
       title: 'Un crustacé exceptionnel',
-      sumary: 'sumary...',
+      sumary: '',
       cover: 'img-2.jpg',
       description: [
         'Peut-être que dans les eaux souterraines des Gorges de l’Areuse se cache peut-être le plus vieil habitant de la région. En effet, lors de filtrations de la source de Combe Garot en 1985, le biologiste Pascal Moeschler découvrit une nouvelle es- pèce de crustacé, la Gelyelle de Monard (Gelyella Monardi). Cette espèce d’un demi millimètre n’est connue nulle part ailleurs et vit confinée dans cet aquifère karstique depuis des millions d’années.',
