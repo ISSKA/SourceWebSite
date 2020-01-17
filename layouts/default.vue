@@ -3,7 +3,7 @@
     <!-- HEADER -->
     <div class="header">
       <!-- NAVBAR -->
-      <b-navbar toggleable="md" type="dark" variant="dark">
+      <b-navbar toggleable="md" type="dark" variant="faded">
         <b-container>
           <b-navbar-brand href="/">{{ $t('menu.website_name') }}</b-navbar-brand>
 

@@ -74,6 +74,15 @@ html {
   background-size: cover;
 }
 
+.header .navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header .nav-link {
+  color: #ddd!important;
+  margin-left: 25px;
+}
+
 /* Next/Previous page link for excursions and extras */
 .next-page-link,
 .next-page-link:hover {
