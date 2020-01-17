@@ -2,7 +2,7 @@
   <div>
     <div class="body-container">
       <!-- HEADER -->
-      <div class="header">
+      <div class="header" :style="customBanner">
         <!-- NAVBAR -->
         <b-navbar toggleable="md" type="dark" variant="faded">
           <b-container>
@@ -43,6 +43,29 @@
 
 <script>
 export default {
+  data() {
+    return {
+      customBanner: {}
+    }
+  },
+  watch: {
+    $route(to, from) {
+      // console.log(to, from)
+
+      if (/^\/excursions\/\d+$/.test(to.path)) {
+        // custom banner
+        // console.log(to.params.excursionId)
+        this.customBanner = {
+          'background-image': `url(/docs/excursion-${to.params.excursionId}/cover.jpg)`
+        }
+      } else {
+        // default banner
+        /* this.customBanner = {
+          'background-image': `url(/img/background.jpg)`
+        } */
+      }
+    }
+  },
   mounted() {
     document.getElementById('year').innerHTML = new Date().getFullYear()
   }
