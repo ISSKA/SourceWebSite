@@ -6,6 +6,7 @@ export default {
   },
   menu: {
     website_name: 'Aux sources de la Suisse',
+    home: 'Accueil',
     excursions: 'Liste des excursions',
     about: 'A propos',
     contact: 'Contact'
