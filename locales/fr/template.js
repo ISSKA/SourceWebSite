@@ -67,7 +67,7 @@ export default {
   about: {
     title: 'A propos',
     description: [
-      'Ce site internet a été développé en complément au livre <em>Aux sources de la Suisse</em> édité en 2021 par Haupt Verlag sous la signature de Rémy Wenger, Jean-Claude Lalou et Roman Hapka.',
+      'Ce site internet a été développé en complément au livre "Aux sources de la Suisse" édité en 2021 par Haupt Verlag sous la signature de Rémy Wenger, Jean-Claude Lalou et Roman Hapka.',
       'Il a été développé par l’Institut suisse de spéléologie et de karstologie (ISSKA) à La Chaux-de-Fonds.',
       'Une partie des informations contenues dans la description des itinéraires de randonnée proposés sur ce site sont extraites du livre.'
     ],
