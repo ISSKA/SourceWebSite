@@ -1,41 +1,43 @@
 <template>
   <div>
-    <!-- HEADER -->
-    <div class="header">
-      <!-- NAVBAR -->
-      <b-navbar toggleable="md" type="dark" variant="faded">
-        <b-container>
-          <b-navbar-brand href="/">{{ $t('menu.website_name') }}</b-navbar-brand>
+    <div class="body-container">
+      <!-- HEADER -->
+      <div class="header">
+        <!-- NAVBAR -->
+        <b-navbar toggleable="md" type="dark" variant="faded">
+          <b-container>
+            <b-navbar-brand href="/">{{ $t('menu.website_name') }}</b-navbar-brand>
 
-          <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-          <b-collapse id="nav-collapse" is-nav>
-            <!-- Right aligned nav items -->
-            <b-navbar-nav class="ml-auto" flex="false">
-              <b-nav-item href="/">{{ $t('menu.home') }}</b-nav-item>
-              <!--<b-nav-item href="/excursions/list">{{ $t('menu.excursions') }}</b-nav-item>-->
-              <b-nav-item href="/about">{{ $t('menu.about') }}</b-nav-item>
-              <b-nav-item href="/contact">{{ $t('menu.contact') }}</b-nav-item>
-            </b-navbar-nav>
-          </b-collapse>
+            <b-collapse id="nav-collapse" is-nav>
+              <!-- Right aligned nav items -->
+              <b-navbar-nav class="ml-auto" flex="false">
+                <b-nav-item href="/">{{ $t('menu.home') }}</b-nav-item>
+                <!--<b-nav-item href="/excursions/list">{{ $t('menu.excursions') }}</b-nav-item>-->
+                <b-nav-item href="/about">{{ $t('menu.about') }}</b-nav-item>
+                <b-nav-item href="/contact">{{ $t('menu.contact') }}</b-nav-item>
+              </b-navbar-nav>
+            </b-collapse>
+          </b-container>
+        </b-navbar>
+
+        <!-- HEADER CONTENT -->
+        <b-container class="text-center" style="min-height: 500px; padding-top: 150px; color: white;">
+          <div style="background-color: rgba(0, 0, 0, 0.25); padding: 20px 10px; border-radius: 10px;">
+            <h1>{{ $t('layout.title') }}</h1>
+            <p>{{ $t('layout.intro') }}</p>
+
+            <!--<b-button href="/excursions/list" variant="success">{{ $t('layout.btn_excursions') }}</b-button>-->
+          </div>
         </b-container>
-      </b-navbar>
+      </div>
 
-      <!-- HEADER CONTENT -->
-      <b-container class="text-center" style="min-height: 500px; padding-top: 150px; color: white;">
-        <div style="background-color: rgba(0, 0, 0, 0.25); padding: 20px 10px; border-radius: 10px;">
-          <h1>{{ $t('layout.title') }}</h1>
-          <p>{{ $t('layout.intro') }}</p>
-
-          <!--<b-button href="/excursions/list" variant="success">{{ $t('layout.btn_excursions') }}</b-button>-->
-        </div>
-      </b-container>
+      <nuxt />
     </div>
 
-    <nuxt />
-
     <!-- FOOTER -->
-    <div style="height: 50px; background-color: gray; padding-top: 10px; color: white; margin-top: 40px;">
+    <div class="footer-container">
       <b-container class="text-center">
         <small>Copyright &copy; {{ $t('footer.copyright_brand') }} <span id="year">2020</span></small>
       </b-container>
