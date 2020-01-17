@@ -14,16 +14,12 @@
           <div class="col-md-6">
             <a href="https://www.sl-fp.ch" target="_blank"><img src="/img/logo_sl.svg" height="80" style="margin-bottom: 20px;"/></a>
             <br />
-            <strong>{{ $t('about.fp.short_name') }}</strong>
-            <br />
             {{ $t('about.fp.name') }}
             <br />
             <a href="https://www.sl-fp.ch" target="_blank">www.sl-fp.ch</a>
           </div>
           <div class="col-md-6">
-            <a href="https://www.isska.ch" target="_blank"><img src="/img/logo_isska.png" height="80" style="margin-bottom: 20px;"/></a>
-            <br />
-            <strong>{{ $t('about.isska.short_name') }}</strong>
+            <a href="https://www.isska.ch" target="_blank"><img src="/img/logo_isska.jpg" height="80" style="margin-bottom: 20px;"/></a>
             <br />
             {{ $t('about.isska.name') }}
             <br />
@@ -34,16 +30,12 @@
           <div class="col-md-6">
             <a href="https://www.loro.ch" target="_blank"><img src="/img/logo_lr.jpg" height="80" style="margin-bottom: 20px;"/></a>
             <br />
-            <strong>{{ $t('about.lr.short_name') }}</strong>
-            <br />
             {{ $t('about.lr.name') }}
             <br />
             <a href="https://www.loro.ch" target="_blank">www.loro.ch</a>
           </div>
           <div class="col-md-6">
             <a href="https://www.bafu.admin.ch" target="_blank"><img src="/img/logo_ofev.jpg" height="80" style="margin-bottom: 20px;"/></a>
-            <br />
-            <strong>{{ $t('about.ofev.short_name') }}</strong>
             <br />
             {{ $t('about.ofev.name') }}
             <br />
