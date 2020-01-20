@@ -8,7 +8,7 @@ Configuration for Infomaniak Hosting
 
 Copy and rename the file `.env-template` to `.env` and add the correct configuration.
 
-### .HTACCESS
+### .htaccess
 
 Add this at the end of the `.htaccess` or create this file in the root directory of the server.
 
