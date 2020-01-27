@@ -6,7 +6,7 @@ import excursion2 from '../locales/fr/excursion-2.js'
 */
 
 // Dynamically load excursions content
-const EXCURSIONS_NUMBER = 19
+const EXCURSIONS_NUMBER = 21
 const excursions = []
 
 for (let idx = 1; idx <= EXCURSIONS_NUMBER; idx++) {
