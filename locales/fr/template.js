@@ -22,6 +22,7 @@ export default {
     excursions_list: 'Liste des balades',
     table: {
       name: 'Nom',
+      type: 'Type de balade',
       canton: 'Canton'
     },
     excursions_selection: 'Sélection de balades',
@@ -38,7 +39,8 @@ export default {
       end: 'Arrivée',
       distance: 'Distance',
       delta_height: 'Dénivellation',
-      restaurant: 'Restaurants'
+      restaurant: 'Restaurants',
+      type: 'Type de balade'
     },
     education_sheet_link: 'Télécharger cette balade en PDF',
     route: {

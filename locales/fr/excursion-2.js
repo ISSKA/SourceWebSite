@@ -25,7 +25,8 @@ export default {
       distance: '10 km',
       delta_height: '+ 100 m / – 300 m',
       duration: '6 heures (y compris visite des grottes)',
-      restauration: 'Le Pont / Juraparc / Parking des grottes / Vallorbe'
+      restauration: 'Le Pont / Juraparc / Parking des grottes / Vallorbe',
+      type: 'Excursion d’un jour sur des sentiers sans difficulté particulières'
     },
     description: [
       'De la gare du Pont, suivre le sentier qui fait le tour du lac Brenet en passant par le village des Charbonnières.',

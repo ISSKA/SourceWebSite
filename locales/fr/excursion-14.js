@@ -24,7 +24,8 @@ export default {
       distance: 'xxx km',
       delta_height: '+ xxx m / – xxx m',
       duration: 'xxx heures',
-      restauration: 'xxx'
+      restauration: 'xxx',
+      type: 'xxx'
     },
     description: ['xxx']
   },

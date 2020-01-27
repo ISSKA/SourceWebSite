@@ -50,6 +50,8 @@
       <dd class="col-sm-4">{{ excursion.route.details.duration }}</dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.restaurant') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.restauration }}</dd>
+      <dt class="col-sm-2">{{ $t('excursion.infos.type') }}</dt>
+      <dd class="col-sm-4">{{ excursion.route.details.type }}</dd>
       <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
       <dd class="col-sm-4">
         <a :href="excursion.cff.link" target="_blank">{{ $t('excursion.cff.link') }}</a>

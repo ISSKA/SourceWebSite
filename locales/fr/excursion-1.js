@@ -29,7 +29,8 @@ export default {
       distance: '10 km',
       delta_height: '+ 100 m / – 250 m',
       duration: '4 heures',
-      restauration: 'Noiraigue / Champ du Moulin / Chambrelien'
+      restauration: 'Noiraigue / Champ du Moulin / Chambrelien',
+      type: 'xxx'
     },
     description: [
       'A partir de la gare de Noiraigue, se diriger vers le nord du village et remonté la rivière jusqu’à sa source qui se trouve au pied des falaises de la Clusette.',

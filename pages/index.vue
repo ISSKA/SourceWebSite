@@ -37,6 +37,11 @@ export default {
           sortable: true
         },
         {
+          key: 'route.details.type',
+          label: this.$t('home.table.type'),
+          sortable: true
+        },
+        {
           key: 'source.canton',
           label: this.$t('home.table.canton'),
           sortable: true
