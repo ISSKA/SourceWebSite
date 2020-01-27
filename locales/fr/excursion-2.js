@@ -15,7 +15,7 @@ export default {
     {
       label: 'La source de l’Orbe',
       details:
-        'se situe à l’ouest de Vallorbe. Mais, en fait, plus en amont, il existe une autre source de l’Orbe, située au niveau du Lac des Rousses (France). Après un parcours sinueux, l’Orbe «supérieure» se jette dans le Lac de Joux puis le Lac Brenet au fond duquel... elle disparaît! Après un parcours souterrain, on l’a retrouve près de Vallorbe (Orbe inférieure). L’excursion proposée ici permet de suivre en surface le parcours emprunté, sous terre, par la rivière entre le Lac Brenet et les grottes de Vallorbe.'
+        'se situe à l’ouest de Vallorbe. Mais, en fait, plus en amont, il existe une autre source de l’Orbe, située au niveau du Lac des Rousses (France). Après un parcours sinueux, l’Orbe «supérieure» se jette dans le Lac de Joux puis le Lac Brenet au fond duquel... elle disparaît! Après un parcours souterrain, on la retrouve près de Vallorbe (Orbe inférieure). L’excursion proposée ici permet de suivre en surface le parcours emprunté, sous terre, par la rivière entre le Lac Brenet et les grottes de Vallorbe.'
     }
   ],
   route: {
