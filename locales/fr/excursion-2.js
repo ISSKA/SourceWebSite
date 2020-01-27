@@ -132,7 +132,7 @@ export default {
           name: 'img-1.jpg'
         },
         {
-          legend: 'xxx',
+          legend: 'Situation des entonnoirs par rapport à la source de l’Orbe',
           name: 'img-2.jpg'
         },
         {
