@@ -21,13 +21,9 @@
           <b>{{ description.label }}</b> {{ description.details }}
         </p>
 
-        <a
-          :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`"
-          target="_blank"
-          class="btn btn-outline-primary"
-          role="button"
-          >{{ $t('excursion.education_sheet_link') }}</a
-        >
+        <a :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`" target="_blank" class="btn btn-primary" role="button">{{
+          $t('excursion.education_sheet_link')
+        }}</a>
       </div>
       <div class="col-md-6 text-center">
         <img :src="`/docs/excursion-${$route.params.excursionId}/map_situation.jpg`" width="70%" />
