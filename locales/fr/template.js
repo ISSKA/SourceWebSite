@@ -2,12 +2,12 @@ export default {
   layout: {
     title: 'Balades aux sources',
     intro: 'Des randonées pour découvrir la Suisse et ses sources',
-    btn_excursions: 'Les excursions'
+    btn_excursions: 'Les balades'
   },
   menu: {
     website_name: 'Aux sources de la Suisse',
     home: 'Accueil',
-    excursions: 'Liste des excursions',
+    excursions: 'Liste des balades',
     about: 'A propos',
     contact: 'Contact'
   },
@@ -19,16 +19,16 @@ export default {
       'La Suisse compte des milliers de sources : petites ou grandes, discrètes ou spectaculaires, facilement accessibles ou pas, belles ou modestes...',
       'Vous trouverez ici une série d’itinéraires qui vous amèneront vers des sources remarquables à un titre ou à un autre. Celle-ci est urbaine, celle-là sauvage, une autre bucolique. Mais toutes sont dignes d’intérêt et devraient susciter la curiosité de leurs visiteurs.'
     ],
-    excursions_list: 'Liste des excursions',
+    excursions_list: 'Liste des balades',
     table: {
       name: 'Nom',
       canton: 'Canton'
     },
-    excursions_selection: 'Sélection d’excursions',
-    display_all_excursions: 'Afficher toutes les excursions'
+    excursions_selection: 'Sélection de balades',
+    display_all_excursions: 'Afficher toutes les balades'
   },
   excursions_list: {
-    title: 'Liste des excursions'
+    title: 'Liste des balades'
   },
   excursion: {
     infos: {
@@ -54,7 +54,9 @@ export default {
     to_see_in_the_region: 'A voir aussi dans la région'
   },
   extra: {
-    excursions_label: 'Excursions'
+    excursions_label: 'Balades',
+    return_title: 'Balade',
+    return_text: 'Retour à la balade'
   },
   contact: {
     title: 'Formulaire de contact',

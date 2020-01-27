@@ -21,8 +21,8 @@
     <div class="col-2">
       <nuxt-link :to="`/excursions/${currentExcursion}`" class="next-page-link">
         <b-card no-body class="overflow-hidden text-center" style="max-width: 540px; height: 148px;">
-          <b-card-body title="Excursion">
-            <b-card-text>Retour à l'excursion</b-card-text>
+          <b-card-body :title="$t('extra.return_title')">
+            <b-card-text>{{ $t('extra.return_text') }}</b-card-text>
           </b-card-body>
         </b-card>
       </nuxt-link>
