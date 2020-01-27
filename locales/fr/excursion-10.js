@@ -40,7 +40,7 @@ export default {
       'Après la partie la plus escarpée des gorges (chemin en hauteur, sur rive droite), traverser le pont et monter en direction de la gare de Chambrelien.'
     ]
   },
-  point_of_interest: [
+  /* point_of_interest: [
     {
       title: 'A. La source de la Noiraigue',
       description:
@@ -92,7 +92,7 @@ export default {
       description:
         'Coordonnées 529835 / 191670. A proximité de la route qui relie Buttes à Ste-Croix. Belle émergence karstique active uniquement lors de fortes crues.'
     }
-  ],
+  ], */
   more: [
     {
       text: 'Gorges de l’Areuse. Guide d’excursions hydrogéologiques, Ed. ISSKA, 2011.',
@@ -128,7 +128,12 @@ export default {
           legend: 'Plan d’ensemble, service cantonal de la géomatique et du registre foncier',
           name: 'img-3.jpg'
         }
-      ]
+      ],
+      onTheRoad: true,
+      position: {
+        x: 93,
+        y: 325
+      }
     },
     {
       title: 'Captages d’eau et production d’électricité',
@@ -153,7 +158,12 @@ export default {
           legend: '',
           name: 'img-3.jpg'
         }
-      ]
+      ],
+      onTheRoad: true,
+      position: {
+        x: 435,
+        y: 450
+      }
     },
     {
       title: 'Le château d’eau du canton',
@@ -174,7 +184,49 @@ export default {
           legend: '',
           name: 'img-2.jpg'
         }
-      ]
+      ],
+      onTheRoad: true,
+      position: {
+        x: 627,
+        y: 438
+      }
+    },
+    {
+      title: 'Un crustacé exceptionnel',
+      sumary: '',
+      cover: 'img-2.jpg',
+      description: [
+        'Peut-être que dans les eaux souterraines des Gorges de l’Areuse se cache peut-être le plus vieil habitant de la région. En effet, lors de filtrations de la source de Combe Garot en 1985, le biologiste Pascal Moeschler découvrit une nouvelle es- pèce de crustacé, la Gelyelle de Monard (Gelyella Monardi). Cette espèce d’un demi millimètre n’est connue nulle part ailleurs et vit confinée dans cet aquifère karstique depuis des millions d’années.',
+        'Elle est un descendant direct des crustacés qui vivaient alors dans la mer présente dans la région au Tertiaire. Lors du retrait marin, il y a 20 millions d’années, ce microcrus- tacé s’est acclimaté à un nouveau gîte dans les eaux souter- raines. La Gelyelle a par la suite évolué et s’est adaptée à son nouveau milieu souterrain ce qui lui a permis de survivre aux glaciations. Elle peut donc à juste titre être considérée comme un «fossile vivant», et l’espèce animale de Suisse la plus digne de protection au niveau international...',
+        'Une autre espèce de Gelyelle issue du même ancêtre a été re- trouvée dans les eaux souterraines de la région de Montpellier, en suivant une évolution comparable à sa cousine des gorges de l’Areuse depuis le retrait marin. Ces deux espèces sont les seuls représentant d’un nouvel ordre de crustacés, les Gelyel- loida.'
+      ],
+      images: [
+        {
+          legend: '',
+          name: 'img-1.jpg'
+        },
+        {
+          legend: '',
+          name: 'img-2.jpg'
+        },
+        {
+          legend: '',
+          name: 'img-3.jpg'
+        },
+        {
+          legend: '',
+          name: 'img-4.jpg'
+        },
+        {
+          legend: '',
+          name: 'img-5.jpg'
+        }
+      ],
+      onTheRoad: true,
+      position: {
+        x: 1265,
+        y: 287
+      }
     },
     {
       title: 'Comment l’eau est captée aux abords de l’Areuse',
@@ -208,7 +260,8 @@ export default {
           legend: '',
           name: 'img-4.jpg'
         }
-      ]
+      ],
+      onTheRoad: false
     },
     {
       title: 'L’alimentation en eau de La Chaux-de-Fonds',
@@ -229,39 +282,8 @@ export default {
           legend: '',
           name: 'img-2.jpg'
         }
-      ]
-    },
-    {
-      title: 'Un crustacé exceptionnel',
-      sumary: '',
-      cover: 'img-2.jpg',
-      description: [
-        'Peut-être que dans les eaux souterraines des Gorges de l’Areuse se cache peut-être le plus vieil habitant de la région. En effet, lors de filtrations de la source de Combe Garot en 1985, le biologiste Pascal Moeschler découvrit une nouvelle es- pèce de crustacé, la Gelyelle de Monard (Gelyella Monardi). Cette espèce d’un demi millimètre n’est connue nulle part ailleurs et vit confinée dans cet aquifère karstique depuis des millions d’années.',
-        'Elle est un descendant direct des crustacés qui vivaient alors dans la mer présente dans la région au Tertiaire. Lors du retrait marin, il y a 20 millions d’années, ce microcrus- tacé s’est acclimaté à un nouveau gîte dans les eaux souter- raines. La Gelyelle a par la suite évolué et s’est adaptée à son nouveau milieu souterrain ce qui lui a permis de survivre aux glaciations. Elle peut donc à juste titre être considérée comme un «fossile vivant», et l’espèce animale de Suisse la plus digne de protection au niveau international...',
-        'Une autre espèce de Gelyelle issue du même ancêtre a été re- trouvée dans les eaux souterraines de la région de Montpellier, en suivant une évolution comparable à sa cousine des gorges de l’Areuse depuis le retrait marin. Ces deux espèces sont les seuls représentant d’un nouvel ordre de crustacés, les Gelyel- loida.'
       ],
-      images: [
-        {
-          legend: '',
-          name: 'img-1.jpg'
-        },
-        {
-          legend: '',
-          name: 'img-2.jpg'
-        },
-        {
-          legend: '',
-          name: 'img-3.jpg'
-        },
-        {
-          legend: '',
-          name: 'img-4.jpg'
-        },
-        {
-          legend: '',
-          name: 'img-5.jpg'
-        }
-      ]
+      onTheRoad: false
     }
   ]
 }

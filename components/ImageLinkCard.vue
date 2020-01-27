@@ -1,11 +1,11 @@
 <template>
   <div class="col-6" style="margin-bottom: 40px;">
-    <nuxt-link :to="`/excursions/${this.$route.params.excursionId}/extras/${index}`" class="next-page-link">
+    <nuxt-link :to="`/excursions/${this.$route.params.excursionId}/extras/${content.index}`" class="next-page-link">
       <b-card
-        :title="content.title"
+        :title="title()"
         :sub-title="''"
         :img-alt="content.title"
-        :img-src="`/docs/excursion-${this.$route.params.excursionId}/extra-${index}/${content.cover}`"
+        :img-src="`/docs/excursion-${this.$route.params.excursionId}/extra-${content.index}/${content.cover}`"
         overlay
         img-height="200px"
         text-variant="white"
@@ -27,9 +27,18 @@ export default {
       type: Object,
       default: null
     },
-    index: {
-      type: Number,
-      default: 0
+    letter: {
+      type: Boolean,
+      default: false
+    }
+  },
+  methods: {
+    title() {
+      if (this.letter) {
+        return String.fromCharCode(this.content.index + 64) + '. ' + this.content.title
+      }
+
+      return this.content.title
     }
   }
 }

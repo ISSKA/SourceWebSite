@@ -29,38 +29,6 @@ export default {
     },
     description: ['xxx']
   },
-  point_of_interest: [
-    {
-      title: 'A. xxx',
-      description: '',
-      position: {
-        x: 10,
-        y: 10
-      }
-    },
-    {
-      title: 'B. ',
-      description: '',
-      position: {
-        x: 10,
-        y: 10
-      }
-    }
-  ],
-  in_the_region: [
-    {
-      title: 'xxx',
-      description: 'xxx'
-    },
-    {
-      title: 'xxx',
-      description: 'xxx'
-    },
-    {
-      title: 'xxx',
-      description: 'xxx'
-    }
-  ],
   more: [
     {
       text: 'xxx',
@@ -91,7 +59,8 @@ export default {
           legend: 'xxx',
           name: 'img-3.jpg'
         }
-      ]
+      ],
+      onTheRoad: false
     },
     {
       title: 'xxx',
@@ -110,7 +79,8 @@ export default {
           legend: 'xxx',
           name: 'img-3.jpg'
         }
-      ]
+      ],
+      onTheRoad: false
     }
   ]
 }

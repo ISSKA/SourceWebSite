@@ -36,7 +36,7 @@ export default {
       'Au niveau du parking des grottes, rester en rive droite pour suivre un sentier qui longe la rivière. Rejoindre ensuite la gare.'
     ]
   },
-  point_of_interest: [
+  /* point_of_interest: [
     {
       title: 'A. Les entonnoirs',
       description:
@@ -98,7 +98,7 @@ export default {
       }
     }
   ],
-  in_the_region: [],
+  in_the_region: [], */
   more: [
     {
       text: 'Au fil de l’Orbe. À la découverte d’une rivière d’exception. Guide d’excursions, Ed. ISSKA, 2015.',
@@ -140,7 +140,12 @@ export default {
           legend: 'L’entonnoir de Bon Port',
           name: 'img-3.jpg'
         }
-      ]
+      ],
+      onTheRoad: true,
+      position: {
+        x: 10,
+        y: 10
+      }
     },
     {
       title: 'Entonnoirs maudits... ou bénits!',
@@ -167,7 +172,12 @@ export default {
             'L’entonnoir de Bon Port - Parmi les entonnoirs du lac Brenet encore visibles de nos jours, celui de Bon Port est le plus spectaculaire. Sa base se situe une vingtaine de mètres au-dessous du niveau du lac.',
           name: 'img-3.jpg'
         }
-      ]
+      ],
+      onTheRoad: true,
+      position: {
+        x: 10,
+        y: 10
+      }
     },
     {
       title: 'Les grottes de l’Orbe',
@@ -195,7 +205,12 @@ export default {
           legend: 'Le réseau des grottes de l’Orbe',
           name: 'img-4.jpg'
         }
-      ]
+      ],
+      onTheRoad: true,
+      position: {
+        x: 10,
+        y: 10
+      }
     },
     {
       title: 'La renaissance de l’Orbe',
@@ -225,7 +240,12 @@ export default {
           legend: 'La rivière un peu en contrebas de sa source lors d’une forte crue.',
           name: 'img-4.jpg'
         }
-      ]
+      ],
+      onTheRoad: true,
+      position: {
+        x: 10,
+        y: 10
+      }
     }
   ]
 }

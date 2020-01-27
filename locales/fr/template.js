@@ -47,7 +47,8 @@ export default {
       title: 'Description de l’itinéraire',
       legend: 'Cliquez sur un point d’intérêt pour afficher ses informations.'
     },
-    extras: 'En apprendre plus ...',
+    point_of_interest: 'Points d’intérêt le long du parcours',
+    extras: 'A voir aussi dans la région',
     more: 'Références',
     cff: {
       text: 'horraire CFF',

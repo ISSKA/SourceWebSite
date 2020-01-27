@@ -66,7 +66,8 @@
       <b-table :items="items" class="col-md-5" stacked style="background-color: lightgray;"></b-table>
     </div>-->
 
-    <div class="full-width" style="max-height: 720px; overflow: hiden; background-color: #eee; padding-top: 0px; margin-top: 40px;">
+    <!--<div class="full-width" style="max-height: 720px; overflow: hiden; background-color: #eee; padding-top: 0px; margin-top: 40px;">-->
+    <div class="full-width" style="max-height: 700px; overflow: hiden; padding-top: 0px; margin-top: 40px;">
       <!--<figure style="position: absolute; right: 0; left: 0; overflow-y: hidden; max-height: 600px;">
         <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="width: 100%;" usemap="#workmap" />
         <figcaption style="position: absolute; bottom: 0; background-color: rgba(255, 255, 255, 0.8); padding: 2px 8px;">
@@ -74,22 +75,22 @@
         </figcaption>
       </figure>-->
 
-      <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="max-height: 600px; width: 100%;" usemap="#workmap" />
+      <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="max-height: 700px; width: 100%;" usemap="#workmap" />
 
       <!-- https://www.image-map.net -->
       <map name="workmap">
         <area
-          v-for="(content, index) in excursion.point_of_interest"
-          :key="index"
+          v-for="content in excursion.extras.filter((item) => item.onTheRoad)"
+          :key="content.index"
           shape="circle"
           :coords="`${content.position.x}, ${content.position.y}, 35`"
           alt="Computer"
           href="#"
-          @click.prevent="interactivePoint(index)"
+          @click.prevent="interactivePoint(content.index)"
         />
       </map>
 
-      <div class="text-center" style="margin-top: 20px;">
+      <!--<div class="text-center" style="margin-top: 20px;">
         <b-button
           v-for="(content, index) in excursion.point_of_interest"
           :id="'modal-interest-' + index"
@@ -103,7 +104,7 @@
         >
 
         <div style="margin-top: 10px; font-style: italic; color: #666;">{{ $t('excursion.route.legend') }}</div>
-      </div>
+      </div>-->
     </div>
 
     <!-- POINTS D INTERET -->
@@ -153,34 +154,45 @@
       </b-tab>
     </b-tabs>-->
 
-    <!-- EXTRAS -->
+    <!-- POINT OF INTEREST -->
     <h3 class="subtitle" style="margin-top: 40px;">
+      {{ $t('excursion.point_of_interest') }}
+    </h3>
+
+    <b-card-group deck>
+      <div class="row" style="margin-top: 20px; margin-bottom: 40px;">
+        <image-link-card v-for="content in excursion.extras.filter((item) => item.onTheRoad)" :key="content.index" :content="content" letter="true" />
+      </div>
+    </b-card-group>
+
+    <!-- EXTRAS -->
+    <h3 class="subtitle">
       {{ $t('excursion.extras') }}
     </h3>
 
     <b-card-group deck>
       <div class="row" style="margin-top: 20px; margin-bottom: 40px;">
-        <image-link-card v-for="(content, index) in excursion.extras" :key="index" :content="content" :index="index + 1" />
+        <image-link-card v-for="content in excursion.extras.filter((item) => !item.onTheRoad)" :key="content.index" :content="content" />
       </div>
     </b-card-group>
 
     <!-- TO SEE IN THE REGION -->
-    <div v-if="excursion.in_the_region.length > 0" class="full-width" style="background-color: #eee;">
+    <!--<div v-if="excursion.in_the_region.length > 0" class="full-width" style="background-color: #eee;">
       <b-container>
         <h2 style="margin-bottom: 30px;">{{ $t('excursion.to_see_in_the_region') }}</h2>
         <div v-for="(content, index) in excursion.in_the_region" :key="index">
           <h4>{{ content.title }}</h4>
           <p>{{ content.description }}</p>
         </div>
-        <!--<b-button variant="primary" href="#">More Info</b-button>-->
+        <!- -<b-button variant="primary" href="#">More Info</b-button>- ->
       </b-container>
-    </div>
+    </div>-->
 
     <!-- PREV / NEXT EXCURSION LINKS -->
-    <navigation :current-excursion="parseInt($route.params.excursionId, 10)" style="margin-top: 50px; margin-bottom: 50px;" />
+    <!--<navigation :current-excursion="parseInt($route.params.excursionId, 10)" style="margin-top: 50px; margin-bottom: 50px;" />-->
 
     <!-- REFERENCES -->
-    <div v-if="excursion.more.length > 0" style="padding-top: 20px; padding-bottom: 10px; margin-bottom: -40px;">
+    <!--<div v-if="excursion.more.length > 0" style="padding-top: 20px; padding-bottom: 10px; margin-bottom: -40px;">
       <p style="margin-bottom: 2px;">{{ $t('excursion.more') }} :</p>
       <ul>
         <li v-for="(content, index) in excursion.more" :key="index">
@@ -188,6 +200,17 @@
           <a v-if="content.link" :href="content.link.url" target="_blank">{{ content.link.name }}</a>
         </li>
       </ul>
+    </div>-->
+    <div v-if="excursion.more.length > 0" class="full-width" style="background-color: #eee; padding-bottom: 20px; margin-bottom: -30px;">
+      <b-container>
+        <p style="margin-bottom: 2px;">{{ $t('excursion.more') }} :</p>
+        <ul>
+          <li v-for="(content, index) in excursion.more" :key="index">
+            {{ content.text }}
+            <a v-if="content.link" :href="content.link.url" target="_blank">{{ content.link.name }}</a>
+          </li>
+        </ul>
+      </b-container>
     </div>
 
     <!--
@@ -202,7 +225,7 @@
     -->
 
     <!-- Interest modal -->
-    <b-modal
+    <!--<b-modal
       v-for="(content, index) in excursion.point_of_interest"
       :id="'modal-interest-' + index"
       :key="index"
@@ -212,7 +235,7 @@
       ok-only
     >
       {{ content.description }}
-    </b-modal>
+    </b-modal>-->
   </div>
 </template>
 
@@ -221,12 +244,12 @@ import ImageMap from 'image-map'
 
 import excursionData from '~/assets/script.js'
 
-import Navigation from '~/components/ExcursionNavigation.vue'
+// import Navigation from '~/components/ExcursionNavigation.vue'
 import ImageLinkCard from '~/components/ImageLinkCard.vue'
 
 export default {
   components: {
-    Navigation,
+    // Navigation,
     ImageLinkCard
   },
   validate({ params }) {
@@ -250,9 +273,11 @@ export default {
   methods: {
     interactivePoint(index) {
       // window.alert('pressé :' + index)
-      this.activeInterestPoint = index
+      // this.activeInterestPoint = index
 
-      this.$bvModal.show('modal-interest-' + index)
+      // this.$bvModal.show('modal-interest-' + index)
+
+      this.$router.push(`/excursions/${this.$route.params.excursionId}/extras/${index}`)
     }
   }
 }
