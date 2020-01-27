@@ -1,6 +1,6 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Sources chaudes de Combioule',
+  subtitle: '',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',

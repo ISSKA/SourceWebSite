@@ -1,5 +1,5 @@
 export default {
-  title: 'xxx',
+  title: 'Sources de Porrentruy',
   subtitle: 'xxx',
   summary: {
     difficulty: 'xxx',
@@ -7,8 +7,8 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [2583800, 1239100],
-    name: 'Sources de Soulce',
+    coordinates: [2572700, 1251900],
+    name: 'Sources de Porrentruy',
     canton: 'JU'
   },
   description: [

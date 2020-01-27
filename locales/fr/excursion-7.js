@@ -1,14 +1,14 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Sources de Flims',
+  subtitle: '',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
     download_file: 'xxx'
   },
   source: {
-    coordinates: [2819000, 1187000],
-    name: 'Sources minérales de Basse Engadine',
+    coordinates: [2740500, 1189200],
+    name: 'Sources de Flims',
     canton: 'GR'
   },
   description: [

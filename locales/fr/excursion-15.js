@@ -1,6 +1,6 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Source thermale de Bad Pfäfers',
+  subtitle: '',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
@@ -8,7 +8,7 @@ export default {
   },
   source: {
     coordinates: [2756000, 1202500],
-    name: 'Source thermale des gorges de la Tamina',
+    name: 'Source thermale de Bad Pfäfers',
     canton: 'SG'
   },
   description: [

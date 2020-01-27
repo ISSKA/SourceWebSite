@@ -1,6 +1,6 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Sources des gorges de Covatannaz',
+  subtitle: '',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
@@ -8,7 +8,7 @@ export default {
   },
   source: {
     coordinates: [2531000, 1185000],
-    name: 'Sources de Covatannaz',
+    name: 'Sources des gorges de Covatannaz',
     canton: 'VD'
   },
   description: [

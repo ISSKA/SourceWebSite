@@ -1,15 +1,15 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Sources l’Aar',
+  subtitle: 'Grimsel, BE',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
     download_file: 'xxx'
   },
   source: {
-    coordinates: [2603800, 1140500],
-    name: 'Sieben Brunnen, La Lenk',
-    canton: 'BE/VD'
+    coordinates: [2660000, 1154000],
+    name: 'Sources l’Aar',
+    canton: 'BE'
   },
   description: [
     {

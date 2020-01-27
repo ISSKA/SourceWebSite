@@ -1,6 +1,6 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Rinquelle & Seerenbachfälle',
+  subtitle: 'Amden, SG',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
@@ -8,7 +8,7 @@ export default {
   },
   source: {
     coordinates: [2731000, 1222000],
-    name: 'Rinquelle et chutes du Seerenbach',
+    name: 'Rinquelle & Seerenbachfälle',
     canton: 'SG'
   },
   description: [

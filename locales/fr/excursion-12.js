@@ -1,6 +1,6 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Quellpark Kundelfingerhof',
+  subtitle: '',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
@@ -9,7 +9,7 @@ export default {
   source: {
     coordinates: [2695300, 1281500],
     name: 'Quellpark Kundelfingerhof',
-    canton: 'SH'
+    canton: 'TG'
   },
   description: [
     {

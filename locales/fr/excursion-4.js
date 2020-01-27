@@ -1,15 +1,15 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Gothard, Chemin des quatre sources',
+  subtitle: '',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
     download_file: 'xxx'
   },
   source: {
-    coordinates: [2632300, 1153800],
-    name: 'Source du Sefinental',
-    canton: 'BE'
+    coordinates: [2687000, 1159000],
+    name: 'Gothard, Chemin des quatre sources',
+    canton: ''
   },
   description: [
     {

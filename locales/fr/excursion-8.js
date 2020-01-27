@@ -1,15 +1,15 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Sources de Soulce',
+  subtitle: '',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
     download_file: 'xxx'
   },
   source: {
-    coordinates: [2740500, 1189200],
-    name: 'Source de Flims',
-    canton: 'GR'
+    coordinates: [2583800, 1239100],
+    name: 'Sources de Soulce',
+    canton: 'JU'
   },
   description: [
     {

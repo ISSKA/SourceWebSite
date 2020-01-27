@@ -1,6 +1,6 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Schlichenden Brünnen',
+  subtitle: 'Muotathal, SZ',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
@@ -8,7 +8,7 @@ export default {
   },
   source: {
     coordinates: [2703000, 1203000],
-    name: 'Schlichenden Brünnen et Hölloch ',
+    name: 'Schlichenden Brünnen',
     canton: 'SZ'
   },
   description: [

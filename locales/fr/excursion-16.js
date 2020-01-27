@@ -1,6 +1,6 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Bagni di Craveggia',
+  subtitle: 'Val d’Onsernone, TI',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',

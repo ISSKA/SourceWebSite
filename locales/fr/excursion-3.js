@@ -1,15 +1,15 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Sibe Brünne',
+  subtitle: 'La Lenk, BE',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
     download_file: 'xxx'
   },
   source: {
-    coordinates: [2609800, 1265500],
-    name: 'Sources de Binningen',
-    canton: 'BL'
+    coordinates: [2603800, 1140500],
+    name: 'Sibe Brünne',
+    canton: 'BE'
   },
   description: [
     {

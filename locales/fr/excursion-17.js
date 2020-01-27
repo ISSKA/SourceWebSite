@@ -1,6 +1,6 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Source thermale du Val d’Illiez',
+  subtitle: '',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',

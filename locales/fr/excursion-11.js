@@ -1,6 +1,6 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Source de la Serrières',
+  subtitle: '',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',

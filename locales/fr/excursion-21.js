@@ -1,15 +1,15 @@
 export default {
-  title: 'xxx',
-  subtitle: 'xxx',
+  title: 'Source de la Sarine',
+  subtitle: 'Sanetsch, VS',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
     download_file: 'xxx'
   },
   source: {
-    coordinates: [0, 0],
-    name: 'xxx',
-    canton: 'xxx'
+    coordinates: [2587000, 1131000],
+    name: 'Source de la Sarine',
+    canton: 'VS'
   },
   description: [
     {
