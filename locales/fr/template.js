@@ -1,7 +1,7 @@
 export default {
   layout: {
-    title: 'A la découverte des sources',
-    intro: 'Des excursions pour découvrir la Suisse et ses sources',
+    title: 'Balades aux sources',
+    intro: 'Des randonées pour découvrir la Suisse et ses sources',
     btn_excursions: 'Les excursions'
   },
   menu: {
