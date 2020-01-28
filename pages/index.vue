@@ -26,6 +26,7 @@
             tag="article"
             text-variant="white"
             sub-title-text-variant="white"
+            class="img-card"
           >
             <b-card-text>
               {{ excursion.subtitle }}
@@ -57,12 +58,12 @@ export default {
 </script>
 
 <style>
-.card img {
+.img-card img {
   /* height: 150px; */
   width: 100%;
   object-fit: cover;
 }
-.card .card-body {
+.img-card .card-body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 </style>
