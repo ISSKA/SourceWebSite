@@ -169,15 +169,17 @@
     </b-card-group>
 
     <!-- EXTRAS -->
-    <h3 class="subtitle">
-      {{ $t('excursion.extras') }}
-    </h3>
+    <div v-if="excursion.extras.filter((item) => !item.onTheRoad).length > 0">
+      <h3 class="subtitle">
+        {{ $t('excursion.extras') }}
+      </h3>
 
-    <b-card-group deck>
-      <div class="row" style="margin-top: 20px; margin-bottom: 40px;">
-        <image-link-card v-for="content in excursion.extras.filter((item) => !item.onTheRoad)" :key="content.index" :content="content" />
-      </div>
-    </b-card-group>
+      <b-card-group deck>
+        <div class="row" style="margin-top: 20px; margin-bottom: 40px;">
+          <image-link-card v-for="content in excursion.extras.filter((item) => !item.onTheRoad)" :key="content.index" :content="content" />
+        </div>
+      </b-card-group>
+    </div>
 
     <!-- TO SEE IN THE REGION -->
     <!--<div v-if="excursion.in_the_region.length > 0" class="full-width" style="background-color: #eee;">
