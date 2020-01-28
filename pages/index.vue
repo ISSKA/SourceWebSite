@@ -7,12 +7,35 @@
 
       <img src="/img/swiss_map.jpg" style="width: 100%;" />
 
-      <!-- excursion table -->
-      <h2 style="margin-bottom: 30px;">
+      <!-- excursion selection -->
+      <h2 style="margin-bottom: 30px; margin-top: 30px;" class="text-center">
         {{ $t('home.excursions_list') }}
       </h2>
 
-      <b-table small striped :items="items" :fields="fields" selectable select-mode="single" class="align-right" @row-selected="onRowSelected"></b-table>
+      <div>
+        <b-card-group columns style="margin-bottom: 20px;">
+          <b-card
+            v-for="(excursion, index) in excursions"
+            :key="index"
+            :title="excursion.title"
+            :img-src="`/docs/excursion-${index + 1}/cover.jpg`"
+            img-alt="Image"
+            img-height="130px"
+            overlay
+            img-top
+            tag="article"
+            text-variant="white"
+            sub-title-text-variant="white"
+          >
+            <b-card-text>
+              {{ excursion.subtitle }}
+
+              <!-- this is a hack to have the full card clickable without visible button -->
+              <nuxt-link :to="`/excursions/${index + 1}`" class="stretched-link"></nuxt-link>
+            </b-card-text>
+          </b-card>
+        </b-card-group>
+      </div>
     </b-container>
   </div>
 </template>
@@ -23,43 +46,23 @@ import excursionData from '~/assets/script.js'
 export default {
   layout: 'landing',
   data() {
-    const excursionsList = excursionData.getExcursions()
-    excursionsList.forEach((excursion, index) => {
-      excursion.idx = index + 1
-    })
-    // console.log(excursionsList)
-
     return {
-      fields: [
-        {
-          key: 'source.name',
-          label: this.$t('home.table.name'),
-          sortable: true
-        },
-        {
-          key: 'route.details.type',
-          label: this.$t('home.table.type'),
-          sortable: true
-        },
-        {
-          key: 'source.canton',
-          label: this.$t('home.table.canton'),
-          sortable: true
-        }
-      ],
-      items: excursionsList
+      excursions: []
     }
   },
-  methods: {
-    onRowSelected(items) {
-      // console.log(items.idx)
-
-      this.$router.push({
-        path: '/excursions/' + items[0].idx
-      })
-    }
+  mounted() {
+    this.excursions = excursionData.getExcursions()
   }
 }
 </script>
 
-<style></style>
+<style>
+.card img {
+  /* height: 150px; */
+  width: 100%;
+  object-fit: cover;
+}
+.card .card-body {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+</style>
