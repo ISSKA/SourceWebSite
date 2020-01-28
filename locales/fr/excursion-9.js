@@ -1,6 +1,6 @@
 export default {
   title: 'Sources de Porrentruy',
-  subtitle: 'xxx',
+  subtitle: '',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
