@@ -39,7 +39,8 @@ export default {
     }
   ],
   cff: {
-    link: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach='
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von='
   },
   extras: [
     {

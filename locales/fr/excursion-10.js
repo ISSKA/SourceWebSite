@@ -103,7 +103,8 @@ export default {
     }
   ],
   cff: {
-    link: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Noiraigue'
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=noiraigue',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=chambrelien%2C+gare'
   },
   extras: [
     {

@@ -116,7 +116,8 @@ export default {
     }
   ],
   cff: {
-    link: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Le+Pont%2C+gare'
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=le+pont%2C+gare',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=vallorbe%2C+gare'
   },
   extras: [
     {

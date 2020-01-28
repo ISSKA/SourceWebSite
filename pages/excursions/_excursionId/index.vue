@@ -13,7 +13,7 @@
           $t('excursion.education_sheet_link')
         }}</a>
         <br />
-        {{ $t('excursion.cff.text') }} : <a :href="excursion.cff.link" target="_blank">{{ $t('excursion.cff.link') }}</a>
+        {{ $t('excursion.cff.text') }} : <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
         -->
 
         <br />
@@ -36,11 +36,14 @@
     <dl class="row" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px;">
       <dt class="col-sm-2">{{ $t('excursion.infos.start') }}</dt>
       <dd class="col-sm-4">
-        {{ excursion.route.details.start }} (<a :href="excursion.cff.link" target="_blank">{{ $t('excursion.cff.text') }}</a
+        {{ excursion.route.details.start }} (<a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.text') }}</a
         >)
       </dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.end') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route.details.end }}</dd>
+      <dd class="col-sm-4">
+        {{ excursion.route.details.end }} (<a :href="excursion.cff.link_end" target="_blank">{{ $t('excursion.cff.text') }}</a
+        >)
+      </dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.distance') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.distance }}</dd>
       <!-- todo: Dénivellation -> Dénivelé ? -->
@@ -54,7 +57,7 @@
       <dd class="col-sm-4">{{ excursion.route.details.type }}</dd>
       <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
       <dd class="col-sm-4">
-        <a :href="excursion.cff.link" target="_blank">{{ $t('excursion.cff.link') }}</a>
+        <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
       </dd>-->
     </dl>
 
