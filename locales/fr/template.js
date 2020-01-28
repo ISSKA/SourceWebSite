@@ -19,7 +19,7 @@ export default {
       'La Suisse compte des milliers de sources : petites ou grandes, discrètes ou spectaculaires, facilement accessibles ou pas, belles ou modestes...',
       'Vous trouverez ici une série d’itinéraires qui vous amèneront vers des sources remarquables à un titre ou à un autre. Celle-ci est urbaine, celle-là sauvage, une autre bucolique. Mais toutes sont dignes d’intérêt et devraient susciter la curiosité de leurs visiteurs.'
     ],
-    excursions_list: 'Liste des balades',
+    excursions_list: 'Les balades',
     table: {
       name: 'Nom',
       type: 'Type de balade',

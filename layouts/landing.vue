@@ -23,7 +23,7 @@
         </b-navbar>
 
         <!-- HEADER CONTENT -->
-        <b-container class="text-center" style="min-height: 500px; padding-top: 150px; color: white;">
+        <b-container class="text-center" style="min-height: 400px; padding-top: 120px; color: white;">
           <div style="background-color: rgba(0, 0, 0, 0.25); padding: 20px 10px; border-radius: 10px;">
             <h1>{{ $t('layout.title') }}</h1>
             <p>{{ $t('layout.intro') }}</p>
