@@ -1,5 +1,12 @@
 <template>
   <div class="container">
+    <!-- Breadcrumb -->
+    <small>
+      <nuxt-link to="/">{{ $t('extra.excursions_label') }}</nuxt-link>
+      /
+      {{ excursion.title }}
+    </small>
+
     <h1 class="title" style="margin-bottom: 0px;">{{ excursion.title }}</h1>
     <h2 class="subtitle">{{ excursion.subtitle }}</h2>
 

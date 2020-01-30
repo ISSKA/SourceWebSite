@@ -1,7 +1,14 @@
 <template>
   <div class="container">
     <div>
-      <!--<small>{{ $t('extra.excursions_label') }} / {{ excursionTitle }} / {{ extra.title }}</small>-->
+      <!-- Breadcrumb -->
+      <small>
+        <nuxt-link to="/">{{ $t('extra.excursions_label') }}</nuxt-link>
+        /
+        <nuxt-link :to="`/excursions/${$route.params.excursionId}`">{{ excursionTitle }}</nuxt-link>
+        /
+        {{ extra.title }}
+      </small>
 
       <h1 class="title">{{ extra.title }}</h1>
       <div>
@@ -145,7 +152,7 @@ export default {
   },
   data() {
     return {
-      // excursionTitle: excursionData.getExcursion(this.$route.params.excursionId).title,
+      excursionTitle: excursionData.getExcursion(this.$route.params.excursionId).title,
       extra: excursionData.getExtra(this.$route.params.excursionId, this.$route.params.extraId),
       images: [],
       imgIdx: null
