@@ -3,7 +3,7 @@ export default {
     website_name: 'Quellen der Schweiz'
   },
   footer: {
-    copyright_brand: 'QuellenWanderungen.ch.ch'
+    copyright_brand: 'QuellenWanderungen.ch'
   },
   about: {
     fp: {
