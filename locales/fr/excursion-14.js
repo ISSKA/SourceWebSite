@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2731000, 1222000],
+    position: {
+      x: 1416,
+      y: 447,
+      r: 76
+    },
     name: 'Rinquelle & Seerenbachfälle',
     canton: 'SG'
   },

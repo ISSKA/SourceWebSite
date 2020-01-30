@@ -5,7 +5,20 @@
         <p v-for="(description, index) in $t('home.text')" :key="index">{{ description }}</p>
       </div>
 
-      <img src="/img/swiss_map.jpg" style="width: 100%;" />
+      <img src="/img/swiss_map.jpg" style="width: 100%;" usemap="#swissmap" />
+
+      <!-- https://www.image-map.net -->
+      <map name="swissmap">
+        <area
+          v-for="(excursion, index) in excursions"
+          :key="index"
+          shape="circle"
+          :coords="`${excursion.source.position.x}, ${excursion.source.position.y}, ${excursion.source.position.r}`"
+          alt="Computer"
+          href="#"
+          @click.prevent="interactivePoint(index + 1)"
+        />
+      </map>
 
       <!-- excursion selection -->
       <h2 style="margin-bottom: 30px; margin-top: 30px;" class="text-center">
@@ -42,6 +55,8 @@
 </template>
 
 <script>
+import ImageMap from 'image-map'
+
 import excursionData from '~/assets/script.js'
 
 export default {
@@ -53,6 +68,20 @@ export default {
   },
   mounted() {
     this.excursions = excursionData.getExcursions()
+
+    setTimeout(() => {
+      ImageMap('img[usemap]')
+    }, 1000)
+  },
+  methods: {
+    interactivePoint(index) {
+      // window.alert('pressé :' + index)
+      // this.activeInterestPoint = index
+
+      // this.$bvModal.show('modal-interest-' + index)
+
+      this.$router.push(`/excursions/${index}`)
+    }
   }
 }
 </script>

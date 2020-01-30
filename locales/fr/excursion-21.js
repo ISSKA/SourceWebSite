@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2587000, 1131000],
+    position: {
+      x: 597,
+      y: 962,
+      r: 50
+    },
     name: 'Source de la Sarine',
     canton: 'VS'
   },

@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2598200, 1115000],
+    position: {
+      x: 659,
+      y: 1053,
+      r: 55
+    },
     name: 'Sources chaudes de Combioule',
     canton: 'VS'
   },

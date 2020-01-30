@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2603800, 1140500],
+    position: {
+      x: 691,
+      y: 909,
+      r: 52
+    },
     name: 'Sibe Brünne',
     canton: 'BE'
   },

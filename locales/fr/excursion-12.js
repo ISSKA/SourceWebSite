@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2695300, 1281500],
+    position: {
+      x: 1213,
+      y: 107,
+      r: 82
+    },
     name: 'Quellpark Kundelfingerhof',
     canton: 'TG'
   },

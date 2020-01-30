@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2609800, 1265500],
+    position: {
+      x: 727,
+      y: 198,
+      r: 56
+    },
     name: 'Sources de Binningen',
     canton: 'BL'
   },

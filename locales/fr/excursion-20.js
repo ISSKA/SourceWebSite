@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2515870, 1171700],
+    position: {
+      x: 192,
+      y: 732,
+      r: 55
+    },
     name: 'Source de l’Orbe',
     canton: 'VD'
   },

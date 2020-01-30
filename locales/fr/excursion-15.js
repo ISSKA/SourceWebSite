@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2756000, 1202500],
+    position: {
+      x: 1560,
+      y: 556,
+      r: 55
+    },
     name: 'Source thermale de Bad Pfäfers',
     canton: 'SG'
   },

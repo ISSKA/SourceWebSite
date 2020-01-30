@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2531000, 1185000],
+    position: {
+      x: 278,
+      y: 656,
+      r: 50
+    },
     name: 'Sources des gorges de Covatannaz',
     canton: 'VD'
   },

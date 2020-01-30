@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2660000, 1154000],
+    position: {
+      x: 1012,
+      y: 832,
+      r: 70
+    },
     name: 'Sources l’Aar',
     canton: 'BE'
   },

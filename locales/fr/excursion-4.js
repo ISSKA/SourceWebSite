@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2687000, 1159000],
+    position: {
+      x: 1167,
+      y: 803,
+      r: 72
+    },
     name: 'Gothard, Chemin des quatre sources',
     canton: ''
   },

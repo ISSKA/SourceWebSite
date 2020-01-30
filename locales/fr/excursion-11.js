@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2559300, 1203800],
+    position: {
+      x: 438,
+      y: 549,
+      r: 32
+    },
     name: 'Source de la Serrières',
     canton: 'NE'
   },

@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2583800, 1239100],
+    position: {
+      x: 577,
+      y: 347,
+      r: 45
+    },
     name: 'Sources de Soulce',
     canton: 'JU'
   },

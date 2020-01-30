@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2819000, 1187000],
+    position: {
+      x: 1916,
+      y: 645,
+      r: 90
+    },
     name: 'Sources minérales de Scuol',
     canton: 'GR'
   },

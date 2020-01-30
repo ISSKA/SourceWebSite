@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2632300, 1153800],
+    position: {
+      x: 853,
+      y: 834,
+      r: 66
+    },
     name: 'Source de Chilchbalm',
     canton: 'BE'
   },

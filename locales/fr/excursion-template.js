@@ -7,7 +7,12 @@ export default {
     download_file: 'xxx'
   },
   source: {
-    coordinates: [],
+    coordinates: [0, 0],
+    position: {
+      x: 0,
+      y: 0,
+      r: 0
+    },
     name: 'xxx',
     canton: ''
   },

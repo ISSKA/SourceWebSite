@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2558500, 1117500],
+    position: {
+      x: 435,
+      y: 1040,
+      r: 65
+    },
     name: 'Source thermale du Val d’Illiez',
     canton: 'VS'
   },

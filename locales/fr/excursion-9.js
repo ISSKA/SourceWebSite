@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2572700, 1251900],
+    position: {
+      x: 515,
+      y: 276,
+      r: 46
+    },
     name: 'Sources de Porrentruy',
     canton: 'JU'
   },

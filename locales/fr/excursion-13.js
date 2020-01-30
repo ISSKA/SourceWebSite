@@ -8,6 +8,11 @@ export default {
   },
   source: {
     coordinates: [2703000, 1203000],
+    position: {
+      x: 1257,
+      y: 552,
+      r: 75
+    },
     name: 'Schlichenden Brünnen',
     canton: 'SZ'
   },
