@@ -28,6 +28,8 @@ export default {
     }
   ],
   route: {
+    link:
+      'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=yes&season=summer&resolution=5&E=2548528&N=1200234&layers=Wanderland&trackId=6390529',
     details: {
       start: 'Gare de Noiraigue',
       end: 'Gare de Chambrelien',

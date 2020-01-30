@@ -23,6 +23,7 @@ export default {
     }
   ],
   route: {
+    link: '',
     details: {
       start: 'xxx',
       end: 'xxx',

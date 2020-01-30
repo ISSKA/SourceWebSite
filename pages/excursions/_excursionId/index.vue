@@ -87,6 +87,10 @@
 
       <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="max-height: 700px; width: 100%;" usemap="#workmap" />
 
+      <div v-if="excursion.route.link" class="text-right" style="margin-right: 20px;">
+        <a :href="excursion.route.link" target="_blank">{{ $t('excursion.route.link') }}</a>
+      </div>
+
       <!-- https://www.image-map.net -->
       <map name="workmap">
         <area

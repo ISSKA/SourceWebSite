@@ -46,7 +46,8 @@ export default {
     education_sheet_link: 'Télécharger cette balade en PDF',
     route: {
       title: 'Description de l’itinéraire',
-      legend: 'Cliquez sur un point d’intérêt pour afficher ses informations.'
+      legend: 'Cliquez sur un point d’intérêt pour afficher ses informations.',
+      link: 'Afficher le tracé sur SuisseMobile'
     },
     point_of_interest: 'Points d’intérêt le long du parcours',
     extras: 'A voir aussi dans la région',
