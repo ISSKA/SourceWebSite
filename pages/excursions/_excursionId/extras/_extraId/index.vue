@@ -176,6 +176,9 @@ export default {
     onSlideEnd(slide) {
       this.sliding = false
     } */
+  },
+  head() {
+    return { title: this.$t('default_head_title') + ' - ' + this.excursionTitle + ' - ' + this.extra.title }
   }
 }
 </script>

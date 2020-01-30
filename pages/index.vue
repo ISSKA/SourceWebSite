@@ -82,6 +82,9 @@ export default {
 
       this.$router.push(`/excursions/${index}`)
     }
+  },
+  head() {
+    return { title: this.$t('default_head_title') }
   }
 }
 </script>

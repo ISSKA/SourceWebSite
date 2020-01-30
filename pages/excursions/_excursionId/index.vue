@@ -291,6 +291,9 @@ export default {
 
       this.$router.push(`/excursions/${this.$route.params.excursionId}/extras/${index}`)
     }
+  },
+  head() {
+    return { title: this.$t('default_head_title') + ' - ' + this.excursion.title }
   }
 }
 </script>

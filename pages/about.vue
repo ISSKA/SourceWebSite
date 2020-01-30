@@ -48,7 +48,11 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return { title: this.$t('default_head_title') + ' - ' + this.$t('about.title') }
+  }
+}
 </script>
 
 <style></style>

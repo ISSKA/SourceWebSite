@@ -1,4 +1,5 @@
 export default {
+  default_head_title: 'RandoSources.ch - Balade aux sources',
   layout: {
     title: 'Balades aux sources',
     intro: 'Des randonées pour découvrir la Suisse et ses sources',

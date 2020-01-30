@@ -77,6 +77,9 @@ export default {
       this.form.name = ''
       this.form.content = ''
     }
+  },
+  head() {
+    return { title: this.$t('default_head_title') + ' - ' + this.$t('contact.title') }
   }
 }
 </script>
