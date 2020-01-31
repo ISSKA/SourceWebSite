@@ -87,8 +87,10 @@
 
       <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="max-height: 700px; width: 100%;" usemap="#workmap" />
 
-      <div v-if="excursion.route.link" class="text-right" style="margin-right: 20px;">
-        <a :href="excursion.route.link" target="_blank">{{ $t('excursion.route.link') }}</a>
+      <div v-if="excursion.route.link_swissmobile" class="text-right" style="margin-right: 20px;">
+        <a :href="excursion.route.link_swissmobile" target="_blank">{{ $t('excursion.route.link_swissmobile') }}</a>
+        <br />
+        <a :href="excursion.route.link_geoadmin" target="_blank">{{ $t('excursion.route.link_geoadmin') }}</a>
       </div>
 
       <!-- https://www.image-map.net -->
