@@ -29,7 +29,7 @@ export default {
   ],
   route: {
     link_swissmobile:
-      'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=no&season=summer&resolution=5&E=2548528&N=1200234&layers=Wanderland&trackId=6390529',
+      'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=no&season=summer&resolution=5&E=2548863&N=1200929&trackId=6400923&layers=Wanderland',
     link_geoadmin: 'https://s.geo.admin.ch/8726200db1',
     link_geoadmin_admin: 'https://s.geo.admin.ch/8726200dae',
     details: {
