@@ -26,7 +26,7 @@ export default {
   route: {
     details: {
       start: 'Gare du Pont',
-      end: 'Grottes de Vallorbe > Gare de Vallorbe',
+      end: 'Gare de Vallorbe',
       distance: '10 km',
       delta_height: '+ 100 m / – 300 m',
       duration: '6 heures (y compris visite des grottes)',
