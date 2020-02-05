@@ -128,6 +128,7 @@ export default {
     {
       title: 'Les entonnoirs du lac Brenet',
       sumary: '',
+      cover: 'cover.jpg',
       description: [
         'Avant que l’homme n’entreprenne des travaux pour réguler le niveau de ces deux lacs et utiliser son potentiel énergétique, de nombreux entonnoirs jouaient le rôle d’exutoires. La plupart de ces pertes (ou emposieux) se situaient en rive nord-ouest des lacs. Aujourd’hui, seule une partie d’entre eux sont encore visibles.',
         'Ces entonnoirs se présentent sous l’aspect de dépressions larges et profondes de plusieurs mètres, connectées avec les fissures de la roche calcaire. Pour comprendre leur fonctionnement, il suffit d’imaginer une baignoire en cours de remplissage. Si l’on oublie de fermer le robinet, son débordement sera empêché par le trop-plein. Dans le cas des lacs de la Vallée de Joux, c’est le même principe: les entonnoirs fonctionnent comme déversoirs.',
