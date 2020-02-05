@@ -38,7 +38,7 @@
     </div>
 
     <!-- ITINERAIRE -->
-    <h2 class="subtitle">{{ $t('excursion.route.title') }}</h2>
+    <h2 class="title-section">{{ $t('excursion.route.title') }}</h2>
 
     <dl class="row" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
       <dt class="col-sm-2">{{ $t('excursion.infos.type') }}</dt>
@@ -124,7 +124,7 @@
     </div>
 
     <!-- POINTS D INTERET -->
-    <!--<h3 class="subtitle">
+    <!--<h3 class="title-section">
       Points d’intérêt
     </h3>
 
@@ -171,7 +171,7 @@
     </b-tabs>-->
 
     <!-- POINT OF INTEREST -->
-    <h3 class="subtitle" style="margin-top: 40px;">
+    <h3 class="title-section" style="margin-top: 40px;">
       {{ $t('excursion.point_of_interest') }}
     </h3>
 
@@ -183,7 +183,7 @@
 
     <!-- EXTRAS -->
     <div v-if="excursion.extras.filter((item) => !item.onTheRoad).length > 0">
-      <h3 class="subtitle">
+      <h3 class="title-section">
         {{ $t('excursion.extras') }}
       </h3>
 

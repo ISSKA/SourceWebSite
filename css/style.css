@@ -71,6 +71,15 @@ html {
 }
 
 .subtitle {
+  font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
+  color: #139be6;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.title-section {
   font-weight: 300;
   font-size: 2em;
   font-style: italic;
