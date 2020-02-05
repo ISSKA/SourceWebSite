@@ -1,14 +1,14 @@
 export default {
-  default_head_title: 'RandoSources.ch - Balade aux sources',
+  default_head_title: 'RandoSources.ch - Randonnées vers les sources',
   layout: {
-    title: 'Balades aux sources',
-    intro: 'Des randonées pour découvrir la Suisse et ses sources',
-    btn_excursions: 'Les balades'
+    title: 'Randonnées vers les sources',
+    intro: 'Des excursions pour découvrir la Suisse et ses sources',
+    btn_excursions: 'Les randonnées'
   },
   menu: {
-    website_name: 'Aux sources de la Suisse',
+    website_name: 'RandoSources.ch',
     home: 'Accueil',
-    excursions: 'Liste des balades',
+    excursions: 'Liste des randonnées',
     about: 'A propos',
     contact: 'Contact'
   },
@@ -20,17 +20,17 @@ export default {
       'La Suisse compte des milliers de sources : petites ou grandes, discrètes ou spectaculaires, facilement accessibles ou pas, belles ou modestes...',
       'Vous trouverez ici une série d’itinéraires qui vous amèneront vers des sources remarquables à un titre ou à un autre. Celle-ci est urbaine, celle-là sauvage, une autre bucolique. Mais toutes sont dignes d’intérêt et devraient susciter la curiosité de leurs visiteurs.'
     ],
-    excursions_list: 'Les balades',
+    excursions_list: 'Les randonnées',
     table: {
       name: 'Nom',
-      type: 'Type de balade',
+      type: 'Type de randonnée',
       canton: 'Canton'
     },
-    excursions_selection: 'Sélection de balades',
-    display_all_excursions: 'Afficher toutes les balades'
+    excursions_selection: 'Sélection de randonnées',
+    display_all_excursions: 'Afficher toutes les randonnées'
   },
   excursions_list: {
-    title: 'Liste des balades'
+    title: 'Liste des randonnées'
   },
   excursion: {
     infos: {
@@ -41,9 +41,9 @@ export default {
       distance: 'Distance',
       delta_height: 'Dénivellation',
       restaurant: 'Restaurants',
-      type: 'Type de balade'
+      type: 'Type de randonnée'
     },
-    education_sheet_link: 'Télécharger cette balade en PDF',
+    education_sheet_link: 'Télécharger cette randonnée en PDF',
     route: {
       title: 'Description de l’itinéraire',
       legend: 'Cliquez sur un point d’intérêt pour afficher ses informations.',
@@ -60,9 +60,9 @@ export default {
     to_see_in_the_region: 'A voir aussi dans la région'
   },
   extra: {
-    excursions_label: 'Balades',
-    return_title: 'Balade',
-    return_text: 'Retour à la balade'
+    excursions_label: 'Randonnées',
+    return_title: 'Randonnée',
+    return_text: 'Retour à la randonnée'
   },
   contact: {
     title: 'Formulaire de contact',
