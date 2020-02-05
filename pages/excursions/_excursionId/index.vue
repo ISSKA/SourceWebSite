@@ -40,7 +40,9 @@
     <!-- ITINERAIRE -->
     <h2 class="subtitle">{{ $t('excursion.route.title') }}</h2>
 
-    <dl class="row" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px;">
+    <dl class="row" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
+      <dt class="col-sm-2">{{ $t('excursion.infos.type') }}</dt>
+      <dd class="col-sm-10">{{ excursion.route.details.type }}</dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.start') }}</dt>
       <dd class="col-sm-4">
         {{ excursion.route.details.start }} (<a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.text') }}</a
@@ -60,8 +62,6 @@
       <dd class="col-sm-4">{{ excursion.route.details.duration }}</dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.restaurant') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.restauration }}</dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos.type') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route.details.type }}</dd>
       <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
       <dd class="col-sm-4">
         <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>

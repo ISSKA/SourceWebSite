@@ -8,7 +8,7 @@
         <p v-for="(description, index) in $t('about.description')" :key="index">{{ description }}</p>
 
         <!-- CONTRIBUTEURS -->
-        <h2 style="margin-top: 40px; margin-bottom: 30px;">{{ $t('about.contributors') }}</h2>
+        <h2 style="margin-top: 40px; margin-bottom: 30px; color: #139be6;">{{ $t('about.contributors') }}</h2>
 
         <div class="row text-center">
           <div class="col-md-6">
