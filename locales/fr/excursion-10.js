@@ -122,7 +122,7 @@ export default {
       cover: 'img-2.jpg',
       description: [
         'Entre Noiraigue et Boudry, on compte une vingtaine de sources karstiques. Onze d’entre elles sont captées. Celle de la source de la Noiraigue, située au haut du village, est sans doute la plus spectaculaire.',
-        'De nombreux essais de traçage des eaux sou- terraines (à l’aide de colorants fluorescents détectables en quantités infimes dans les sources) ont été réalisés dans la région pour déterminer la provenance des eaux. Les plus spectaculaires sont ceux qui ont prouvé la relation hydraulique entre le lac des Taillères et la source l’Areuse et celle de la vallée de La Sagne avec la source de la Noiraigue. Tous ces traçages ont permis ensuite de délimiter les zones de protection des captages.'
+        'De nombreux essais de traçage des eaux souterraines (à l’aide de colorants fluorescents détectables en quantités infimes dans les sources) ont été réalisés dans la région pour déterminer la provenance des eaux. Les plus spectaculaires sont ceux qui ont prouvé la relation hydraulique entre le lac des Taillères et la source l’Areuse et celle de la vallée de La Sagne avec la source de la Noiraigue. Tous ces traçages ont permis ensuite de délimiter les zones de protection des captages.'
       ],
       images: [
         {
@@ -151,9 +151,9 @@ export default {
       cover: 'img-3.jpg',
       description: [
         'Les usines des Moyats et de Combe Garot sont au cœur d’un vaste réseau d’adduction qui compte 11 sources captées et 9 puits de pompage.',
-        'L’usine des Moyats collecte l’eau des sources et puits de pom- page de la rive gauche de l’Areuse en amont de Champ-du- Moulin. Cette eau est propulsée à plus de 1100 m d’altitude en direction de La Chaux-de-Fonds grâce à l’énergie produite par turbinage.',
+        'L’usine des Moyats collecte l’eau des sources et puits de pompage de la rive gauche de l’Areuse en amont de Champ-du-Moulin. Cette eau est propulsée à plus de 1100 m d’altitude en direction de La Chaux-de-Fonds grâce à l’énergie produite par turbinage.',
         'Les sources et puits de pompage situés sur la rive droite en face des Moyats alimentent l’aqueduc qui part à l’est vers Neuchâtel. Les sources situées sur les deux rives en aval de Champ-du-Moulin sont aussi connectées à cet aqueduc, mais comme elles se situent à une altitude inférieure, leur eau doit y être refoulée par l’usine de Combe Garot.',
-        'Situées au fil de l’eau, les 5 usines forment 4 étages de pro- duction électrique. Entre le Furcil et le Chanet, la différence d’altitude est de 240 m. D’une dérivation à l’autre, il n’y a pra- tiquement pas de perte de chute car l’eau rendue à la rivière après un premier captage est immédiatement captée à nou- veau. Ainsi, le potentiel énergétique de la rivière est très bien utilisé, sauf lors des hautes eaux où une grande partie des flots traverse librement les gorges.'
+        'Situées au fil de l’eau, les 5 usines forment 4 étages de production électrique. Entre le Furcil et le Chanet, la différence d’altitude est de 240 m. D’une dérivation à l’autre, il n’y a pratiquement pas de perte de chute car l’eau rendue à la rivière après un premier captage est immédiatement captée à nouveau. Ainsi, le potentiel énergétique de la rivière est très bien utilisé, sauf lors des hautes eaux où une grande partie des flots traverse librement les gorges.'
       ],
       images: [
         {
@@ -180,8 +180,8 @@ export default {
       sumary: '',
       cover: 'img-2.jpg',
       description: [
-        'Jusqu’au milieu du XIXe siècle, les gorges de l’Areuse of- fraient aux regards de ceux qui s’y aventuraient une nature intacte. En 1858, ce calme est perturbé par la construction de la ligne de train franco-suisse.',
-        'Au cours du XIXe siècle, il devient urgent de trouver des solutions pour fournir de l’eau potable aux villes de Neuchâ- tel et de La Chaux-de-Fonds. La population augmente et la qualité de l’eau de consommation est médiocre. En 1882, une épidémie de fièvre typhoïde frappe Neuchâtel et cause plusieurs décès. A La Chaux-de-Fonds, le souvenir du grand incendie de 1794 est encore présent dans les esprits.',
+        'Jusqu’au milieu du XIXe siècle, les gorges de l’Areuse offraient aux regards de ceux qui s’y aventuraient une nature intacte. En 1858, ce calme est perturbé par la construction de la ligne de train franco-suisse.',
+        'Au cours du XIXe siècle, il devient urgent de trouver des solutions pour fournir de l’eau potable aux villes de Neuchâtel et de La Chaux-de-Fonds. La population augmente et la qualité de l’eau de consommation est médiocre. En 1882, une épidémie de fièvre typhoïde frappe Neuchâtel et cause plusieurs décès. A La Chaux-de-Fonds, le souvenir du grand incendie de 1794 est encore présent dans les esprits.',
         'Dès 1885, les gorges s’animent brusquement au moment où s’engagent de grands chantiers destinés à approvisionner en eau les deux villes. Différentes solutions sont étudiées pour trouver de l’eau en quantité et en qualité suffisantes. En 1885 pour La Chaux-de-Fonds et l’année suivante pour Neuchâtel, la population approuve le financement de travaux d’adduction d’eau depuis les gorges de l’Areuse.',
         'A l’heure actuelle, environ 80000 personnes et plus de 20 communes du canton consomment l’eau provenant de la région de Champ-du-Moulin. Chaque jour, ce sont en moyenne 25000 m3 d’eau qui sont captés et distribués dans le vaste réseau de conduites totalisant plus de 50 km (y. c. la conduite reliant Neuchâtel par le tunnel routier).'
       ],
@@ -206,9 +206,9 @@ export default {
       sumary: '',
       cover: 'img-2.jpg',
       description: [
-        'Peut-être que dans les eaux souterraines des Gorges de l’Areuse se cache peut-être le plus vieil habitant de la région. En effet, lors de filtrations de la source de Combe Garot en 1985, le biologiste Pascal Moeschler découvrit une nouvelle es- pèce de crustacé, la Gelyelle de Monard (Gelyella Monardi). Cette espèce d’un demi millimètre n’est connue nulle part ailleurs et vit confinée dans cet aquifère karstique depuis des millions d’années.',
-        'Elle est un descendant direct des crustacés qui vivaient alors dans la mer présente dans la région au Tertiaire. Lors du retrait marin, il y a 20 millions d’années, ce microcrus- tacé s’est acclimaté à un nouveau gîte dans les eaux souter- raines. La Gelyelle a par la suite évolué et s’est adaptée à son nouveau milieu souterrain ce qui lui a permis de survivre aux glaciations. Elle peut donc à juste titre être considérée comme un «fossile vivant», et l’espèce animale de Suisse la plus digne de protection au niveau international...',
-        'Une autre espèce de Gelyelle issue du même ancêtre a été re- trouvée dans les eaux souterraines de la région de Montpellier, en suivant une évolution comparable à sa cousine des gorges de l’Areuse depuis le retrait marin. Ces deux espèces sont les seuls représentant d’un nouvel ordre de crustacés, les Gelyel- loida.'
+        'Peut-être que dans les eaux souterraines des Gorges de l’Areuse se cache peut-être le plus vieil habitant de la région. En effet, lors de filtrations de la source de Combe Garot en 1985, le biologiste Pascal Moeschler découvrit une nouvelle espèce de crustacé, la Gelyelle de Monard (Gelyella Monardi). Cette espèce d’un demi millimètre n’est connue nulle part ailleurs et vit confinée dans cet aquifère karstique depuis des millions d’années.',
+        'Elle est un descendant direct des crustacés qui vivaient alors dans la mer présente dans la région au Tertiaire. Lors du retrait marin, il y a 20 millions d’années, ce microcrustacé s’est acclimaté à un nouveau gîte dans les eaux souterraines. La Gelyelle a par la suite évolué et s’est adaptée à son nouveau milieu souterrain ce qui lui a permis de survivre aux glaciations. Elle peut donc à juste titre être considérée comme un «fossile vivant», et l’espèce animale de Suisse la plus digne de protection au niveau international...',
+        'Une autre espèce de Gelyelle issue du même ancêtre a été retrouvée dans les eaux souterraines de la région de Montpellier, en suivant une évolution comparable à sa cousine des gorges de l’Areuse depuis le retrait marin. Ces deux espèces sont les seuls représentant d’un nouvel ordre de crustacés, les Gelyelloida.'
       ],
       images: [
         {
@@ -247,11 +247,11 @@ export default {
         'Puits filtrants au bord de l’Areuse',
         'En se promenant le long de l’Areuse, on remarque de nombreux «champignons» métalliques sur les côtés des sentiers. Ceux-ci signalent la présence d’un puits de pompage ou d’un aqueduc. Les puits permettent de pomper l’eau entre 10 et 20 m de profondeur dans les alluvions qui forment le lit de la rivière (nappe phréatique).',
         'Galeries captant l’eau au cœur du massif',
-        'Deux sources sont capturées au cœur de la mon- tagne: la source Bossy et celle de la Dalle Nacrée, dans laquelle une lourde porte en fer (barrage) per- met de maintenir la pression dans la nappe aquifère du Dogger. A elles deux, ces galeries drainantes assurent plus de la moitié (> 100 l/s) du débit moyen de l’ensemble des captages.',
+        'Deux sources sont capturées au cœur de la montagne: la source Bossy et celle de la Dalle Nacrée, dans laquelle une lourde porte en fer (barrage) permet de maintenir la pression dans la nappe aquifère du Dogger. A elles deux, ces galeries drainantes assurent plus de la moitié (> 100 l/s) du débit moyen de l’ensemble des captages.',
         'Captages de sources karstiques',
         'Quelques petites sources issues des calcaires sont captées entre le Plan de l’Eau et Les Moyats.',
         'Réalimentation artificielle de sources',
-        'Dans les années cinquante, les exploitants avaient mis au point un système original de réalimentation de certaines sources qui consistait à arroser en per- manence des zones de terrain avec de l’eau direc- tement pompée dans l’Areuse. Cette eau s’infiltrait dans le terrain puis était pompée par les puits situés à proximité. Ce système est aujourd’hui abandonné.'
+        'Dans les années cinquante, les exploitants avaient mis au point un système original de réalimentation de certaines sources qui consistait à arroser en permanence des zones de terrain avec de l’eau directement pompée dans l’Areuse. Cette eau s’infiltrait dans le terrain puis était pompée par les puits situés à proximité. Ce système est aujourd’hui abandonné.'
       ],
       images: [
         {
