@@ -37,7 +37,14 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    // https://github.com/nuxt-community/analytics-module
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-32430893-2'
+      }
+    ]
   ],
   generate: {
     // routes: ['/excursions/1', '/excursions/2', '/excursions/3']
