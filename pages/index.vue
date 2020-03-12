@@ -25,7 +25,7 @@
         {{ $t('home.excursions_list') }}
       </h2>
 
-      <div>
+      <div class="excursions-card-list">
         <b-card-group columns style="margin-bottom: 20px;">
           <b-card
             v-for="(excursion, index) in excursions"

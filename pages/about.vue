@@ -11,7 +11,7 @@
         <h2 style="margin-top: 40px; margin-bottom: 30px;" class="title-section">{{ $t('about.contributors') }}</h2>
 
         <div class="row text-center">
-          <div class="col-md-6">
+          <div class="col-md-6 xs-sm-margin">
             <a href="https://www.sl-fp.ch" target="_blank"><img src="/img/logo_sl.svg" height="80" style="margin-bottom: 20px;"/></a>
             <br />
             {{ $t('about.fp.name') }}
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div class="row text-center" style="margin-top: 60px;">
-          <div class="col-md-6">
+          <div class="col-md-6 xs-sm-margin">
             <a href="https://www.loro.ch" target="_blank"><img src="/img/logo_lr.jpg" height="80" style="margin-bottom: 20px;"/></a>
             <br />
             {{ $t('about.lr.name') }}

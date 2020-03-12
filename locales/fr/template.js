@@ -61,8 +61,10 @@ export default {
   },
   extra: {
     excursions_label: 'Randonnées',
+    prev_text: 'Précédent',
     return_title: 'Randonnée',
-    return_text: 'Retour à la randonnée'
+    return_text: 'Retour à la randonnée',
+    next_text: 'Suivant'
   },
   contact: {
     title: 'Formulaire de contact',

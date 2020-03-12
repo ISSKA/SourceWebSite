@@ -1,5 +1,5 @@
 <template>
-  <div class="col-6" style="margin-bottom: 40px;">
+  <div class="col-xs-12 col-md-6" style="margin-bottom: 40px;">
     <nuxt-link :to="`/excursions/${this.$route.params.excursionId}/extras/${content.index}`" class="next-page-link">
       <b-card
         :title="title()"

@@ -99,7 +99,10 @@
           :key="imageIndex"
           :style="{ backgroundImage: 'url(' + image.href + ')' }"
           class="image"
-          style="height: 300px; background-size: cover; background-repeat: no-repeat;"
+          lg="3"
+          md="4"
+          cols="6"
+          style="height: 250px; background-size: cover; background-repeat: no-repeat;"
           @click="imgIdx = imageIndex"
         ></b-col>
       </b-row>
@@ -133,7 +136,7 @@
 <script>
 import excursionData from '~/assets/script.js'
 
-import Navigation from '~/components/ExtraNavigation.vue'
+import Navigation from '~/components/ExtraNavigationBtn.vue'
 
 export default {
   components: {
@@ -190,7 +193,6 @@ export default {
   background-repeat: no-repeat;
   background-position: center center;
   border: 1px solid #ebebeb;
-  margin: 5px;
 }
 
 /* imporove the gallery design */

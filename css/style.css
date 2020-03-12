@@ -115,3 +115,76 @@ html {
   color: inherit;
   text-decoration: none;
 }
+
+/* screan size adaptations */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575px)  {
+  /* about page */
+  .xs-sm-margin {
+    margin-bottom: 60px;
+  }
+
+  /* excursion detail page */
+  .map-situation {
+    margin-top: 40px;
+  }
+  .map-situation img {
+    width: 100%;
+  }
+
+  .info-card {
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+
+  .excursion-path-map img {
+    width: 250% !important;
+  }
+
+  /* extra detaul page */
+  .extra-navigation-btn-back {
+    display: none;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* home page */
+  .excursions-card-list .card-columns {
+    column-count: 2;
+  }
+  
+  /* about page */
+  .xs-sm-margin {
+    margin-bottom: 60px;
+  }
+
+  /* excursion detail page */
+  .map-situation {
+    margin-top: 40px;
+  }
+
+  /* extra detaul page */
+  .extra-navigation-btn-back {
+    display: none;
+  }
+} 
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* excursion detail page */
+  .map-situation img {
+    width: 90%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

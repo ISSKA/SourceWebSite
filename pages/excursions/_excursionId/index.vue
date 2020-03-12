@@ -21,9 +21,9 @@
         }}</a>
         <br />
         {{ $t('excursion.cff.text') }} : <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
+        <br />
         -->
 
-        <br />
         <p v-for="(description, index) in excursion.description" :key="'desc-' + index">
           <b>{{ description.label }}</b> {{ description.details }}
         </p>
@@ -32,7 +32,7 @@
           $t('excursion.education_sheet_link')
         }}</a>
       </div>
-      <div class="col-md-6 text-center">
+      <div class="col-md-6 text-center map-situation">
         <img :src="`/docs/excursion-${$route.params.excursionId}/map_situation.jpg`" width="70%" />
       </div>
     </div>
@@ -40,7 +40,7 @@
     <!-- ITINERAIRE -->
     <h2 class="title-section">{{ $t('excursion.route.title') }}</h2>
 
-    <dl class="row" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
+    <dl class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
       <dt class="col-sm-2">{{ $t('excursion.infos.type') }}</dt>
       <dd class="col-sm-10">{{ excursion.route.details.type }}</dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.start') }}</dt>
@@ -77,7 +77,7 @@
     </div>-->
 
     <!--<div class="full-width" style="max-height: 720px; overflow: hiden; background-color: #eee; padding-top: 0px; margin-top: 40px;">-->
-    <div class="full-width" style="max-height: 700px; overflow: hiden; padding-top: 0px; margin-top: 40px;">
+    <div class="full-width excursion-path-map" style="max-height: 700px; overflow: hidden; overflow-x: scroll; padding-top: 0px; margin-top: 40px;">
       <!--<figure style="position: absolute; right: 0; left: 0; overflow-y: hidden; max-height: 600px;">
         <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="width: 100%;" usemap="#workmap" />
         <figcaption style="position: absolute; bottom: 0; background-color: rgba(255, 255, 255, 0.8); padding: 2px 8px;">
@@ -86,12 +86,6 @@
       </figure>-->
 
       <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="max-height: 700px; width: 100%;" usemap="#workmap" />
-
-      <div v-if="excursion.route.link_swissmobile" class="text-right" style="margin-right: 20px;">
-        <a :href="excursion.route.link_swissmobile" target="_blank">{{ $t('excursion.route.link_swissmobile') }}</a>
-        <br />
-        <a :href="excursion.route.link_geoadmin" target="_blank">{{ $t('excursion.route.link_geoadmin') }}</a>
-      </div>
 
       <!-- https://www.image-map.net -->
       <map name="workmap">
@@ -121,6 +115,12 @@
 
         <div style="margin-top: 10px; font-style: italic; color: #666;">{{ $t('excursion.route.legend') }}</div>
       </div>-->
+    </div>
+
+    <div v-if="excursion.route.link_swissmobile" class="text-center">
+      <a :href="excursion.route.link_swissmobile" target="_blank">{{ $t('excursion.route.link_swissmobile') }}</a
+      ><br />
+      <a :href="excursion.route.link_geoadmin" target="_blank">{{ $t('excursion.route.link_geoadmin') }}</a>
     </div>
 
     <!-- POINTS D INTERET -->
@@ -177,7 +177,7 @@
 
     <b-card-group deck>
       <div class="row" style="margin-top: 20px; margin-bottom: 40px;">
-        <image-link-card v-for="content in excursion.extras.filter((item) => item.onTheRoad)" :key="content.index" :content="content" letter="true" />
+        <image-link-card v-for="content in excursion.extras.filter((item) => item.onTheRoad)" :key="content.index" :content="content" :letter="true" />
       </div>
     </b-card-group>
 
@@ -316,6 +316,5 @@ export default {
   margin-left: -50vw;
   position: relative;
   padding-top: 40px;
-  padding-bottom: 40px;
 }
 </style>
