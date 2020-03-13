@@ -3,9 +3,9 @@
     <div>
       <!-- Breadcrumb -->
       <small>
-        <nuxt-link to="/">{{ $t('extra.excursions_label') }}</nuxt-link>
+        <nuxt-link :to="localePath('/')">{{ $t('extra.excursions_label') }}</nuxt-link>
         /
-        <nuxt-link :to="`/excursions/${$route.params.excursionId}`">{{ excursionTitle }}</nuxt-link>
+        <nuxt-link :to="localePath(`/excursions/${$route.params.excursionId}`)">{{ excursionTitle }}</nuxt-link>
         /
         {{ extra.title }}
       </small>

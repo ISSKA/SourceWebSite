@@ -4,7 +4,7 @@
       <nuxt-link v-if="prev.show" :to="prev.link" class="btn btn-link">&lt; {{ $t('extra.prev_text') }}</nuxt-link>
     </div>
     <div class="col-md-6 text-center extra-navigation-btn-back">
-      <nuxt-link :to="`/excursions/${currentExcursion}`" class="btn btn-link">{{ $t('extra.return_text') }}</nuxt-link>
+      <nuxt-link :to="localePath(`/excursions/${currentExcursion}`)" class="btn btn-link">{{ $t('extra.return_text') }}</nuxt-link>
     </div>
     <div class="col-md-3 col-6 text-right">
       <nuxt-link v-if="next.show" :to="next.link" class="btn btn-link">{{ $t('extra.next_text') }} &gt; </nuxt-link>
@@ -51,11 +51,11 @@ export default {
     return {
       prev: {
         show: EXTRAS_COUNT > 2 || currentExtra === 2,
-        link: `/excursions/${this.currentExcursion}/extras/${prevIndex}`
+        link: this.localePath(`/excursions/${this.currentExcursion}/extras/${prevIndex}`)
       },
       next: {
         show: EXTRAS_COUNT > 2 || currentExtra === 1,
-        link: `/excursions/${this.currentExcursion}/extras/${nextIndex}`
+        link: this.localePath(`/excursions/${this.currentExcursion}/extras/${nextIndex}`)
       },
       itemsCount: EXTRAS_COUNT
     }

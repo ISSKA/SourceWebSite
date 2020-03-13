@@ -19,7 +19,7 @@
       </nuxt-link>
     </div>
     <div class="col-2">
-      <nuxt-link :to="`/excursions/${currentExcursion}`" class="next-page-link">
+      <nuxt-link :to="localePath(`/excursions/${currentExcursion}`)" class="next-page-link">
         <b-card no-body class="overflow-hidden text-center" style="max-width: 540px; height: 148px;">
           <b-card-body :title="$t('extra.return_title')">
             <b-card-text>{{ $t('extra.return_text') }}</b-card-text>
@@ -92,14 +92,14 @@ export default {
         show: EXTRAS_COUNT > 2 || currentExtra === 2,
         title: prev.title, // `Extra ${prevIndex} - ${prev.title}`,
         sumary: prev.sumary,
-        link: `/excursions/${this.currentExcursion}/extras/${prevIndex}`,
+        link: this.localePath(`/excursions/${this.currentExcursion}/extras/${prevIndex}`),
         img: `/docs/excursion-${this.currentExcursion}/extra-${prevIndex}/${prev.cover}`
       },
       next: {
         show: EXTRAS_COUNT > 2 || currentExtra === 1,
         title: next.title, // `Extra ${nextIndex} - ${next.title}`,
         sumary: next.sumary,
-        link: `/excursions/${this.currentExcursion}/extras/${nextIndex}`,
+        link: this.localePath(`/excursions/${this.currentExcursion}/extras/${nextIndex}`),
         img: `/docs/excursion-${this.currentExcursion}/extra-${nextIndex}/${next.cover}`
       },
       itemsCount: EXTRAS_COUNT

@@ -2,7 +2,7 @@
   <div class="container">
     <!-- Breadcrumb -->
     <small>
-      <nuxt-link to="/">{{ $t('extra.excursions_label') }}</nuxt-link>
+      <nuxt-link :to="localePath('/')">{{ $t('extra.excursions_label') }}</nuxt-link>
       /
       {{ excursion.title }}
     </small>
@@ -295,7 +295,7 @@ export default {
 
       // this.$bvModal.show('modal-interest-' + index)
 
-      this.$router.push(`/excursions/${this.$route.params.excursionId}/extras/${index}`)
+      this.$router.push(this.localePath(`/excursions/${this.$route.params.excursionId}/extras/${index}`))
     }
   },
   head() {

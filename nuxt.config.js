@@ -72,6 +72,7 @@ export default {
       fallbackLocale: 'fr',
       messages: translations.getTranslations()
     }
+    // differentDomains: process.env.NODE_ENV === 'production'
   },
   /*
    ** Sitemap configuration
@@ -110,9 +111,11 @@ function _getRoutes() {
 
   for (let idx = 1; idx <= excursionData.getExcursionsCount(); idx++) {
     routes.push('/excursions/' + idx)
+    routes.push('/de/excursions/' + idx)
 
     for (let idy = 1; idy <= excursionData.getExtrasCount(idx); idy++) {
       routes.push('/excursions/' + idx + '/extras/' + idy)
+      routes.push('/de/excursions/' + idx + '/extras/' + idy)
     }
   }
 

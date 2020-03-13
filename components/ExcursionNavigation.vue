@@ -72,14 +72,14 @@ export default {
         show: EXCURSIONS_COUNT > 2 || currentExcursion === 2,
         title: prev.title, // `Excursion ${prevIndex}`,
         sumary: prev.subtitle,
-        link: `/excursions/${prevIndex}`,
+        link: this.localePath(`/excursions/${prevIndex}`),
         img: `/docs/excursion-${prevIndex}/cover.jpg`
       },
       next: {
         show: EXCURSIONS_COUNT > 2 || currentExcursion === 1,
         title: next.title, // `Excursion ${nextIndex}`,
         sumary: next.subtitle,
-        link: `/excursions/${nextIndex}`,
+        link: this.localePath(`/excursions/${nextIndex}`),
         img: `/docs/excursion-${nextIndex}/cover.jpg`
       },
       itemsCount: EXCURSIONS_COUNT

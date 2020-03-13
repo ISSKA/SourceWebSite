@@ -45,7 +45,7 @@
               {{ excursion.subtitle }}
 
               <!-- this is a hack to have the full card clickable without visible button -->
-              <nuxt-link :to="`/excursions/${index + 1}`" class="stretched-link"></nuxt-link>
+              <nuxt-link :to="localePath(`/excursions/${index + 1}`)" class="stretched-link"></nuxt-link>
             </b-card-text>
           </b-card>
         </b-card-group>
@@ -80,7 +80,7 @@ export default {
 
       // this.$bvModal.show('modal-interest-' + index)
 
-      this.$router.push(`/excursions/${index}`)
+      this.$router.push(this.localePath(`/excursions/${index}`))
     }
   },
   head() {
