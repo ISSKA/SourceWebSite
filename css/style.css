@@ -11,6 +11,7 @@ html {
 
 .body-container {
   min-height: calc(100vh - 80px);
+  text-align: justify;
 }
 
 .footer-container {
