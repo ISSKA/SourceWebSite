@@ -17,15 +17,9 @@ export default {
     canton: 'NE'
   },
   description: [
-    {
-      label: 'La source de la Noiraigue',
-      details: 'est une très belle source qui illustre idéalement le principe de la circulation souterraine des eaux dans un massif karstique.'
-    },
-    {
-      label: 'Les gorges de l’Areuse',
-      details:
-        'sont bien connues des randonneurs. Grâce aux nombreuses sources qui s’y trouvent, elles sont le château d’eau du canton de Neuchâtel. Cette excursion permet de les découvrir et de comprendre comment, vers la fin du XIXème siècle, les hommes ont su les capter pour alimenter la ville de La Chaux-de-Fonds, située 500 m plus haut et 20 km plus loin.'
-    }
+    '<b>La source de la Noiraigue</b> est une très belle source qui illustre idéalement le principe de la circulation souterraine des eaux dans un massif karstique.',
+    '<b>Les gorges de l’Areuse</b> sont bien connues des randonneurs. Grâce aux nombreuses sources qui s’y trouvent, elles sont le château d’eau du canton de Neuchâtel. Cette excursion permet de les découvrir et de comprendre comment, vers la fin du XIXème siècle, les hommes ont su les capter pour alimenter la ville de La Chaux-de-Fonds, située 500 m plus haut et 20 km plus loin.'
+
   ],
   route: {
     link_swissmobile:
@@ -39,7 +33,7 @@ export default {
       delta_height: '+ 100 m / – 250 m',
       duration: '4 heures',
       restauration: 'Noiraigue / Champ du Moulin / Chambrelien',
-      type: 'xxx'
+      type: 'Randonnée sur sentiers et petites routes. Facile.'
     },
     description: [
       'A partir de la gare de Noiraigue, se diriger vers le nord du village et remonté la rivière jusqu’à sa source qui se trouve au pied des falaises de la Clusette.',
@@ -48,6 +42,31 @@ export default {
       '200 m après l’usine, rejoindre la route (rive droite). Suivre celle-ci jusqu’au moment où elle commence à monter. Là, prendre à gauche le chemin forestier qui longe la rivière. Franchir le Pont de Vert, passer sous un grand abri sous roche (Baume du Four).',
       'Après la partie la plus escarpée des gorges (chemin en hauteur, sur rive droite), traverser le pont et monter en direction de la gare de Chambrelien.'
     ]
+  },
+  route2: {
+    details: {
+      start: 'xxx',
+      end: 'xxx',
+      distance: '',
+      delta_height: '+ xxx m / – xxx m',
+      duration: 'xxx heures',
+      restauration: 'xxx',
+      type: 'xxx'
+    },
+    description: ['xxx']
+  },
+  route3: {
+    title: '',
+    details: {
+      start: '',
+      end: '',
+      distance: '',
+      delta_height: '+ xxx m / – xxx m',
+      duration: 'xxx heures',
+      restauration: '',
+      type: ''
+    },
+    description: ['']
   },
   /* point_of_interest: [
     {
@@ -141,8 +160,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 93,
-        y: 325
+        x: 381,
+        y: 356
       }
     },
     {
@@ -171,8 +190,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 435,
-        y: 450
+        x: 674,
+        y: 458
       }
     },
     {
@@ -197,8 +216,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 627,
-        y: 438
+        x: 804,
+        y: 456
       }
     },
     {
@@ -234,8 +253,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 1265,
-        y: 287
+        x: 1424,
+        y: 290
       }
     },
     {
@@ -244,13 +263,13 @@ export default {
       cover: 'img-3.jpg',
       description: [
         'Différentes techniques sont utilisées pour capter les milliers de mètres cube d’eau de boisson amenés chaque jour dans 20 communes du canton depuis la région de l’usine des Moyats:',
-        'Puits filtrants au bord de l’Areuse',
+        '<h5>Puits filtrants au bord de l’Areuse</h5 >',
         'En se promenant le long de l’Areuse, on remarque de nombreux «champignons» métalliques sur les côtés des sentiers. Ceux-ci signalent la présence d’un puits de pompage ou d’un aqueduc. Les puits permettent de pomper l’eau entre 10 et 20 m de profondeur dans les alluvions qui forment le lit de la rivière (nappe phréatique).',
-        'Galeries captant l’eau au cœur du massif',
+        '<h5>Galeries captant l’eau au cœur du massif</h5 >',
         'Deux sources sont capturées au cœur de la montagne: la source Bossy et celle de la Dalle Nacrée, dans laquelle une lourde porte en fer (barrage) permet de maintenir la pression dans la nappe aquifère du Dogger. A elles deux, ces galeries drainantes assurent plus de la moitié (> 100 l/s) du débit moyen de l’ensemble des captages.',
-        'Captages de sources karstiques',
+        '<h5>Captages de sources karstiques</h5 >',
         'Quelques petites sources issues des calcaires sont captées entre le Plan de l’Eau et Les Moyats.',
-        'Réalimentation artificielle de sources',
+        '<h5>Réalimentation artificielle de sources</h5>',
         'Dans les années cinquante, les exploitants avaient mis au point un système original de réalimentation de certaines sources qui consistait à arroser en permanence des zones de terrain avec de l’eau directement pompée dans l’Areuse. Cette eau s’infiltrait dans le terrain puis était pompée par les puits situés à proximité. Ce système est aujourd’hui abandonné.'
       ],
       images: [

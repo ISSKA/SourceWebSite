@@ -13,24 +13,24 @@
     <div class="row" style="margin-bottom: 40px;">
       <div class="col-md-6">
         <!-- {{ $t('excursion.infos.level') }} : {{ excursion.summary.difficulty }}
-        <br />
-        {{ $t('excursion.infos.duration') }} : {{ excursion.summary.duration }}
-        <br />
-        <a :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`" target="_blank">{{
-          $t('excursion.education_sheet_link')
-        }}</a>
-        <br />
-        {{ $t('excursion.cff.text') }} : <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
-        <br />
-        -->
+      <br />
+      {{ $t('excursion.infos.duration') }} : {{ excursion.summary.duration }}
+      <br />
+      <a :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`" target="_blank">{{
+        $t('excursion.education_sheet_link')
+      }}</a>
+      <br />
+      {{ $t('excursion.cff.text') }} : <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
+      <br />
+      -->
 
-        <p v-for="(description, index) in excursion.description" :key="'desc-' + index">
-          <b>{{ description.label }}</b> {{ description.details }}
-        </p>
+        <p v-for="(description, index) in excursion.description" :key="'desc-' + index" v-html="description"></p>
 
-        <a :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`" target="_blank" class="btn btn-primary" role="button">{{
+        <a :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`" target="_blank" class="btn btn-primary" role="button">
+          {{
           $t('excursion.education_sheet_link')
-        }}</a>
+          }}
+        </a>
       </div>
       <div class="col-md-6 text-center map-situation">
         <img :src="`/docs/excursion-${$route.params.excursionId}/map_situation.jpg`" width="70%" />
@@ -38,20 +38,18 @@
     </div>
 
     <!-- ITINERAIRE -->
-    <h2 class="title-section">{{ $t('excursion.route.title') }}</h2>
+    <h2 class="title-section">{{ excursion.route.title }}</h2>
 
     <dl class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
-      <dt class="col-sm-2">{{ $t('excursion.infos.type') }}</dt>
-      <dd class="col-sm-10">{{ excursion.route.details.type }}</dd>
+      <dt class="col-sm-2" v-if="excursion.route.details.type != null && excursion.route.details.type != ''">{{ $t('excursion.infos.type') }}</dt>
+      <dd class="col-sm-10" v-if="excursion.route.details.type != null && excursion.route.details.type != ''">{{ excursion.route.details.type }}</dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.start') }}</dt>
       <dd class="col-sm-4">
-        {{ excursion.route.details.start }} (<a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.text') }}</a
-        >)
+        {{ excursion.route.details.start }} (<a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.text') }}</a>)
       </dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.end') }}</dt>
       <dd class="col-sm-4">
-        {{ excursion.route.details.end }} (<a :href="excursion.cff.link_end" target="_blank">{{ $t('excursion.cff.text') }}</a
-        >)
+        {{ excursion.route.details.end }} (<a :href="excursion.cff.link_end" target="_blank">{{ $t('excursion.cff.text') }}</a>)
       </dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.distance') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.distance }}</dd>
@@ -60,116 +58,177 @@
       <dd class="col-sm-4">{{ excursion.route.details.delta_height }}</dd>
       <dt class="col-sm-2">{{ $t('excursion.infos.duration') }}</dt>
       <dd class="col-sm-4">{{ excursion.route.details.duration }}</dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos.restaurant') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route.details.restauration }}</dd>
+      <dt class="col-sm-2" v-if="excursion.route.details.restauration != null && excursion.route.details.restauration != ''">{{ $t('excursion.infos.restaurant') }}</dt>
+      <dd class="col-sm-4" v-if="excursion.route.details.restauration != null && excursion.route.details.restauration != ''">{{ excursion.route.details.restauration }}</dd>
+      <dt class="col-sm-2" v-if="excursion.route.details.hebergement != null && excursion.route.details.hebergement != ''">{{ $t('excursion.infos.hebergement') }}</dt>
+      <dd class="col-sm-4" v-if="excursion.route.details.hebergement != null && excursion.route.details.hebergement != ''">{{ excursion.route.details.hebergement }}</dd>
       <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
-      <dd class="col-sm-4">
-        <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
-      </dd>-->
+    <dd class="col-sm-4">
+      <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
+    </dd>-->
     </dl>
 
-    <p v-for="(content, index) in excursion.route.description" :key="'details-' + index">
-      {{ content }}
+    <p v-for="(content, index) in excursion.route.description" :key="'details-' + index" v-html="content">
+
+    </p>
+
+    <h2 v-if="excursion.route2.title != null && excursion.route2.title != ''" class="title-section">{{ excursion.route2.title }}</h2>
+    <dl v-if="excursion.route2.details.distance != null && excursion.route2.details.distance != ''" class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
+      <dt class="col-sm-2" v-if="excursion.route2.details.type != null && excursion.route2.details.type != ''">{{ $t('excursion.infos2.type') }}</dt>
+      <dd class="col-sm-10" v-if="excursion.route2.details.type != null && excursion.route2.details.type != ''">{{ excursion.route2.details.type }}</dd>
+      <dt class="col-sm-2">{{ $t('excursion.infos2.start') }}</dt>
+      <dd class="col-sm-4">
+        {{ excursion.route2.details.start }}
+      </dd>
+      <dt class="col-sm-2">{{ $t('excursion.infos2.end') }}</dt>
+      <dd class="col-sm-4">
+        {{ excursion.route2.details.end }} 
+      </dd>
+      <dt class="col-sm-2">{{ $t('excursion.infos2.distance') }}</dt>
+      <dd class="col-sm-4">{{ excursion.route2.details.distance }}</dd>
+      <!-- todo: Dénivellation -> Dénivelé ? -->
+      <dt class="col-sm-2">{{ $t('excursion.infos2.delta_height') }}</dt>
+      <dd class="col-sm-4">{{ excursion.route2.details.delta_height }}</dd>
+      <dt class="col-sm-2">{{ $t('excursion.infos2.duration') }}</dt>
+      <dd class="col-sm-4">{{ excursion.route2.details.duration }}</dd>
+      <dt class="col-sm-2" v-if="excursion.route2.details.restauration != null && excursion.route2.details.restauration != ''">{{ $t('excursion.infos2.restaurant') }}</dt>
+      <dd class="col-sm-4" v-if="excursion.route2.details.restauration != null && excursion.route2.details.restauration != ''">{{ excursion.route2.details.restauration }}</dd>
+      <dt class="col-sm-2" v-if="excursion.route2.details.hebergement != null && excursion.route2.details.hebergement != ''">{{ $t('excursion.infos2.hebergement') }}</dt>
+      <dd class="col-sm-4" v-if="excursion.route2.details.hebergement != null && excursion.route2.details.hebergement != ''">{{ excursion.route2.details.hebergement }}</dd>
+      <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
+    <dd class="col-sm-4">
+      <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
+    </dd>-->
+    </dl>
+
+    <p v-for="(content, index) in excursion.route2.description" :key="'details-' + index" v-html="content">
+
+    </p>
+
+    <h2 v-if="excursion.route3.title != null && excursion.route3.title != ''" class="title-section">{{ excursion.route3.title }}</h2>
+    <dl v-if="excursion.route3.details.distance != null && excursion.route3.details.distance != ''" class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
+      <dt class="col-sm-2" v-if="excursion.route3.details.type != null && excursion.route3.details.type != ''">{{ $t('excursion.infos3.type') }}</dt>
+      <dd class="col-sm-10" v-if="excursion.route3.details.type != null && excursion.route3.details.type != ''">{{ excursion.route3.details.type }}</dd>
+      <dt class="col-sm-2">{{ $t('excursion.infos3.start') }}</dt>
+      <dd class="col-sm-4">
+        {{ excursion.route3.details.start }}
+      </dd>
+      <dt class="col-sm-2">{{ $t('excursion.infos3.end') }}</dt>
+      <dd class="col-sm-4">
+        {{ excursion.route3.details.end }}
+      </dd>
+      <dt class="col-sm-2">{{ $t('excursion.infos3.distance') }}</dt>
+      <dd class="col-sm-4">{{ excursion.route3.details.distance }}</dd>
+      <!-- todo: Dénivellation -> Dénivelé ? -->
+      <dt class="col-sm-2">{{ $t('excursion.infos3.delta_height') }}</dt>
+      <dd class="col-sm-4">{{ excursion.route3.details.delta_height }}</dd>
+      <dt class="col-sm-2">{{ $t('excursion.infos3.duration') }}</dt>
+      <dd class="col-sm-4">{{ excursion.route3.details.duration }}</dd>
+      <dt class="col-sm-2" v-if="excursion.route3.details.restauration != null && excursion.route3.details.restauration != ''">{{ $t('excursion.infos3.restaurant') }}</dt>
+      <dd class="col-sm-4" v-if="excursion.route3.details.restauration != null && excursion.route3.details.restauration != ''">{{ excursion.route3.details.restauration }}</dd>
+      <dt class="col-sm-2" v-if="excursion.route3.details.hebergement != null && excursion.route3.details.hebergement != ''">{{ $t('excursion.infos3.hebergement') }}</dt>
+      <dd class="col-sm-4" v-if="excursion.route3.details.hebergement != null && excursion.route3.details.hebergement != ''">{{ excursion.route3.details.hebergement }}</dd>
+      <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
+    <dd class="col-sm-4">
+      <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
+    </dd>-->
+    </dl>
+
+    <p v-for="(content, index) in excursion.route3.description" :key="'details-' + index" v-html="content">
+
     </p>
 
     <!--<div>
-      <b-table :items="items" class="col-md-5" stacked style="background-color: lightgray;"></b-table>
-    </div>-->
-
+    <b-table :items="items" class="col-md-5" stacked style="background-color: lightgray;"></b-table>
+  </div>-->
     <!--<div class="full-width" style="max-height: 720px; overflow: hiden; background-color: #eee; padding-top: 0px; margin-top: 40px;">-->
     <div class="full-width excursion-path-map" style="max-height: 700px; overflow: hidden; overflow-x: scroll; padding-top: 0px; margin-top: 40px;">
       <!--<figure style="position: absolute; right: 0; left: 0; overflow-y: hidden; max-height: 600px;">
-        <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="width: 100%;" usemap="#workmap" />
-        <figcaption style="position: absolute; bottom: 0; background-color: rgba(255, 255, 255, 0.8); padding: 2px 8px;">
-          {{ $t('excursion.route.legend') }}
-        </figcaption>
-      </figure>-->
+      <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="width: 100%;" usemap="#workmap" />
+      <figcaption style="position: absolute; bottom: 0; background-color: rgba(255, 255, 255, 0.8); padding: 2px 8px;">
+        {{ $t('excursion.route.legend') }}
+      </figcaption>
+    </figure>-->
 
       <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="max-height: 700px; width: 100%;" usemap="#workmap" />
 
       <!-- https://www.image-map.net -->
       <map name="workmap">
-        <area
-          v-for="content in excursion.extras.filter((item) => item.onTheRoad)"
-          :key="content.index"
-          shape="circle"
-          :coords="`${content.position.x}, ${content.position.y}, 35`"
-          alt="Computer"
-          href="#"
-          @click.prevent="interactivePoint(content.index)"
-        />
+        <area v-for="content in excursion.extras.filter((item) => item.onTheRoad)"
+              :key="content.index"
+              shape="circle"
+              :coords="`${content.position.x}, ${content.position.y}, 35`"
+              alt="Computer"
+              href="#"
+              @click.prevent="interactivePoint(content.index)" />
       </map>
 
       <!--<div class="text-center" style="margin-top: 20px;">
-        <b-button
-          v-for="(content, index) in excursion.point_of_interest"
-          :id="'modal-interest-' + index"
-          :key="index"
-          pill
-          variant="dark"
-          style="margin-right: 15px; margin-left: 15px; font-weight: 600; color: yellow;"
-          size="lg"
-          @click="interactivePoint(index)"
-          >{{ String.fromCharCode(index + 65) }}</b-button
-        >
+      <b-button
+        v-for="(content, index) in excursion.point_of_interest"
+        :id="'modal-interest-' + index"
+        :key="index"
+        pill
+        variant="dark"
+        style="margin-right: 15px; margin-left: 15px; font-weight: 600; color: yellow;"
+        size="lg"
+        @click="interactivePoint(index)"
+        >{{ String.fromCharCode(index + 65) }}</b-button
+      >
 
-        <div style="margin-top: 10px; font-style: italic; color: #666;">{{ $t('excursion.route.legend') }}</div>
-      </div>-->
+      <div style="margin-top: 10px; font-style: italic; color: #666;">{{ $t('excursion.route.legend') }}</div>
+    </div>-->
     </div>
 
     <div v-if="excursion.route.link_swissmobile" class="text-center">
-      <a :href="excursion.route.link_swissmobile" target="_blank">{{ $t('excursion.route.link_swissmobile') }}</a
-      ><br />
+      <a :href="excursion.route.link_swissmobile" target="_blank">{{ $t('excursion.route.link_swissmobile') }}</a><br />
       <a :href="excursion.route.link_geoadmin" target="_blank">{{ $t('excursion.route.link_geoadmin') }}</a>
     </div>
 
     <!-- POINTS D INTERET -->
     <!--<h3 class="title-section">
-      Points d’intérêt
-    </h3>
+    Points d’intérêt
+  </h3>
 
-    <b-card-group deck>
-      <div class="row" style="margin-top: 40px; margin-bottom: 40px;">
-        <div v-for="(content, index) in excursion.point_of_interest" :key="index" class="col-6" style="margin-bottom: 40px;">
-          <b-card
-            :title="content.title"
-            overlay
-            img-src="https://picsum.photos/900/250/?image=10"
-            img-height="200px"
-            img-alt="Card Image"
-            text-variant="white"
-            sub-title="xxx"
-          >
-            <b-card-text>{{ content.description }}</b-card-text>
-          </b-card>
-        </div>
+  <b-card-group deck>
+    <div class="row" style="margin-top: 40px; margin-bottom: 40px;">
+      <div v-for="(content, index) in excursion.point_of_interest" :key="index" class="col-6" style="margin-bottom: 40px;">
+        <b-card
+          :title="content.title"
+          overlay
+          img-src="https://picsum.photos/900/250/?image=10"
+          img-height="200px"
+          img-alt="Card Image"
+          text-variant="white"
+          sub-title="xxx"
+        >
+          <b-card-text>{{ content.description }}</b-card-text>
+        </b-card>
       </div>
-    </b-card-group>-->
-
+    </div>
+  </b-card-group>-->
     <!--<b-list-group>
-      <b-list-group-item
-        v-for="(content, index) in excursion.point_of_interest"
-        :key="index"
-        href="#"
-        class="flex-column align-items-start"
-        :class="{ active: activeInterestPoint === index }"
-      >
-        <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">{{ content.title }}</h5>
-          <!- -<small>3 days ago</small>- ->
-        </div>
-        <p class="mb-1">{{ content.description }}</p>
-        <!- -<small>Donec id elit non mi porta.</small>- ->
-      </b-list-group-item>
-    </b-list-group>-->
-
+    <b-list-group-item
+      v-for="(content, index) in excursion.point_of_interest"
+      :key="index"
+      href="#"
+      class="flex-column align-items-start"
+      :class="{ active: activeInterestPoint === index }"
+    >
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{ content.title }}</h5>
+        <!- -<small>3 days ago</small>- ->
+      </div>
+      <p class="mb-1">{{ content.description }}</p>
+      <!- -<small>Donec id elit non mi porta.</small>- ->
+    </b-list-group-item>
+  </b-list-group>-->
     <!--<b-tabs content-class="mt-3" align="center">
-      <b-tab v-for="(content, index) in excursion.point_of_interest" :key="index" :title="letters[index]">
-        <h5>{{ content.title }}</h5>
-        <p>{{ content.description }}</p>
-      </b-tab>
-    </b-tabs>-->
-
+    <b-tab v-for="(content, index) in excursion.point_of_interest" :key="index" :title="letters[index]">
+      <h5>{{ content.title }}</h5>
+      <p>{{ content.description }}</p>
+    </b-tab>
+  </b-tabs>-->
     <!-- POINT OF INTEREST -->
     <h3 class="title-section" style="margin-top: 40px;">
       {{ $t('excursion.point_of_interest') }}
@@ -178,7 +237,9 @@
     <b-card-group deck>
       <div class="row" style="margin-top: 20px; margin-bottom: 40px;">
         <image-link-card v-for="content in excursion.extras.filter((item) => item.onTheRoad)" :key="content.index" :content="content" :letter="true" />
+        
       </div>
+      
     </b-card-group>
 
     <!-- EXTRAS -->
@@ -196,29 +257,27 @@
 
     <!-- TO SEE IN THE REGION -->
     <!--<div v-if="excursion.in_the_region.length > 0" class="full-width" style="background-color: #eee;">
-      <b-container>
-        <h2 style="margin-bottom: 30px;">{{ $t('excursion.to_see_in_the_region') }}</h2>
-        <div v-for="(content, index) in excursion.in_the_region" :key="index">
-          <h4>{{ content.title }}</h4>
-          <p>{{ content.description }}</p>
-        </div>
-        <!- -<b-button variant="primary" href="#">More Info</b-button>- ->
-      </b-container>
-    </div>-->
-
+    <b-container>
+      <h2 style="margin-bottom: 30px;">{{ $t('excursion.to_see_in_the_region') }}</h2>
+      <div v-for="(content, index) in excursion.in_the_region" :key="index">
+        <h4>{{ content.title }}</h4>
+        <p>{{ content.description }}</p>
+      </div>
+      <!- -<b-button variant="primary" href="#">More Info</b-button>- ->
+    </b-container>
+  </div>-->
     <!-- PREV / NEXT EXCURSION LINKS -->
     <!--<navigation :current-excursion="parseInt($route.params.excursionId, 10)" style="margin-top: 50px; margin-bottom: 50px;" />-->
-
     <!-- REFERENCES -->
     <!--<div v-if="excursion.more.length > 0" style="padding-top: 20px; padding-bottom: 10px; margin-bottom: -40px;">
-      <p style="margin-bottom: 2px;">{{ $t('excursion.more') }} :</p>
-      <ul>
-        <li v-for="(content, index) in excursion.more" :key="index">
-          {{ content.text }}
-          <a v-if="content.link" :href="content.link.url" target="_blank">{{ content.link.name }}</a>
-        </li>
-      </ul>
-    </div>-->
+    <p style="margin-bottom: 2px;">{{ $t('excursion.more') }} :</p>
+    <ul>
+      <li v-for="(content, index) in excursion.more" :key="index">
+        {{ content.text }}
+        <a v-if="content.link" :href="content.link.url" target="_blank">{{ content.link.name }}</a>
+      </li>
+    </ul>
+  </div>-->
     <div v-if="excursion.more.length > 0" class="full-width" style="background-color: #eee; padding-bottom: 20px; margin-bottom: -30px;">
       <b-container>
         <p style="margin-bottom: 2px;">{{ $t('excursion.more') }} :</p>
@@ -232,28 +291,27 @@
     </div>
 
     <!--
-    <div class="map-source-position">
-      <b-embed
-        type="iframe"
-        aspect="4by3"
-        src="https://map.geo.admin.ch/embed.html?lang=fr&topic=ech&bgLayer=ch.swisstopo.swissimage&zoom=12&catalogNodes=532,614&E=2604063.20&N=1196879.81&layers_visibility=false,false,false,false&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege&layers_timestamp=18641231,,,"
-        allowfullscreen
-      ></b-embed>
-    </div>
-    -->
-
+  <div class="map-source-position">
+    <b-embed
+      type="iframe"
+      aspect="4by3"
+      src="https://map.geo.admin.ch/embed.html?lang=fr&topic=ech&bgLayer=ch.swisstopo.swissimage&zoom=12&catalogNodes=532,614&E=2604063.20&N=1196879.81&layers_visibility=false,false,false,false&layers=ch.swisstopo.zeitreihen,ch.bfs.gebaeude_wohnungs_register,ch.bav.haltestellen-oev,ch.swisstopo.swisstlm3d-wanderwege&layers_timestamp=18641231,,,"
+      allowfullscreen
+    ></b-embed>
+  </div>
+  -->
     <!-- Interest modal -->
     <!--<b-modal
-      v-for="(content, index) in excursion.point_of_interest"
-      :id="'modal-interest-' + index"
-      :key="index"
-      size="lg"
-      _centered
-      :title="content.title"
-      ok-only
-    >
-      {{ content.description }}
-    </b-modal>-->
+    v-for="(content, index) in excursion.point_of_interest"
+    :id="'modal-interest-' + index"
+    :key="index"
+    size="lg"
+    _centered
+    :title="content.title"
+    ok-only
+  >
+    {{ content.description }}
+  </b-modal>-->
   </div>
 </template>
 

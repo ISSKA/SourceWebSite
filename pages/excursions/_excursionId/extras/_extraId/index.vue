@@ -12,8 +12,8 @@
 
       <h1 class="title">{{ extra.title }}</h1>
       <div>
-        <p v-for="(content, index) in extra.description" :key="index">
-          {{ content }}
+        <p v-for="(content, index) in extra.description" :key="index" v-html="content">
+          
         </p>
       </div>
 

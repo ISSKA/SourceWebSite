@@ -41,7 +41,30 @@ export default {
       distance: 'Distance',
       delta_height: 'Dénivellation',
       restaurant: 'Restaurants',
-      type: 'Type de randonnée'
+      type: 'Type de randonnée',
+	  hebergement: 'Hébérgement',
+    },
+    infos2: {
+      level: 'Difficuleté',
+      duration: 'Durée',
+      start: 'Départ',
+      end: 'Arrivée',
+      distance: 'Distance',
+      delta_height: 'Dénivellation',
+      restaurant: 'Restaurants',
+      type: 'Type de randonnée',
+      hebergement: 'Hébérgement',
+    },
+    infos3: {
+      level: 'Difficuleté',
+      duration: 'Durée',
+      start: 'Départ',
+      end: 'Arrivée',
+      distance: 'Distance',
+      delta_height: 'Dénivellation',
+      restaurant: 'Restaurants',
+      type: 'Type de randonnée',
+      hebergement: 'Hébérgement',
     },
     education_sheet_link: 'Télécharger cette randonnée en PDF',
     route: {
@@ -54,7 +77,7 @@ export default {
     extras: 'A voir aussi dans la région',
     more: 'Références',
     cff: {
-      text: 'horraire CFF',
+      text: 'horaire CFF',
       link: 'cliquez ici'
     },
     to_see_in_the_region: 'A voir aussi dans la région'
