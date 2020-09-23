@@ -40,31 +40,7 @@ export default {
 	'Nous conseillons de revenir à Spruga en passant par la rive droite. Mais cet itinéraire est plus exigeant que celui emprunté à l’aller. Le sentier franchit un ruisseau qu’il peut être délicat de traverser selon son débit. Il faut ensuite monter dans la côte avant de redescendre jusqu’au niveau de l’Isorno pour le traverser au point 904 avant de remonter en direction de Spruga.'
 	]
   },
-  route2: {
-    details: {
-      start: 'xxx',
-      end: 'xxx',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: 'xxx',
-      type: 'xxx'
-    },
-    description: ['xxx']
-  },
-  route3: {
-    title: '',
-    details: {
-      start: '',
-      end: '',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: '',
-      type: ''
-    },
-    description: ['']
-  },
+
   more: [
     {
       text: 'xxx',

@@ -39,31 +39,7 @@ export default {
 	'D: Le cheminement se poursuit, de plus en plus escarpé, jusqu’à ce que, brusquement, une pente abrupte vienne clore l’espace de tous côtés. Un fort bruit de cascade se fait entendre, alors que jusque-là aucun cours d’eau n’était visible. En nous approchant, nous constatons que le bruit provient de l’eau qui jaillit d’un gros tas de pierre. Nous sommes arrivés à la source de la Serrière, la plus courte rivière du canton de Neuchâtel : 665 mètres exactement d’un parcours en bonne partie souterrain avant de se jeter dans le lac.'
 	]
   },
-  route2: {
-    details: {
-      start: 'xxx',
-      end: 'xxx',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: 'xxx',
-      type: 'xxx'
-    },
-    description: ['xxx']
-  },
-  route3: {
-    title: '',
-    details: {
-      start: '',
-      end: '',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: '',
-      type: ''
-    },
-    description: ['']
-  },
+
   more: [
     {
       text: 'xxx',

@@ -43,31 +43,7 @@ export default {
       'Après la partie la plus escarpée des gorges (chemin en hauteur, sur rive droite), traverser le pont et monter en direction de la gare de Chambrelien.'
     ]
   },
-  route2: {
-    details: {
-      start: 'xxx',
-      end: 'xxx',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: 'xxx',
-      type: 'xxx'
-    },
-    description: ['xxx']
-  },
-  route3: {
-    title: '',
-    details: {
-      start: '',
-      end: '',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: '',
-      type: ''
-    },
-    description: ['']
-  },
+
   /* point_of_interest: [
     {
       title: 'A. La source de la Noiraigue',

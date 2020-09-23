@@ -48,31 +48,7 @@ export default {
 	'On retrouve cette troisième branche quelques dizaines de mètres plus loin peu avant la confluence ( J ) entre cet écoulement et le Bacavoine qui s’en vont, par une galerie souterraine, rejoindre L’Allaine.'
 	]
   },
-  route2: {
-    details: {
-      start: 'xxx',
-      end: 'xxx',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: 'xxx',
-      type: 'xxx'
-    },
-    description: ['']
-  },
-  route3: {
-    title: '',
-    details: {
-      start: '',
-      end: '',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: '',
-      type: ''
-    },
-    description: ['']
-  },
+
   more: [
     {
       text: 'xxx',

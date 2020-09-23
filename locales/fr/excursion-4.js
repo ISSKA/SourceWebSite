@@ -57,31 +57,7 @@ export default {
 	'Quitter l’auberge en direction du Triebtenseewli et gagner le col du Grimsel. Contourner le Totesee par le sud et descendre en direction de Gletsch où l’on rejoint le chemin des quatre sources. On voit au loin la source du Rhône que l’on rejoint après être passé par le col de la Furka.'
 	]
   },
-  route2: {
-    details: {
-      start: 'xxx',
-      end: 'xxx',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: 'xxx',
-      type: 'xxx'
-    },
-    description: ['xxx']
-  },
-  route3: {
-    title: '',
-    details: {
-      start: '',
-      end: '',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: '',
-      type: ''
-    },
-    description: ['']
-  },
+
   more: [
     {
       text: 'xxx',

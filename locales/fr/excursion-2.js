@@ -40,31 +40,7 @@ export default {
       'Selon les conditions climatiques, il est préférable de ne pas trop s’approcher de la source en raison du risque de chutes de pierre provenant de la paroi nord du Gspaltenhorn.',
       'Le retour se fait par le même chemin, à moins que l’on ne souhaite prolonger la randonnée par un passage à la Rotstockhütte.']
   },
-  route2: {
-    details: {
-      start: 'xxx',
-      end: 'xxx',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: 'xxx',
-      type: 'xxx'
-    },
-    description: ['xxx']
-  },
-  route3: {
-    title: '',
-    details: {
-      start: '',
-      end: '',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: '',
-      type: ''
-    },
-    description: ['']
-  },
+
   more: [
     {
       text: 'xxx',

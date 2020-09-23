@@ -40,31 +40,7 @@ export default {
 	  'Une fois parvenu à la cascade, revenir sur ses pas jusqu’à l’alpage et reprendre le chemin qui se dirige vers l’ouest et qui contourne la Birgflue en passant par Im Chäli. Descendre ensuite plein est en direction des chutes de la Simme, rester sur la rive gauche de la rivière jusqu’au bas des cascades et rejoindre Lenk.'
 	  ]
   },
-  route2: {
-    details: {
-      start: 'xxx',
-      end: 'xxx',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: 'xxx',
-      type: 'xxx'
-    },
-    description: ['']
-  },
-  route3: {
-    title: '',
-    details: {
-      start: '',
-      end: '',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: '',
-      type: ''
-    },
-    description: ['']
-  },
+
   more: [
     {
       text: 'xxx',

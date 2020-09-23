@@ -34,31 +34,7 @@ export default {
 	'Après être passé à côté de jolis méandres formé par la Baumine, il faut s’engager sur la route forestière qui monte sur la gauche. On parvient bientôt dans les gorges que l’on remonte en rive droite. Ne pas hésiter à prendre un peu de temps pour s’écarter du chemin et s’approcher de la rivière. On y rencontrera une belle formation de tuf, témoignage d’anciens écoulements et, si le Fontanet de Covatannaz est en crue, le détour vaut particulièrement l’effort consenti. C’est également là que se trouve l’émergence pérenne du système hydrogéologique de Covatannaz',
 	'A l’approche de Ste-Croix, une fois sorti des gorges, privilégier l’itinéraire passant par La Sagne qui, pour rejoindre la gare, est plus agréable que celui qui aboutit à la route cantonale.']
   },
-  route2: {
-    details: {
-      start: 'xxx',
-      end: 'xxx',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: 'xxx',
-      type: 'xxx'
-    },
-    description: ['xxx']
-  },
-  route3: {
-    title: '',
-    details: {
-      start: '',
-      end: '',
-      distance: '',
-      delta_height: '+ xxx m / – xxx m',
-      duration: 'xxx heures',
-      restauration: '',
-      type: ''
-    },
-    description: ['']
-  },
+
   more: [
     {
       text: 'xxx',

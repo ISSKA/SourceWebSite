@@ -83,13 +83,13 @@ export default {
   extras: [
     {
       title: 'Hölloch + Schlichenden Brünnen',
-	  cover: 'img-1.jpg',
+      cover: 'img-1.jpg',
       sumary: '',
       description: [
-	  'Le Hölloch est célèbre pour diverses raisons : cette cavité labyrinthique a été la plus longue du monde et reste parmi les premières de cette catégorie (actuellement, plus de 200 km de galeries), le karst environnant a été l’objet de nombreuses études hydrogéologiques du fait de la complexité de ses circulations souterraines, cette grotte a vu à plusieurs reprises des explorateurs y rester bloqués après une montée des eaux qui en avait condamné l’entrée. ',
-	  'De part et d’autre de la vallée de la Muota émergent deux groupes de sources qui drainent les eaux souterraines de la région : celles de Fugglen débitent 0,2 m3/s en moyenne, celles de Schlichenden Brunnen 2 m3/s. Ces dernières constituent les exutoires permanents du réseau souterrain, qui compte aussi quelques sources temporaires, dont la grotte du Hölloch qui, peut vomir jusqu’à 5 m3/s en grosse crue, et même plus de 8 m3/s lors de la crue exceptionnelle d’août 2005. On comprend dès lors que l’exploration de cet immense réseau souterrain soit difficile et dangereuse. ',
-	  'Ce n’est donc pas un hasard si ce sont des explorateurs du Hölloch qui ont développé des enregistreurs automatiques de crue qui peuvent transmettre leurs informations à chaque instant par Internet. Au début, de simples détecteurs de la présence d’eau, ces appareils ont évolué pour devenir de véritables petites stations de mesure : pression, température, conductivité, vitesse de montée de l’eau peuvent être mesurées. La transmission des données utilise des fréquences téléphoniques. Enfin, des stations pluviométriques consultables de la même manière en temps réel, ont complété le dispositif. Il est ainsi possible, depuis chez soi, de décider si une exploration prévue au Hölloch peut être maintenue, ou doit être reportée du fait des conditions météorologiques ou du niveau des eaux sous terre.'
-],
+        'Le Hölloch est célèbre pour diverses raisons : cette cavité labyrinthique a été la plus longue du monde et reste parmi les premières de cette catégorie (actuellement, plus de 200 km de galeries), le karst environnant a été l’objet de nombreuses études hydrogéologiques du fait de la complexité de ses circulations souterraines, cette grotte a vu à plusieurs reprises des explorateurs y rester bloqués après une montée des eaux qui en avait condamné l’entrée. ',
+        'De part et d’autre de la vallée de la Muota émergent deux groupes de sources qui drainent les eaux souterraines de la région : celles de Fugglen débitent 0,2 m3/s en moyenne, celles de Schlichenden Brunnen 2 m3/s. Ces dernières constituent les exutoires permanents du réseau souterrain, qui compte aussi quelques sources temporaires, dont la grotte du Hölloch qui, peut vomir jusqu’à 5 m3/s en grosse crue, et même plus de 8 m3/s lors de la crue exceptionnelle d’août 2005. On comprend dès lors que l’exploration de cet immense réseau souterrain soit difficile et dangereuse. ',
+        'Ce n’est donc pas un hasard si ce sont des explorateurs du Hölloch qui ont développé des enregistreurs automatiques de crue qui peuvent transmettre leurs informations à chaque instant par Internet. Au début, de simples détecteurs de la présence d’eau, ces appareils ont évolué pour devenir de véritables petites stations de mesure : pression, température, conductivité, vitesse de montée de l’eau peuvent être mesurées. La transmission des données utilise des fréquences téléphoniques. Enfin, des stations pluviométriques consultables de la même manière en temps réel, ont complété le dispositif. Il est ainsi possible, depuis chez soi, de décider si une exploration prévue au Hölloch peut être maintenue, ou doit être reportée du fait des conditions météorologiques ou du niveau des eaux sous terre.'
+      ],
       images: [
         {
           legend: 'xxx',
@@ -99,15 +99,20 @@ export default {
           legend: 'Vue en plan du Hölloch.',
           name: 'img-2.jpg'
         },
-  
+
       ],
       onTheRoad: true,
-	  position:{
-		  x: 480,
-		  y: 299,
-	  
-	  }
-    },
-    
+      position: {
+        x: 480,
+        y: 299,
+
+      },
+      position2: {
+        x: 795,
+        y: 274,
+
+      },
+     
+    }
   ]
 }

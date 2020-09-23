@@ -72,43 +72,54 @@
 
     </p>
 
-    <h2 v-if="excursion.route2.title != null && excursion.route2.title != ''" class="title-section">{{ excursion.route2.title }}</h2>
-    <dl v-if="excursion.route2.details.distance != null && excursion.route2.details.distance != ''" class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
-      <dt class="col-sm-2" v-if="excursion.route2.details.type != null && excursion.route2.details.type != ''">{{ $t('excursion.infos2.type') }}</dt>
-      <dd class="col-sm-10" v-if="excursion.route2.details.type != null && excursion.route2.details.type != ''">{{ excursion.route2.details.type }}</dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos2.start') }}</dt>
-      <dd class="col-sm-4">
-        {{ excursion.route2.details.start }}
-      </dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos2.end') }}</dt>
-      <dd class="col-sm-4">
-        {{ excursion.route2.details.end }} 
-      </dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos2.distance') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route2.details.distance }}</dd>
-      <!-- todo: Dénivellation -> Dénivelé ? -->
-      <dt class="col-sm-2">{{ $t('excursion.infos2.delta_height') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route2.details.delta_height }}</dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos2.duration') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route2.details.duration }}</dd>
-      <dt class="col-sm-2" v-if="excursion.route2.details.restauration != null && excursion.route2.details.restauration != ''">{{ $t('excursion.infos2.restaurant') }}</dt>
-      <dd class="col-sm-4" v-if="excursion.route2.details.restauration != null && excursion.route2.details.restauration != ''">{{ excursion.route2.details.restauration }}</dd>
-      <dt class="col-sm-2" v-if="excursion.route2.details.hebergement != null && excursion.route2.details.hebergement != ''">{{ $t('excursion.infos2.hebergement') }}</dt>
-      <dd class="col-sm-4" v-if="excursion.route2.details.hebergement != null && excursion.route2.details.hebergement != ''">{{ excursion.route2.details.hebergement }}</dd>
-      <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
+    <template v-if="excursion.route2">
+      <h2 class="title-section">{{ excursion.route2.title }}</h2>
+      <dl class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
+        <template v-if="excursion.route2.details.type && excursion.route2.details.type != ''">
+          <dt class="col-sm-2">{{ $t('excursion.infos2.type') }}</dt>
+          <dd class="col-sm-10">{{ excursion.route2.details.type }}</dd>
+        </template>
+        <dt class="col-sm-2">{{ $t('excursion.infos2.start') }}</dt>
+        <dd class="col-sm-4">
+          {{ excursion.route2.details.start }}
+        </dd>
+        <dt class="col-sm-2">{{ $t('excursion.infos2.end') }}</dt>
+        <dd class="col-sm-4">
+          {{ excursion.route2.details.end }}
+        </dd>
+        <dt class="col-sm-2">{{ $t('excursion.infos2.distance') }}</dt>
+        <dd class="col-sm-4">{{ excursion.route2.details.distance }}</dd>
+        <!-- todo: Dénivellation -> Dénivelé ? -->
+        <dt class="col-sm-2">{{ $t('excursion.infos2.delta_height') }}</dt>
+        <dd class="col-sm-4">{{ excursion.route2.details.delta_height }}</dd>
+        <dt class="col-sm-2">{{ $t('excursion.infos2.duration') }}</dt>
+        <dd class="col-sm-4">{{ excursion.route2.details.duration }}</dd>
+        <template v-if="excursion.route2.details.restauration && excursion.route2.details.restauration != ''">
+          <dt class="col-sm-2">{{ $t('excursion.infos2.restaurant') }}</dt>
+          <dd class="col-sm-4">{{ excursion.route2.details.restauration }}</dd>
+        </template>
+        <template v-if="excursion.route2.details.hebergement && excursion.route2.details.restauration != ''">
+          <dt class="col-sm-2">{{ $t('excursion.infos2.hebergement') }}</dt>
+          <dd class="col-sm-4">en{{ excursion.route2.details.hebergement }}</dd>
+        </template>
+        <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
     <dd class="col-sm-4">
       <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
     </dd>-->
-    </dl>
+      </dl>
 
-    <p v-for="(content, index) in excursion.route2.description" :key="'details-' + index" v-html="content">
+      <p v-for="(content, index) in excursion.route2.description" :key="'details-' + index" v-html="content">
 
-    </p>
+      </p>
+    </template>
 
-    <h2 v-if="excursion.route3.title != null && excursion.route3.title != ''" class="title-section">{{ excursion.route3.title }}</h2>
-    <dl v-if="excursion.route3.details.distance != null && excursion.route3.details.distance != ''" class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
-      <dt class="col-sm-2" v-if="excursion.route3.details.type != null && excursion.route3.details.type != ''">{{ $t('excursion.infos3.type') }}</dt>
-      <dd class="col-sm-10" v-if="excursion.route3.details.type != null && excursion.route3.details.type != ''">{{ excursion.route3.details.type }}</dd>
+    <template v-if="excursion.route3">
+    <h2 class="title-section">{{ excursion.route3.title }}</h2>
+    <dl class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
+      <template v-if="excursion.route3.details.type && excursion.route3.details.type != ''">
+        <dt class="col-sm-2">{{ $t('excursion.infos3.type') }}</dt>
+        <dd class="col-sm-10">{{ excursion.route3.details.type }}</dd>
+      </template>
       <dt class="col-sm-2">{{ $t('excursion.infos3.start') }}</dt>
       <dd class="col-sm-4">
         {{ excursion.route3.details.start }}
@@ -124,11 +135,15 @@
       <dd class="col-sm-4">{{ excursion.route3.details.delta_height }}</dd>
       <dt class="col-sm-2">{{ $t('excursion.infos3.duration') }}</dt>
       <dd class="col-sm-4">{{ excursion.route3.details.duration }}</dd>
-      <dt class="col-sm-2" v-if="excursion.route3.details.restauration != null && excursion.route3.details.restauration != ''">{{ $t('excursion.infos3.restaurant') }}</dt>
-      <dd class="col-sm-4" v-if="excursion.route3.details.restauration != null && excursion.route3.details.restauration != ''">{{ excursion.route3.details.restauration }}</dd>
-      <dt class="col-sm-2" v-if="excursion.route3.details.hebergement != null && excursion.route3.details.hebergement != ''">{{ $t('excursion.infos3.hebergement') }}</dt>
-      <dd class="col-sm-4" v-if="excursion.route3.details.hebergement != null && excursion.route3.details.hebergement != ''">{{ excursion.route3.details.hebergement }}</dd>
-      <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
+      <template v-if="excursion.route3.details.restauration && excursion.route3.details.restauration != ''">
+        <dt class="col-sm-2">{{ $t('excursion.infos3.restaurant') }}</dt>
+        <dd class="col-sm-4">{{ excursion.route3.details.restauration }}</dd>
+      </template>
+      <template v-if="excursion.route3.details.hebergement && excursion.route3.details.restauration != ''">
+        <dt class="col-sm-2">{{ $t('excursion.infos3.hebergement') }}</dt>
+        <dd class="col-sm-4">en{{ excursion.route3.details.hebergement }}</dd>
+      </template>
+        <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
     <dd class="col-sm-4">
       <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
     </dd>-->
@@ -137,7 +152,7 @@
     <p v-for="(content, index) in excursion.route3.description" :key="'details-' + index" v-html="content">
 
     </p>
-
+    </template>
     <!--<div>
     <b-table :items="items" class="col-md-5" stacked style="background-color: lightgray;"></b-table>
   </div>-->
@@ -154,13 +169,27 @@
 
       <!-- https://www.image-map.net -->
       <map name="workmap">
-        <area v-for="content in excursion.extras.filter((item) => item.onTheRoad)"
-              :key="content.index"
-              shape="circle"
-              :coords="`${content.position.x}, ${content.position.y}, 35`"
-              alt="Computer"
-              href="#"
-              @click.prevent="interactivePoint(content.index)" />
+        <template v-for="content in excursion.extras.filter((item) => item.onTheRoad)">
+          <template v-for="position in content">
+
+            <area
+                  :key="content.index"
+                  shape="circle"
+                  :coords="`${content.position.x}, ${content.position.y}, 35`"
+                  alt="Computer"
+                  href="#"
+                  @click.prevent="interactivePoint(content.index)" />
+            <area v-if="content.position2"
+                  :key="content.index"
+                  shape="circle"
+                  :coords="`${content.position2.x}, ${content.position2.y}, 35`"
+                  alt="Computer"
+                  href="#"
+                  @click.prevent="interactivePoint(content.index)" />
+          </template>
+        </template>
+
+        
       </map>
 
       <!--<div class="text-center" style="margin-top: 20px;">
@@ -182,7 +211,7 @@
 
     <div v-if="excursion.route.link_swissmobile" class="text-center">
       <a :href="excursion.route.link_swissmobile" target="_blank">{{ $t('excursion.route.link_swissmobile') }}</a><br />
-      <a :href="excursion.route.link_geoadmin" target="_blank">{{ $t('excursion.route.link_geoadmin') }}</a>
+      <a v-if="excursion.route.link_geoadmin" :href="excursion.route.link_geoadmin" target="_blank">{{ $t('excursion.route.link_geoadmin') }}</a>
     </div>
 
     <!-- POINTS D INTERET -->
