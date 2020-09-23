@@ -22,7 +22,7 @@ export default {
     'Pour l’atteindre, on doit s’engager dans une gorge profonde et impressionnante.En visitant ce site, il vaut la peine de se représenter  les conditions dans lesquelles on conduisait les patients jusqu’à la source.Les curistes étaient descendus jusqu’à la source au moyen d’échelles et de palans sommairement installés entre les parois verticales de la gorge...',
     'De nos jours, l’eau de la source est toujours utilisée à des fins thérapeutiques que ce soit à l’hôpital orthopédique de Valens ou aux bains de Bad Ragaz.'
   ],
-  route: {
+  route: [{
 	  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp;land=wanderland&amp;route=all&amp;photos=yes&amp;bgLayer=pk&amp;logo=yes&amp;season=summer&amp;resolution=6.9&amp;E=2757047&amp;N=1206359&amp;layers=Wanderland&amp;trackId=6974305',
 	 details: {
       start: 'Gare de Bad Ragaz',
@@ -40,6 +40,7 @@ export default {
 	'La montée se poursuit et l’on sort bientôt de la gorge pour atteindre Pfäfers. On entame ensuite la descente parmi les vignes jusqu’à la plaine de Rhin que l’on suit pour rejoindre le point de départ.'
 ]
   },
+    ],
 
   more: [
     {

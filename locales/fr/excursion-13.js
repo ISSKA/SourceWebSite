@@ -24,7 +24,7 @@ export default {
     '<b>Le circuit de la forêt de  Bödmeren</b> est une randonnée classique dans la région qui permet de parcourir la forêt de Bol.',
     '<b>Le sentier  “Urwaldspur“</b> permet de parcourir une région boisée exceptionnelle et dedécouvrir les zones de lapiés qui s’étendent au loin jusqu’au Silberen.'
   ],
-  route: {
+  route: [{
     title: 'Schlichenden Brünnen / Hölloch',
     details: {
       start: 'Husky Lodge (Muotathal)',
@@ -39,7 +39,7 @@ export default {
       'Contourner  la  butte  du  Charen  par  l’ouest  en  passant  par  Töbeli. S’engager  ensuite  sur  la  route  du  Pragelpass; en  contrebas, on  aperçoit  l’entrée  principale du réseau souterrain.',
       'Un peu plus loin, quitter la route et suivre un sentier qui s’engage dans la forêt puis redescend en direction du point de départ.']
   },
-  route2: {
+  {
     title: 'La forêt de Bödmeren',
     details: {
       start: 'Route Muotathal > Pragelpass',
@@ -53,7 +53,7 @@ export default {
     description: ['Boucle  de  10  km  dans  une  magnifique  forêt  peu ou  pas  exploitée.  Ici,  aucune  trace  d’eau.  Celle-ci  s’infiltre dans le sous-sol par une multitude de fissures et de failles. C’est au-dessous de cette forêt que se développe  le  gigantesque  labyrinthe  souterrain  du  Hölloch.',
       'Accès en voiture depuis Muotathal.']
   },
-  route3: {
+  {
     title: 'Sentier «Urwaldspur»',
     details: {
       start: 'Urwaldpavillion',
@@ -67,6 +67,7 @@ export default {
     description: ['Sentier thématique autour du Roggenstöckli permettant de découvrir les richesses de la réserve naturelle de la forêt primaire de Bödmeren.',
       'Accès  en  voiture  depuis  Muotathal  jusqu’au  pavillon  de la forêt primaire(Urwaldpavillon).']
   },
+  ],
   more: [
     {
       text: 'xxx',

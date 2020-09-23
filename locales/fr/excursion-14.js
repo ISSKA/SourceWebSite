@@ -22,7 +22,7 @@ export default {
     'Difficile d’accès, cette très belle source a attiré les spéléologues - plongeurs dès 1959. Depuis lors, plus de 2 kilomètres de galeries noyées ont été explorés.',
     'La randonnée proposée part de Weesen et longe la rive nord du lac jusqu’à Quinten.Le retour en bateau permet de prendre du recul pour admirer les deux cascades et l’imposant massif qui les domine.'
   ],
-  route: {
+  route: [{
     link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=7.47&amp%3BE=2730402&amp%3BN=1221805&amp%3Blayers=Wanderland&amp%3BtrackId=7666286&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=4.64&E=2730402&N=1221805&trackId=7666286',
     details: {
       start: 'Weesen',
@@ -42,6 +42,7 @@ export default {
 	'* accessible en voiture, mais peu conseillé car la route est étroite, la circulation alternée et les parkings chers...'
 	]
   },
+    ],
 
   more: [
     {

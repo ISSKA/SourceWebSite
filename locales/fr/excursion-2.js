@@ -21,7 +21,7 @@ export default {
     'Il y a peu de temps encore, cette source était dissimulée par la masse du glacier. C’est grâce à la fonte de celui-ci qu’on peut aujourd’hui la voir et l’admirer de loin.',
     'A ce jour, on sait peu de choses sur cette source, si ce n’est qu’elle est très belle et mérite le détour! L’origine précise de ses eaux(bassin d’alimentation) n’est pas(encore) connue des hydrogéologues et les spéléologues n’ont pas(encore) pu explorer cette source – pour autant que cela soit techniquement possible...'
   ],
-  route: {
+  route: [{
 	  link_swissmobile: 'https:///map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=yes&bgLayer=pk&logo=yes&season=summer&resolution=4.37&E=2631690&N=1153351&layers=Wanderland&trackId=6867749',
     details: {
       start: 'Car postal de Lauterbrunnen à Rütti/Stechelberg',
@@ -40,6 +40,7 @@ export default {
       'Selon les conditions climatiques, il est préférable de ne pas trop s’approcher de la source en raison du risque de chutes de pierre provenant de la paroi nord du Gspaltenhorn.',
       'Le retour se fait par le même chemin, à moins que l’on ne souhaite prolonger la randonnée par un passage à la Rotstockhütte.']
   },
+    ],
 
   more: [
     {

@@ -20,7 +20,7 @@ export default {
     '<b>La source de la Serrière</b> est à l’origine d’un développement artisanal et industriel remarquable. Au cours de cette balade, on peut voir de nombreux bâtiments qui ont abrité – ou qui abritent encore – des activités utilisant l’énergie de la rivière, entre sa source et le lac, situé non loin de là.',
     'La source de la Serrière est une émergence pérenne impénétrable d’un débit moyen de 2,5 m3/s(minimum : 0,19 m3/s, maximum : 10,9m3/s) située dans les calcaires de l’Hauterivien supérieur. La Serrière est l’exutoire des calcaires du Malm du synclinal du Val-de-Ruz. La surface du bassin d’alimentation de cette source est de 88 km2.'
   ],
-  route: {
+  route: [{
     details: {
       start: 'Port de Serrières',
       end: 'Arrêt de bus Les Deurres',
@@ -39,6 +39,7 @@ export default {
 	'D: Le cheminement se poursuit, de plus en plus escarpé, jusqu’à ce que, brusquement, une pente abrupte vienne clore l’espace de tous côtés. Un fort bruit de cascade se fait entendre, alors que jusque-là aucun cours d’eau n’était visible. En nous approchant, nous constatons que le bruit provient de l’eau qui jaillit d’un gros tas de pierre. Nous sommes arrivés à la source de la Serrière, la plus courte rivière du canton de Neuchâtel : 665 mètres exactement d’un parcours en bonne partie souterrain avant de se jeter dans le lac.'
 	]
   },
+    ],
 
   more: [
     {

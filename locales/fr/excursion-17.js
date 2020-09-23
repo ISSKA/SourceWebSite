@@ -23,7 +23,7 @@ export default {
     'La seconde étape débute par une montée(la dernière!) jusqu’au col de Susanfe.S’ensuit une longue descente qui mène au lac de Salanfe avant de traverser le joli vallon de Van.  ',
     'En complément à cette randonnée, nous proposons deux bonus : l’Abbaye de St-Maurice et sa source, sans doute à l’origine de la construction de cet important lieu de culte et la Grotte aux Fées qui offre la possibilité de voir une rivière souterraine.'
   ],
-  route: {
+  route: [{
     link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=6.9&amp%3BE=2757047&amp%3BN=1206359&amp%3Blayers=Wanderland&amp%3BtrackId=6974305&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=9.98&E=2561653&N=1113334&trackId=7057611',
     details: {
       start: 'Van d’en Bas (Salvan)',
@@ -48,6 +48,7 @@ export default {
 	'A Van d’en Bas, s’il vous reste un peu d’énergie, prenez un moment pour aller jeter un coup d’œil aux gorges du Dailley qui se trouvent juste en-dessous du hameau; elles valent le détour.',
 ]
   },
+    ],
 
   more: [
     {

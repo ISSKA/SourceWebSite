@@ -23,7 +23,7 @@ export default {
     'Nous proposons de compléter cette magnifique randonnée alpine par la découverte de la source de l’Aar.',
     'Cette extension fait passer la randonnée de 5 à 6 jours.A partir d’Obergesteln (fin de la quatrième étape), on quitte le chemin des quatre sources pour monter en direction du Sidelhorn et de l’Oberaarsee.Nuitée au restaurant de montagne d’Oberaar.Le lendemain (sixième et dernière étape), rejoindre le chemin des quatre sources à Gletsch en passant par le Col du Grimsel.'
 ],
-  route: {
+  route: [{
     details: {
       start: 'Col de l’Oberalp',
       end: 'Source du Rhône / Col de la Furka',
@@ -57,6 +57,7 @@ export default {
 	'Quitter l’auberge en direction du Triebtenseewli et gagner le col du Grimsel. Contourner le Totesee par le sud et descendre en direction de Gletsch où l’on rejoint le chemin des quatre sources. On voit au loin la source du Rhône que l’on rejoint après être passé par le col de la Furka.'
 	]
   },
+    ],
 
   more: [
     {

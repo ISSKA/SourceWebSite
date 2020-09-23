@@ -25,7 +25,7 @@ export default {
       'En complément à cette excursion, deux autres sources méritent d’être visitées à proximité d’Undervelier: celle des Blanches- Fontaines, une magnifique résurgence située dans les gorges du Pichoux et celle de Ste - Colombe visible au fond d’une grotte - sanctuaire se trouvant au bord de la route menant d’Undervelier à Berlincourt.'
     
   ],
-  route: {
+  route: [{
     details: {
       start: 'Undervelier',
       end: 'Undervelier',
@@ -43,6 +43,7 @@ export default {
       'Rejoindre plus loin la petite route qui mène à la ferme de Frénois et terminer l’excursion en regagnant Undervelier.'
     ]
   },
+    ],
 
   more: [
     {

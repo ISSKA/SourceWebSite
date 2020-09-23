@@ -25,7 +25,7 @@ export default {
     'En complément à cette balade, il est possible d’aller jeter un coup d’œil à l’estavelle du Creugenat située à 5 km au sud - ouest de Porrentruy.Cette cavité est un regard sur l’Ajoulote, qui est la rivière souterraine pérenne dont l’émergence est la source de la Beuchire.',
     'Une visite à la source du Bacavoine, située en centre du village de Fontenais est également conseillée.'
   ],
-  route: {
+  route: [{
     details: {
       start: 'Parking du Centre (entre les rues de la Colombière et du Creugenat)',
       end: 'Parking du Centre',
@@ -48,6 +48,7 @@ export default {
 	'On retrouve cette troisième branche quelques dizaines de mètres plus loin peu avant la confluence ( J ) entre cet écoulement et le Bacavoine qui s’en vont, par une galerie souterraine, rejoindre L’Allaine.'
 	]
   },
+    ],
 
   more: [
     {

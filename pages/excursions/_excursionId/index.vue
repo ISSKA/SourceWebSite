@@ -38,121 +38,37 @@
     </div>
 
     <!-- ITINERAIRE -->
-    <h2 class="title-section">{{ excursion.route.title }}</h2>
+    <template v-for="content in excursion.route">
+      <h2 class="title-section">{{ content.title }}</h2>
 
-    <dl class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
-      <dt class="col-sm-2" v-if="excursion.route.details.type != null && excursion.route.details.type != ''">{{ $t('excursion.infos.type') }}</dt>
-      <dd class="col-sm-10" v-if="excursion.route.details.type != null && excursion.route.details.type != ''">{{ excursion.route.details.type }}</dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos.start') }}</dt>
-      <dd class="col-sm-4">
-        {{ excursion.route.details.start }} (<a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.text') }}</a>)
-      </dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos.end') }}</dt>
-      <dd class="col-sm-4">
-        {{ excursion.route.details.end }} (<a :href="excursion.cff.link_end" target="_blank">{{ $t('excursion.cff.text') }}</a>)
-      </dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos.distance') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route.details.distance }}</dd>
-      <!-- todo: Dénivellation -> Dénivelé ? -->
-      <dt class="col-sm-2">{{ $t('excursion.infos.delta_height') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route.details.delta_height }}</dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos.duration') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route.details.duration }}</dd>
-      <dt class="col-sm-2" v-if="excursion.route.details.restauration != null && excursion.route.details.restauration != ''">{{ $t('excursion.infos.restaurant') }}</dt>
-      <dd class="col-sm-4" v-if="excursion.route.details.restauration != null && excursion.route.details.restauration != ''">{{ excursion.route.details.restauration }}</dd>
-      <dt class="col-sm-2" v-if="excursion.route.details.hebergement != null && excursion.route.details.hebergement != ''">{{ $t('excursion.infos.hebergement') }}</dt>
-      <dd class="col-sm-4" v-if="excursion.route.details.hebergement != null && excursion.route.details.hebergement != ''">{{ excursion.route.details.hebergement }}</dd>
-      <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
-    <dd class="col-sm-4">
-      <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
-    </dd>-->
-    </dl>
-
-    <p v-for="(content, index) in excursion.route.description" :key="'details-' + index" v-html="content">
-
-    </p>
-
-    <template v-if="excursion.route2">
-      <h2 class="title-section">{{ excursion.route2.title }}</h2>
       <dl class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
-        <template v-if="excursion.route2.details.type && excursion.route2.details.type != ''">
-          <dt class="col-sm-2">{{ $t('excursion.infos2.type') }}</dt>
-          <dd class="col-sm-10">{{ excursion.route2.details.type }}</dd>
-        </template>
-        <dt class="col-sm-2">{{ $t('excursion.infos2.start') }}</dt>
+        <dt class="col-sm-2" v-if="content.details.type && content.details.type != ''">{{ $t('excursion.infos.type') }}</dt>
+        <dd class="col-sm-10" v-if="content.details.type && content.details.type != ''">{{ content.details.type }}</dd>
+        <dt class="col-sm-2">{{ $t('excursion.infos.start') }}</dt>
         <dd class="col-sm-4">
-          {{ excursion.route2.details.start }}
+          {{ content.details.start }} (<a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.text') }}</a>)
         </dd>
-        <dt class="col-sm-2">{{ $t('excursion.infos2.end') }}</dt>
+        <dt class="col-sm-2">{{ $t('excursion.infos.end') }}</dt>
         <dd class="col-sm-4">
-          {{ excursion.route2.details.end }}
+          {{ content.details.end }} (<a :href="excursion.cff.link_end" target="_blank">{{ $t('excursion.cff.text') }}</a>)
         </dd>
-        <dt class="col-sm-2">{{ $t('excursion.infos2.distance') }}</dt>
-        <dd class="col-sm-4">{{ excursion.route2.details.distance }}</dd>
-        <!-- todo: Dénivellation -> Dénivelé ? -->
-        <dt class="col-sm-2">{{ $t('excursion.infos2.delta_height') }}</dt>
-        <dd class="col-sm-4">{{ excursion.route2.details.delta_height }}</dd>
-        <dt class="col-sm-2">{{ $t('excursion.infos2.duration') }}</dt>
-        <dd class="col-sm-4">{{ excursion.route2.details.duration }}</dd>
-        <template v-if="excursion.route2.details.restauration && excursion.route2.details.restauration != ''">
-          <dt class="col-sm-2">{{ $t('excursion.infos2.restaurant') }}</dt>
-          <dd class="col-sm-4">{{ excursion.route2.details.restauration }}</dd>
-        </template>
-        <template v-if="excursion.route2.details.hebergement && excursion.route2.details.restauration != ''">
-          <dt class="col-sm-2">{{ $t('excursion.infos2.hebergement') }}</dt>
-          <dd class="col-sm-4">en{{ excursion.route2.details.hebergement }}</dd>
-        </template>
-        <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
-    <dd class="col-sm-4">
-      <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
-    </dd>-->
+        <dt class="col-sm-2">{{ $t('excursion.infos.distance') }}</dt>
+        <dd class="col-sm-4">{{ content.details.distance }}</dd>
+        <dt class="col-sm-2">{{ $t('excursion.infos.delta_height') }}</dt>
+        <dd class="col-sm-4">{{ content.details.delta_height }}</dd>
+        <dt class="col-sm-2">{{ $t('excursion.infos.duration') }}</dt>
+        <dd class="col-sm-4">{{ content.details.duration }}</dd>
+        <dt class="col-sm-2" v-if="content.details.restauration && content.details.restauration != ''">{{ $t('excursion.infos.restaurant') }}</dt>
+        <dd class="col-sm-4" v-if="content.details.restauration && content.details.restauration != ''">{{content.details.restauration }}</dd>
+        <dt class="col-sm-2" v-if="content.details.hebergement && content.details.hebergement != ''">{{ $t('excursion.infos.hebergement') }}</dt>
+        <dd class="col-sm-4" v-if="content.details.hebergement && content.details.hebergement != ''">{{ content.details.hebergement }}</dd>
       </dl>
 
-      <p v-for="(content, index) in excursion.route2.description" :key="'details-' + index" v-html="content">
+      <p v-for="(content, index) in content.description" :key="'details-' + index" v-html="content">
 
       </p>
     </template>
 
-    <template v-if="excursion.route3">
-    <h2 class="title-section">{{ excursion.route3.title }}</h2>
-    <dl class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
-      <template v-if="excursion.route3.details.type && excursion.route3.details.type != ''">
-        <dt class="col-sm-2">{{ $t('excursion.infos3.type') }}</dt>
-        <dd class="col-sm-10">{{ excursion.route3.details.type }}</dd>
-      </template>
-      <dt class="col-sm-2">{{ $t('excursion.infos3.start') }}</dt>
-      <dd class="col-sm-4">
-        {{ excursion.route3.details.start }}
-      </dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos3.end') }}</dt>
-      <dd class="col-sm-4">
-        {{ excursion.route3.details.end }}
-      </dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos3.distance') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route3.details.distance }}</dd>
-      <!-- todo: Dénivellation -> Dénivelé ? -->
-      <dt class="col-sm-2">{{ $t('excursion.infos3.delta_height') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route3.details.delta_height }}</dd>
-      <dt class="col-sm-2">{{ $t('excursion.infos3.duration') }}</dt>
-      <dd class="col-sm-4">{{ excursion.route3.details.duration }}</dd>
-      <template v-if="excursion.route3.details.restauration && excursion.route3.details.restauration != ''">
-        <dt class="col-sm-2">{{ $t('excursion.infos3.restaurant') }}</dt>
-        <dd class="col-sm-4">{{ excursion.route3.details.restauration }}</dd>
-      </template>
-      <template v-if="excursion.route3.details.hebergement && excursion.route3.details.restauration != ''">
-        <dt class="col-sm-2">{{ $t('excursion.infos3.hebergement') }}</dt>
-        <dd class="col-sm-4">en{{ excursion.route3.details.hebergement }}</dd>
-      </template>
-        <!--<dt class="col-sm-2">{{ $t('excursion.cff.text') }}</dt>
-    <dd class="col-sm-4">
-      <a :href="excursion.cff.link_begin" target="_blank">{{ $t('excursion.cff.link_begin') }}</a>
-    </dd>-->
-    </dl>
-
-    <p v-for="(content, index) in excursion.route3.description" :key="'details-' + index" v-html="content">
-
-    </p>
-    </template>
     <!--<div>
     <b-table :items="items" class="col-md-5" stacked style="background-color: lightgray;"></b-table>
   </div>-->

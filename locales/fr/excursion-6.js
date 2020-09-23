@@ -22,7 +22,7 @@ export default {
     'L’Office du tourisme d’Engadine propose trois excursions pour partir à la découverte des sources minérales (Mineralwasserweg) de Scuol et environs. Toutes les informations utiles sont accessibles en se procurant les brochures de présentation de ces excursions ou sur le site internet de l’office du tourisme.',
     'En plus de ces trois itinéraires, nous proposons aussi la découverte de la source minérale de Val Sinestra.'
   ],
-  route: {
+  route: [{
     title: 'Circuit 1: curas da baiver',
     details: {
       start: 'Scuol (Office du tourisme)',
@@ -43,7 +43,7 @@ export default {
       'Pour déguster l’eau des sources minérales, il est conseillé d’emporter une bouteille ou une tasse.'
     ]
   },
-  route2: {
+  {
     title: 'Circuit 2: tras il god',
     details: {
       start: 'Scuol (Office du tourisme)',
@@ -59,7 +59,7 @@ export default {
       'Le sentier des eaux minérales Tras il god peut aussi être facilement parcouru en VTT(montée plus facile sur la route de San Jon).Cependant, la section de la source de San Jon Dadaint n’est pas possible en vélo.Ici, les visiteurs sont priés de laisser leurs vélos, de marcher jusqu’à la source et de continuer le tour sur le chemin du bas.'
 ]
   },
-  route3: {
+  {
     title: 'Circuit 3: bügl e funtana',
     details: {
       start: 'Scuol (Office du tourisme)',
@@ -78,7 +78,8 @@ export default {
       'Soulevez le couvercle et allumez la lumière. L’eau peut être dégustée plus bas à la fontaine Eichhörnchen.',
       'Revigoré par l’eau de la source Clozza, vous poursuivez votre excursion, en passant par la maison de retraite, jusqu’à la source ferrugineuse de Vi, située près de la route cantonale, dans la nouvelle partie du village de Scuol.Ensuite, le chemin mène à la gare et, peu avant d’arriver à destination, la source Chalzina Sura peut être observée dans son état naturel.'
     ]
-  },
+    },
+  ],
   more: [
     {
       text: 'xxx',

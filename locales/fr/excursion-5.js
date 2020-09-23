@@ -21,7 +21,7 @@ export default {
     'Cependant, nous conseillons la version longue car elle permet une approche lente et spectaculaire du glacier Oberaar d’où jaillit la branche supérieure de l’Aar.En chemin, on a aussi tout le loisir d’admirer l’Unteraargletscher qui, lui, est à l’origine de la source inférieure de l’Aar.\n',
     'En raison de la fonte des glaciers, cette région change d’aspect de plus en plus rapidement.Là où il y avait encore récemment de la glace, la végétation colonise les espaces et crée de nouveaux biotopes.'
   ],
-  route: {
+  route: [{
 	  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp;land=wanderland&amp;route=all&amp;photos=yes&amp;bgLayer=pk&amp;logo=yes&amp;season=summer&amp;resolution=7.14&amp;E=2664590&amp;N=1155671&amp;layers=Wanderland&amp;trackId=7806467',
 	  details: {
       start: 'Col du Grimsel',
@@ -42,7 +42,7 @@ export default {
 	'Si l’accès se fait en voiture ou en vélo, possibilité de raccourcir cette randonnée en partant du Berghaus Oberaar.',
 ]
   },
-
+  ],
   more: [
     {
       text: 'xxx',

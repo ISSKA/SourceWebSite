@@ -21,7 +21,7 @@ export default {
     'Mais, plus bas, le long de la Borgne, se cache un autre point d’intérêt naturel : les sources chaudes de Combioula dans lesquelles on peut se baigner librement...du moins pour l’instant! En effet, un projet d’exploitation touristique pourrait changer la donne dans les prochaines années.',
     'L’excursion proposée ici est agréable et permet de découvrir non seulement ces sources mais également d’autres pyramides que celles qui figurent sur toutes les cartes postales.Au passage, on franchit une passerelle impressionnante qui lie les deux rives d’un profond ravin et on visite un hameau abandonné qui a fait récemment l’objet d’une réhabilitation agro - touristique.'
   ],
-  route: {
+  route: [{
 	  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp;land=wanderland&amp;route=all&amp;photos=yes&amp;bgLayer=pk&amp;logo=yes&amp;season=summer&amp;resolution=4.72&amp;E=2599148&amp;N=1113709&amp;layers=Wanderland&amp;trackId=7058691',
     details: {
       start: 'Euseigne',
@@ -38,6 +38,7 @@ export default {
 	'Retour à Euseigne en traversnt le vallon où coule La Dixence. En cours de route, ne pas oublier de lever le nez pour admirer les roches en forme de pyramides qui se trouvent ça et là.'
 	]
   },
+    ],
 
   more: [
     {

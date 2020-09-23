@@ -21,7 +21,8 @@ export default {
     '<b>Les gorges de l’Areuse</b> sont bien connues des randonneurs. Grâce aux nombreuses sources qui s’y trouvent, elles sont le château d’eau du canton de Neuchâtel. Cette excursion permet de les découvrir et de comprendre comment, vers la fin du XIXème siècle, les hommes ont su les capter pour alimenter la ville de La Chaux-de-Fonds, située 500 m plus haut et 20 km plus loin.'
 
   ],
-  route: {
+  route: [
+    {
     link_swissmobile:
       'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=no&season=summer&resolution=5&E=2548863&N=1200929&trackId=6400923&layers=Wanderland',
     link_geoadmin: 'https://s.geo.admin.ch/8726200db1',
@@ -43,6 +44,7 @@ export default {
       'Après la partie la plus escarpée des gorges (chemin en hauteur, sur rive droite), traverser le pont et monter en direction de la gare de Chambrelien.'
     ]
   },
+    ],
 
   /* point_of_interest: [
     {

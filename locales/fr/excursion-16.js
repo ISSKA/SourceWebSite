@@ -21,7 +21,7 @@ export default {
     'La visite au site des bains de Craveggia nous plonge dans une période révolue qui a vu cet endroit retiré accueillir des hôtes venus ici pour profiter des vertus de l’eau d’une source qui, en réalité, se trouve sur territoire italien mais dont l‘unique accès se fait par la Suisse.',
     'Depuis quelques années, l’ancien bâtiment des bains a été sommairement réaménagé pour y pratiquer la méthode Kneipp, cela dans un site naturel qui est resté – avec bonheur – pratiquement intact.'
   ],
-  route: {
+  route: [{
     link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=1.85&amp%3BE=2686079&amp%3BN=1116819&amp%3Blayers=Wanderland&amp%3BtrackId=7007583&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=1.15&E=2686079&N=1116819&trackId=7007583',
     details: {
       start: 'Col du Grimsel',
@@ -40,6 +40,7 @@ export default {
 	'Nous conseillons de revenir à Spruga en passant par la rive droite. Mais cet itinéraire est plus exigeant que celui emprunté à l’aller. Le sentier franchit un ruisseau qu’il peut être délicat de traverser selon son débit. Il faut ensuite monter dans la côte avant de redescendre jusqu’au niveau de l’Isorno pour le traverser au point 904 avant de remonter en direction de Spruga.'
 	]
   },
+    ],
 
   more: [
     {

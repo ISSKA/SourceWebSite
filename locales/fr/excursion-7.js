@@ -20,7 +20,7 @@ export default {
     'De nombreuses sources se trouvent à proximité de Flims. La circulation des eaux souterraines dans cette région est fortement influencée par l’éboulement d’une masse d’environ 9 km3 de roche survenu il y a 9700 ans. Provenant de la région située entre le Crap da Flem et le Piz Grischette, cette quantité impressionnante a glissé vers la vallée et endigué temporairement le Rhin formant un lac en amont, à partir d’Ilanz. L’excursion vous fait découvrir l’hydrologie particulière de cette masse éboulée, en particulier la source de Laghizun, le Lag la Cauma le Lag Prau Pulté.',
     'En complément à cette excursion, il est recommandé d’aller voir le Lag Tiert, une très belle source en forme de grand bassin, qui se trouve à proximité de la télécabine de Laax Murschetg.'
   ],
-  route: {
+  route: [{
     link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=4.19&amp%3BE=2742531&amp%3BN=1187461&amp%3Blayers=Wanderland&amp%3BtrackId=6946140&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=5.37&E=2742918&N=1187102&trackId=6946140',
     details: {
       start: 'Trin-Mulin, arrêt bus postal',
@@ -38,6 +38,7 @@ export default {
 	'Terminer l’excursion en revenant sur ses pas jusqu’à l’arrêt de bus de Flims-Waldhaus.'
 	]
   },
+    ],
 
   more: [
     {

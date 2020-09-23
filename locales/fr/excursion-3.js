@@ -21,7 +21,7 @@ export default {
     'Ce sont les eaux du glacier de la Plaine Morte, situé plus de 1000 m plus haut, qui résurgent aux Sieben Brünnen. Entre la source et la plaine de Lenk, on peut admirer un autre site spectaculaire: les Simmefäll. Sur près de 200 m de dénivellation, la rivière dévale la montagne en une série de cascades spectaculaires. Mais, elle ne suit pas ici son cheminement naturel... En effet, afin de préserver la vallée d’inondations ravageuses, elle est déviée de son cours naturel pour suivre une sorte de gorge dans laquelle elle trouve un nouveau lit plus régulier et maîtrisable.',
     'En complément à cette randonnée, nous suggérons la visite de deux autres sources spectaculaires situées dans cette région du pays : la Source de Bellegarde, à Jaun(FR) et la Source de la Chaudanne, à Rossinière(VD).'
   ],
-  route: {
+  route: [{
 	  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp;land=wanderland&amp;route=all&amp;photos=yes&amp;bgLayer=pk&amp;logo=yes&amp;season=summer&amp;resolution=7.27&amp;E=2602149&amp;N=1142729&amp;layers=Wanderland&amp;trackId=6868128',
     details: {
       start: 'Lenk',
@@ -40,6 +40,7 @@ export default {
 	  'Une fois parvenu à la cascade, revenir sur ses pas jusqu’à l’alpage et reprendre le chemin qui se dirige vers l’ouest et qui contourne la Birgflue en passant par Im Chäli. Descendre ensuite plein est en direction des chutes de la Simme, rester sur la rive gauche de la rivière jusqu’au bas des cascades et rejoindre Lenk.'
 	  ]
   },
+    ],
 
   more: [
     {
