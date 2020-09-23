@@ -89,6 +89,10 @@ export default {
       position: {
         x: 1207,
         y: 126,
+      },
+      position2: {
+        x: 1853,
+        y: 1415,
       }
     },
     {
@@ -116,7 +120,8 @@ export default {
       position: {
         x: 912,
         y: 1244
-      }
+      },
+      
     },
 	{
       title: 'La source de l’Abbaye de St-Maurice d’Agaune',
@@ -130,16 +135,16 @@ export default {
 	  ],
       images: [
         {
-          legend: 'xxx',
+          legend: 'Pour voir la source de l’Abbaye, il faut passer entre les bâtiments du collège puis se diriger vers la droite en direction de l’abbaye.',
           name: 'img-1.jpg'
         },
         {
-          legend: 'xxx',
+          legend: ' ',
           name: 'img-2.jpg'
         },
         {
-          legend: 'xxx',
-          name: 'img-3.tif'
+          legend: 'Le vivier et les jardins de l’abbaye de Saint-Maurice. Détail d’une héliogravure imprimée vers 1885.',
+          name: 'img-3.jpg'
         }
       ],
       onTheRoad: false

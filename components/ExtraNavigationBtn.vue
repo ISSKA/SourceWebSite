@@ -1,12 +1,12 @@
 <template>
-  <div v-if="itemsCount > 1" class="row justify-content-between">
-    <div class="col-md-3 col-6">
+  <div class="row justify-content-between">
+    <div v-if="itemsCount > 1" class="col-md-3 col-6">
       <nuxt-link v-if="prev.show" :to="prev.link" class="btn btn-link">&lt; {{ $t('extra.prev_text') }}</nuxt-link>
     </div>
     <div class="col-md-6 text-center extra-navigation-btn-back">
       <nuxt-link :to="localePath(`/excursions/${currentExcursion}`)" class="btn btn-link">{{ $t('extra.return_text') }}</nuxt-link>
     </div>
-    <div class="col-md-3 col-6 text-right">
+    <div v-if="itemsCount > 1" class="col-md-3 col-6 text-right">
       <nuxt-link v-if="next.show" :to="next.link" class="btn btn-link">{{ $t('extra.next_text') }} &gt; </nuxt-link>
     </div>
   </div>
