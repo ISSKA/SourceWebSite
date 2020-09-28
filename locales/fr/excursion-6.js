@@ -90,8 +90,8 @@ export default {
     }
   ],
   cff: {
-    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=',
-    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von='
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Scuol',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=Scuol'
   },
   extras: [
     {
@@ -138,10 +138,10 @@ export default {
 	  cover: 'img-1.jpg',
       sumary: '',
       description: [
-	  'Eau minérale et source minérale',
+	  '<h3>Eau minérale et source minérale</h3>',
 	  'La limite entre l’eau de table et l’eau minérale est à 1 gramme par litre de minéraux dissous. Dans certaines régions de Suisse, l’eau du robinet est donc formellement une eau minérale, même si elle contient peu de gaz dissous. En fonction de son agressivité, c’est-à-dire de sa teneur en CO2 et du temps passé sous terre, l’eau dissout plus ou moins les minéraux de la roche, tout particulièrement calcaire. Des types de roche tels que les carbonates, mais aussi les silicates, les volcanites ou les évaporites sont dissous et intégrés à l’eau minéralisée de la source sous forme d’ions.',
 	  'Au sens classique du terme, une source minérale fournit une eau constamment tempérée et contient une quantité assez importante de gaz dissous, ce qui peut lui conférer des effets curatifs. Aujourd’hui, les sources qui fournissent de l’eau minérale sont couramment appelées sources minérales, sans qu’il y ait de définition stricte. ',
-	  'Pourquoi l’eau des sources de Scuol-Tarasp est-elle fortement minéralisée ?',
+	  '<h3>Pourquoi l’eau des sources de Scuol-Tarasp est-elle fortement minéralisée ?</h3>',
 	  'Les sources de Scuol-Tarasp contiennent une quantité exceptionnelle de CO2 et sont donc également très minéralisées (2-10 grammes par litre). La température de ces sources est de 2° à 9°C. La teneur en minéraux dissous (Ca2+, Mg2+, Na+, HCO3-, SO42-) correspond aux roches connues de la région : calcaires, dolomies, ardoises et ophiolites. L’eau ne circule pas très profondément dans le sol (contrairement aux eaux de sources thermales dont le parcours souterrain et beaucoup plus long et descend à des profondeurs pouvant aller jusqu’à plusieurs milliers de mètres). Cependant, le CO2 contenu dans les eaux minérales semble provenir de la croûte terrestre plus profonde et est absorbé par les eaux souterraines dans la roche.'
 ],
       images: [

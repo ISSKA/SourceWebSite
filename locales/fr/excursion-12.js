@@ -6,6 +6,8 @@ export default {
     duration: 'xxx heures',
     download_file: 'Covatannaz_F.pdf'
   },
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp;land=wanderland&amp;route=all&amp;photos=yes&amp;bgLayer=pk&amp;logo=yes&amp;season=summer&amp;resolution=5.18&amp;E=2530152&amp;N=1184093&amp;layers=Wanderland&amp;trackId=7059416',
+
   source: {
     coordinates: [2531000, 1185000],
     position: {
@@ -20,7 +22,6 @@ export default {
     'Cette randonnée permet de découvrir l’une des plus belles gorges du Jura en passant du Plateau aux hauteurs jurassiennes. En traversant les gorges de bas en haut, on remonte non seulement le cours de l’Arnon, mais aussi les bancs calcaires dans lesquels s’écoule l’eau souterraine provenant du flanc sud de Chasseron et de la région du col de l’Aiguillon. Selon les conditions météo, on peut voir de belles sources en rive gauche de l’Arnon, en particulier, celle du Fontanet de Covatannaz.'
   ],
   route: [{
-	  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp;land=wanderland&amp;route=all&amp;photos=yes&amp;bgLayer=pk&amp;logo=yes&amp;season=summer&amp;resolution=5.18&amp;E=2530152&amp;N=1184093&amp;layers=Wanderland&amp;trackId=7059416',
     details: {
       start: 'Baulmes',
       end: 'Ste-Croix',
@@ -46,12 +47,13 @@ export default {
     }
   ],
   cff: {
-    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=',
-    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von='
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Baulmes',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=Ste-Croix'
   },
   extras: [
     {
       title: 'Grottes et sources des gorges de Covatannaz',
+      cover: 'img-1.jpg',
       sumary: '',
       description: [
 	  'De nombreuses cavités naturelles sont connues dans les gorges de Covatannaz. La principale, nommée Réseau de Covatannaz a été explorée sur plus de 5 kilomètres par les spéléologues. Ce réseau compte quatre entrées : le Fontanet de Covatannaz (ou Grotte du Vertige), la Grotte des Echelles, la Grotte des Lacs et la Grotte de la Grande-Poule.',
@@ -68,8 +70,13 @@ export default {
     },
     {
       title: 'D’où vient l’eau des sources de Covatannaz ?',
+      cover: 'img-1.jpg',
       sumary: '',
-      description: ['Les eaux des sources des gorges de Covatannaz proviennent principalement du synclinal de Sainte-Croix, comme l’ont montré différents essais de traçage. La bordure du bassin d’alimentation semble assez bien définie au sud et au nord-ouest où des limites géologiques claires existent. A l’ouest, le synclinal de Sainte-Croix se prolonge vers Jougne et semble culminer au niveau du col de l’Aiguillon, mais une prolongation plus à l’ouest n’est pas exclue. Vers l’est, le flanc du Chasseron plonge régulièrement vers le Plateau suisse et seule la partie sud-ouest doit être drainée vers les sources de Covatannaz. On peut estimer que la limite du bassin d’alimentation se trouve approximativement sous le téléski reliant Les Rasses aux Petites-Roches. C’est en effet dans ce secteur que semble se terminer la cuvette du synclinal de Sainte-Croix, qui n’est prolongée vers le nord-est que par un replat moins marqué.'
+      description: ['Les eaux des sources des gorges de Covatannaz proviennent principalement du synclinal de Sainte-Croix, comme l’ont montré différents essais de traçage. La bordure du bassin d’alimentation semble assez bien définie au sud et au nord-ouest où des limites géologiques claires existent. A l’ouest, le synclinal de Sainte-Croix se prolonge vers Jougne et semble culminer au niveau du col de l’Aiguillon, mais une prolongation plus à l’ouest n’est pas exclue. Vers l’est, le flanc du Chasseron plonge régulièrement vers le Plateau suisse et seule la partie sud-ouest doit être drainée vers les sources de Covatannaz. On peut estimer que la limite du bassin d’alimentation se trouve approximativement sous le téléski reliant Les Rasses aux Petites-Roches. C’est en effet dans ce secteur que semble se terminer la cuvette du synclinal de Sainte-Croix, qui n’est prolongée vers le nord-est que par un replat moins marqué.',
+        '<h5>Un lac sous le Chasseron?</h5>',
+        'Qu’en est-il de la rumeur populaire faisant état d’un Lac sous le Chasseron ? Il convient ici de préciser quelques éléments de vocabulaire. Pour tout un chacun, un lac est une étendue d’eau à surface libre mesurant plusieurs hectares, voire km2 de superficie. Pour un spéléologue, un lac souterrain est une galerie, éventuellement une salle, partiellement remplie d’eau. Il s’agit donc bien d’une étendue d’eau à surface libre. Toutefois les plus grands lacs souterrains connus au monde atteignent au mieux deux ou trois hectares de superficie. Dans le Jura, un lac souterrain est grand lorsqu’il mesure 50 mètres de long par 10 de large ! Des lacs souterrains de cet ordre peuvent certainement exister dans la région, toutefois, les seuls connus actuellement se trouvent dans le réseau de Covatannaz. Pour un hydrogéologue, une nappe karstique (ou aquifère karstique) est un volume de roche pouvant s’étendre sur plusieurs kilomètres carrés et dans lequel tous les pores de la roche sont remplis d’eau. Précisons cependant que le volume des pores représente au maximum 1 à 2 % du volume de roche. S’il est certain que des nappes karstiques existent sous le Chasseron, il est préférable d’éviter d’utiliser le mot lac souterrain pour décrire une telle réserve d’eau.',
+        'Le lac sous le Chasseron, au sens où l’entendent la plupart des gens de la région, est donc un mythe !',
+        '<i>(extraits de l’Inventaire spéléologique de la Suisse, Tome V, Nord vaudois)</i>'
 	  ],
       images: [
         {
@@ -79,20 +86,5 @@ export default {
       ],
       onTheRoad: false
     },
-	{
-      title: 'Un lac sous le Chasseron?',
-      sumary: '',
-      description: ['Qu’en est-il de la rumeur populaire faisant état d’un Lac sous le Chasseron ? Il convient ici de préciser quelques éléments de vocabulaire. Pour tout un chacun, un lac est une étendue d’eau à surface libre mesurant plusieurs hectares, voire km2 de superficie. Pour un spéléologue, un lac souterrain est une galerie, éventuellement une salle, partiellement remplie d’eau. Il s’agit donc bien d’une étendue d’eau à surface libre. Toutefois les plus grands lacs souterrains connus au monde atteignent au mieux deux ou trois hectares de superficie. Dans le Jura, un lac souterrain est grand lorsqu’il mesure 50 mètres de long par 10 de large ! Des lacs souterrains de cet ordre peuvent certainement exister dans la région, toutefois, les seuls connus actuellement se trouvent dans le réseau de Covatannaz. Pour un hydrogéologue, une nappe karstique (ou aquifère karstique) est un volume de roche pouvant s’étendre sur plusieurs kilomètres carrés et dans lequel tous les pores de la roche sont remplis d’eau. Précisons cependant que le volume des pores représente au maximum 1 à 2 % du volume de roche. S’il est certain que des nappes karstiques existent sous le Chasseron, il est préférable d’éviter d’utiliser le mot lac souterrain pour décrire une telle réserve d’eau.',
-	  'Le lac sous le Chasseron, au sens où l’entendent la plupart des gens de la région, est donc un mythe !',
-	  '(extraits de l’Inventaire spéléologique de la Suisse, Tome V, Nord vaudois)'
-	  ],
-      images: [
-        {
-          legend: 'Bassin d’alimentation des sources de Covatannaz.',
-          name: 'img-1.jpg'
-        },
-      ],
-      onTheRoad: false
-    }
   ]
 }

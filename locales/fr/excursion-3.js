@@ -6,6 +6,7 @@ export default {
     duration: 'xxx heures',
     download_file: 'SiebenBrunnen_F.pdf'
   },
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=7.27&amp%3BE=2602149&amp%3BN=1142729&amp%3Blayers=Wanderland&amp%3BtrackId=6868128&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=5.67&E=2602149&N=1142729&trackId=6868128',
   source: {
     coordinates: [2603800, 1140500],
     position: {
@@ -22,7 +23,6 @@ export default {
     'En complément à cette randonnée, nous suggérons la visite de deux autres sources spectaculaires situées dans cette région du pays : la Source de Bellegarde, à Jaun(FR) et la Source de la Chaudanne, à Rossinière(VD).'
   ],
   route: [{
-	  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp;land=wanderland&amp;route=all&amp;photos=yes&amp;bgLayer=pk&amp;logo=yes&amp;season=summer&amp;resolution=7.27&amp;E=2602149&amp;N=1142729&amp;layers=Wanderland&amp;trackId=6868128',
     details: {
       start: 'Lenk',
       end: 'Lenk',
@@ -81,8 +81,8 @@ export default {
       ],
       onTheRoad: true,
 	  position:{
-		  x: 4753,
-		  y: 2438,
+		  x: 5178,
+		  y: 3193,
 	  }
     },
     {
@@ -102,7 +102,7 @@ export default {
           name: 'img-1.jpg'
         },
 		{
-          legend: 'Profil de la source de Bellegarde dessiné par les plongeurs Jacques Brasey, Stéphane Girardin et Pedro Balordi.',
+          legend: ' ',
           name: 'img-2.jpg'
         },
         

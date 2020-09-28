@@ -6,6 +6,8 @@ export default {
     duration: '6 heures (avec la visite des grottes)',
     download_file: 'Orbe_fichier_A4_min.pdf'
   },
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=no&season=summer&resolution=6.34&E=2516382&N=1171457&layers=Wanderland&trackId=7068364',
+
   source: {
     coordinates: [2515870, 1171700],
     position: {
@@ -20,7 +22,6 @@ export default {
     '<b>La source de l’Orbe</b> se situe à l’ouest de Vallorbe. Mais, en fait, plus en amont, il existe une autre source de l’Orbe, située au niveau du Lac des Rousses (France). Après un parcours sinueux, l’Orbe «supérieure» se jette dans le Lac de Joux puis le Lac Brenet au fond duquel... elle disparaît! Après un parcours souterrain, on la retrouve près de Vallorbe (Orbe inférieure). L’excursion proposée ici permet de suivre en surface le parcours emprunté, sous terre, par la rivière entre le Lac Brenet et les grottes de Vallorbe.'
   ],
   route: [{
-    link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=no&season=summer&resolution=6.34&E=2516382&N=1171457&layers=Wanderland&trackId=7068364',
     details: {
       start: 'Gare du Pont',
       end: 'Gare de Vallorbe',

@@ -6,6 +6,8 @@ export default {
     duration: 'xxx heures',
     download_file: 'Rinquelle_F.pdf'
   },
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=7.47&amp%3BE=2730402&amp%3BN=1221805&amp%3Blayers=Wanderland&amp%3BtrackId=7666286&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=4.64&E=2730402&N=1221805&trackId=7666286',
+
   source: {
     coordinates: [2731000, 1222000],
     position: {
@@ -23,7 +25,6 @@ export default {
     'La randonnée proposée part de Weesen et longe la rive nord du lac jusqu’à Quinten.Le retour en bateau permet de prendre du recul pour admirer les deux cascades et l’imposant massif qui les domine.'
   ],
   route: [{
-    link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=7.47&amp%3BE=2730402&amp%3BN=1221805&amp%3Blayers=Wanderland&amp%3BtrackId=7666286&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=4.64&E=2730402&N=1221805&trackId=7666286',
     details: {
       start: 'Weesen',
       end: 'Quinten > retour à Weesen en bateau',

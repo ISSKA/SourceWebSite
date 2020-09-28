@@ -6,6 +6,8 @@ export default {
     duration: 'xxx heures',
     download_file: 'Flims_F.pdf'
   },
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=4.19&amp%3BE=2742531&amp%3BN=1187461&amp%3Blayers=Wanderland&amp%3BtrackId=6946140&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=5.37&E=2742918&N=1187102&trackId=6946140',
+
   source: {
     coordinates: [2740500, 1189200],
     position: {
@@ -21,7 +23,6 @@ export default {
     'En complément à cette excursion, il est recommandé d’aller voir le Lag Tiert, une très belle source en forme de grand bassin, qui se trouve à proximité de la télécabine de Laax Murschetg.'
   ],
   route: [{
-    link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=4.19&amp%3BE=2742531&amp%3BN=1187461&amp%3Blayers=Wanderland&amp%3BtrackId=6946140&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=5.37&E=2742918&N=1187102&trackId=6946140',
     details: {
       start: 'Trin-Mulin, arrêt bus postal',
       end: 'Flims Waldhaus, arrêt bus postal',

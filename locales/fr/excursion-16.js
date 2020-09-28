@@ -6,6 +6,8 @@ export default {
     duration: 'xxx heures',
     download_file: 'Craveggia_F.pdf'
   },
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=1.85&amp%3BE=2686079&amp%3BN=1116819&amp%3Blayers=Wanderland&amp%3BtrackId=7007583&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=1.15&E=2686079&N=1116819&trackId=7007583',
+
   source: {
     coordinates: [2685300, 1116900],
     position: {
@@ -22,10 +24,9 @@ export default {
     'Depuis quelques années, l’ancien bâtiment des bains a été sommairement réaménagé pour y pratiquer la méthode Kneipp, cela dans un site naturel qui est resté – avec bonheur – pratiquement intact.'
   ],
   route: [{
-    link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=1.85&amp%3BE=2686079&amp%3BN=1116819&amp%3Blayers=Wanderland&amp%3BtrackId=7007583&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=1.15&E=2686079&N=1116819&trackId=7007583',
     details: {
-      start: 'Col du Grimsel',
-      end: 'Col du Grimsel',
+      start: 'Spruga',
+      end: 'Spruga',
       distance: '6,3 km',
       delta_height: '+ 468 m / – 468 m',
       duration: '2h30 (sans la baignade !)',
@@ -52,8 +53,8 @@ export default {
     }
   ],
   cff: {
-    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=',
-    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von='
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Spruga',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=Spruga'
   },
   extras: [
     {

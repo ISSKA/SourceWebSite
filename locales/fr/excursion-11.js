@@ -51,8 +51,8 @@ export default {
     }
   ],
   cff: {
-    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=',
-    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von='
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Neuchâtel,Port-de-Serrières',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=LesDeurres'
   },
   extras: [
     {
@@ -72,7 +72,11 @@ export default {
         },
         
       ],
-      onTheRoad: false
+      onTheRoad: true,
+      position: {
+        x: 3278,
+        y: 2435,
+      }
     },
     {
       title: 'Un important centre papetier',
@@ -97,7 +101,11 @@ export default {
         },
         
       ],
-      onTheRoad: false
+      onTheRoad: true,
+      position: {
+        x: 2857,
+        y: 2019,
+      }
     },{
       title: 'À la source du chocolat Suchard',
 	  cover: 'img-1.jpg',
@@ -117,7 +125,11 @@ En 1826, Philippe Suchard installe une chocolaterie au milieu du vallon où s’
         },
         
       ],
-      onTheRoad: false
+      onTheRoad: true,
+      position: {
+        x: 2567,
+        y: 1327,
+      }
     },
 	{
       title: 'La relation entre le Seyon et la source de la Serrière',
@@ -135,7 +147,11 @@ En 1826, Philippe Suchard installe une chocolaterie au milieu du vallon où s’
         },
         
       ],
-      onTheRoad: false
+    onTheRoad: true,
+    position: {
+      x: 2131,
+      y: 491,
+    }
     },
   ]
 }

@@ -6,6 +6,8 @@ export default {
     duration: 'xxx heures',
     download_file: 'BadPfafers_F.pdf'
   },
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=6.9&amp%3BE=2757047&amp%3BN=1206359&amp%3Blayers=Wanderland&amp%3BtrackId=6974305&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=5.38&E=2757047&N=1206359&trackId=6974305',
+
   source: {
     coordinates: [2756000, 1202500],
     position: {
@@ -23,7 +25,6 @@ export default {
     'De nos jours, l’eau de la source est toujours utilisée à des fins thérapeutiques que ce soit à l’hôpital orthopédique de Valens ou aux bains de Bad Ragaz.'
   ],
   route: [{
-	  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp;land=wanderland&amp;route=all&amp;photos=yes&amp;bgLayer=pk&amp;logo=yes&amp;season=summer&amp;resolution=6.9&amp;E=2757047&amp;N=1206359&amp;layers=Wanderland&amp;trackId=6974305',
 	 details: {
       start: 'Gare de Bad Ragaz',
       end: 'Gare de Bad Ragaz',
@@ -52,8 +53,8 @@ export default {
     }
   ],
   cff: {
-    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=',
-    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von='
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=BadRagaz',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=BadRagaz'
   },
   extras: [
     {
@@ -77,8 +78,8 @@ export default {
       ],
       onTheRoad: true,
 	  position: {
-		  x: 0,
-		  y: 0
+		  x: 2906,
+		  y: 2575,
 	  }
     },
     

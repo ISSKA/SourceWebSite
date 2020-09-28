@@ -6,6 +6,8 @@ export default {
     duration: 'xxx heures',
     download_file: 'Buchelieule_F.pdf'
   },
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=6.9&amp%3BE=2757047&amp%3BN=1206359&amp%3Blayers=Wanderland&amp%3BtrackId=6974305&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=9.98&E=2561653&N=1113334&trackId=7057611',
+
   source: {
     coordinates: [2558500, 1117500],
     position: {
@@ -24,7 +26,6 @@ export default {
     'En complément à cette randonnée, nous proposons deux bonus : l’Abbaye de St-Maurice et sa source, sans doute à l’origine de la construction de cet important lieu de culte et la Grotte aux Fées qui offre la possibilité de voir une rivière souterraine.'
   ],
   route: [{
-    link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=6.9&amp%3BE=2757047&amp%3BN=1206359&amp%3Blayers=Wanderland&amp%3BtrackId=6974305&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=9.98&E=2561653&N=1113334&trackId=7057611',
     details: {
       start: 'Van d’en Bas (Salvan)',
       end: 'Val-d’Illiez',

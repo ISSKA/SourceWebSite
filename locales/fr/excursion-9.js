@@ -20,9 +20,9 @@ export default {
     'Le toponyme Porrentruy semble avoir plusieurs origines possibles.L’une d’elles explique que la ville pourrait tirer son nom du Bruntrutum qui signifie « pays des sources abondantes ».Et il est bien vrai que l’eau est omniprésente dans cette petite ville du Jura tabulaire.',
     'La rivière la plus importante, et la plus visible, qui traverse la ville est <b>l’Allaine</b > qui trouve sa source dans la région de La Baroche, à l’est.',
     'Mais d’autres cours d’eau et plusieurs sources existent:',
-    '<ul><li>Le Creugenat.Rivière temporaire, trop - plein de l’Ajoulote souterraine, venant de la région de Chevenez – Courtedoux.</li><li>Le Bacavoine qui trouve sa source à Fontenais.</li><li>La source Chaumont, située dans la vieille ville, au pied du château.</li><li>La source de la Beuchire qui est la résurgence pérenne de la rivière souterraine l’Ajoulote.</li><li>La source de la Boucherie, située non loin de la précédente (aujourd’hui invisible).</li></ul>',
+    '<ul><li><b>Le Creugenat</b>. Rivière temporaire, trop-plein de l’Ajoulote souterraine, venant de la région de Chevenez–Courtedoux.</li><li><b>Le Bacavoine</b> qui trouve sa source à Fontenais.</li><li><b>La source Chaumont</b>, située dans la vieille ville, au pied du château.</li><li><b>La source de la Beuchire</b> qui est la résurgence pérenne de la rivière souterraine l’Ajoulote.</li><li><b>La source de la Boucherie</b>, située non loin de la précédente (aujourd’hui invisible).</li></ul>',
     'Au gré des rues de la vieille ville, la promenade proposée permet de découvrir ce système complexe de la circulation de l’eau en milieu urbain. ',
-    'En complément à cette balade, il est possible d’aller jeter un coup d’œil à l’estavelle du Creugenat située à 5 km au sud - ouest de Porrentruy.Cette cavité est un regard sur l’Ajoulote, qui est la rivière souterraine pérenne dont l’émergence est la source de la Beuchire.',
+    'En complément à cette balade, il est possible d’aller jeter un coup d’œil à l’estavelle du Creugenat située à 5 km au sud-ouest de Porrentruy.Cette cavité est un regard sur l’Ajoulote, qui est la rivière souterraine pérenne dont l’émergence est la source de la Beuchire.',
     'Une visite à la source du Bacavoine, située en centre du village de Fontenais est également conseillée.'
   ],
   route: [{
@@ -36,16 +36,16 @@ export default {
       type: 'Balade urbaine'
     },
     description: [
-	'La balade débute en traversant la passerelle pour piétons qui enjambe le lit du Creugenat ( A ). Cette rivière ne coule que lors de périodes pluvieuses. ',
-	'En se placant au milieu du pont et en regardant vers l’amont, on peut observer les deux petites sources du Gravier ( B ) situées dans le lit du Creugenat. Ces arrivées d’eau discrètes sont pourtant pérennes contrairement au Creugenat lui-même.',
-	'Suivre la rue du Creugenat avant de tourner à gauche pour s’engager dans le Faubourg de France. Quelques mètres avant de franchir la porte homonyme et d’entrer dans la vieille ville, faire un petit crochet jusqu’au bord du Creugenat. En portant le regard vers l’aval, on voit, en rive droite, une arrivée d’eau : c’est la source Chaumont ( C ). Cette source a été durant longtemps le principal point d’alimentation en eau de la ville, car située intra-muros. A l’heure actuelle, la ville est alimentée par la source de la Betteraz qui se trouve à l’aval de Porrentruy, en bord de forêt du Pont d’Able. Son eau est traitée dans une installation conséquente car polluée par les activités industrielles passées.',
-	'La balade se poursuit  par le Faubourg de France, puis en remontant successivement la rue Pierre Péquignat et la rue des Malvoisins. On continue toujours de monter en s’engageant dans la rue des Annonciades dans laquelle se trouve la Fontaine du Suisse ( D ), datant de 1564. ',
-	'Au haut de la rue des Annonciades, on atteint la rue des Baîches où se trouvaient plusieurs puits ( E ). Le toponyme Baîche provient du patois et signifie... puits!',
-	'Tourner à gauche pour s’engager dans la Grand-Rue où l’on découvre la fontaine de La Samaritaine ( F ). ',
-	'Poursuivre la balade en descendant la rue Pierre Péquignat dans l’autre sens puis tourner à droite par la rue Joseph Trouillat. Contourner la maison qui se trouve à l’angle de ces deux rues et longer le parc par sa droite. Prêter attention au mur du bâtiment à côté duquel on passe : on peut y observer la trace d’une grande roue à aubes qui fut installée ici jadis ( G ). Le ruisseau qui passait par là est aujourd’hui canalisé dans une conduite souterraine.',
-	'Sur la gauche, dans le parc, se trouve la source (non visible) de la Boucherie ( H ) qui est connectée avec le Creugenat.',
-	'On parvient ensuite à la source de la Beuchire ( I ) qui est l’exutoire permanent du système hydrogéologique de l’Ajoulote (ou du Creugenat). L’eau qui sourd de cette source est divisée en trois branches ; l’une s’en va vers le lit du Creugenat par la conduite évoquée ci-dessus; l’autre est canalisée et dirigée vers l’Allaine et une troisième branche est aussi canalisée pour rejoindre le cours du Bacavoine.',
-	'On retrouve cette troisième branche quelques dizaines de mètres plus loin peu avant la confluence ( J ) entre cet écoulement et le Bacavoine qui s’en vont, par une galerie souterraine, rejoindre L’Allaine.'
+	'La balade débute en traversant la passerelle pour piétons qui enjambe le lit du Creugenat <b>( A )</b>. Cette rivière ne coule que lors de périodes pluvieuses. ',
+	'En se placant au milieu du pont et en regardant vers l’amont, on peut observer les deux petites sources du Gravier <b>( B )</b> situées dans le lit du Creugenat. Ces arrivées d’eau discrètes sont pourtant pérennes contrairement au Creugenat lui-même.',
+	'Suivre la rue du Creugenat avant de tourner à gauche pour s’engager dans le Faubourg de France. Quelques mètres avant de franchir la porte homonyme et d’entrer dans la vieille ville, faire un petit crochet jusqu’au bord du Creugenat. En portant le regard vers l’aval, on voit, en rive droite, une arrivée d’eau : c’est la source Chaumont <b>( C )</b>. Cette source a été durant longtemps le principal point d’alimentation en eau de la ville, car située intra-muros. A l’heure actuelle, la ville est alimentée par la source de la Betteraz qui se trouve à l’aval de Porrentruy, en bord de forêt du Pont d’Able. Son eau est traitée dans une installation conséquente car polluée par les activités industrielles passées.',
+	'La balade se poursuit  par le Faubourg de France, puis en remontant successivement la rue Pierre Péquignat et la rue des Malvoisins. On continue toujours de monter en s’engageant dans la rue des Annonciades dans laquelle se trouve la Fontaine du Suisse <b>( D )</b>, datant de 1564. ',
+	'Au haut de la rue des Annonciades, on atteint la rue des Baîches où se trouvaient plusieurs puits <b>( E )</b>. Le toponyme Baîche provient du patois et signifie... puits!',
+	'Tourner à gauche pour s’engager dans la Grand-Rue où l’on découvre la fontaine de La Samaritaine <b>( F )</b>. ',
+	'Poursuivre la balade en descendant la rue Pierre Péquignat dans l’autre sens puis tourner à droite par la rue Joseph Trouillat. Contourner la maison qui se trouve à l’angle de ces deux rues et longer le parc par sa droite. Prêter attention au mur du bâtiment à côté duquel on passe : on peut y observer la trace d’une grande roue à aubes qui fut installée ici jadis <b>( G )</b>. Le ruisseau qui passait par là est aujourd’hui canalisé dans une conduite souterraine.',
+	'Sur la gauche, dans le parc, se trouve la source (non visible) de la Boucherie <b>( H )</b> qui est connectée avec le Creugenat.',
+	'On parvient ensuite à la source de la Beuchire <b>( I )</b> qui est l’exutoire permanent du système hydrogéologique de l’Ajoulote (ou du Creugenat). L’eau qui sourd de cette source est divisée en trois branches ; l’une s’en va vers le lit du Creugenat par la conduite évoquée ci-dessus; l’autre est canalisée et dirigée vers l’Allaine et une troisième branche est aussi canalisée pour rejoindre le cours du Bacavoine.',
+	'On retrouve cette troisième branche quelques dizaines de mètres plus loin peu avant la confluence <b>( J )</b> entre cet écoulement et le Bacavoine qui s’en vont, par une galerie souterraine, rejoindre L’Allaine.'
 	]
   },
     ],
@@ -60,8 +60,8 @@ export default {
     }
   ],
   cff: {
-    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=',
-    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von='
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Porrentruy',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=Porrentruy'
   },
   extras: [
     {
@@ -88,13 +88,12 @@ export default {
           legend: 'Exploration en scaphandrier en 1934.',
           name: 'img-3.jpg'
         },
-		{
+		    {
           legend: 'Un aspect de la conduite principale de la galerie souterraine photographiée ici en période d’étiage.',
           name: 'img-4.jpg'
         }
       ],
       onTheRoad: false
     },
-
   ]
 }

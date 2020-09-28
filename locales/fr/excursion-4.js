@@ -98,15 +98,15 @@ export default {
     },
     {
       title: 'Le massif du Gothard: château d’eau de l’Europe',
-	  cover: 'img-2.jpg',
+	  cover: 'img-1.jpg',
       sumary: '',
       description: [
 	  'Trois fleuves prennent leur source dans le massif du Gothard : le Rhin, le Rhône et le Tessin. Les bassins hydrographiques de ces trois grands fleuves européens se rejoignent ici, quelque part entre le Pizzo Curciusa et le Piz Bianch. ',
-	  'Le Rhin : parmi les fleuves qui prennent leur source en Suisse, il est le plus long (1233 km jusqu’à la mer du Nord, dont 375 km sur territoire helvétique), le plus gros (un débit moyen de 2 300 m3/s proche de son embouchure) et celui qui a le plus vaste bassin versant en Suisse ',
+	  '<b>Le Rhin :</b> parmi les fleuves qui prennent leur source en Suisse, il est le plus long (1233 km jusqu’à la mer du Nord, dont 375 km sur territoire helvétique), le plus gros (un débit moyen de 2 300 m3/s proche de son embouchure) et celui qui a le plus vaste bassin versant en Suisse ',
 	  '(24 300 km2). Sa source est donc un lac de montagne qui collecte les eaux tombées sur les pentes du Piz Tuma (2784 m), du Rossbodenstock (2837 m) et du Badus Six Madun (2928 m). Le lac est alimenté par le Rein da Tuma, un ruisseau marécageux, piqueté de linaigrettes : site calme et rayonnant, destination parfaite de randonnée alpine. ',
 	  'Complétons par quelques mots de l’Aar, affluent du Rhin après avoir conflué avec la Reuss, son principal affluent. Plus long fleuve intégralement suisse avec quasi 300 km, l’Aar a sa source au front du glacier issu des pentes du Lauteraarhorn, du Finsteraarhorn et de l’Oberaarhorn. Puis c’est le trajet au service de l’énergie (barrages du Grimselsee et du Räterischsbodensee), avant de se cacher au fond de gorges sauvages profondes de 200 mètres. On peut les suivre au long d’un cheminement accessible, et faire un détour à la cascade de 120 m des chutes de Reichenbach. Quant à l’Aar, après les avoir traversées, il s’assagit en suivant le lac de Brienz, puis celui de Thoune. C’est enfin le long parcours d’ouest en est au pied du Jura pour retrouver la Reuss et venir grossir les eaux du Rhin à Koblenz. Une impressionnante traversée de Suisse.',
-	  'Le Rhône : 266 km à travers la Suisse pour un parcours total de 812 km jusqu’à la Méditerranée. Son débit de 1700 m3/s lui vient plus d’affluents respectables en France (Saône, Isère, Durance…) que de sa source et de ses affluents helvétiques. Le site de Gletsch, dominé par les cols de la Furka et du Grimsel, est bien connu. En un siècle, il a bien changé, dû principalement au retrait du glacier du Rhône qui donne naissance au fleuve éponyme.',
-	  'Le Tessin : une centaine de kilomètres en Suisse, soit le tiers de son parcours complet jusqu’à sa confluence avec le Pô. Au nord-est du col du Nufenen, sous les pentes du Pizzo Nero, à une altitude de 2550 m, un modeste ru porte déjà le nom de Ticino. Il alimente deux petits lacs successifs, puis se perd… A peine plus bas, un lac un peu plus grand concentre plusieurs autres ruissellements et alimente le petit torrent qui dévale les pentes du col pour s’engager dans le val Bedretto. A partir d’Airolo, le Tessin suit la Léventine, cap au sud, vers Locarno, le lac Majeur, puis l’aventure italienne jusqu’au Pô, qui l’emmènera vers l’Adriatique.',
+	  '<b>Le Rhône :</b> 266 km à travers la Suisse pour un parcours total de 812 km jusqu’à la Méditerranée. Son débit de 1700 m3/s lui vient plus d’affluents respectables en France (Saône, Isère, Durance…) que de sa source et de ses affluents helvétiques. Le site de Gletsch, dominé par les cols de la Furka et du Grimsel, est bien connu. En un siècle, il a bien changé, dû principalement au retrait du glacier du Rhône qui donne naissance au fleuve éponyme.',
+	  '<b>Le Tessin :</b> une centaine de kilomètres en Suisse, soit le tiers de son parcours complet jusqu’à sa confluence avec le Pô. Au nord-est du col du Nufenen, sous les pentes du Pizzo Nero, à une altitude de 2550 m, un modeste ru porte déjà le nom de Ticino. Il alimente deux petits lacs successifs, puis se perd… A peine plus bas, un lac un peu plus grand concentre plusieurs autres ruissellements et alimente le petit torrent qui dévale les pentes du col pour s’engager dans le val Bedretto. A partir d’Airolo, le Tessin suit la Léventine, cap au sud, vers Locarno, le lac Majeur, puis l’aventure italienne jusqu’au Pô, qui l’emmènera vers l’Adriatique.',
 	  'Un peu plus à l’est, hors du strict massif du Gothard, l’Inn complète notre mosaïque des grands bassins hydrographiques européens. Sortie du Lägh dal Lunghin, un lac glaciaire typique non loin du col de la Maloja, l’Inn traverse la Haute-Engadine par les lacs de Sils et Silvaplana, pour gagner la Basse-Engadine et marquer la frontière entre Suisse et Autriche. Ce sera ensuite le Tyrol autrichien, Innsbruck (le pont de l’Inn), la Bavière et enfin le mariage avec le Danube à Passau, où elle apporte plus d’eau que son conjoint ! Après, ce sera l’aventure à travers l’Europe centrale et orientale pour atteindre la mer Noire.'
 	  ],
       images: [
@@ -116,7 +116,11 @@ export default {
         },
 		
       ],
-      onTheRoad: false
+      onTheRoad: true,
+      position: {
+        x: 3331,
+        y: 1254,
+      },
     },
 	{
       title: 'La source du Rhône',
@@ -130,19 +134,23 @@ export default {
 	  ],
       images: [
         {
-          legend: 'xxx',
+          legend: 'La source du Rhône vue de Gletsch en 1900...',
           name: 'img-1.jpg'
         },
         {
-          legend: 'xxx',
+          legend: '...et vue du Grimsel en 2020',
           name: 'img-2.jpg'
         },
         {
-          legend: 'xxx',
+          legend: 'Le retrait du glacier du Rhône illustré par la comparaison entre 4 cartes topographiques de 1864 à nos jours.',
           name: 'img-3.jpg'
         }
-      ],
-      onTheRoad: false
+    ],
+    onTheRoad: true,
+    position: {
+      x: 1727,
+      y: 1454,
+    },
     },
   ]
 }

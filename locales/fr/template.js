@@ -44,12 +44,12 @@ export default {
       type: 'Type de randonnée',
 	  hebergement: 'Hébérgement',
     },
+    link_swissmobile: 'Afficher le tracé sur SuisseMobile',
+    link_geoadmin: 'Afficher le tracé sur GeoAdmin',
     education_sheet_link: 'Télécharger cette randonnée en PDF',
     route: {
       title: 'Description de l’itinéraire',
       legend: 'Cliquez sur un point d’intérêt pour afficher ses informations.',
-      link_swissmobile: 'Afficher le tracé sur SuisseMobile',
-      link_geoadmin: 'Afficher le tracé sur GeoAdmin'
     },
     point_of_interest: 'Points d’intérêt le long du parcours',
     extras: 'A voir aussi dans la région',

@@ -125,9 +125,9 @@
     </div>-->
     </div>
 
-    <div v-if="excursion.route.link_swissmobile" class="text-center">
-      <a :href="excursion.route.link_swissmobile" target="_blank">{{ $t('excursion.route.link_swissmobile') }}</a><br />
-      <a v-if="excursion.route.link_geoadmin" :href="excursion.route.link_geoadmin" target="_blank">{{ $t('excursion.route.link_geoadmin') }}</a>
+    <div v-if="excursion.link_swissmobile" class="text-center">
+      <a :href="excursion.link_swissmobile" target="_blank">{{ $t('excursion.link_swissmobile') }}</a><br />
+      <a v-if="excursion.link_geoadmin" :href="excursion.link_geoadmin" target="_blank">{{ $t('excursion.link_geoadmin') }}</a>
     </div>
 
     <!-- POINTS D INTERET -->
@@ -175,7 +175,7 @@
     </b-tab>
   </b-tabs>-->
     <!-- POINT OF INTEREST -->
-    <h3 class="title-section" style="margin-top: 40px;">
+    <h3 v-if="excursion.extras.filter((item) => item.onTheRoad).length > 0"class="title-section" style="margin-top: 40px;">
       {{ $t('excursion.point_of_interest') }}
     </h3>
 
