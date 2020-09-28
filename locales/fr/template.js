@@ -34,7 +34,7 @@ export default {
   },
   excursion: {
     infos: {
-      level: 'Difficuleté',
+      level: 'Difficulté',
       duration: 'Durée',
       start: 'Départ',
       end: 'Arrivée',

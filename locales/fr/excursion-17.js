@@ -20,8 +20,8 @@ export default {
   },
   description: [
     'Le massif des Dents du Midi</b> peut être parcouru en suivant une multitude d’itinéraires, plus ou moins longs et difficiles. Bien connu des randonneurs, le Tour des Dents du Midi  comporte lui-même plusieurs variantes réalisables en 2, 3 ou 4 jours.',
-    'L’excursion proposée ici est axée sur l’eau...visible et invisible! En 2 jours, on contourne le massif par l’ouest, ce qui permet de découvrir des paysages variés caractérisés par des structures géologiques spectaculaires et de suivre, en surface, le chemin que l’eau emprunte presque essentiellement par des voies souterraines étonnantes...',
-    'La première étape, conduit de Val-d’Illiez à la cabane de Susanfe.On passe d’abord à la source de Buchelieule, qui se trouve au bord de la Vièze et dont l’eau provient, selon toute vraisemblance, du lac de...Salanfe! Une longue montée conduit ensuite jusqu’à Bonavau et à l’impressionnante gorge du Pas d’Encel.Le col franchi, la cabane est presque en vue.',
+    'L’excursion proposée ici est axée sur l’eau... visible et invisible! En 2 jours, on contourne le massif par l’ouest, ce qui permet de découvrir des paysages variés caractérisés par des structures géologiques spectaculaires et de suivre, en surface, le chemin que l’eau emprunte presque essentiellement par des voies souterraines étonnantes...',
+    'La première étape, conduit de Val-d’Illiez à la cabane de Susanfe. On passe d’abord à la source de Buchelieule, qui se trouve au bord de la Vièze et dont l’eau provient, selon toute vraisemblance, du lac de...Salanfe! Une longue montée conduit ensuite jusqu’à Bonavau et à l’impressionnante gorge du Pas d’Encel. Le col franchi, la cabane est presque en vue.',
     'La seconde étape débute par une montée(la dernière!) jusqu’au col de Susanfe.S’ensuit une longue descente qui mène au lac de Salanfe avant de traverser le joli vallon de Van.  ',
     'En complément à cette randonnée, nous proposons deux bonus : l’Abbaye de St-Maurice et sa source, sans doute à l’origine de la construction de cet important lieu de culte et la Grotte aux Fées qui offre la possibilité de voir une rivière souterraine.'
   ],

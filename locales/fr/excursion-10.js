@@ -1,6 +1,6 @@
 export default {
   title: 'Sources des gorges de l’Areuse',
-  subtitle: '',
+  subtitle: 'NE',
   summary: {
     difficulty: 'Modérée',
     duration: '4 heures',

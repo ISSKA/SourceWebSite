@@ -41,7 +41,7 @@
     <template v-for="content in excursion.route">
       <h2 class="title-section">{{ content.title }}</h2>
 
-      <dl class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff;">
+      <dl class="row info-card" style="border: 1px solid gray; padding: 10px; padding-top: 15px; border-radius: 10px; background-color: #e5f8ff; text-align: left;">
         <dt class="col-sm-2" v-if="content.details.type && content.details.type != ''">{{ $t('excursion.infos.type') }}</dt>
         <dd class="col-sm-10" v-if="content.details.type && content.details.type != ''">{{ content.details.type }}</dd>
         <dt class="col-sm-2">{{ $t('excursion.infos.start') }}</dt>
@@ -180,7 +180,7 @@
     </h3>
 
     <b-card-group deck>
-      <div class="row" style="margin-top: 20px; margin-bottom: 40px;">
+      <div class="row" style="margin-top: 20px; margin-bottom: 40px; text-align: left;">
         <image-link-card v-for="content in excursion.extras.filter((item) => item.onTheRoad)" :key="content.index" :content="content" :letter="true" />
         
       </div>
@@ -194,7 +194,7 @@
       </h3>
 
       <b-card-group deck>
-        <div class="row" style="margin-top: 20px; margin-bottom: 40px;">
+        <div class="row" style="margin-top: 20px; margin-bottom: 40px; text-align: left;">
           <image-link-card v-for="content in excursion.extras.filter((item) => !item.onTheRoad)" :key="content.index" :content="content" />
         </div>
       </b-card-group>
