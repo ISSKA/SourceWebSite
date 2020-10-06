@@ -64,6 +64,7 @@
         <dd class="col-sm-4" v-if="content.details.hebergement && content.details.hebergement != ''">{{ content.details.hebergement }}</dd>
       </dl>
 
+      <h3>Itinéraire</h3>
       <p v-for="(content, index) in content.description" :key="'details-' + index" v-html="content"   style="text-align: justify;">
 
       </p>
