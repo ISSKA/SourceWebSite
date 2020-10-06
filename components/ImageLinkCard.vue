@@ -1,5 +1,5 @@
 <template>
-  <div class="col-xs-12 col-md-6" style="margin-bottom: 40px;">
+  <div class="col-xs-12 col-md-6" style="margin-bottom: 40px; max-width: 100%;">
     <nuxt-link :to="localePath(`/excursions/${this.$route.params.excursionId}/extras/${content.index}`)" class="next-page-link">
       <b-card
         :title="title()"
@@ -47,7 +47,7 @@ export default {
 <style>
 .img-link-card img {
   object-fit: cover;
-  min-width: 200px;
+  min-width: 400px;
 }
 .img-link-card .card-body {
   background-color: rgba(0, 0, 0, 0.2);

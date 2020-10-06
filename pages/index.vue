@@ -42,7 +42,7 @@
             class="img-card"
           >
             <b-card-text>
-              {{ excursion.subtitle }}
+
 
               <!-- this is a hack to have the full card clickable without visible button -->
               <nuxt-link :to="localePath(`/excursions/${index + 1}`)" class="stretched-link"></nuxt-link>
@@ -96,6 +96,14 @@ export default {
   object-fit: cover;
 }
 .img-card .card-body {
-  background-color: rgba(0, 0, 0, 0.2);
+
+  padding: 0;
 }
+  .card-title {
+    padding: 1.25rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    background-color: rgba(255, 255,255, 0.6);
+    color: black;
+  }
 </style>

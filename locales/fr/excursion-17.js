@@ -1,5 +1,5 @@
 export default {
-  title: 'Source thermale de Buchelieule',
+  title: 'Source de Buchelieule',
   subtitle: 'Val-d’Illiez, VS',
   summary: {
     difficulty: 'xxx',

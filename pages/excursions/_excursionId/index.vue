@@ -24,7 +24,7 @@
       <br />
       -->
 
-        <p v-for="(description, index) in excursion.description" :key="'desc-' + index" v-html="description"></p>
+        <p v-for="(description, index) in excursion.description" :key="'desc-' + index" v-html="description"   style="text-align: justify;"></p>
 
         <a :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`" target="_blank" class="btn btn-primary" role="button">
           {{
@@ -64,7 +64,7 @@
         <dd class="col-sm-4" v-if="content.details.hebergement && content.details.hebergement != ''">{{ content.details.hebergement }}</dd>
       </dl>
 
-      <p v-for="(content, index) in content.description" :key="'details-' + index" v-html="content">
+      <p v-for="(content, index) in content.description" :key="'details-' + index" v-html="content"   style="text-align: justify;">
 
       </p>
     </template>
@@ -188,8 +188,7 @@
     </b-card-group>
 
     <!-- EXTRAS -->
-    <div v-if="excursion.extras.filter((item) => !item.onTheRoad).length > 0">
-      <h3 class="title-section">
+      <h3 v-if="excursion.extras.filter((item) => !item.onTheRoad).length > 0" class="title-section">
         {{ $t('excursion.extras') }}
       </h3>
 
@@ -198,7 +197,6 @@
           <image-link-card v-for="content in excursion.extras.filter((item) => !item.onTheRoad)" :key="content.index" :content="content" />
         </div>
       </b-card-group>
-    </div>
 
     <!-- TO SEE IN THE REGION -->
     <!--<div v-if="excursion.in_the_region.length > 0" class="full-width" style="background-color: #eee;">
@@ -223,7 +221,7 @@
       </li>
     </ul>
   </div>-->
-    <div v-if="excursion.more.length > 0" class="full-width" style="background-color: #eee; padding-bottom: 20px; margin-bottom: -30px;">
+    <!--<div v-if="excursion.more.length > 0" class="full-width" style="background-color: #eee; padding-bottom: 20px; margin-bottom: -30px;">
       <b-container>
         <p style="margin-bottom: 2px;">{{ $t('excursion.more') }} :</p>
         <ul>
@@ -233,7 +231,7 @@
           </li>
         </ul>
       </b-container>
-    </div>
+    </div>-->
 
     <!--
   <div class="map-source-position">

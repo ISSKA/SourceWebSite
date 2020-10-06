@@ -1,5 +1,5 @@
 export default {
-  title: 'Sources des gorges de l’Areuse',
+  title: 'Gorges de l’Areuse',
   subtitle: 'NE',
   summary: {
     difficulty: 'Modérée',

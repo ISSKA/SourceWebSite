@@ -1,5 +1,5 @@
 export default {
-  title: 'Source thermale de Bad Pfäfers',
+  title: 'Source de Bad Pfäfers',
   subtitle: 'Pfäfers, SG',
   summary: {
     difficulty: 'xxx',

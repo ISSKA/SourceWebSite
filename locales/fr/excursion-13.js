@@ -1,5 +1,5 @@
 export default {
-  title: 'Trois randonnées autour du Hölloch',
+  title: 'Trois randonnées au Hölloch',
   subtitle: 'Muotathal, SZ',
   summary: {
     difficulty: 'xxx',

@@ -63,6 +63,7 @@ export default {
     {
       title: 'Typologie des sources',
       sumary: '',
+      cover: 'img-1.jpg',
       description: [
 	  '<h3>A quel moment est-ce que l’eau sort de terre?</h3>',
 	  'Les élèves de Soulce se sont aussi posé cette question. <br> <img src="/docs/excursion-8/extra-1/supp_1.jpg" alt="" height="150px" width="150px">',
@@ -77,18 +78,10 @@ export default {
 	  ],
       images: [
         {
-          legend: 'xxx',
+          legend: 'Une zone de source linéaire',
           name: 'img-1.jpg'
         },
-        {
-          legend: 'xxx',
-          name: 'img-2.jpg'
-        },
-        {
-          legend: 'xxx',
-          name: 'img-3.jpg'
-        }
-      ],
+        ],
       onTheRoad: true,
       position: {
         x: 1143,
@@ -98,6 +91,7 @@ export default {
     {
       title: 'La faune des sources',
       sumary: '',
+      cover: 'img-1.jpg',
       description: [
 	  'Pour chaque espèce d’invertébré aquatique, les scientiﬁques ont identiﬁé des valeurs de tolérances par rapport à des facteurs comme: la température de l’eau ou la matière organique (purin, etc.). En effectuant des prélèvements de ces espèces dans une source ou un cours d’eau, il est possible de déterminer la qualité du biotope et de connaître les éventuels problèmes.  ',
 	  'Pascal Stucki du bureau Aquabug est un spécialiste des sources et des invertébrés aquatiques en général. C’est lui qui a réalisé les investigations des 8 sources de Soulce. Le rapport complet peut être téléchargé sur le site de la commune, à la rubrique PAC.',
@@ -115,10 +109,6 @@ export default {
           legend: 'xxx',
           name: 'img-2.jpg'
         },
-        {
-          legend: 'xxx',
-          name: 'img-3.jpg'
-        }
       ],
       onTheRoad: true,
       position: {
@@ -151,14 +141,6 @@ export default {
           legend: 'xxx',
           name: 'img-1.jpg'
         },
-        {
-          legend: 'xxx',
-          name: 'img-2.jpg'
-        },
-        {
-          legend: 'xxx',
-          name: 'img-3.jpg'
-        }
     ],
     onTheRoad: true,
     position: {
@@ -168,7 +150,8 @@ export default {
     },
 	{
       title: 'La grotte de Ste-Colombe',
-      sumary: '',
+    sumary: '',
+      cover: 'img-1.jpg',
       description:[
 	  'La grotte de Sainte-Colombe est un lieu de pélerinage très connu. Son vaste porche de 7 mètres de hauteur et 26 de longueur est bien visible au bord de la route qui longe la Sorne en rive gauche. Il est d’une harmonie remarquable. ',
 	  'Le ruisselet qui s’échappe du fond de la cavité tombe dans une vasque et la baume a été aménagée pour devenir un lieu de culte fréquenté. On ne connait pas l’origine de cette source, modeste mais pérenne. Par contre, les fouilles de Frédéric-Eduard Koby en 1942 ont démontré une occupation humaine dès l’Âge du Bronze. ',
@@ -178,23 +161,17 @@ export default {
 	  
       images: [
         {
-          legend: 'xxx',
+          legend: 'La source avec les ex-voto déposés au fond de la grotte de Ste-Colombe.',
           name: 'img-1.jpg'
         },
-        {
-          legend: 'xxx',
-          name: 'img-2.jpg'
-        },
-        {
-          legend: 'xxx',
-          name: 'img-3.jpg'
-        }
+
       ],
       onTheRoad: false
     },
 	{
       title: 'Les sources des Blanches-Fontaines',
-	  sumary: '',
+    sumary: '',
+    cover: 'img-1.jpg',
       description:[
 	  'La gorge étroite et pittoresque du Pichoux (qui signifie 1000 sources) n’a pas toujours été parcourue par une route et, au siècle passé, l’accès à la gorge était réservé aux intrépides capables de descendre une échelle brinquebalante. ',
 	  'Visiteur courageux de cette époque, Nicolas Serasset nous décrit le site dans L’Abeille du Jura (1840-41). « On dirait qu’on entre dans le jardin des Naïades. Un petit bois se présente et à travers le clair branchage des sapins vous voyez jaillir d’un terrain mousseux sept sources abondantes et limpides qui, formant autant de petits ruisseaux, coulent sans bruit vers la Sorne. A chaque pas vous croyez rencontrer une nymphe qui renverse son urne ; on dirait l’humide berceau des fleuves si bien décrit par Ovide ».',
@@ -205,12 +182,8 @@ export default {
 	  ],
       images: [
         {
-          legend: 'xxx',
+          legend: 'L’un des nombreux griffons des Blanches-Fontaines.',
           name: 'img-1.jpg'
-        },
-        {
-          legend: 'xxx',
-          name: 'img-2.jpg'
         },
         
       ],

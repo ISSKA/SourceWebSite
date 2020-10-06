@@ -1,5 +1,5 @@
 export default {
-  title: 'Gothard, Chemin des quatre sources',
+  title: 'Chemin des quatre sources',
   subtitle: 'GR, UR, TI, VS, BE',
   summary: {
     difficulty: 'xxx',

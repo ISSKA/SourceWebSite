@@ -1,5 +1,5 @@
 export default {
-  title: 'Sources des gorges de Covatannaz',
+  title: 'Gorges de Covatannaz',
   subtitle: 'Ste-Croix, VD',
   summary: {
     difficulty: 'xxx',

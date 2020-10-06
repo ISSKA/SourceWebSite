@@ -1,5 +1,5 @@
 export default {
-  title: 'Sources chaudes de Combioula',
+  title: 'Sources de Combioula',
   subtitle: 'St-Martin, VS',
   summary: {
     difficulty: 'xxx',
