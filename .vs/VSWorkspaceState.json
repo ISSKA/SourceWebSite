@@ -1,15 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\components",
-    "\\layouts",
+    "\\css",
     "\\locales",
     "\\locales\\fr",
     "\\pages",
     "\\pages\\excursions",
     "\\pages\\excursions\\_excursionId",
     "\\pages\\excursions\\_excursionId\\extras",
-    "\\pages\\excursions\\_excursionId\\extras\\_extraId"
+    "\\pages\\excursions\\_excursionId\\extras\\_extraId",
+    "\\plugins"
   ],
   "SelectedNode": "\\pages\\excursions\\_excursionId\\index.vue",
   "PreviewInSolutionExplorer": false
