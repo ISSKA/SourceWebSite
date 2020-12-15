@@ -118,7 +118,8 @@ export default {
     },
 	{
       title: 'La protection des sources',
-      sumary: '',
+    sumary: '',
+      cover: 'img-1.jpg',
       description:[
 	  '<h3>Les menaces qui pèsent sur les sources</h3>',
 	  'Les sources en tant que biotope et les espèces qui y vivent sont menacées. Plusieurs espèces qui s’y développent sont sur les listes rouges d’espèces menacées de Suisse et le biotope est également protégé selon la loi fédérale sur la protection de la nature.',
@@ -138,7 +139,7 @@ export default {
 	  
       images: [
         {
-          legend: 'xxx',
+          legend: 'source courante',
           name: 'img-1.jpg'
         },
     ],

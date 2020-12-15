@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css",
     "\\locales",
     "\\locales\\fr",
     "\\pages",
@@ -11,6 +10,6 @@
     "\\pages\\excursions\\_excursionId\\extras\\_extraId",
     "\\plugins"
   ],
-  "SelectedNode": "\\pages\\excursions\\_excursionId\\index.vue",
+  "SelectedNode": "\\locales\\fr\\excursion-6.js",
   "PreviewInSolutionExplorer": false
 }

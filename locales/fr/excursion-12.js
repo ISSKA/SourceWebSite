@@ -19,7 +19,8 @@ export default {
     canton: 'VD'
   },
   description: [
-    'Cette randonnée permet de découvrir l’une des plus belles gorges du Jura en passant du Plateau aux hauteurs jurassiennes. En traversant les gorges de bas en haut, on remonte non seulement le cours de l’Arnon, mais aussi les bancs calcaires dans lesquels s’écoule l’eau souterraine provenant du flanc sud de Chasseron et de la région du col de l’Aiguillon. Selon les conditions météo, on peut voir de belles sources en rive gauche de l’Arnon, en particulier, celle du Fontanet de Covatannaz.'
+    'Cette randonnée permet de découvrir l’une des plus belles gorges du Jura en passant du Plateau aux hauteurs jurassiennes.',
+    'En traversant les gorges de bas en haut, on remonte non seulement le cours de l’Arnon, mais aussi les bancs calcaires dans lesquels s’écoule l’eau souterraine provenant du flanc sud de Chasseron et de la région du col de l’Aiguillon.Selon les conditions météo, on peut voir de belles sources en rive gauche de l’Arnon, en particulier, celle du Fontanet de Covatannaz.'
   ],
   route: [{
     details: {
@@ -31,9 +32,10 @@ export default {
       type: 'Randonnée en moyenne montagne, sans difficultés particulières'
     },
     description: [
-	'L’excursion débute à la gare de Baulmes. En longeant la lisière de la forêt, on passe sous les Rapilles, dont le grand éboulis, visible de loin, est riche en espèces végétales particulières pour la région.',
-	'Après être passé à côté de jolis méandres formé par la Baumine, il faut s’engager sur la route forestière qui monte sur la gauche. On parvient bientôt dans les gorges que l’on remonte en rive droite. Ne pas hésiter à prendre un peu de temps pour s’écarter du chemin et s’approcher de la rivière. On y rencontrera une belle formation de tuf, témoignage d’anciens écoulements et, si le Fontanet de Covatannaz est en crue, le détour vaut particulièrement l’effort consenti. C’est également là que se trouve l’émergence pérenne du système hydrogéologique de Covatannaz',
-	'A l’approche de Ste-Croix, une fois sorti des gorges, privilégier l’itinéraire passant par La Sagne qui, pour rejoindre la gare, est plus agréable que celui qui aboutit à la route cantonale.']
+      'L’excursion débute à la gare de Baulmes. En longeant la lisière de la forêt, on passe sous les Rapilles, dont le grand éboulis, visible de loin, est riche en espèces végétales particulières pour la région.',
+      'Après être passé à côté de jolis méandres formé par la Baumine, il faut s’engager sur la route forestière qui monte sur la gauche.On parvient bientôt dans les gorges que l’on remonte en rive droite.Ne pas hésiter à prendre un peu de temps pour s’écarter du chemin et s’approcher de la rivière.On y rencontrera une belle formation de tuf, témoignage d’anciens écoulements et, si le Fontanet de Covatannaz est en crue, le détour vaut particulièrement l’effort consenti.C’est également là que se trouve l’émergence pérenne du système hydrogéologique de Covatannaz',
+      'A l’approche de Ste - Croix, une fois sorti des gorges, privilégier l’itinéraire passant par La Sagne qui, pour rejoindre la gare, est plus agréable que celui qui aboutit à la route cantonale.'
+    ]
   },
     ],
 

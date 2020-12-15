@@ -30,18 +30,18 @@ export default {
     details: {
       start: 'Gare de Noiraigue',
       end: 'Gare de Chambrelien',
-      distance: '10 km',
-      delta_height: '+ 100 m / – 250 m',
-      duration: '4 heures',
+      distance: '9,2 km',
+      delta_height: '+ 215 m / – 264 m',
+        duration: '2h30 (sans les pauses)',
       restauration: 'Noiraigue / Champ du Moulin / Chambrelien',
       type: 'Randonnée sur sentiers et petites routes. Facile.'
     },
     description: [
-      'A partir de la gare de Noiraigue, se diriger vers le nord du village et remonté la rivière jusqu’à sa source qui se trouve au pied des falaises de la Clusette.',
-      'Revenir une centaine de mètres sur ses pas et prendre le sentier pédestre qui longe la voie CFF en direction des gorges. Passer à côté de l’usine du Furcil, puis de celle du Plan de l’Eau devant laquelle on voit la prise d’eau motrice qui alimente l’usine des Moyats. Longer l’aqueduc couvert et continuer en rive gauche, puis franchir une passerelle qui enjambe la rivière avant de revenir en rive gauche en franchissant le magnifique Pont du Saut de Brot. Passer devant l’usine des Moyats et rester sur cette rive jusqu’à Champ du Moulin.',
-      'A Champ du Moulin, traverser le pont et poursuivre la descente des gorges. 1 km plus loin, prendre la passerelle métallique et retourner en rive gauche avant de franchir le pont de la Verrerie (pt. 575). 600 m plus loin, passer à nouveau en rive gauche par un pont couvert en bois et dépasser l’usine de Combe Garot qui se trouve sur l’autre rive.',
-      '200 m après l’usine, rejoindre la route (rive droite). Suivre celle-ci jusqu’au moment où elle commence à monter. Là, prendre à gauche le chemin forestier qui longe la rivière. Franchir le Pont de Vert, passer sous un grand abri sous roche (Baume du Four).',
-      'Après la partie la plus escarpée des gorges (chemin en hauteur, sur rive droite), traverser le pont et monter en direction de la gare de Chambrelien.'
+      'A partir de la gare de Noiraigue, se diriger vers le nord du village et remonter la rivière jusqu’à sa source qui se trouve au pied des falaises de la Clusette.',
+      'Revenir une centaine de mètres sur ses pas et prendre le sentier pédestre qui longe la voie CFF en direction des gorges.Passer à côté de l’usine du Furcil, puis de celle du Plan de l’Eau devant laquelle on voit la prise d’eau motrice qui alimente l’usine des Moyats.Longer l’aqueduc couvert et continuer en rive gauche, puis franchir une passerelle qui enjambe la rivière avant de revenir en rive gauche en franchissant le magnifique Pont du Saut de Brot. Passer devant l’usine des Moyats et rester sur cette rive jusqu’à Champ du Moulin.',
+      'A Champ du Moulin, traverser le pont et poursuivre la descente des gorges. 1 km plus loin, prendre la passerelle métallique et retourner en rive gauche avant de franchir le pont de la Verrerie(pt. 575). 600 m plus loin, passer à nouveau en rive gauche par un pont couvert en bois et dépasser l’usine de Combe Garot qui se trouve sur l’autre rive.',
+      '200 m après l’usine, rejoindre la route(rive droite). Suivre celle - ci jusqu’au moment où elle commence à monter.Là, prendre à gauche le chemin forestier qui longe la rivière.Franchir le Pont de Vert, passer sous un grand abri sous roche(Baume du Four).',
+      'Après la partie la plus escarpée des gorges(chemin en hauteur, sur rive droite), traverser le pont et monter en direction de la gare de Chambrelien.'
     ]
   },
     ],
@@ -118,8 +118,8 @@ export default {
       sumary: '',
       cover: 'img-2.jpg',
       description: [
-        'Entre Noiraigue et Boudry, on compte une vingtaine de sources karstiques. Onze d’entre elles sont captées. Celle de la source de la Noiraigue, située au haut du village, est sans doute la plus spectaculaire.',
-        'De nombreux essais de traçage des eaux souterraines (à l’aide de colorants fluorescents détectables en quantités infimes dans les sources) ont été réalisés dans la région pour déterminer la provenance des eaux. Les plus spectaculaires sont ceux qui ont prouvé la relation hydraulique entre le lac des Taillères et la source l’Areuse et celle de la vallée de La Sagne avec la source de la Noiraigue. Tous ces traçages ont permis ensuite de délimiter les zones de protection des captages.'
+        'Entre Noiraigue et Boudry, le long des gorges, on compte une vingtaine de sources karstiques.Onze d’entre elles sont captées.Celle de la Noiraigue, située au haut du village, est sans doute la plus spectaculaire.',
+        'De nombreux essais de traçage des eaux souterraines (à l’aide de substances diverses, souvent colorantes, détectables en quantités infimes aux émergences) ont été réalisés dans la région pour déterminer la provenance des eaux.Les plus spectaculaires sont ceux qui ont prouvé la relation hydraulique entre le lac des Taillères et la source l’Areuse et celle de la vallée de La Sagne avec la source de la Noiraigue.Tous ces traçages ont permis ensuite de délimiter les zones de protection des captages.'
       ],
       images: [
         {
@@ -147,10 +147,10 @@ export default {
       sumary: '',
       cover: 'img-3.jpg',
       description: [
-        'Les usines des Moyats et de Combe Garot sont au cœur d’un vaste réseau d’adduction qui compte 11 sources captées et 9 puits de pompage.',
-        'L’usine des Moyats collecte l’eau des sources et puits de pompage de la rive gauche de l’Areuse en amont de Champ-du-Moulin. Cette eau est propulsée à plus de 1100 m d’altitude en direction de La Chaux-de-Fonds grâce à l’énergie produite par turbinage.',
-        'Les sources et puits de pompage situés sur la rive droite en face des Moyats alimentent l’aqueduc qui part à l’est vers Neuchâtel. Les sources situées sur les deux rives en aval de Champ-du-Moulin sont aussi connectées à cet aqueduc, mais comme elles se situent à une altitude inférieure, leur eau doit y être refoulée par l’usine de Combe Garot.',
-        'Situées au fil de l’eau, les 5 usines forment 4 étages de production électrique. Entre le Furcil et le Chanet, la différence d’altitude est de 240 m. D’une dérivation à l’autre, il n’y a pratiquement pas de perte de chute car l’eau rendue à la rivière après un premier captage est immédiatement captée à nouveau. Ainsi, le potentiel énergétique de la rivière est très bien utilisé, sauf lors des hautes eaux où une grande partie des flots traverse librement les gorges.'
+        'Les usines des Moyats et de Combe Garot sont au coeur d’un vaste réseau d’adduction qui compte 11 sources captées et 9 puits de pompage.',
+        'L’usine des Moyats collecte l’eau des sources et puits de pompage de la rive gauche de l’Areuse en amont de Champ - du - Moulin.Cette eau est propulsée à plus de 1100 m d’altitude en direction de La Chaux - de - Fonds grâce à l’énergie produite par turbinage.',
+        'Les sources et puits de pompage situés sur la rive droite en face des Moyats alimentent l’aqueduc qui part à l’est vers Neuchâtel.Les sources situées sur les deux rives en aval de Champ - du - Moulin sont aussi connectées à cet aqueduc, mais comme elles se situent à une altitude inférieure, leur eau doit y être refoulée par l’usine de Combe Garot.',
+        'Situées au fil de l’eau, les 5 usines forment 4 étages de production électrique.Entre le Furcil et le Chanet, la différence d’altitude est de 240 m.D’une dérivation à l’autre, il n’y a pratiquement pas de perte de chute car l’eau rendue à la rivière après un premier captage est immédiatement captée à nouveau. Ainsi, le potentiel énergétique de la rivière est très bien utilisé, sauf lors des hautes eaux où une grande partie des flots traverse librement les gorges.'
       ],
       images: [
         {
@@ -177,10 +177,10 @@ export default {
       sumary: '',
       cover: 'img-2.jpg',
       description: [
-        'Jusqu’au milieu du XIXe siècle, les gorges de l’Areuse offraient aux regards de ceux qui s’y aventuraient une nature intacte. En 1858, ce calme est perturbé par la construction de la ligne de train franco-suisse.',
-        'Au cours du XIXe siècle, il devient urgent de trouver des solutions pour fournir de l’eau potable aux villes de Neuchâtel et de La Chaux-de-Fonds. La population augmente et la qualité de l’eau de consommation est médiocre. En 1882, une épidémie de fièvre typhoïde frappe Neuchâtel et cause plusieurs décès. A La Chaux-de-Fonds, le souvenir du grand incendie de 1794 est encore présent dans les esprits.',
-        'Dès 1885, les gorges s’animent brusquement au moment où s’engagent de grands chantiers destinés à approvisionner en eau les deux villes. Différentes solutions sont étudiées pour trouver de l’eau en quantité et en qualité suffisantes. En 1885 pour La Chaux-de-Fonds et l’année suivante pour Neuchâtel, la population approuve le financement de travaux d’adduction d’eau depuis les gorges de l’Areuse.',
-        'A l’heure actuelle, environ 80000 personnes et plus de 20 communes du canton consomment l’eau provenant de la région de Champ-du-Moulin. Chaque jour, ce sont en moyenne 25000 m3 d’eau qui sont captés et distribués dans le vaste réseau de conduites totalisant plus de 50 km (y. c. la conduite reliant Neuchâtel par le tunnel routier).'
+        'Jusqu’au milieu du XIXe siècle, les gorges de l’Areuse offraient aux regards de ceux qui s’y aventuraient une nature intacte. En 1858, ce calme est perturbé par la construction de la ligne de train franco-suisse.',
+        'Au cours du XIXe siècle, il devient urgent de trouver des solutions pour fournir de l’eau potable aux villes de Neuchâtel et de La Chaux - de - Fonds.La population augmente et la qualité de l’eau de consommation est médiocre.En 1882, une épidémie de fièvre typhoïde frappe Neuchâtel et cause plusieurs décès.',
+        'Dès 1885, les gorges s’animent brusquement au moment où s’engagent de grands chantiers destinés à approvisionner en eau les deux villes.Différentes solutions sont étudiées pour trouver de l’eau en quantité et en qualité suffisantes.En 1885 pour La Chaux - de - Fonds et l’année suivante pour Neuchâtel, la population approuve le financement de travaux d’adduction d’eau depuis les gorges de l’Areuse.',
+        'A l’heure actuelle, environ 80 000 personnes et plus de 20 communes du canton consomment l’eau provenant des gorges de l’Areuse.Chaque jour, ce sont en moyenne 25 000 m3 d’eau qui y sont captés.'
       ],
       images: [
         {

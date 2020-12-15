@@ -34,6 +34,7 @@ export default {
       duration: '11h30 au total pour les 2 étapes',
       restauration: 'Van d’en Bas / barrage de Salanfe / auberge de Bonavau / bains de Val-d’Illiez / Val-d’Illiez',
       type: 'Randonnée en haute montagne, exigeante mais sans risques',
+      hebergement: 'Cabane de Susanfe CAS',
     },
     description: ['<h3>Première étape</h3>',
 	'Du village de Val-d’Illiez, rejoindre le site des bains du Val-d’Illiez. C’est là que se trouve la source de Buchelieule, juste avant le pont, une trentaine de mètres sur la gauche. ',
