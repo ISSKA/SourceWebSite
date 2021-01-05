@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Buchelieule_F.pdf'
+    download_file: 'buchelieule_fr.pdf'
   },
   link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=6.9&amp%3BE=2757047&amp%3BN=1206359&amp%3Blayers=Wanderland&amp%3BtrackId=6974305&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=9.98&E=2561653&N=1113334&trackId=7057611',
 

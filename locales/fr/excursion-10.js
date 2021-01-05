@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'Modérée',
     duration: '4 heures',
-    download_file: 'Areuse_Fichier_A4_min.pdf'
+    download_file: 'areuse_fr.pdf'
   },
   link_swissmobile:
     'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=no&season=summer&resolution=5&E=2548863&N=1200929&trackId=6400923&layers=Wanderland',

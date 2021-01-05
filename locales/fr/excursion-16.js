@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Craveggia_F.pdf'
+    download_file: 'craveggia_fr.pdf'
   },
   link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=1.85&amp%3BE=2686079&amp%3BN=1116819&amp%3Blayers=Wanderland&amp%3BtrackId=7007583&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=1.15&E=2686079&N=1116819&trackId=7007583',
 

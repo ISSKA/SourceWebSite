@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Flims_F.pdf'
+    download_file: 'flims_fr.pdf'
   },
   link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=4.19&amp%3BE=2742531&amp%3BN=1187461&amp%3Blayers=Wanderland&amp%3BtrackId=6946140&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=5.37&E=2742918&N=1187102&trackId=6946140',
 

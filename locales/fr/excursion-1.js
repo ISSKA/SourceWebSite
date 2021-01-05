@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'Modéré',
     duration: '3h30 (sans compter la visite des grottes)',
-    download_file: 'Orbe_fichier_A4_min.pdf'
+    download_file: 'orbe_fr.pdf'
   },
   link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=no&season=summer&resolution=6.34&E=2516382&N=1171457&layers=Wanderland&trackId=7068364',
 

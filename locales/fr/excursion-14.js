@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Rinquelle_F.pdf'
+    download_file: 'rinquelle_fr.pdf'
   },
   link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=7.47&amp%3BE=2730402&amp%3BN=1221805&amp%3Blayers=Wanderland&amp%3BtrackId=7666286&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=4.64&E=2730402&N=1221805&trackId=7666286',
 

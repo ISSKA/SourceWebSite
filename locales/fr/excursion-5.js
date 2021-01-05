@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Aar_F.pdf'
+    download_file: 'aar_fr.pdf'
   },
   link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp;land=wanderland&amp;route=all&amp;photos=yes&amp;bgLayer=pk&amp;logo=yes&amp;season=summer&amp;resolution=7.14&amp;E=2664590&amp;N=1155671&amp;layers=Wanderland&amp;trackId=7806467',
 

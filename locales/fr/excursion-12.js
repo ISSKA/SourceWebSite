@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Covatannaz_F.pdf'
+    download_file: 'covatannaz_fr.pdf'
   },
   link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp;land=wanderland&amp;route=all&amp;photos=yes&amp;bgLayer=pk&amp;logo=yes&amp;season=summer&amp;resolution=5.18&amp;E=2530152&amp;N=1184093&amp;layers=Wanderland&amp;trackId=7059416',
 

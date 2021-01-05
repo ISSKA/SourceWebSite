@@ -40,6 +40,7 @@
 </template>
 
 <script>
+
 import excursionData from '~/assets/script.js'
 
 const EXCURSIONS_COUNT = excursionData.getExcursionsCount()

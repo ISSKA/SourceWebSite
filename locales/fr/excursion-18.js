@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Combioula_F.pdf'
+    download_file: 'combioula_fr.pdf'
   },
   link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=no&season=summer&resolution=3.68&E=2599148&N=1113709&layers=Wanderland&trackId=7058691',
   source: {

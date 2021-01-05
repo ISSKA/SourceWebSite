@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: '5h30',
-    download_file: 'Chilchbalm_F.pdf'
+    download_file: 'chilchbalm_fr.pdf'
   },
   source: {
     coordinates: [2632300, 1153800],

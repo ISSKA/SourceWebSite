@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Holloch_F.pdf'
+    download_file: 'holloch_fr.pdf'
   },
   source: {
     coordinates: [2703000, 1203000],

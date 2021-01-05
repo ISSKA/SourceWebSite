@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Scuol_F.pdf'
+    download_file: 'scuol_fr.pdf'
   },
   source: {
     coordinates: [2819000, 1187000],

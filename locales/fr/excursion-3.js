@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'SiebenBrunnen_F.pdf'
+    download_file: 'sieben_brunnen_fr.pdf'
   },
   link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=7.27&amp%3BE=2602149&amp%3BN=1142729&amp%3Blayers=Wanderland&amp%3BtrackId=6868128&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=5.67&E=2602149&N=1142729&trackId=6868128',
   source: {

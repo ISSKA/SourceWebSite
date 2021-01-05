@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Serriere_F.pdf'
+    download_file: 'serrieres_fr.pdf'
   },
   source: {
     coordinates: [2559300, 1203800],

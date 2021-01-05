@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Soulce_F.pdf'
+    download_file: 'soulce_fr.pdf'
   },
   link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=no&season=summer&resolution=1.97&E=2585620&N=1239271&layers=Wanderland&trackId=6936453',
   source: {

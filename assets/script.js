@@ -10,8 +10,8 @@ const EXCURSIONS_NUMBER = 18
 const excursions = []
 
 for (let idx = 1; idx <= EXCURSIONS_NUMBER; idx++) {
-  excursions.push(require(`../locales/fr/excursion-${idx}.js`).default)
-
+  excursions.push(require(`../locales/de/excursion-${idx}.js`).default)
+  
   // We add an "index" property to all extras to better manage them in views..
   excursions[idx - 1].extras.forEach((extra, index) => {
     extra.index = index + 1
@@ -62,5 +62,5 @@ export default {
   getExcursionsCount,
   getExtra,
   getExtras,
-  getExtrasCount
+  getExtrasCount,
 }

@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Gothard_F.pdf'
+    download_file: 'gothard_fr.pdf'
   },
   source: {
     coordinates: [2687000, 1159000],

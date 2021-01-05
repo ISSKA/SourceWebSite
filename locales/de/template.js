@@ -40,8 +40,9 @@ export default {
       end: 'Ankunft',
       distance: 'Entfernung',
       delta_height: 'Höhenunterschied',
-      restaurant: 'Restaurants',
-      type: 'Art der Wanderung'
+      restaurant: 'Verpflegung',
+      type: 'Art der Wanderung',
+      hebergement: 'Übernachtungen',
     },
     education_sheet_link: 'Diese Wanderung als PDF herunterladen',
     route: {

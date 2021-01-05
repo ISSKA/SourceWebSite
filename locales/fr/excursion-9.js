@@ -4,7 +4,7 @@ export default {
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'Porrentruy_F.pdf'
+    download_file: 'porrentruy_fr.pdf'
   },
   source: {
     coordinates: [2572700, 1251900],
