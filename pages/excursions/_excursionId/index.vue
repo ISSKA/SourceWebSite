@@ -279,10 +279,18 @@ export default {
   data() {
     // console.log(this.$route.params.excursionId, typeof this.$route.params.excursionId)
 
-    return {
-      excursion: excursionData.getExcursion(this.$route.params.excursionId),
-      activeInterestPoint: null
-      // letters: 'abcdefghijklmnopqrstuvwxyz'.toUpperCase()
+    if(this.$i18n.locale === "de") {
+      return {
+        excursion: excursionData.getExcursion_de(this.$route.params.excursionId),
+        activeInterestPoint: null
+        // letters: 'abcdefghijklmnopqrstuvwxyz'.toUpperCase()
+      }
+    }
+    else {
+      return {
+        excursion: excursionData.getExcursion(this.$route.params.excursionId),
+        activeInterestPoint: null
+    }
     }
   },
   mounted() {

@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
+    "\\layouts",
     "\\locales",
-    "\\locales\\fr",
+    "\\locales\\de",
     "\\pages",
     "\\pages\\excursions",
     "\\pages\\excursions\\_excursionId",
-    "\\plugins",
-    "\\scripts",
-    "\\static",
-    "\\store"
+    "\\pages\\excursions\\_excursionId\\extras",
+    "\\pages\\excursions\\_excursionId\\extras\\_extraId"
   ],
-  "SelectedNode": "\\assets\\script.js",
+  "SelectedNode": "\\pages\\excursions\\_excursionId\\extras\\_extraId\\index.vue",
   "PreviewInSolutionExplorer": false
 }

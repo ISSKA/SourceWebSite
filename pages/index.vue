@@ -57,7 +57,7 @@
 <script>
 import ImageMap from 'image-map'
 
-import excursionData from '~/assets/script.js'
+  import excursionData from '~/assets/script.js'
 
 export default {
   layout: 'landing',
@@ -66,9 +66,11 @@ export default {
       excursions: []
     }
   },
-  mounted() {
-    this.excursions = excursionData.getExcursions()
-
+    mounted() {
+      if (this.$i18n.locale === "de") {
+        this.excursions = excursionData.getExcursions_de()
+      }
+      else { this.excursions = excursionData.getExcursions()}
     setTimeout(() => {
       ImageMap('img[usemap]')
     }, 1000)

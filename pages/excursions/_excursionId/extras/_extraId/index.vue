@@ -153,14 +153,24 @@ export default {
       params.extraId <= excursionData.getExtrasCount(params.excursionId)
     )
   },
-  data() {
-    return {
-      excursionTitle: excursionData.getExcursion(this.$route.params.excursionId).title,
-      extra: excursionData.getExtra(this.$route.params.excursionId, this.$route.params.extraId),
-      images: [],
-      imgIdx: null
-      // slide: 0,
-      // sliding: null
+    data() {
+      if (this.$i18n.locale === "de") {
+        return {
+          excursionTitle: excursionData.getExcursion_de(this.$route.params.excursionId).title,
+          extra: excursionData.getExtra_de(this.$route.params.excursionId, this.$route.params.extraId),
+          images: [],
+          imgIdx: null
+          // slide: 0,
+          // sliding: null
+        }
+      }
+        else {
+        return {
+          excursionTitle: excursionData.getExcursion(this.$route.params.excursionId).title,
+          extra: excursionData.getExtra(this.$route.params.excursionId, this.$route.params.extraId),
+          images: [],
+          imgIdx: null
+      }
     }
   },
   created() {

@@ -1,5 +1,4 @@
 'use strict'
-
 /*
 import excursion1 from '../locales/fr/excursion-1.js'
 import excursion2 from '../locales/fr/excursion-2.js'
@@ -8,12 +7,21 @@ import excursion2 from '../locales/fr/excursion-2.js'
 // Dynamically load excursions content
 const EXCURSIONS_NUMBER = 18
 const excursions = []
+const excursions_de = []
 
 for (let idx = 1; idx <= EXCURSIONS_NUMBER; idx++) {
-  excursions.push(require(`../locales/de/excursion-${idx}.js`).default)
-  
+  excursions.push(require(`../locales/fr/excursion-${idx}.js`).default)
+
   // We add an "index" property to all extras to better manage them in views..
   excursions[idx - 1].extras.forEach((extra, index) => {
+    extra.index = index + 1
+  })
+}
+for (let idx = 1; idx <= EXCURSIONS_NUMBER; idx++) {
+  excursions_de.push(require(`../locales/de/excursion-${idx}.js`).default)
+
+  // We add an "index" property to all extras to better manage them in views..
+  excursions_de[idx - 1].extras.forEach((extra, index) => {
     extra.index = index + 1
   })
 }
@@ -56,6 +64,30 @@ function getExtrasCount(excursionIndex) {
   return excursions[excursionIndex - 1].extras.length
 }
 
+function getExcursion_de(excursionIndex) {
+  return excursions_de[excursionIndex - 1]
+}
+
+function getExcursions_de() {
+  return excursions_de
+}
+
+function getExcursions_deCount() {
+  return excursions_de.length
+}
+
+function getExtra_de(excursionIndex, extraIndex) {
+  return excursions_de[excursionIndex - 1].extras[extraIndex - 1]
+}
+
+function getExtras_de(excursionIndex) {
+  return excursions_de[excursionIndex - 1].extras
+}
+
+function getExtras_deCount(excursionIndex) {
+  return excursions_de[excursionIndex - 1].extras.length
+}
+
 export default {
   getExcursion,
   getExcursions,
@@ -63,4 +95,10 @@ export default {
   getExtra,
   getExtras,
   getExtrasCount,
+  getExcursion_de,
+  getExcursions_de,
+  getExcursions_deCount,
+  getExtra_de,
+  getExtras_de,
+  getExtras_deCount,
 }
