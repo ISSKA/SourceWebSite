@@ -64,7 +64,7 @@
         <dd class="col-sm-4" v-if="content.details.hebergement && content.details.hebergement != ''">{{ content.details.hebergement }}</dd>
       </dl>
 
-      <h3>Itinéraire</h3>
+      <h3>{{$t('excursion.route.title')}}</h3>
       <p v-for="(content, index) in content.description" :key="'details-' + index" v-html="content"   style="text-align: justify;">
 
       </p>
@@ -76,21 +76,21 @@
     <!--<div class="full-width" style="max-height: 720px; overflow: hiden; background-color: #eee; padding-top: 0px; margin-top: 40px;">-->
     <div class="full-width excursion-path-map" style="max-height: 700px; overflow: hidden; overflow-x: scroll; padding-top: 0px; margin-top: 40px;">
       <!--<figure style="position: absolute; right: 0; left: 0; overflow-y: hidden; max-height: 600px;">
-      <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="width: 100%;" usemap="#workmap" />
-      <figcaption style="position: absolute; bottom: 0; background-color: rgba(255, 255, 255, 0.8); padding: 2px 8px;">
-        {{ $t('excursion.route.legend') }}
-      </figcaption>
-    </figure>-->
+    <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="width: 100%;" usemap="#workmap" />
+    <figcaption style="position: absolute; bottom: 0; background-color: rgba(255, 255, 255, 0.8); padding: 2px 8px;">
+      {{ $t('excursion.route.legend') }}
+    </figcaption>
+  </figure>-->
 
-      <img :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="max-height: 700px; width: 100%;" usemap="#workmap" />
+      <img v-if="$i18n.locale==='fr'" :src="`/docs/excursion-${$route.params.excursionId}/map.jpg`" style="max-height: 700px; width: 100%;" usemap="#workmap" />
+      <img v-if="$i18n.locale==='de'" :src="`/docs/excursion-${$route.params.excursionId}/map_de.jpg`" style="max-height: 700px; width: 100%;" usemap="#workmap" />
 
       <!-- https://www.image-map.net -->
       <map name="workmap">
         <template v-for="content in excursion.extras.filter((item) => item.onTheRoad)">
           <template v-for="position in content">
 
-            <area
-                  :key="content.index"
+            <area :key="content.index"
                   shape="circle"
                   :coords="`${content.position.x}, ${content.position.y}, 35`"
                   alt="Computer"
@@ -106,24 +106,24 @@
           </template>
         </template>
 
-        
+
       </map>
 
       <!--<div class="text-center" style="margin-top: 20px;">
-      <b-button
-        v-for="(content, index) in excursion.point_of_interest"
-        :id="'modal-interest-' + index"
-        :key="index"
-        pill
-        variant="dark"
-        style="margin-right: 15px; margin-left: 15px; font-weight: 600; color: yellow;"
-        size="lg"
-        @click="interactivePoint(index)"
-        >{{ String.fromCharCode(index + 65) }}</b-button
-      >
+    <b-button
+      v-for="(content, index) in excursion.point_of_interest"
+      :id="'modal-interest-' + index"
+      :key="index"
+      pill
+      variant="dark"
+      style="margin-right: 15px; margin-left: 15px; font-weight: 600; color: yellow;"
+      size="lg"
+      @click="interactivePoint(index)"
+      >{{ String.fromCharCode(index + 65) }}</b-button
+    >
 
-      <div style="margin-top: 10px; font-style: italic; color: #666;">{{ $t('excursion.route.legend') }}</div>
-    </div>-->
+    <div style="margin-top: 10px; font-style: italic; color: #666;">{{ $t('excursion.route.legend') }}</div>
+  </div>-->
     </div>
 
     <div v-if="excursion.link_swissmobile" class="text-center">

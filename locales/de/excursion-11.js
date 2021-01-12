@@ -9,8 +9,8 @@ export default {
   source: {
     coordinates: [2559300, 1203800],
     position: {
-      x: 438,
-      y: 549,
+      x: 841,
+      y: 1082,
       r: 32
     },
     name: 'Die Quelle der Serrière',
@@ -140,7 +140,7 @@ export default {
       images: [
         {
           legend: '',
-          name: 'img-1.jpg'
+          name: 'img-1_de.jpg'
         },
         
       ],

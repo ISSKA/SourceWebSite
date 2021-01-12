@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2558500, 1117500],
     position: {
-      x: 435,
-      y: 1040,
+      x: 860,
+      y: 1841,
       r: 65
     },
     name: 'Les Dents du Midi et la source thermale de Buchelieule',
@@ -92,13 +92,9 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 1207,
-        y: 126,
+        x: 890,
+        y: 685,
       },
-      position2: {
-        x: 1853,
-        y: 1415,
-      }
     },
     {
       title: 'Die Quelle von Fontaine Blanche',
@@ -125,8 +121,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 912,
-        y: 1244
+        x: 434,
+        y: 598
       },
       
     },

@@ -4,13 +4,9 @@
     "\\assets",
     "\\layouts",
     "\\locales",
-    "\\locales\\de",
     "\\pages",
-    "\\pages\\excursions",
-    "\\pages\\excursions\\_excursionId",
-    "\\pages\\excursions\\_excursionId\\extras",
-    "\\pages\\excursions\\_excursionId\\extras\\_extraId"
+    "\\static",
+    "\\static\\docs"
   ],
-  "SelectedNode": "\\pages\\excursions\\_excursionId\\extras\\_extraId\\index.vue",
   "PreviewInSolutionExplorer": false
 }

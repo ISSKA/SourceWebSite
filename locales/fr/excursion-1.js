@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2515870, 1171700],
     position: {
-      x: 192,
-      y: 732,
+      x: 401,
+      y: 1392,
       r: 55
     },
     name: 'Source de l’Orbe',
@@ -87,8 +87,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 2732,
-        y: 2274
+        x: 849,
+        y: 711
       }
     },
     {
@@ -120,8 +120,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 3797,
-        y: 556
+        x: 1178,
+        y: 171
       }
     },
     {
@@ -153,8 +153,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 4015,
-        y: 720
+        x: 1251,
+        y: 227
       }
     },
     {
@@ -188,8 +188,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 4184,
-        y: 563
+        x: 1298,
+        y: 177
       }
     }
   ]

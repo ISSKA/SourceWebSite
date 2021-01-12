@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2740500, 1189200],
     position: {
-      x: 1469,
-      y: 632,
+      x: 2580,
+      y: 1215,
       r: 56
     },
     name: 'Sources de Flims',
@@ -79,13 +79,13 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 1274,
-        y: 237
+        x: 1496,
+        y: 340
       }
     },
     {
       title: 'Der Flimser Bergsturz',
-	  cover: 'img-2.jpg',
+	  cover: 'img-2_de.jpg',
       sumary: '',
       description: [
         'Der Flimser Bergsturz stellte lange Zeit ein Hindernis dar, wovon die verschiedenen nebeneinander bestehenden rätomanischen Dialekte zeugen sowie die umfangreichen Tiefbauarbeiten, die notwendig waren, um die Gegend für Bahn - und Strassenverkehr zu erschliessen.',
@@ -98,13 +98,13 @@ export default {
         },
         {
           legend: 'Ausdehnung des Erdrutsches von Flims der vor 9700 Jahren stattgefunden hat.',
-          name: 'img-2.jpg'
+          name: 'img-2_de.jpg'
         },
       ],
       onTheRoad: true,
       position: {
-        x: 1227,
-        y: 436
+        x: 1442,
+        y: 571
       }
     },
 	{
@@ -127,13 +127,13 @@ export default {
         },
         {
           legend: 'Schematisches Profil, welches die Lage der Quellen im Zusammenhang mit dem Bergsturz und der komplexen unterirdischen Wasserzirkulation im Untergrund von Flims aufzeigt.',
-          name: 'img-3.jpg'
+          name: 'img-3_de.jpg'
         }
       ],
     onTheRoad: true,
     position: {
-      x: 1165,
-      y: 566,
+      x: 1370,
+      y: 726,
     }
     },
 	{
@@ -154,14 +154,14 @@ export default {
         },
         {
           legend: 'Der Lag la Cauma ist eine Senke, in deren Sohle Grundwasser austritt.Er wird unterirdisch aus dem Lag Prau Tuleritg gespeist, der wiederum von der Quelle des Lag Prau Pulté gespeist wird.',
-          name: 'img-2.jpg'
+          name: 'img-2_de.jpg'
         },
        
     ],
     onTheRoad: true,
     position: {
-      x: 735,
-      y: 363
+      x: 865,
+      y: 480
     }
     },
 	{
@@ -183,14 +183,14 @@ export default {
             `Das in den Kalkstein auf den Flimser Höhen infiltrierte Grundwasser speist die Quellen des Lag Tiert und des Lag Prau Pulté.Letzterer speist den Pultébach, der sich in den Schutthalden verliert und dann unterirdisch zum Lag la Cauma fliesst.
 Der Tunnel hat einen Teil des unterirdischen Flusses vom Lag Tiert und Prau Pulté aufgefangen und damit die Versorgung des Lag la Cauma reduziert.
 Das Tarschlims- System, das weiter oben liegt, ist davon unabhängig.Es wird verwendet, um den reduzierten Zustrom zum Lag la Cauma auszugleichen.`,
-          name: 'img-2.jpg'
+          name: 'img-2_de.jpg'
         },
 
       ],
     onTheRoad: true,
     position: {
-      x: 241,
-      y: 150
+      x: 282,
+      y: 242
     }
     },
 	{

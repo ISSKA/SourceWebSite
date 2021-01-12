@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2531000, 1185000],
     position: {
-      x: 278,
-      y: 656,
+      x: 531,
+      y: 1355,
       r: 50
     },
     name: 'Die Quellen der Covatannaz- Schlucht',
@@ -55,7 +55,7 @@ export default {
   extras: [
     {
       title: 'Höhlen und Quellen der Covatannaz- Schlucht',
-      cover: 'img-1.jpg',
+      cover: 'img-1_de.jpg',
       sumary: '',
       description: [
         'In der Covatannaz-Schlucht gibt es zahlreiche bekannte natürliche Höhlen.Die wichtigste, das Réseau de Covatannaz, wurde von Speläologen über 5 Kilometer erforscht.Dieses Höhlennetz hat vier Eingänge: Le Fontanet de Covatannaz(oder Grotte du Vertige), die Höhlen des Echelles, die Grotte des Lacs und die Grotte de la Grande-Poule.',
@@ -66,10 +66,14 @@ export default {
       images: [
         {
           legend: 'Lage des Höhlensystems vonCovatannaz relativ zur Oberfläche.Die am weitesten vom Eingangentfernten Gänge verlaufen unterder Strasse, die Ste- Croix mit Bulletverbindet.',
-          name: 'img-1.jpg'
+          name: 'img-1_de.jpg'
         },
       ],
-      onTheRoad: false,
+      onTheRoad: true,
+      position: {
+        x: 1243,
+        y: 399
+      }
     },
     {
       title: 'Woher stammt das Wasser der Covatannaz-Quellen?',
@@ -88,7 +92,11 @@ export default {
           name: 'img-1.jpg'
         },
       ],
-      onTheRoad: false
+      onTheRoad: true,
+      position: {
+        x: 1186,
+        y: 342
+      }
     },
   ]
 }

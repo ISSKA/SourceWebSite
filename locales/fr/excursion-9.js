@@ -9,8 +9,8 @@ export default {
   source: {
     coordinates: [2572700, 1251900],
     position: {
-      x: 515,
-      y: 276,
+      x: 922,
+      y: 592,
       r: 46
     },
     name: 'Sources de Porrentruy',

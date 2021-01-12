@@ -9,8 +9,8 @@ export default {
   source: {
     coordinates: [2819000, 1187000],
     position: {
-      x: 1916,
-      y: 645,
+      x: 3243,
+      y: 1187,
       r: 90
     },
     name: 'Sources minérales de Scuol',

@@ -9,8 +9,8 @@ export default {
   source: {
     coordinates: [2632300, 1153800],
     position: {
-      x: 853,
-      y: 834,
+      x: 1319,
+      y: 1631,
       r: 66
     },
     name: 'Source de Chilchbalm',
@@ -80,8 +80,8 @@ export default {
       ],
       onTheRoad: true,
 	  position: {
-		  x: 938,
-		  y: 1070,
+		  x: 650,
+		  y: 738,
 	  }
     },
     

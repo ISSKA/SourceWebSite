@@ -5,7 +5,7 @@ import excursion2 from '../locales/fr/excursion-2.js'
 */
 
 // Dynamically load excursions content
-const EXCURSIONS_NUMBER = 18
+const EXCURSIONS_NUMBER = 19
 const excursions = []
 const excursions_de = []
 

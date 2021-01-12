@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2660000, 1154000],
     position: {
-      x: 1012,
-      y: 832,
+      x: 1852,
+      y: 1459,
       r: 70
     },
     name: 'Aare- Quelle',
@@ -79,17 +79,13 @@ export default {
         },
 		{
       legend: 'Profil einer glazialen Quelle',
-          name: 'img-3.jpg'
+          name: 'img-3_de.jpg'
         },
       ],
       onTheRoad: true,
 	  position: {
-        x: 507,
-        y: 718,
-      },
-    position2: {
-      x: 838,
-      y: 71,
+        x: 495,
+        y: 709,
       },
     },
 

@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2531000, 1185000],
     position: {
-      x: 278,
-      y: 656,
+      x: 531,
+      y: 1355,
       r: 50
     },
     name: 'Sources des gorges de Covatannaz',
@@ -58,17 +58,21 @@ export default {
       cover: 'img-1.jpg',
       sumary: '',
       description: [
-	  'De nombreuses cavités naturelles sont connues dans les gorges de Covatannaz. La principale, nommée Réseau de Covatannaz a été explorée sur plus de 5 kilomètres par les spéléologues. Ce réseau compte quatre entrées : le Fontanet de Covatannaz (ou Grotte du Vertige), la Grotte des Echelles, la Grotte des Lacs et la Grotte de la Grande-Poule.',
-	  'En hautes eaux, les galeries souterraines se mettent en charge. La grotte du Fontanet et celle des Echelles se mettent à fonctionner comme exutoires de crue. Elles déversent alors un débit imposant en formant des cascades spectaculaires au pied de la falaise.',
-	  'Tous ces exutoires, d’un débit total maximal de 5 m3/s, font partie d’un même système d’écoulement que l’on retrouve dans plusieurs galeries du réseau souterrain.',
-	  'Lors de très fortes crues, il peut arriver que la Grotte de la Grande-Poule, dont l’entrée se trouve à 800 m d’altitude, se mette également à débiter l’eau que le réseau sous-jacent ne peut plus évacuer. Sachant que la source pérenne se trouve à 560 m d’altitude, on en déduit que la mise en charge à l’intérieur des fissures et des galeries souterraines peut atteindre 240 m.'],
+        'De nombreuses cavités naturelles sont connues dans les gorges de Covatannaz. La principale, nommée Réseau de Covatannaz a été explorée sur plus de 5 kilomètres par les spéléologues. Ce réseau compte quatre entrées : le Fontanet de Covatannaz (ou Grotte du Vertige), la Grotte des Echelles, la Grotte des Lacs et la Grotte de la Grande-Poule.',
+        'En hautes eaux, les galeries souterraines se mettent en charge. La grotte du Fontanet et celle des Echelles se mettent à fonctionner comme exutoires de crue. Elles déversent alors un débit imposant en formant des cascades spectaculaires au pied de la falaise.',
+        'Tous ces exutoires, d’un débit total maximal de 5 m3/s, font partie d’un même système d’écoulement que l’on retrouve dans plusieurs galeries du réseau souterrain.',
+        'Lors de très fortes crues, il peut arriver que la Grotte de la Grande-Poule, dont l’entrée se trouve à 800 m d’altitude, se mette également à débiter l’eau que le réseau sous-jacent ne peut plus évacuer. Sachant que la source pérenne se trouve à 560 m d’altitude, on en déduit que la mise en charge à l’intérieur des fissures et des galeries souterraines peut atteindre 240 m.'],
       images: [
         {
           legend: 'Position du réseau de grottes de Covatannaz par rapport à la surface. Les galeries les plus éloignées de l’entrée passent à l’aplomb de la route qui relie Ste-Croix à Bullet.',
           name: 'img-1.jpg'
         },
       ],
-      onTheRoad: false,
+      onTheRoad: true,
+      position: {
+      x: 1245,
+        y: 405
+    }
     },
     {
       title: 'D’où vient l’eau des sources de Covatannaz ?',
@@ -86,7 +90,11 @@ export default {
           name: 'img-1.jpg'
         },
       ],
-      onTheRoad: false
+      onTheRoad: true,
+      position: {
+        x: 1188,
+        y: 346
+      }
     },
   ]
 }

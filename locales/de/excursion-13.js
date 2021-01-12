@@ -9,8 +9,8 @@ export default {
   source: {
     coordinates: [2703000, 1203000],
     position: {
-      x: 1257,
-      y: 552,
+      x: 2177,
+      y: 1097,
       r: 75
     },
     name: 'Trois randonnées autour du Hölloch',
@@ -98,19 +98,14 @@ export default {
         },
         {
           legend: 'Übersichtplan des Höllochs. Die Gänge erstrecken sich über mehr als 1000 Höhenmeter.',
-          name: 'img-2.jpg'
+          name: 'img-2_de.jpg'
         },
 
       ],
       onTheRoad: true,
       position: {
-        x: 480,
-        y: 299,
-
-      },
-      position2: {
-        x: 795,
-        y: 274,
+        x: 678,
+        y: 324,
 
       },
      

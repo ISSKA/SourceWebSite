@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2731000, 1222000],
     position: {
-      x: 1416,
-      y: 447,
+      x: 2397,
+      y: 887,
       r: 76
     },
     name: 'Rinquelle & Seerenbachfälle',

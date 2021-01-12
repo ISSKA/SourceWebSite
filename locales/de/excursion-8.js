@@ -10,8 +10,8 @@ export default {
   source: {
     coordinates: [2583800, 1239100],
     position: {
-      x: 577,
-      y: 347,
+      x: 1095,
+      y: 729,
       r: 45
     },
     name: 'Soulce-Quellen',
@@ -81,8 +81,8 @@ export default {
         ],
       onTheRoad: true,
       position: {
-        x: 1143,
-        y: 324,
+        x: 1087,
+        y: 308,
       }
     },
     {
@@ -107,8 +107,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 1346,
-        y: 307,
+        x: 1276,
+        y: 320,
       }
     },
 	{
@@ -140,7 +140,7 @@ export default {
     ],
     onTheRoad: true,
     position: {
-      x: 1116,
+      x: 1053,
       y: 58,
     }
     },

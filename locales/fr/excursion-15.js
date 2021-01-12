@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2756000, 1202500],
     position: {
-      x: 1560,
-      y: 556,
+      x: 2639,
+      y: 1054,
       r: 55
     },
     name: 'Source thermale de Bad Pfäfers',
@@ -79,8 +79,8 @@ export default {
       ],
       onTheRoad: true,
 	  position: {
-		  x: 2906,
-		  y: 2575,
+		  x: 1088,
+		  y: 951,
 	  }
     },
     

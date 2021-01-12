@@ -13,8 +13,8 @@ export default {
   source: {
     coordinates: [2546800, 1200500],
     position: {
-      x: 367,
-      y: 568,
+      x: 708,
+      y: 1060,
       r: 38
     },
     name: 'Wanderung rund um die Areuse',
@@ -70,23 +70,22 @@ export default {
       ],
       images: [
         {
-          legend:
-            'Deux traceurs (triangles oranges) injectés sur la Montagne de Boudry n’ont jamais réapparu dans les sources environnantes. Ceci traduit l’existence d’écoulements souterrains lents, un élément qui assure une meilleure protection des captages. On estime, par exemple, que l’eau des sources de la région des Moyats est restée de 15 à 25 ans sous terre !',
-          name: 'img-1.jpg'
+          legend: 'Lage der Quelle der Noiraigue in Bezug auf das Tal der Sagne, in dem der Bied fliesst.',
+          name: 'img-1_de.jpg'
         },
         {
-          legend: 'La source de la Noiraigue',
+          legend: 'Die Quelle der Noiraigue',
           name: 'img-2.jpg'
         },
         {
-          legend: 'Plan d’ensemble, service cantonal de la géomatique et du registre foncier',
-          name: 'img-3.jpg'
+          legend: 'Die unterirdische Wasserzirkulation zwischen dem Bied des Ponts und der Quelle der Noiraigue wurde bereits 1864 durch zahlreiche Färbungsversuche nachgewiesen. Es dauert etwa 60 Stunden, bis das Wasser die 4 Kilometer zwischen der Versickerung und der Quelle zurückgelegt hat.In der Realität ist der Weg des Wassers zwischen der Versickerung und der Quelle ganz sicher nicht gerade.',
+          name: 'img-3_de.jpg'
         }
       ],
       onTheRoad: true,
       position: {
-        x: 381,
-        y: 356
+        x: 545,
+        y: 457
       }
     },
     {
@@ -115,8 +114,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 674,
-        y: 458
+        x: 963,
+        y: 608
       }
     },
     {
@@ -142,8 +141,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 804,
-        y: 456
+        x: 1143,
+        y: 597
       }
     },
     {
@@ -181,8 +180,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 1424,
-        y: 290
+        x: 2029,
+        y: 361
       }
     },
     {

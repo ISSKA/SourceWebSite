@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2685300, 1116900],
     position: {
-      x: 1156,
-      y: 1044,
+      x: 2007,
+      y: 1885,
       r: 82
     },
     name: 'Bagni di Craveggia',

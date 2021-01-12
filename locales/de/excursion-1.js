@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2515870, 1171700],
     position: {
-      x: 192,
-      y: 732,
+      x: 401,
+      y: 1392,
       r: 55
     },
     name: 'Die Quelle der Orbe',
@@ -73,22 +73,18 @@ export default {
       ],
       images: [
         {
-          legend: 'Die wichtigsten Versickerungstrichter (entonnoirs) des Lac Brenet.',
-          name: 'img-1.jpg'
-        },
-        {
           legend: 'Lage der Versickerungstrichter in Relation zur Orbequelle.',
-          name: 'img-2.jpg'
+          name: 'img-2_de.jpg'
         },
         {
           legend: 'Der Versickerungstrichter von Bon Port',
-          name: 'img-3.jpg'
+          name: 'img-3_de.jpg'
         }
       ],
       onTheRoad: true,
       position: {
-        x: 2732,
-        y: 2274
+        x: 992,
+        y: 835
       }
     },
     {
@@ -121,8 +117,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 3797,
-        y: 556
+        x: 1380,
+        y: 202
       }
     },
     {
@@ -149,13 +145,13 @@ export default {
         },
         {
           legend: 'Das Höhlensystem der Orbe.',
-          name: 'img-4.jpg'
+          name: 'img-4_de.jpg'
         }
       ],
       onTheRoad: true,
       position: {
-        x: 4015,
-        y: 720
+        x: 1459,
+        y: 266
       }
     },
     {
@@ -176,7 +172,7 @@ export default {
         {
           legend:
             'Maximale jährliche Abflüsse der Orbe. An der Quelle selbst kommt es etwa alle 10 Jahre zu einem aussergewöhnlichen Hochwasser, das zur Überflutung des touristischen Teils der Höhlen von Vallorbe führt.',
-          name: 'img-2.jpg'
+          name: 'img-2_de.jpg'
         },
         {
           legend: 'Der Fluss etwas unterhalb der Quelle.',
@@ -189,8 +185,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 4184,
-        y: 563
+        x: 1519,
+        y: 209
       }
     }
   ]

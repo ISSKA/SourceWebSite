@@ -9,8 +9,8 @@ export default {
   source: {
     coordinates: [2572700, 1251900],
     position: {
-      x: 515,
-      y: 276,
+      x: 922,
+      y: 592,
       r: 46
     },
     name: 'Pruntrut: eine Stadt am Wasser',
@@ -77,19 +77,19 @@ export default {
 	  ],
       images: [
         {
-          legend: 'L’estavelle du Creugenat est un regard sur l’Ajoulote, le cours d’eau souterrain pérenne qui draine la vallée de la Haute Ajoie. En période d’étiage, il demeure inactif mais, lors de périodes de pluies prolongées, cette grande dépression est capable d’absorber un ruissellement aérien. En hautes eaux, il devient émissif, recrachant toute l’eau que les conduits souterrains ne peuvent véhiculer.',
-          name: 'img-1.jpg'
+          legend: 'Die Estavelle du Creugenat ist ein Blick auf die Ajoulote, den unterirdischen Wasserlauf, der das Tal der Haute Ajoie entwässert. Während Niedrigwasserperioden bleibt sie inaktiv, aber während längerer Regenperioden ist diese grosse Mulde in der Lage, Oberflächenabflüsse aufzunehmen. Bei Hochwasser wird sie emissiv und spuckt all das Wasser aus, das die unterirdischen Gänge nicht abtransportieren können.',
+          name: 'img-1_de.jpg'
         },
         {
-          legend: 'Débordement de l’estavelle du Creugenat le 4 janvier 1948. Une crue de cette ampleur ne se produit, en principe, que quelques fois par siècle.',
+          legend: 'Überschwemmung der Estavelle des Creugenat am 4. Januar 1948. Ein Hochwasser dieser Grössenordnung kommt normalerweise nur wenige Male pro Jahrhundert vor.',
           name: 'img-2.jpg'
         },
         {
-          legend: 'Exploration en scaphandrier en 1934.',
+          legend: 'Erforschung durch Taucher im Jahr 1934.',
           name: 'img-3.jpg'
         },
 		    {
-          legend: 'Un aspect de la conduite principale de la galerie souterraine photographiée ici en période d’étiage.',
+          legend: 'Ein Aspekt des unterirdischen Hauptgangs, der hier während einer Niedrigwasserperiode fotografiert wurde.',
           name: 'img-4.jpg'
         }
       ],

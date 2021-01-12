@@ -10,8 +10,8 @@ export default {
   source: {
     coordinates: [2603800, 1140500],
     position: {
-      x: 691,
-      y: 909,
+      x: 1083,
+      y: 1752,
       r: 52
     },
     name: 'Sibe Brünne',
@@ -72,7 +72,7 @@ export default {
         },
         {
           legend: '',
-          name: 'img-2.jpg'
+          name: 'img-2_de.jpg'
         },
         {
           legend: '',
@@ -81,8 +81,8 @@ export default {
       ],
       onTheRoad: true,
 	  position:{
-		  x: 5178,
-		  y: 3193,
+		  x: 1246,
+		  y: 765,
 	  }
     },
     {
@@ -126,7 +126,7 @@ export default {
         },
         {
           legend: 'Seitenriss der Chaudanne-Quelle nach der topographischen Aufzeichnungen der Forscher.',
-          name: 'img-2.jpg'
+          name: 'img-2_de.jpg'
         },
         
       ],
