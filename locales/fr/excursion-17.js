@@ -19,11 +19,11 @@ export default {
     canton: 'VS'
   },
   description: [
-    'Le massif des Dents du Midi</b> peut être parcouru en suivant une multitude d’itinéraires, plus ou moins longs et difficiles. Bien connu des randonneurs, le Tour des Dents du Midi  comporte lui-même plusieurs variantes réalisables en 2, 3 ou 4 jours.',
-    'L’excursion proposée ici est axée sur l’eau... visible et invisible! En 2 jours, on contourne le massif par l’ouest, ce qui permet de découvrir des paysages variés caractérisés par des structures géologiques spectaculaires et de suivre, en surface, le chemin que l’eau emprunte presque essentiellement par des voies souterraines étonnantes...',
-    'La première étape, conduit de Val-d’Illiez à la cabane de Susanfe. On passe d’abord à la source de Buchelieule, qui se trouve au bord de la Vièze et dont l’eau provient, selon toute vraisemblance, du lac de...Salanfe! Une longue montée conduit ensuite jusqu’à Bonavau et à l’impressionnante gorge du Pas d’Encel. Le col franchi, la cabane est presque en vue.',
-    'La seconde étape débute par une montée(la dernière!) jusqu’au col de Susanfe.S’ensuit une longue descente qui mène au lac de Salanfe avant de traverser le joli vallon de Van.  ',
-    'En complément à cette randonnée, nous proposons deux bonus : l’Abbaye de St-Maurice et sa source, sans doute à l’origine de la construction de cet important lieu de culte et la Grotte aux Fées qui offre la possibilité de voir une rivière souterraine.'
+    'Le massif des Dents du Midi</b> peut être parcouru en suivant une multitude d’itinéraires, plus ou moins longs et difficiles. Bien connu des randonneurs, le Tour des Dents du Midi  comporte lui-même plusieurs variantes réalisables en 2, 3 ou 4 jours. ',
+    'L’excursion proposée ici est axée sur l’eau... visible et invisible! En 2 jours, on contourne le massif par l’ouest, ce qui permet de découvrir des paysages variés caractérisés par des structures géologiques spectaculaires et de suivre, en surface, le chemin que l’eau emprunte presque essentiellement par des voies souterraines étonnantes... ',
+    'La première étape, conduit de Val-d’Illiez à la cabane de Susanfe. On passe d’abord à la source de Buchelieule, qui se trouve au bord de la Vièze et dont l’eau provient, selon toute vraisemblance, du lac de... Salanfe! Une longue montée conduit ensuite jusqu’à Bonavau et à l’impressionnante gorge du Pas d’Encel. Le col franchi, la cabane est presque en vue. ',
+    'La seconde étape débute par une montée(la dernière!) jusqu’au col de Susanfe. S’ensuit une longue descente qui mène au lac de Salanfe avant de traverser le joli vallon de Van.  ',
+    'En complément à cette randonnée, nous proposons deux bonus : l’Abbaye de St-Maurice et sa source, sans doute à l’origine de la construction de cet important lieu de culte et la Grotte aux Fées qui offre la possibilité de voir une rivière souterraine. '
   ],
   route: [{
     details: {
@@ -38,16 +38,16 @@ export default {
     },
     description: ['<h3>Première étape</h3>',
 	'Du village de Val-d’Illiez, rejoindre le site des bains du Val-d’Illiez. C’est là que se trouve la source de Buchelieule, juste avant le pont, une trentaine de mètres sur la gauche. ',
-	'Via Prabys, remonter la Vièze en rive droite. Avant d’atteindre Draversat, on traverse une très belle section de forêt avec, juste à côté du sentier, la rivière cascadante.',
+	'Via Prabys, remonter la Vièze en rive droite. Avant d’atteindre Draversat, on traverse une très belle section de forêt avec, juste à côté du sentier, la rivière cascadante. ',
 	'A Draversat, suivre la direction des lacs d’Antème. Franchir le ravin de la Frassenaye puis celui de la Frâche. Passer sous la Chaux d’Antème en laissant sur sa gauche les lacs homonymes. ',
-	'Au niveau de l’alpage de Mettecui, le sentier redescend en direction du cirque rocheux de Bonavau. On peut y admirer la belle cascade provenant de la source de Fontaine Blanche (si par chance elle coule à ce moment-là...). ',
-	'Avant d’attaquer le franchissement du Pas d’Encel, offrez-vous une petite halte bienfaisante à l’auberge de Bonavau. La remontée de cette gorge demande une certaine prudence. Bien qu’il soit aérien, le chemin est cependant toujours suffisamment large pour y garder bon pied.',
-	'Au haut de la gorge, on atteint le vallon du Susanfe et, bientôt, la cabane.',
+	'Au niveau de l’alpage de Mettecui, le sentier redescend en direction du cirque rocheux de Bonavau. On peut y admirer la belle cascade provenant de la source de Fontaine Blanche (si par chance elle coule à ce moment-là... ). ',
+	'Avant d’attaquer le franchissement du Pas d’Encel, offrez-vous une petite halte bienfaisante à l’auberge de Bonavau. La remontée de cette gorge demande une certaine prudence. Bien qu’il soit aérien, le chemin est cependant toujours suffisamment large pour y garder bon pied. ',
+	'Au haut de la gorge, on atteint le vallon du Susanfe et, bientôt, la cabane. ',
 	'<h3>Deuxième étape</h3>',
-	'Remonter le vallon de Susanfe jusqu’au col. On entame la descente qui conduit au lac de Salanfe en traversant un immense éboulis.',
-	'Parvenu près du lac, le contourner de préférence par le sud même si cet itinéraire est plus long que par le nord. En passant par là, on peut observer le contact entre le gneiss et les calcaires. Au bout du lac, on franchit une zone alluviale, témoin de la présence du Glacier Noir, aujourd’hui presque totalement disparu. Avant d’atteindre le barrage, on peut observer plusieurs émergences proches du lac.',
+	'Remonter le vallon de Susanfe jusqu’au col. On entame la descente qui conduit au lac de Salanfe en traversant un immense éboulis. ',
+	'Parvenu près du lac, le contourner de préférence par le sud même si cet itinéraire est plus long que par le nord. En passant par là, on peut observer le contact entre le gneiss et les calcaires. Au bout du lac, on franchit une zone alluviale, témoin de la présence du Glacier Noir, aujourd’hui presque totalement disparu. Avant d’atteindre le barrage, on peut observer plusieurs émergences proches du lac. ',
 	'Traverser le barrage puis entamer la descente du vallon de Van en suivant de préférence de jolis sentiers sinueux, certes un peu moins directs que la route. ',
-	'A Van d’en Bas, s’il vous reste un peu d’énergie, prenez un moment pour aller jeter un coup d’œil aux gorges du Dailley qui se trouvent juste en-dessous du hameau; elles valent le détour.',
+	'A Van d’en Bas, s’il vous reste un peu d’énergie, prenez un moment pour aller jeter un coup d’œil aux gorges du Dailley qui se trouvent juste en-dessous du hameau; elles valent le détour. ',
 ]
   },
     ],

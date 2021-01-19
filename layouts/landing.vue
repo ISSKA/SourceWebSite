@@ -41,7 +41,7 @@
     <!-- FOOTER -->
     <div class="footer-container">
       <b-container class="text-center">
-        <small>Copyright &copy; {{ $t('footer.copyright_brand') }} <span id="year">2020</span></small>
+        <small>Copyright &copy; {{ $t('footer.copyright_brand') }} <span id="year">2020</span> Cartes: swisstopo</small>
       </b-container>
     </div>
   </div>

@@ -37,7 +37,7 @@
     <!-- FOOTER -->
     <div class="footer-container">
       <b-container class="text-center">
-        <small>Copyright &copy; {{ $t('footer.copyright_brand') }} <span id="year">2020</span></small>
+        <small>Copyright &copy; {{ $t('footer.copyright_brand') }} <span id="year">2020</span> <span v-if="$i18n.locale==='fr'">Cartes: swisstopo</span> <span v-if="$i18n.locale==='de'">Karten: swisstopo</span></small>
       </b-container>
     </div>
   </div>

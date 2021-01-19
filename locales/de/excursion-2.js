@@ -17,12 +17,12 @@ export default {
     canton: 'BE'
   },
   description: [
-    'Die sehr eindrückliche Quelle von Chilchbalm ist tief in ein naturbelassenes Tal eingebettet.Sie entspringt inmitten einer Felswand in etwa 30 Meter Höhe.Zu ihren Füssen liegt ein kleiner Gletscher in der Senke des Sefinentals, über ihr ragt das Gspaltenhorn bis in 3436 m ü.M.auf.',
-    'Der Aufstieg zu den Öffnungen, aus denen das Wasser sprudelt, ist guten Kletterern vorbehalten.Vor gar nicht allzu langer Zeit war die Quelle noch unter der Gletschermasse verborgen.Durch das Abschmelzen des Gletschers wurde sie freigelegt und ist heute von Weitem sichtbar.',
-    'Bis heute weiss man wenig über diese Quelle, ausser dass sie sehr schön und einen Besuch wert ist! Die Herkunft des Wassers (Einzugsgebiet) ist den Hydrogeologen noch nicht bekannt, und die Speläologen konnten die Quelle noch nicht erkunden – sofern dies überhaupt technisch möglich ist...'
+    'Die sehr eindrückliche Quelle von Chilchbalm ist tief in ein naturbelassenes Tal eingebettet. Sie entspringt inmitten einer Felswand in etwa 30 Meter Höhe. Zu ihren Füssen liegt ein kleiner Gletscher in der Senke des Sefinentals, über ihr ragt das Gspaltenhorn bis in 3436 m ü. M. auf. ',
+    'Der Aufstieg zu den Öffnungen, aus denen das Wasser sprudelt, ist guten Kletterern vorbehalten. Vor gar nicht allzu langer Zeit war die Quelle noch unter der Gletschermasse verborgen. Durch das Abschmelzen des Gletschers wurde sie freigelegt und ist heute von Weitem sichtbar. ',
+    'Bis heute weiss man wenig über diese Quelle, ausser dass sie sehr schön und einen Besuch wert ist! Die Herkunft des Wassers (Einzugsgebiet) ist den Hydrogeologen noch nicht bekannt, und die Speläologen konnten die Quelle noch nicht erkunden – sofern dies überhaupt technisch möglich ist... '
   ],
   route: [{
-	  link_swissmobile: 'https:///map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=yes&bgLayer=pk&logo=yes&season=summer&resolution=4.37&E=2631690&N=1153351&layers=Wanderland&trackId=6867749',
+	  link_swissmobile: 'https:///map. schweizmobil. ch/?lang=fr&land=wanderland&route=all&photos=yes&bgLayer=pk&logo=yes&season=summer&resolution=4. 37&E=2631690&N=1153351&layers=Wanderland&trackId=6867749',
     details: {
       start: 'Stechelberg',
       end: 'Stechelberg',
@@ -34,11 +34,11 @@ export default {
 	  
     },
     description: [
-      'Wir überqueren die Brücke über die Weisse Lütschine und folgen dem Serpentinenweg hinauf in den Wald in der Nähe der Sefinenfälle.',
-      'An der Wasserbrigg angekommen, gehen wir etwa 4 km auf der linken Uferseite der Sefinen Lütschine weiter. Den Pfad hinauf zur Rotstockhütte lassen wir zu unserer Rechten und folgen dem Bach flussaufwärts.',
-      'Nahe der Moräne ist der Pfad weniger gut markiert, aber der Blick auf die wunderschönen Wasserfälle, die in der Ferne von der Felswand stürzen, gibt die richtige Richtung an.',
-      'Je nach Witterung sollten Sie sich nicht zu nahe an die Quelle wagen, da die Gefahr von Felsstürzen von der Nordwand des Gspaltenhorns besteht.',
-      'Der Abstieg erfolgt über denselben Weg, ausser man möchte die Wanderung durch einen Abstecher zur Rotstockhütte verlängern.'
+      'Wir überqueren die Brücke über die Weisse Lütschine und folgen dem Serpentinenweg hinauf in den Wald in der Nähe der Sefinenfälle. ',
+      'An der Wasserbrigg angekommen, gehen wir etwa 4 km auf der linken Uferseite der Sefinen Lütschine weiter. Den Pfad hinauf zur Rotstockhütte lassen wir zu unserer Rechten und folgen dem Bach flussaufwärts. ',
+      'Nahe der Moräne ist der Pfad weniger gut markiert, aber der Blick auf die wunderschönen Wasserfälle, die in der Ferne von der Felswand stürzen, gibt die richtige Richtung an. ',
+      'Je nach Witterung sollten Sie sich nicht zu nahe an die Quelle wagen, da die Gefahr von Felsstürzen von der Nordwand des Gspaltenhorns besteht. ',
+      'Der Abstieg erfolgt über denselben Weg, ausser man möchte die Wanderung durch einen Abstecher zur Rotstockhütte verlängern. '
     ]
   },
     ],
@@ -62,10 +62,10 @@ export default {
 	  cover: 'img-1.jpg', 
       sumary: '',
       description: [
-        'Hoch im Lauterbrunnental liegt Grimmelwald, das Tor zu einem Seitental, dem Sefinental. Durch dieses Tal, das im Norden vom Schilthorn und im Süden vom Ellstabshorn überragt wird, fliesst die Sefinen Lütschine, ein Gebirgsbach wie viele andere. Nehmen Sie sich die Zeit, den Bach entlang in Richtung Gspaltenhorn hinaufzuwandern, das das Tal im Westen mit seinen 3436 m ü. M. abschliesst.Ganz unten im Felsenkessel werden Sie nach einer langen Wanderung, fern von Lärm und Menschen, einen wundervollen, mysteriösen Ort entdecken.Die Chilchbalm ist eine spektakuläre Quelle, aus der kristallklares, eiskaltes Wasser fliesst.Es ist eigentlich nichts weiter über die Quelle bekannt, doch muss man wirklich immer alles erklären ? Hier dreht sich alles um Sinne und Emotionen: Lassen Sie die Schönheit und Stimmung des Ortes auf sich wirken.Sie werden es garantiert nicht bereuen...',
-        'Ein Ort, ein Vorwand, eine Gelegenheit, sich ein wenig dem Philosophieren hinzugeben.Was ist eine Quelle ? Woher kommt sie ? Was versteckt sich dahinter ? Ist es ein Tor zur Unterwelt ?',
+        'Hoch im Lauterbrunnental liegt Grimmelwald, das Tor zu einem Seitental, dem Sefinental. Durch dieses Tal, das im Norden vom Schilthorn und im Süden vom Ellstabshorn überragt wird, fliesst die Sefinen Lütschine, ein Gebirgsbach wie viele andere. Nehmen Sie sich die Zeit, den Bach entlang in Richtung Gspaltenhorn hinaufzuwandern, das das Tal im Westen mit seinen 3436 m ü. M. abschliesst. Ganz unten im Felsenkessel werden Sie nach einer langen Wanderung, fern von Lärm und Menschen, einen wundervollen, mysteriösen Ort entdecken. Die Chilchbalm ist eine spektakuläre Quelle, aus der kristallklares, eiskaltes Wasser fliesst. Es ist eigentlich nichts weiter über die Quelle bekannt, doch muss man wirklich immer alles erklären ? Hier dreht sich alles um Sinne und Emotionen: Lassen Sie die Schönheit und Stimmung des Ortes auf sich wirken. Sie werden es garantiert nicht bereuen... ',
+        'Ein Ort, ein Vorwand, eine Gelegenheit, sich ein wenig dem Philosophieren hinzugeben. Was ist eine Quelle ? Woher kommt sie ? Was versteckt sich dahinter ? Ist es ein Tor zur Unterwelt ?',
         'Oder eher der Entstehungsort allen Lebens ? Welche wohlwollenden Geister leben dort ? Oder sind es etwa böse Dämonen ?',
-        'Der Mensch erfindet Legenden nach seinen eigenem Vorstellungen; es ist daher kein Zufall, dass Quellen mehr als andere Orte Legenden heraufbeschwören...'
+        'Der Mensch erfindet Legenden nach seinen eigenem Vorstellungen; es ist daher kein Zufall, dass Quellen mehr als andere Orte Legenden heraufbeschwören... '
       ],
       images: [
         {

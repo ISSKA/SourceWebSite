@@ -24,7 +24,7 @@
       <br />
       -->
 
-        <p v-for="(description, index) in excursion.description" :key="'desc-' + index" v-html="description"   style="text-align: justify;"></p>
+        <p v-for="(description, index) in excursion.description" :key="'desc-' + index" v-html="description"></p>
 
         <a :href="`/docs/excursion-${$route.params.excursionId}/${excursion.summary.download_file}`" target="_blank" class="btn btn-primary" role="button">
           {{

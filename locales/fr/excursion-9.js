@@ -17,12 +17,12 @@ export default {
     canton: 'JU'
   },
   description: [
-    'Le toponyme Porrentruy semble avoir plusieurs origines possibles.L’une d’elles explique que la ville pourrait tirer son nom du Bruntrutum qui signifie « pays des sources abondantes ».Et il est bien vrai que l’eau est omniprésente dans cette petite ville du Jura tabulaire.',
+    'Le toponyme Porrentruy semble avoir plusieurs origines possibles.L’une d’elles explique que la ville pourrait tirer son nom du Bruntrutum qui signifie « pays des sources abondantes ». Et il est bien vrai que l’eau est omniprésente dans cette petite ville du Jura tabulaire.',
     'La rivière la plus importante, et la plus visible, qui traverse la ville est <b>l’Allaine</b > qui trouve sa source dans la région de La Baroche, à l’est.',
     'Mais d’autres cours d’eau et plusieurs sources existent:',
     '<ul><li><b>Le Creugenat</b>. Rivière temporaire, trop-plein de l’Ajoulote souterraine, venant de la région de Chevenez–Courtedoux.</li><li><b>Le Bacavoine</b> qui trouve sa source à Fontenais.</li><li><b>La source Chaumont</b>, située dans la vieille ville, au pied du château.</li><li><b>La source de la Beuchire</b> qui est la résurgence pérenne de la rivière souterraine l’Ajoulote.</li><li><b>La source de la Boucherie</b>, située non loin de la précédente (aujourd’hui invisible).</li></ul>',
     'Au gré des rues de la vieille ville, la promenade proposée permet de découvrir ce système complexe de la circulation de l’eau en milieu urbain. ',
-    'En complément à cette balade, il est possible d’aller jeter un coup d’œil à l’estavelle du Creugenat située à 5 km au sud-ouest de Porrentruy.Cette cavité est un regard sur l’Ajoulote, qui est la rivière souterraine pérenne dont l’émergence est la source de la Beuchire.',
+    'En complément à cette balade, il est possible d’aller jeter un coup d’œil à l’estavelle du Creugenat située à 5 km au sud-ouest de Porrentruy. Cette cavité est un regard sur l’Ajoulote, qui est la rivière souterraine pérenne dont l’émergence est la source de la Beuchire.',
     'Une visite à la source du Bacavoine, située en centre du village de Fontenais est également conseillée.'
   ],
   route: [{

@@ -21,8 +21,8 @@ export default {
     canton: 'NE'
   },
   description: [
-    '<b>La source de la Noiraigue</b> est une très belle source qui illustre idéalement le principe de la circulation souterraine des eaux dans un massif karstique.',
-    '<b>Les gorges de l’Areuse</b> sont bien connues des randonneurs. Grâce aux nombreuses sources qui s’y trouvent, elles sont le château d’eau du canton de Neuchâtel. Cette excursion permet de les découvrir et de comprendre comment, vers la fin du XIXème siècle, les hommes ont su les capter pour alimenter la ville de La Chaux-de-Fonds, située 500 m plus haut et 20 km plus loin.'
+    '<b>La source de la Noiraigue</b> est une très belle source qui illustre idéalement le principe de la circulation souterraine des eaux dans un massif karstique. ',
+    '<b>Les gorges de l’Areuse</b> sont bien connues des randonneurs. Grâce aux nombreuses sources qui s’y trouvent, elles sont le château d’eau du canton de Neuchâtel. Cette excursion permet de les découvrir et de comprendre comment, vers la fin du XIXème siècle, les hommes ont su les capter pour alimenter la ville de La Chaux-de-Fonds, située 500 m plus haut et 20 km plus loin. '
 
   ],
   route: [
@@ -34,14 +34,14 @@ export default {
       delta_height: '+ 215 m / – 264 m',
         duration: '2h30 (sans les pauses)',
       restauration: 'Noiraigue / Champ du Moulin / Chambrelien',
-      type: 'Randonnée sur sentiers et petites routes. Facile.'
+      type: 'Randonnée sur sentiers et petites routes. Facile. '
     },
     description: [
-      'A partir de la gare de Noiraigue, se diriger vers le nord du village et remonter la rivière jusqu’à sa source qui se trouve au pied des falaises de la Clusette.',
-      'Revenir une centaine de mètres sur ses pas et prendre le sentier pédestre qui longe la voie CFF en direction des gorges.Passer à côté de l’usine du Furcil, puis de celle du Plan de l’Eau devant laquelle on voit la prise d’eau motrice qui alimente l’usine des Moyats.Longer l’aqueduc couvert et continuer en rive gauche, puis franchir une passerelle qui enjambe la rivière avant de revenir en rive gauche en franchissant le magnifique Pont du Saut de Brot. Passer devant l’usine des Moyats et rester sur cette rive jusqu’à Champ du Moulin.',
-      'A Champ du Moulin, traverser le pont et poursuivre la descente des gorges. 1 km plus loin, prendre la passerelle métallique et retourner en rive gauche avant de franchir le pont de la Verrerie(pt. 575). 600 m plus loin, passer à nouveau en rive gauche par un pont couvert en bois et dépasser l’usine de Combe Garot qui se trouve sur l’autre rive.',
-      '200 m après l’usine, rejoindre la route(rive droite). Suivre celle - ci jusqu’au moment où elle commence à monter.Là, prendre à gauche le chemin forestier qui longe la rivière.Franchir le Pont de Vert, passer sous un grand abri sous roche(Baume du Four).',
-      'Après la partie la plus escarpée des gorges(chemin en hauteur, sur rive droite), traverser le pont et monter en direction de la gare de Chambrelien.'
+      'A partir de la gare de Noiraigue, se diriger vers le nord du village et remonter la rivière jusqu’à sa source qui se trouve au pied des falaises de la Clusette. ',
+      'Revenir une centaine de mètres sur ses pas et prendre le sentier pédestre qui longe la voie CFF en direction des gorges. Passer à côté de l’usine du Furcil, puis de celle du Plan de l’Eau devant laquelle on voit la prise d’eau motrice qui alimente l’usine des Moyats. Longer l’aqueduc couvert et continuer en rive gauche, puis franchir une passerelle qui enjambe la rivière avant de revenir en rive gauche en franchissant le magnifique Pont du Saut de Brot. Passer devant l’usine des Moyats et rester sur cette rive jusqu’à Champ du Moulin. ',
+      'A Champ du Moulin, traverser le pont et poursuivre la descente des gorges. 1 km plus loin, prendre la passerelle métallique et retourner en rive gauche avant de franchir le pont de la Verrerie(pt. 575). 600 m plus loin, passer à nouveau en rive gauche par un pont couvert en bois et dépasser l’usine de Combe Garot qui se trouve sur l’autre rive. ',
+      '200 m après l’usine, rejoindre la route(rive droite). Suivre celle-ci jusqu’au moment où elle commence à monter. Là, prendre à gauche le chemin forestier qui longe la rivière. Franchir le Pont de Vert, passer sous un grand abri sous roche(Baume du Four). ',
+      'Après la partie la plus escarpée des gorges(chemin en hauteur, sur rive droite), traverser le pont et monter en direction de la gare de Chambrelien. '
     ]
   },
     ],

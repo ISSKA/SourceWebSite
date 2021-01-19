@@ -17,11 +17,11 @@ export default {
     canton: 'GR, UR, TI, VS, BE'
   },
   description: [
-    '<b>Rhin, Reuss, Rhône et Tessin</b> ces deux fleuves et ces deux affluents de fleuves européens ont leurs sources respectives dans le massif du Gothard.Ils coulent dans les quatre directions géographiques et aboutissent à la Méditerranée, la mer du Nord et l’Adriatique.Le massif du Gothard passe donc pour être le château d’eau de l’Europe.',
-    'En cinq jours de marche, le chemin des quatre sources du massif du Gothard dessert ces quatre sources par un réseau de 85 kilomètres de chemins de randonnée de montagne dans les cantons des Grisons, d’Uri, du Tessin et du Valais.Pour réaliser ce projet de grande envergure, la Fondation du chemin des quatre sources a assaini et élargi une grande partie des chemins existant déjà.La construction de tronçons de raccordement entièrement nouveaux sur dix kilomètres a permis de créer un circuit complet qui, depuis l’automne 2012, relie les quatre sources de manière attrayante pour les randonneurs. ',
+    '<b>Rhin, Reuss, Rhône et Tessin</b> ces deux fleuves et ces deux affluents de fleuves européens ont leurs sources respectives dans le massif du Gothard. Ils coulent dans les quatre directions géographiques et aboutissent à la Méditerranée, la mer du Nord et l’Adriatique. Le massif du Gothard passe donc pour être le château d’eau de l’Europe. ',
+    'En cinq jours de marche, le chemin des quatre sources du massif du Gothard dessert ces quatre sources par un réseau de 85 kilomètres de chemins de randonnée de montagne dans les cantons des Grisons, d’Uri, du Tessin et du Valais. Pour réaliser ce projet de grande envergure, la Fondation du chemin des quatre sources a assaini et élargi une grande partie des chemins existant déjà. La construction de tronçons de raccordement entièrement nouveaux sur dix kilomètres a permis de créer un circuit complet qui, depuis l’automne 2012, relie les quatre sources de manière attrayante pour les randonneurs. ',
     '<h5>Extension vers la source de l’Aar<h5>',
-    'Nous proposons de compléter cette magnifique randonnée alpine par la découverte de la source de l’Aar.',
-    'Cette extension fait passer la randonnée de 5 à 6 jours.A partir d’Obergesteln (fin de la quatrième étape), on quitte le chemin des quatre sources pour monter en direction du Sidelhorn et de l’Oberaarsee.Nuitée au restaurant de montagne d’Oberaar.Le lendemain (sixième et dernière étape), rejoindre le chemin des quatre sources à Gletsch en passant par le Col du Grimsel.'
+    'Nous proposons de compléter cette magnifique randonnée alpine par la découverte de la source de l’Aar. ',
+    'Cette extension fait passer la randonnée de 5 à 6 jours. A partir d’Obergesteln (fin de la quatrième étape), on quitte le chemin des quatre sources pour monter en direction du Sidelhorn et de l’Oberaarsee. Nuitée au restaurant de montagne d’Oberaar. Le lendemain (sixième et dernière étape), rejoindre le chemin des quatre sources à Gletsch en passant par le Col du Grimsel. '
 ],
   route: [{
     details: {
@@ -49,12 +49,12 @@ export default {
 	'Distance 20 km / durée : 7h00 / montée : 950 m / descente : 1600 m. Itinéraire : Capane Piansecco (1982) – Alpe Cruina – source du Tessin – Col du Nufenen (2440) – Ladstafel (1925) – Obergesteln (1341).  ',
 	'<h5>Etape 5</h5>',
 	'D’Obergesteln à la source du Rhône ',
-	'Distance 14 km / durée : 6h45 / montée : 1600 m / descente : 650 m Itinéraire : Obergesteln (1341) – Gletsch (1470) – Muttbach (2170) – Col de la Furka (2429) – Hôtel Belvédère (point de vue).',
+	'Distance 14 km / durée : 6h45 / montée : 1600 m / descente : 650 m Itinéraire : Obergesteln (1341) – Gletsch (1470) – Muttbach (2170) – Col de la Furka (2429) – Hôtel Belvédère (point de vue). ',
 	'<h3>L’itinéraire de l’extension vers la source de l’Aar</h3>',
 	'<h5>Oberwald > Oberaarsee</h5>',
-	'On quitte le tracé des quatre sources à Oberwald. La randonnée débute par une longue montée jusqu’au Triebtenseelicke (col). Descendre ensuite vers le Triebtenseewli avant de rejoindre l’auberge de montagne Oberaar. On longe ensuite la rive nord de l’Oberaarsee. Poursuivre jusqu’au front du glacier, point d’origine de l’Aar. Revenir par le même chemin jusqu’à l’auberge.',
+	'On quitte le tracé des quatre sources à Oberwald. La randonnée débute par une longue montée jusqu’au Triebtenseelicke (col). Descendre ensuite vers le Triebtenseewli avant de rejoindre l’auberge de montagne Oberaar. On longe ensuite la rive nord de l’Oberaarsee. Poursuivre jusqu’au front du glacier, point d’origine de l’Aar. Revenir par le même chemin jusqu’à l’auberge. ',
 	'<h5>Oberaarsee > Source du Rhône</h5>',
-	'Quitter l’auberge en direction du Triebtenseewli et gagner le col du Grimsel. Contourner le Totesee par le sud et descendre en direction de Gletsch où l’on rejoint le chemin des quatre sources. On voit au loin la source du Rhône que l’on rejoint après être passé par le col de la Furka.'
+	'Quitter l’auberge en direction du Triebtenseewli et gagner le col du Grimsel. Contourner le Totesee par le sud et descendre en direction de Gletsch où l’on rejoint le chemin des quatre sources. On voit au loin la source du Rhône que l’on rejoint après être passé par le col de la Furka. '
 	]
   },
     ],
@@ -118,8 +118,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 3331,
-        y: 1254,
+        x: 1272,
+        y: 337,
       },
     },
 	{
@@ -148,8 +148,8 @@ export default {
     ],
     onTheRoad: true,
     position: {
-      x: 1727,
-      y: 1454,
+      x: 835,
+      y: 391,
     },
     },
   ]

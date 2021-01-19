@@ -19,10 +19,10 @@ export default {
     canton: 'SG'
   },
   description: [
-    'Si l’on se trouve du côté d’Obstalden, sur la rive sud du Walensee, le regard est attiré par une immense cascade qui dévale les falaises du massif des Churfirsten.Il s’agit de la Seerenbachfälle dont la hauteur avoisine 600 mètres.',
-    'Presque au pied de cette cascade spectaculaire, il en existe une autre qui sort d’un porche situé en pleine falaise: c’est la Rinquelle.',
-    'Difficile d’accès, cette très belle source a attiré les spéléologues - plongeurs dès 1959. Depuis lors, plus de 2 kilomètres de galeries noyées ont été explorés.',
-    'La randonnée proposée part de Weesen et longe la rive nord du lac jusqu’à Quinten.Le retour en bateau permet de prendre du recul pour admirer les deux cascades et l’imposant massif qui les domine.'
+    'Si l’on se trouve du côté d’Obstalden, sur la rive sud du Walensee, le regard est attiré par une immense cascade qui dévale les falaises du massif des Churfirsten. Il s’agit de la Seerenbachfälle dont la hauteur avoisine 600 mètres. ',
+    'Presque au pied de cette cascade spectaculaire, il en existe une autre qui sort d’un porche situé en pleine falaise: c’est la Rinquelle. ',
+    'Difficile d’accès, cette très belle source a attiré les spéléologues - plongeurs dès 1959. Depuis lors, plus de 2 kilomètres de galeries noyées ont été explorés. ',
+    'La randonnée proposée part de Weesen et longe la rive nord du lac jusqu’à Quinten. Le retour en bateau permet de prendre du recul pour admirer les deux cascades et l’imposant massif qui les domine. '
   ],
   route: [{
     details: {
@@ -35,11 +35,11 @@ export default {
       type: 'Randonnée sans difficultés particulières'
     },
     description: [
-      'A partir du port de Weesen, suivre la route qui monte à Amden sur environ 500 m.La quitter sur la droite et prendre la direction de Betlis.',
-      'S’engager alors sur la petite route qui suit le bord du lac.',
-      'Laisser le chemin d’accès aux bains et au port de Betlis sur votre droite et passer par le restaurant Landgasthof Paradiesli puis, plus loin, par Oberbetlis.',
-      'Après les dernières maisons, prendre à gauche le sentier qui s’approche des cascades jusqu’au point de vue où l’on trouve un panneau d’information sur la source.',
-      'Redescendre et traverser la rivière pour continuer la randonnée jusqu’au port de Quinten.'
+      'A partir du port de Weesen, suivre la route qui monte à Amden sur environ 500 m. La quitter sur la droite et prendre la direction de Betlis. ',
+      'S’engager alors sur la petite route qui suit le bord du lac. ',
+      'Laisser le chemin d’accès aux bains et au port de Betlis sur votre droite et passer par le restaurant Landgasthof Paradiesli puis, plus loin, par Oberbetlis. ',
+      'Après les dernières maisons, prendre à gauche le sentier qui s’approche des cascades jusqu’au point de vue où l’on trouve un panneau d’information sur la source. ',
+      'Redescendre et traverser la rivière pour continuer la randonnée jusqu’au port de Quinten. '
     ]
   },
     ],

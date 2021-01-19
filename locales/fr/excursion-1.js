@@ -19,7 +19,7 @@ export default {
     canton: 'VD'
   },
   description: [
-    '<b>La source de l’Orbe</b> se situe à l’ouest de Vallorbe. Mais, en fait, plus en amont, il existe une autre source de l’Orbe, située au niveau du Lac des Rousses (France). Après un parcours sinueux, l’Orbe «supérieure» se jette dans le Lac de Joux puis le Lac Brenet au fond duquel... elle disparaît! Après un parcours souterrain, on la retrouve près de Vallorbe (Orbe inférieure). L’excursion proposée ici permet de suivre en surface le parcours emprunté, sous terre, par la rivière entre le Lac Brenet et les grottes de Vallorbe.'
+    '<b>La source de l’Orbe</b> se situe à l’ouest de Vallorbe. Mais, en fait, plus en amont, il existe une autre source de l’Orbe, située au niveau du Lac des Rousses (France). Après un parcours sinueux, l’Orbe «supérieure» se jette dans le Lac de Joux puis le Lac Brenet au fond duquel... elle disparaît! Après un parcours souterrain, on la retrouve près de Vallorbe (Orbe inférieure). L’excursion proposée ici permet de suivre en surface le parcours emprunté, sous terre, par la rivière entre le Lac Brenet et les grottes de Vallorbe. '
   ],
   route: [{
     details: {
@@ -32,11 +32,11 @@ export default {
       type: 'Randonnée sans difficultés particulières'
     },
     description: [
-      'De la gare du Pont, suivre le sentier qui fait le tour du lac Brenet en passant par le village des Charbonnières.',
-      'Parvenu sur la rive opposée, on découvre, entre la falaise et le lac, plusieurs grandes dépressions.Ce sont les Entonnoirs par lesquels l’eau s’infiltre sous terre pour partir en direction des grottes de Vallorbe.',
-      'Après environ 1 km, on passe à côté de la prise d’eau du système hydroélectrique Tornaz – usine de La Dernier.C’est par là que, depuis plus d’un siècle, l’eau est évacuée en direction de Vallorbe, assurant du même coup la régulation du niveau du lac.',
-      'Quitter le bord du lac pour se diriger en direction du Col du Mont d’Orzeires.Un petit kilomètre plus loin, on parvient au parc animalier Juraparc.Continuer en entamant la descente en direction de Vallorbe.Parvenus au pt. 922, suivre la route sur environ 200 m et prendre le sentier assez raide qui descend sur la droite vers la Grotte aux Fées puis rejoindre l’Orbe et prendre sur la droite pour parvenir à l’entrée des grottes de Vallorbe : point d’intérêt C.',
-      'Au niveau du parking des grottes, rester en rive droite pour suivre un sentier qui longe la rivière.Rejoindre ensuite la gare.'
+      'De la gare du Pont, suivre le sentier qui fait le tour du lac Brenet en passant par le village des Charbonnières. ',
+      'Parvenu sur la rive opposée, on découvre, entre la falaise et le lac, plusieurs grandes dépressions. Ce sont les Entonnoirs par lesquels l’eau s’infiltre sous terre pour partir en direction des grottes de Vallorbe. ',
+      'Après environ 1 km, on passe à côté de la prise d’eau du système hydroélectrique Tornaz–usine de La Dernier. C’est par là que, depuis plus d’un siècle, l’eau est évacuée en direction de Vallorbe, assurant du même coup la régulation du niveau du lac. ',
+      'Quitter le bord du lac pour se diriger en direction du Col du Mont d’Orzeires. Un petit kilomètre plus loin, on parvient au parc animalier Juraparc. Continuer en entamant la descente en direction de Vallorbe. Parvenus au pt. 922, suivre la route sur environ 200 m et prendre le sentier assez raide qui descend sur la droite vers la Grotte aux Fées puis rejoindre l’Orbe et prendre sur la droite pour parvenir à l’entrée des grottes de Vallorbe : point d’intérêt C. ',
+      'Au niveau du parking des grottes, rester en rive droite pour suivre un sentier qui longe la rivière. Rejoindre ensuite la gare. '
     ]
   },
     ],

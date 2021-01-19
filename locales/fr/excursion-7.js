@@ -19,8 +19,8 @@ export default {
     canton: 'GR'
   },
   description: [
-    'De nombreuses sources se trouvent à proximité de Flims. La circulation des eaux souterraines dans cette région est fortement influencée par l’éboulement d’une masse d’environ 9 km3 de roche survenu il y a 9700 ans. Provenant de la région située entre le Crap da Flem et le Piz Grischette, cette quantité impressionnante a glissé vers la vallée et endigué temporairement le Rhin formant un lac en amont, à partir d’Ilanz. L’excursion vous fait découvrir l’hydrologie particulière de cette masse éboulée, en particulier la source de Laghizun, le Lag la Cauma le Lag Prau Pulté.',
-    'En complément à cette excursion, il est recommandé d’aller voir le Lag Tiert, une très belle source en forme de grand bassin, qui se trouve à proximité de la télécabine de Laax Murschetg.'
+    'De nombreuses sources se trouvent à proximité de Flims. La circulation des eaux souterraines dans cette région est fortement influencée par l’éboulement d’une masse d’environ 9 km3 de roche survenu il y a 9700 ans. Provenant de la région située entre le Crap da Flem et le Piz Grischette, cette quantité impressionnante a glissé vers la vallée et endigué temporairement le Rhin formant un lac en amont, à partir d’Ilanz. L’excursion vous fait découvrir l’hydrologie particulière de cette masse éboulée, en particulier la source de Laghizun, le Lag la Cauma le Lag Prau Pulté. ',
+    'En complément à cette excursion, il est recommandé d’aller voir le Lag Tiert, une très belle source en forme de grand bassin, qui se trouve à proximité de la télécabine de Laax Murschetg. '
   ],
   route: [{
     details: {
@@ -29,14 +29,14 @@ export default {
       distance: '11,1 km',
       delta_height: '+ 551 m / – 238 m',
       duration: '4h30',
-      restauration: 'Conn - Caumasee',
+      restauration: 'Conn-Caumasee',
       type: 'Randonnée sans difficultés particulières'
     },
     description: [
-	'Au départ de Trin-Mulin, suivre la rivière Turnigla en rive droite jusqu’au confluent avec le Flem. Continuer dans la même direction jusqu’au pied de la forêt de Bot la Cresta. Une centaine de mètres après la ferme de Laghizun (qui se trouve au pied du bois), repérer en contrebas du chemin la belle source de Pintrun.',
-	'De là, suivre le chemin forestier qui monte en direction de Conn. En sortant de la forêt, prendre à gauche en bordure de clairière et atteindre le haut des gorges du Rhin. Faire un crochet d’une centaine de mètres pour atteindre la plate-forme sur laquelle on peut monter pour bénéficier une vue spectaculaire sur le Rhin.',
-	'Revenir sur ses pas et longer la crête sur 1,5 km avant d’entamer la descente en direction du Lag la Cauma. Contourner celui-ci par son flanc nord et monter jusqu’à Flims Waldhaus. Passer à côté du grand hôtel éponyme et rejoindre le Lag Prau Pulté par un sentier qui traverse d’abord un bois avant de passer au-dessus du portail du tunnel routier.',
-	'Terminer l’excursion en revenant sur ses pas jusqu’à l’arrêt de bus de Flims-Waldhaus.'
+	'Au départ de Trin-Mulin, suivre la rivière Turnigla en rive droite jusqu’au confluent avec le Flem. Continuer dans la même direction jusqu’au pied de la forêt de Bot la Cresta. Une centaine de mètres après la ferme de Laghizun (qui se trouve au pied du bois), repérer en contrebas du chemin la belle source de Pintrun. ',
+	'De là, suivre le chemin forestier qui monte en direction de Conn. En sortant de la forêt, prendre à gauche en bordure de clairière et atteindre le haut des gorges du Rhin. Faire un crochet d’une centaine de mètres pour atteindre la plate-forme sur laquelle on peut monter pour bénéficier une vue spectaculaire sur le Rhin. ',
+	'Revenir sur ses pas et longer la crête sur 1,5 km avant d’entamer la descente en direction du Lag la Cauma. Contourner celui-ci par son flanc nord et monter jusqu’à Flims Waldhaus. Passer à côté du grand hôtel éponyme et rejoindre le Lag Prau Pulté par un sentier qui traverse d’abord un bois avant de passer au-dessus du portail du tunnel routier. ',
+	'Terminer l’excursion en revenant sur ses pas jusqu’à l’arrêt de bus de Flims-Waldhaus. '
 	]
   },
     ],

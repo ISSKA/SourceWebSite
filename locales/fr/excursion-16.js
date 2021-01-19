@@ -19,9 +19,9 @@ export default {
     canton: 'TI'
   },
   description: [
-    'La randonnée qui conduit aux anciens bains de Craveggia est insolite à plus d’un titre.Le Val d’Onsernone mérite a lui seul l’excursion.Pour atteindre les anciens bains de Craveggia, il faut d’abord traverser un chapelet de hameaux et de villages accrochés aux flancs abrupts de cette vallée sauvage.',
-    'La visite au site des bains de Craveggia nous plonge dans une période révolue qui a vu cet endroit retiré accueillir des hôtes venus ici pour profiter des vertus de l’eau d’une source qui, en réalité, se trouve sur territoire italien mais dont l‘unique accès se fait par la Suisse.',
-    'Depuis quelques années, l’ancien bâtiment des bains a été sommairement réaménagé pour y pratiquer la méthode Kneipp, cela dans un site naturel qui est resté – avec bonheur – pratiquement intact.'
+    'La randonnée qui conduit aux anciens bains de Craveggia est insolite à plus d’un titre. Le Val d’Onsernone mérite a lui seul l’excursion. Pour atteindre les anciens bains de Craveggia, il faut d’abord traverser un chapelet de hameaux et de villages accrochés aux flancs abrupts de cette vallée sauvage. ',
+    'La visite au site des bains de Craveggia nous plonge dans une période révolue qui a vu cet endroit retiré accueillir des hôtes venus ici pour profiter des vertus de l’eau d’une source qui, en réalité, se trouve sur territoire italien mais dont l‘unique accès se fait par la Suisse. ',
+    'Depuis quelques années, l’ancien bâtiment des bains a été sommairement réaménagé pour y pratiquer la méthode Kneipp, cela dans un site naturel qui est resté – avec bonheur – pratiquement intact. '
   ],
   route: [{
     details: {
@@ -34,11 +34,11 @@ export default {
       type: 'Randonnée facile en rive gauche de l’Isorno (tracé aller), et un peu plus sportive au retour en rive droite (passages à gué)'
     },
     description: [
-      'Au départ du village de Spruga, on suit la route à flanc de coteau(et interdite à la circulation) sur environ 3 kilomètres. Quitter cette route peu avant son terminus pour traverser le pont qui enjambe l’Isorno et qui marque aussi la frontière entre la Suisse et l’Italie.',
-      'Observons un détail singulier : si, sur territoire suisse, la rivière s’appelle l’Isorno, elle porte en amont, sur territoire italien, un autre nom : le rio dei Bagni(le ruisseau des bains).',
-      'Après le pont, monter dans la forêt jusqu’à la Caserma Onsernone, une maison abandonnée.Redescendre ensuite jusqu’au niveau de la rivière où l’on trouve le site des anciens bains thermaux de Craveggia.',
-      'Si le débit de la rivière est peu important, on peut aussi éviter le détour par le pont et simplement traverser le cours d’eau à gué juste en face des bains.',
-      'Nous conseillons de revenir à Spruga en passant par la rive droite.Mais cet itinéraire est plus exigeant que celui emprunté à l’aller. Le sentier franchit un ruisseau qu’il peut être délicat de traverser selon son débit. Il faut ensuite monter dans la côte avant de redescendre jusqu’au niveau de l’Isorno pour le traverser au point 904 avant de remonter en direction de Spruga.'
+      'Au départ du village de Spruga, on suit la route à flanc de coteau(et interdite à la circulation) sur environ 3 kilomètres. Quitter cette route peu avant son terminus pour traverser le pont qui enjambe l’Isorno et qui marque aussi la frontière entre la Suisse et l’Italie. ',
+      'Observons un détail singulier : si, sur territoire suisse, la rivière s’appelle l’Isorno, elle porte en amont, sur territoire italien, un autre nom : le rio dei Bagni(le ruisseau des bains). ',
+      'Après le pont, monter dans la forêt jusqu’à la Caserma Onsernone, une maison abandonnée. Redescendre ensuite jusqu’au niveau de la rivière où l’on trouve le site des anciens bains thermaux de Craveggia. ',
+      'Si le débit de la rivière est peu important, on peut aussi éviter le détour par le pont et simplement traverser le cours d’eau à gué juste en face des bains. ',
+      'Nous conseillons de revenir à Spruga en passant par la rive droite. Mais cet itinéraire est plus exigeant que celui emprunté à l’aller. Le sentier franchit un ruisseau qu’il peut être délicat de traverser selon son débit. Il faut ensuite monter dans la côte avant de redescendre jusqu’au niveau de l’Isorno pour le traverser au point 904 avant de remonter en direction de Spruga. '
     ]
   },
     ],

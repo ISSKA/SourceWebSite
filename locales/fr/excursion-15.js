@@ -19,10 +19,10 @@ export default {
     canton: 'SG'
   },
   description: [
-    '<b>Bad Pfäfers</b> est moins connu que Bad Ragaz, réputée pour ses bains thermaux. Et pourtant ! C’est bien grâce à la source de Bad Pfäfers que la bourgade des bords du Rhin a pu développer son attractivité de centre thermal.',
-    'La randonnée proposée ici conduit à la source historique – celle de Bad Pfäfers donc.',
-    'Pour l’atteindre, on doit s’engager dans une gorge profonde et impressionnante. En visitant ce site, il vaut la peine de se représenter les conditions dans lesquelles on conduisait les patients jusqu’à la source. Les curistes étaient descendus jusqu’à la source au moyen d’échelles et de palans sommairement installés entre les parois verticales de la gorge...',
-    'De nos jours, l’eau de la source est toujours utilisée à des fins thérapeutiques que ce soit à l’hôpital orthopédique de Valens ou aux bains de Bad Ragaz.'
+    '<b>Bad Pfäfers</b> est moins connu que Bad Ragaz, réputée pour ses bains thermaux. Et pourtant ! C’est bien grâce à la source de Bad Pfäfers que la bourgade des bords du Rhin a pu développer son attractivité de centre thermal. ',
+    'La randonnée proposée ici conduit à la source historique – celle de Bad Pfäfers donc. ',
+    'Pour l’atteindre, on doit s’engager dans une gorge profonde et impressionnante. En visitant ce site, il vaut la peine de se représenter les conditions dans lesquelles on conduisait les patients jusqu’à la source. Les curistes étaient descendus jusqu’à la source au moyen d’échelles et de palans sommairement installés entre les parois verticales de la gorge... ',
+    'De nos jours, l’eau de la source est toujours utilisée à des fins thérapeutiques que ce soit à l’hôpital orthopédique de Valens ou aux bains de Bad Ragaz. '
   ],
   route: [{
 	 details: {
@@ -35,11 +35,11 @@ export default {
       type: 'Randonnée sans difficulté particulière en terrain varié'
     },
     description: [
-      'De la gare de Bad Ragaz, se diriger en direction des gorges que l’on atteint après un kilomètre.',
-      'On s’engage dans la gorge jusqu’aux anciens bains de Bad Pfäfers, aujourd’hui transformés en restaurant et musée.',
-      'De là, l’accès à la source ellemême se fait en suivant un chemin long de 750 m aménagé juste au - dessus de la rivière.Cet accès est payant(Fr. 5. -).',
-      'Après avoir fait l’aller - retour jusqu’à la source, continuer la randonnée en suivant le sentier qui monte en direction de Valens. Le quitter(sur la gauche) à micôte pour se diriger vers le pont naturel qui permet de passer sur l’autre rive(c’est à cet endroit que les curistes étaient descendus pour recevoir les eaux.',
-      'La montée se poursuit et l’on sort bientôt de la gorge pour atteindre Pfäfers.On entame ensuite la descente parmi les vignes jusqu’à la plaine de Rhin que l’on suit pour rejoindre le point de départ.'
+      'De la gare de Bad Ragaz, se diriger en direction des gorges que l’on atteint après un kilomètre. ',
+      'On s’engage dans la gorge jusqu’aux anciens bains de Bad Pfäfers, aujourd’hui transformés en restaurant et musée. ',
+      'De là, l’accès à la source ellemême se fait en suivant un chemin long de 750 m aménagé juste au - dessus de la rivière. Cet accès est payant(Fr. 5. -). ',
+      'Après avoir fait l’aller - retour jusqu’à la source, continuer la randonnée en suivant le sentier qui monte en direction de Valens. Le quitter(sur la gauche) à micôte pour se diriger vers le pont naturel qui permet de passer sur l’autre rive(c’est à cet endroit que les curistes étaient descendus pour recevoir les eaux. ',
+      'La montée se poursuit et l’on sort bientôt de la gorge pour atteindre Pfäfers. On entame ensuite la descente parmi les vignes jusqu’à la plaine de Rhin que l’on suit pour rejoindre le point de départ. '
     ]
   },
     ],

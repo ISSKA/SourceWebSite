@@ -17,12 +17,12 @@ export default {
     canton: 'SZ'
   },
   description: [
-    'A proximité du village de Muotathal, en fond de vallée, se trouve une belle source karstique : la Schlichenden Brünnen.Cette source est la résurgence des eaux qui s’écoulent dans le massif calcaire qui s’étire vers l’est jusqu’au sommet du Silberen(2318 m) et du Pragelpass.',
-    'Entre la source et le Silberen, on peut parcourir des paysages de la forêt de Bödmeren dans un relief accidenté et fortement fissuré, ceci sans apercevoir le moindre ruisseau.',
-    'Au - dessous de cette région, se développe l’un des plus grands réseaux souterrains au monde : le Hölloch. Ce gigantesque labyrinthe souterrain a déjà été exploré par les spéléologues sur plus de 220 km! Les galeries du Hölloch drainent l’eau du massif jusqu’à la Schlichenden Brünnen.',
-    '<b>Le circuit « Schlichenden Brünnen & Hölloch »</b> permet de découvrir la source et de se rendre jusqu’à l’entrée principale du Hölloch(visite en option).',
-    '<b>Le circuit de la forêt de  Bödmeren</b> est une randonnée classique dans la région qui permet de parcourir la forêt de Bol.',
-    '<b>Le sentier  “Urwaldspur“</b> permet de parcourir une région boisée exceptionnelle et de découvrir les zones de lapiés qui s’étendent au loin jusqu’au Silberen.'
+    'A proximité du village de Muotathal, en fond de vallée, se trouve une belle source karstique : la Schlichenden Brünnen. Cette source est la résurgence des eaux qui s’écoulent dans le massif calcaire qui s’étire vers l’est jusqu’au sommet du Silberen(2318 m) et du Pragelpass. ',
+    'Entre la source et le Silberen, on peut parcourir des paysages de la forêt de Bödmeren dans un relief accidenté et fortement fissuré, ceci sans apercevoir le moindre ruisseau. ',
+    'Au - dessous de cette région, se développe l’un des plus grands réseaux souterrains au monde : le Hölloch. Ce gigantesque labyrinthe souterrain a déjà été exploré par les spéléologues sur plus de 220 km! Les galeries du Hölloch drainent l’eau du massif jusqu’à la Schlichenden Brünnen. ',
+    '<b>Le circuit « Schlichenden Brünnen & Hölloch »</b> permet de découvrir la source et de se rendre jusqu’à l’entrée principale du Hölloch(visite en option). ',
+    '<b>Le circuit de la forêt de  Bödmeren</b> est une randonnée classique dans la région qui permet de parcourir la forêt de Bol. ',
+    '<b>Le sentier  “Urwaldspur“</b> permet de parcourir une région boisée exceptionnelle et de découvrir les zones de lapiés qui s’étendent au loin jusqu’au Silberen. '
   ],
   route: [{
     title: 'Schlichenden Brünnen / Hölloch',
@@ -35,9 +35,9 @@ export default {
       restauration: '',
       type: ''
     },
-    description: ['L’excursion débute au Husky Lodge, à l’est du centre du village de Muotathal, En face de la route, on voit la Schlichenden Brünnen qui est la résurgence pérenne des eaux qui coulent dans le réseau du Hölloch.',
-      'Contourner  la  butte  du  Charen  par  l’ouest  en  passant  par  Töbeli. S’engager  ensuite  sur  la  route  du  Pragelpass; en  contrebas, on  aperçoit  l’entrée  principale du réseau souterrain.',
-      'Un peu plus loin, quitter la route et suivre un sentier qui s’engage dans la forêt puis redescend en direction du point de départ.']
+    description: ['L’excursion débute au Husky Lodge, à l’est du centre du village de Muotathal, En face de la route, on voit la Schlichenden Brünnen qui est la résurgence pérenne des eaux qui coulent dans le réseau du Hölloch. ',
+      'Contourner  la  butte  du  Charen  par  l’ouest  en  passant  par  Töbeli. S’engager  ensuite  sur  la  route  du  Pragelpass; en  contrebas, on  aperçoit  l’entrée  principale du réseau souterrain. ',
+      'Un peu plus loin, quitter la route et suivre un sentier qui s’engage dans la forêt puis redescend en direction du point de départ. ']
   },
   {
     title: 'La forêt de Bödmeren',
@@ -50,8 +50,8 @@ export default {
       restauration: '',
       type: ''
     },
-    description: ['Boucle  de  10  km  dans  une  magnifique  forêt  peu ou  pas  exploitée.  Ici,  aucune  trace  d’eau.  Celle-ci  s’infiltre dans le sous-sol par une multitude de fissures et de failles. C’est au-dessous de cette forêt que se développe  le  gigantesque  labyrinthe  souterrain  du  Hölloch.',
-      'Accès en voiture depuis Muotathal.']
+    description: ['Boucle  de  10  km  dans  une  magnifique  forêt  peu ou  pas  exploitée.  Ici,  aucune  trace  d’eau.  Celle-ci  s’infiltre dans le sous-sol par une multitude de fissures et de failles. C’est au-dessous de cette forêt que se développe  le  gigantesque  labyrinthe  souterrain  du  Hölloch. ',
+      'Accès en voiture depuis Muotathal. ']
   },
   {
     title: 'Sentier «Urwaldspur»',
@@ -64,7 +64,7 @@ export default {
       restauration: '',
       type: ''
     },
-    description: ['Sentier thématique autour du Roggenstöckli permettant de découvrir les richesses de la réserve naturelle de la forêt primaire de Bödmeren.',
+    description: ['Sentier thématique autour du Roggenstöckli permettant de découvrir les richesses de la réserve naturelle de la forêt primaire de Bödmeren. ',
       'Accès  en  voiture  depuis  Muotathal  jusqu’au  pavillon  de la forêt primaire(Urwaldpavillon).']
   },
   ],

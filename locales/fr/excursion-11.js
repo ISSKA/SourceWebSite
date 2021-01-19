@@ -17,8 +17,8 @@ export default {
     canton: 'NE'
   },
   description: [
-    '<b>La source de la Serrière</b> est à l’origine d’un développement artisanal et industriel remarquable. Au cours de cette balade, on peut voir de nombreux bâtiments qui ont abrité – ou qui abritent encore – des activités utilisant l’énergie de la rivière, entre sa source et le lac, situé non loin de là.',
-    'La source de la Serrière est une émergence pérenne impénétrable d’un débit moyen de 2,5 m3/s(minimum : 0,19 m3/s, maximum : 10,9m3/s) située dans les calcaires de l’Hauterivien supérieur. La Serrière est l’exutoire des calcaires du Malm du synclinal du Val-de-Ruz. La surface du bassin d’alimentation de cette source est de 88 km2.'
+    '<b>La source de la Serrière</b> est à l’origine d’un développement artisanal et industriel remarquable. Au cours de cette balade, on peut voir de nombreux bâtiments qui ont abrité – ou qui abritent encore – des activités utilisant l’énergie de la rivière, entre sa source et le lac, situé non loin de là. ',
+    'La source de la Serrière est une émergence pérenne impénétrable d’un débit moyen de 2,5 m3/s(minimum : 0,19 m3/s, maximum : 10,9m3/s) située dans les calcaires de l’Hauterivien supérieur. La Serrière est l’exutoire des calcaires du Malm du synclinal du Val-de-Ruz. La surface du bassin d’alimentation de cette source est de 88 km2. '
   ],
   route: [{
     details: {
@@ -31,12 +31,12 @@ export default {
       type: 'Balade en milieu urbain'
     },
     description: [
-	'A: Edifié en 1871 par l’architecte Léo Châtelain, un moulin industriel a été réuni à son voisin et transformé en fabrique de chocolat et entrepôt en 1882-1883.',
-	'Le terrain appelé l’île  situé entre la rivière et un canal de dérivation a vu se succéder les établissements industriels à un rythme rapide: les petits ateliers ont fait la place, en 1890, à une grande fabrique appelée l’Orientale en raison de sa silhouette découpée et de son décor polychrome, avant que les bâtiments actuels ne remplacent l’édifice incendié en 1957.',
-	'B: Immeubles ouvriers. La manufacture ne peut loger l’ensemble des employés (environ 500 en 1890 et 1700 en 1905) dans la fameuse cité ouvrière. L’habitat de la plupart des ouvriers consiste en logements ou chambres plus ou moins salubres à proximité des usines, comme en témoignent les immeubles locatifs de différentes époques qui ponctuent le vallon.',
-	'A proximité se trouve également l’emplacement de l’atelier loué en 1826 par Philippe Suchard, transformé à de nombreuses reprises et démoli en 1981, ainsi que le bâtiment dénommé le moulin à la voûte  qui compte parmi les plus anciens édifices industriels toujours en place. Reconstruit au milieu du XVIe siècle, il a été transformé à de nombreuses reprises.',
+	'A: Edifié en 1871 par l’architecte Léo Châtelain, un moulin industriel a été réuni à son voisin et transformé en fabrique de chocolat et entrepôt en 1882-1883. ',
+	'Le terrain appelé l’île  situé entre la rivière et un canal de dérivation a vu se succéder les établissements industriels à un rythme rapide: les petits ateliers ont fait la place, en 1890, à une grande fabrique appelée l’Orientale en raison de sa silhouette découpée et de son décor polychrome, avant que les bâtiments actuels ne remplacent l’édifice incendié en 1957. ',
+	'B: Immeubles ouvriers. La manufacture ne peut loger l’ensemble des employés (environ 500 en 1890 et 1700 en 1905) dans la fameuse cité ouvrière. L’habitat de la plupart des ouvriers consiste en logements ou chambres plus ou moins salubres à proximité des usines, comme en témoignent les immeubles locatifs de différentes époques qui ponctuent le vallon. ',
+	'A proximité se trouve également l’emplacement de l’atelier loué en 1826 par Philippe Suchard, transformé à de nombreuses reprises et démoli en 1981, ainsi que le bâtiment dénommé le moulin à la voûte  qui compte parmi les plus anciens édifices industriels toujours en place. Reconstruit au milieu du XVIe siècle, il a été transformé à de nombreuses reprises. ',
 	'C: A partir de 1892, un funiculaire, appelé plan incliné, reliait le fond du vallon à la gare et permettait d’envoyer la production de chocolat et de papier en Suisse et en Europe. Il a été démoli en 1954. Un étonnant réseau de rail Decauville (à voie étroite) permettait en outre à des wagonnets de transporter les marchandises entre les différentes usines.     ',
-	'D: Le cheminement se poursuit, de plus en plus escarpé, jusqu’à ce que, brusquement, une pente abrupte vienne clore l’espace de tous côtés. Un fort bruit de cascade se fait entendre, alors que jusque-là aucun cours d’eau n’était visible. En nous approchant, nous constatons que le bruit provient de l’eau qui jaillit d’un gros tas de pierre. Nous sommes arrivés à la source de la Serrière, la plus courte rivière du canton de Neuchâtel : 665 mètres exactement d’un parcours en bonne partie souterrain avant de se jeter dans le lac.'
+	'D: Le cheminement se poursuit, de plus en plus escarpé, jusqu’à ce que, brusquement, une pente abrupte vienne clore l’espace de tous côtés. Un fort bruit de cascade se fait entendre, alors que jusque-là aucun cours d’eau n’était visible. En nous approchant, nous constatons que le bruit provient de l’eau qui jaillit d’un gros tas de pierre. Nous sommes arrivés à la source de la Serrière, la plus courte rivière du canton de Neuchâtel : 665 mètres exactement d’un parcours en bonne partie souterrain avant de se jeter dans le lac. '
 	]
   },
     ],
@@ -74,8 +74,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 3278,
-        y: 2435,
+        x: 1214,
+        y: 622,
       }
     },
     {
@@ -103,8 +103,8 @@ export default {
       ],
       onTheRoad: true,
       position: {
-        x: 2857,
-        y: 2019,
+        x: 1103,
+        y: 513,
       }
     },{
       title: 'À la source du chocolat Suchard',
@@ -127,8 +127,8 @@ En 1826, Philippe Suchard installe une chocolaterie au milieu du vallon où s’
       ],
       onTheRoad: true,
       position: {
-        x: 2567,
-        y: 1327,
+        x: 1031,
+        y: 339,
       }
     },
 	{
@@ -149,8 +149,8 @@ En 1826, Philippe Suchard installe une chocolaterie au milieu du vallon où s’
       ],
     onTheRoad: true,
     position: {
-      x: 2131,
-      y: 491,
+      x: 917,
+      y: 126,
     }
     },
   ]

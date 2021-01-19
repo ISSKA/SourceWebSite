@@ -19,9 +19,9 @@ export default {
     canton: 'BE'
   },
   description: [
-    'La randonnée qui conduit jusqu’à la source supérieure de l’Aar offre un panorama exceptionnel sur les Alpes.Si l’on veut raccourcir l’excursion, il est possible de partir du restaurant de montagne Oberaar en empruntant la route à circulation limitée qui part du col.',
-    'Cependant, nous conseillons la version longue car elle permet une approche lente et spectaculaire du glacier Oberaar d’où jaillit la branche supérieure de l’Aar.En chemin, on a aussi tout le loisir d’admirer l’Unteraargletscher qui, lui, est à l’origine de la source inférieure de l’Aar.',
-    'En raison de la fonte des glaciers, cette région change d’aspect de plus en plus rapidement.Là où il y avait encore récemment de la glace, la végétation colonise les espaces et crée de nouveaux biotopes.'
+    'La randonnée qui conduit jusqu’à la source supérieure de l’Aar offre un panorama exceptionnel sur les Alpes. Si l’on veut raccourcir l’excursion, il est possible de partir du restaurant de montagne Oberaar en empruntant la route à circulation limitée qui part du col. ',
+    'Cependant, nous conseillons la version longue car elle permet une approche lente et spectaculaire du glacier Oberaar d’où jaillit la branche supérieure de l’Aar. En chemin, on a aussi tout le loisir d’admirer l’Unteraargletscher qui, lui, est à l’origine de la source inférieure de l’Aar. ',
+    'En raison de la fonte des glaciers, cette région change d’aspect de plus en plus rapidement. Là où il y avait encore récemment de la glace, la végétation colonise les espaces et crée de nouveaux biotopes. '
   ],
   route: [{
 	  details: {
@@ -34,12 +34,12 @@ export default {
       type: 'Longue randonnée en haute montagne sans difficultés particulières'
     },
     description: [
-      'Au départ du Col du Grimsel, se diriger vers l’ouest en direction du Sidelhoren. Après une montée raide, passer devant la Husegghütte et continuer à flanc de coteau avant de descendre vers la Triebteseewli.',
-      'Le sentier remonte, cette fois - ci en pente douce et l’on découvre soudain l’Oberaarsee avec, au fond, le massif du Finsteraarhorn.',
-      'Rejoindre la rive nord du lac en passant par le restaurant de montagne Oberaar. La randonnée se poursuit en traversant le barrage, puis en longeant le lac sur toute sa longueur.',
-      'Quelques centaines de mètres plus loin, quitter le sentier qui conduit à l’Oberaarjochhütte et remonter la rivière jusqu’à son embouchure, au front du glacier.',
-      'Retour par le même itinéraire.',
-      'Si l’accès se fait en voiture ou en vélo, possibilité de raccourcir cette randonnée en partant du Berghaus Oberaar.'
+      'Au départ du Col du Grimsel, se diriger vers l’ouest en direction du Sidelhoren. Après une montée raide, passer devant la Husegghütte et continuer à flanc de coteau avant de descendre vers la Triebteseewli. ',
+      'Le sentier remonte, cette fois-ci en pente douce et l’on découvre soudain l’Oberaarsee avec, au fond, le massif du Finsteraarhorn. ',
+      'Rejoindre la rive nord du lac en passant par le restaurant de montagne Oberaar. La randonnée se poursuit en traversant le barrage, puis en longeant le lac sur toute sa longueur. ',
+      'Quelques centaines de mètres plus loin, quitter le sentier qui conduit à l’Oberaarjochhütte et remonter la rivière jusqu’à son embouchure, au front du glacier. ',
+      'Retour par le même itinéraire. ',
+      'Si l’accès se fait en voiture ou en vélo, possibilité de raccourcir cette randonnée en partant du Berghaus Oberaar. '
     ]
   },
   ],

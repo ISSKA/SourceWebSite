@@ -18,8 +18,8 @@ export default {
     canton: 'VD'
   },
   description: [
-    'Auf dem anlässlich der Weltwald- und Wassertage am 21. und 22. März 2003 geschaffenen Brunnenpfad kann man den Wald und die Quellen des Bois du Jorat auf einem markierten Rundweg mit anschaulichen Erläuterungstafeln erkunden.',
-'Der Wanderweg wurde vom Wasserwerk der Stadt Lausanne entwickelt und gestaltet.Er bietet die Möglichkeit, mehrere Quellen, die aus Molassegestein stammen, zu entdecken.'],
+    'Auf dem anlässlich der Weltwald- und Wassertage am 21. und 22. März 2003 geschaffenen Brunnenpfad kann man den Wald und die Quellen des Bois du Jorat auf einem markierten Rundweg mit anschaulichen Erläuterungstafeln erkunden. ',
+'Der Wanderweg wurde vom Wasserwerk der Stadt Lausanne entwickelt und gestaltet. Er bietet die Möglichkeit, mehrere Quellen, die aus Molassegestein stammen, zu entdecken. '],
   route: [{
     details: {
       start: 'Chalet-à-Gobet',
@@ -31,9 +31,9 @@ export default {
       type: 'Angenehme Wanderung ohne besondere Schwierigkeiten über von Waldweg, realisierbar zu Fuss oder mit dem Velo'
     },
     description: [
-      'Die Brunnenwanderung beginnt in Chalet-à-Gobet oberhalb von Lausanne.Der markierte Wanderweg bietet eine Rundwanderung im Herzen des Bois du Jorat.',
-'Der Pfad führt den Wanderer an einem Dutzend Brunnen vorbei, die von nahe gelegenen Quellen gespeist werden.',
-'An jedem Brunnen findet man eine Informationstafel mit der Beschreibung der entsprechenden Quelle und Auskünften über die Wasserqualität und die Geschichte der Brunnen.']
+      'Die Brunnenwanderung beginnt in Chalet-à-Gobet oberhalb von Lausanne. Der markierte Wanderweg bietet eine Rundwanderung im Herzen des Bois du Jorat. ',
+'Der Pfad führt den Wanderer an einem Dutzend Brunnen vorbei, die von nahe gelegenen Quellen gespeist werden. ',
+'An jedem Brunnen findet man eine Informationstafel mit der Beschreibung der entsprechenden Quelle und Auskünften über die Wasserqualität und die Geschichte der Brunnen. ']
   },
     ],
 

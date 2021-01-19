@@ -18,9 +18,9 @@ export default {
     canton: 'VS'
   },
   description: [
-    '<b>Le val d’Hérens</b> est célèbre pour ses hauts sommets(Dent Blanche, Grand Cornier, Dent d’Hérens...) et pour la curiosité géomorphologique que constituent les pyramides d’Euseigne.',
-    'Mais, plus bas, le long de la Borgne, se cache un autre point d’intérêt naturel : les sources chaudes de Combioula dans lesquelles on peut se baigner librement...du moins pour l’instant! En effet, un projet d’exploitation touristique pourrait changer la donne dans les prochaines années.',
-    'L’excursion proposée ici est agréable et permet de découvrir non seulement ces sources mais également d’autres pyramides que celles qui figurent sur toutes les cartes postales.Au passage, on franchit une passerelle impressionnante qui lie les deux rives d’un profond ravin et on visite un hameau abandonné qui a fait récemment l’objet d’une réhabilitation agro - touristique.'
+    '<b>Le val d’Hérens</b> est célèbre pour ses hauts sommets(Dent Blanche, Grand Cornier, Dent d’Hérens... ) et pour la curiosité géomorphologique que constituent les pyramides d’Euseigne. ',
+    'Mais, plus bas, le long de la Borgne, se cache un autre point d’intérêt naturel : les sources chaudes de Combioula dans lesquelles on peut se baigner librement... du moins pour l’instant! En effet, un projet d’exploitation touristique pourrait changer la donne dans les prochaines années. ',
+    'L’excursion proposée ici est agréable et permet de découvrir non seulement ces sources mais également d’autres pyramides que celles qui figurent sur toutes les cartes postales. Au passage, on franchit une passerelle impressionnante qui lie les deux rives d’un profond ravin et on visite un hameau abandonné qui a fait récemment l’objet d’une réhabilitation agro - touristique. '
   ],
   route: [{
     details: {
@@ -33,9 +33,9 @@ export default {
       type: 'Randonnée sans difficulté particulière, mais quelques passages dans des terrains assez pentus (+ passerelle sûre mais aérienne!)'
     },
     description: [
-      'L’excursion en boucle proposée ici débute au centre du village d’Euseigne.Prendre la direction de La Luette en évitant de suivre la route au profit du sentier pédestre qui passe par le hameau de La Crêta.',
-      'A La Luette, descendre jusqu’à la rivière et prendre la petite route qui part sur la gauche.Plus loin, celle - ci se transforme en un sentier qui ondule à flanc de coteau jusqu’à Ossone.Après avoir traversé ce hameau, poursuivre dans la même direction jusqu’au ravin de la Manna.De là, descendre jusqu’à la rivière.Pour trouver les sources, il faut traverser la rivière, tourner à droite, revenir sur la rive droite au prochain pont et, continuer encore une centaine de mètres vers l’aval.',
-      'Retour à Euseigne en traversnt le vallon où coule La Dixence.En cours de route, ne pas oublier de lever le nez pour admirer les roches en forme de pyramides qui se trouvent ça et là.'
+      'L’excursion en boucle proposée ici débute au centre du village d’Euseigne. Prendre la direction de La Luette en évitant de suivre la route au profit du sentier pédestre qui passe par le hameau de La Crêta. ',
+      'A La Luette, descendre jusqu’à la rivière et prendre la petite route qui part sur la gauche. Plus loin, celle - ci se transforme en un sentier qui ondule à flanc de coteau jusqu’à Ossone. Après avoir traversé ce hameau, poursuivre dans la même direction jusqu’au ravin de la Manna. De là, descendre jusqu’à la rivière. Pour trouver les sources, il faut traverser la rivière, tourner à droite, revenir sur la rive droite au prochain pont et, continuer encore une centaine de mètres vers l’aval. ',
+      'Retour à Euseigne en traversnt le vallon où coule La Dixence. En cours de route, ne pas oublier de lever le nez pour admirer les roches en forme de pyramides qui se trouvent ça et là. '
     ]
   },
     ],

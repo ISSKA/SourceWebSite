@@ -19,11 +19,11 @@ export default {
   },
   description: [
        
-      'Plus de cinquante sources sont recensées sur le territoire de la commune de Soulce. Comme c’est le cas aussi en d’autres lieux, certaines de ces sources disparaissent dans l’anonymat le plus complet.',
-      'Dans le cadre du plan d’action communal(PAC), la commune a décidé de revitaliser et protéger certaines sources situées près du village afin qu’elles deviennent un exemple au niveau suisse de protection et d’exploitation durable de ces milieux exceptionnels.',
-      'Réalisé dans le cadre du PAC, le Sentier des sources et du paysage vise à informer la population sur la valeur particulière des sources et sur les points forts du patrimoine rural de la commune.',
-      'L’excursion proposée ici part d’Undervelier et suit une partie du sentier sus- nommé en permettant une découverte circulaire de la Haute - Sorne.',
-      'En complément à cette excursion, deux autres sources méritent d’être visitées à proximité d’Undervelier: celle des Blanches- Fontaines, une magnifique résurgence située dans les gorges du Pichoux et celle de Ste - Colombe visible au fond d’une grotte - sanctuaire se trouvant au bord de la route menant d’Undervelier à Berlincourt.'
+      'Plus de cinquante sources sont recensées sur le territoire de la commune de Soulce. Comme c’est le cas aussi en d’autres lieux, certaines de ces sources disparaissent dans l’anonymat le plus complet. ',
+      'Dans le cadre du plan d’action communal(PAC), la commune a décidé de revitaliser et protéger certaines sources situées près du village afin qu’elles deviennent un exemple au niveau suisse de protection et d’exploitation durable de ces milieux exceptionnels. ',
+      'Réalisé dans le cadre du PAC, le Sentier des sources et du paysage vise à informer la population sur la valeur particulière des sources et sur les points forts du patrimoine rural de la commune. ',
+      'L’excursion proposée ici part d’Undervelier et suit une partie du sentier sus- nommé en permettant une découverte circulaire de la Haute-Sorne. ',
+      'En complément à cette excursion, deux autres sources méritent d’être visitées à proximité d’Undervelier: celle des Blanches- Fontaines, une magnifique résurgence située dans les gorges du Pichoux et celle de Ste-Colombe visible au fond d’une grotte-sanctuaire se trouvant au bord de la route menant d’Undervelier à Berlincourt. '
     
   ],
   route: [{
@@ -37,11 +37,11 @@ export default {
       restauration: 'à Bassecourt(direction Delémont)',
     },
     description: [
-      'L’excursion débute au centre d’Undervelier. Suivre la route des gorges du Pichoux jusqu’à la sortie du village.',
-      'Quelques mètres avant que la route n’entre dans la forêt, la quitter en prenant à gauche le chemin qui remonte la vallée de la Haute - Sorne en direction de Soulce.',
-      'Après environ 3 kilomètres, on passe à proximité d’une source avant de redescendre vers le pâturage de l’Envers et ensuite le village de Soulce que l’on traverse complètement avant de remonter sur l’autre flanc de la vallée en suivant une route goudronnée.',
-      'Faire un détour de quelques mètres sur la gauche de cette route(altitude 648 m) pour admirer une zone humide d’où émergent plusieurs petites sources.Revenir ensuite sur ses pas et continuer de suivre la route jusqu’au niveau d’un virage en épingle à cheveux.Là, grimper la côte, traverser le pré en montant encore légèrement et repérer la piste forestière qui se trouve en face, dans le bois.',
-      'Rejoindre plus loin la petite route qui mène à la ferme de Frénois et terminer l’excursion en regagnant Undervelier.'
+      'L’excursion débute au centre d’Undervelier. Suivre la route des gorges du Pichoux jusqu’à la sortie du village. ',
+      'Quelques mètres avant que la route n’entre dans la forêt, la quitter en prenant à gauche le chemin qui remonte la vallée de la Haute-Sorne en direction de Soulce. ',
+      'Après environ 3 kilomètres, on passe à proximité d’une source avant de redescendre vers le pâturage de l’Envers et ensuite le village de Soulce que l’on traverse complètement avant de remonter sur l’autre flanc de la vallée en suivant une route goudronnée. ',
+      'Faire un détour de quelques mètres sur la gauche de cette route(altitude 648 m) pour admirer une zone humide d’où émergent plusieurs petites sources. Revenir ensuite sur ses pas et continuer de suivre la route jusqu’au niveau d’un virage en épingle à cheveux. Là, grimper la côte, traverser le pré en montant encore légèrement et repérer la piste forestière qui se trouve en face, dans le bois. ',
+      'Rejoindre plus loin la petite route qui mène à la ferme de Frénois et terminer l’excursion en regagnant Undervelier. '
     ]
   },
     ],

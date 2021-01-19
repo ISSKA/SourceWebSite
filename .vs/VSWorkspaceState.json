@@ -1,12 +1,17 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
-    "\\layouts",
+    "\\css",
     "\\locales",
+    "\\locales\\de",
     "\\pages",
+    "\\pages\\excursions",
+    "\\pages\\excursions\\_excursionId",
+    "\\pages\\excursions\\_excursionId\\extras",
+    "\\pages\\excursions\\_excursionId\\extras\\_extraId",
     "\\static",
     "\\static\\docs"
   ],
+  "SelectedNode": "\\locales\\fr\\excursion-10.js",
   "PreviewInSolutionExplorer": false
 }

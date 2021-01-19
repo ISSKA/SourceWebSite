@@ -19,9 +19,9 @@ export default {
     canton: 'BE'
   },
   description: [
-    'Die Route, die bis zur oberen Aare-Quelle führt, präsentiert ein eindrückliches Alpenpanorama.Wer die Wanderung abkürzen möchte, kann vom Bergrestaurant Oberaar aus starten, das über eine wechselseitig befahrbare Strasse erreichbar ist.',
-    'Wir empfehlen jedoch die lange Version, die eine allmähliche Annäherung an den spektakulären Oberaargletscher ermöglicht, dem der obere Arm der Aare entspringt.Der Wanderer kann unterwegs auch den Unteraargletscher bewundern, wo die untere Quelle der Aare entsteht.',
-    'Durch das Abschmelzen der Gletscher unterliegt das Landschaftsbild dieser Region einem zunehmenden Wandel.Dort, wo bis vor kurzem noch Eis war, breitet sich die Vegetation aus und schafft neue Lebensräume.'
+    'Die Route, die bis zur oberen Aare-Quelle führt, präsentiert ein eindrückliches Alpenpanorama. Wer die Wanderung abkürzen möchte, kann vom Bergrestaurant Oberaar aus starten, das über eine wechselseitig befahrbare Strasse erreichbar ist. ',
+    'Wir empfehlen jedoch die lange Version, die eine allmähliche Annäherung an den spektakulären Oberaargletscher ermöglicht, dem der obere Arm der Aare entspringt. Der Wanderer kann unterwegs auch den Unteraargletscher bewundern, wo die untere Quelle der Aare entsteht. ',
+    'Durch das Abschmelzen der Gletscher unterliegt das Landschaftsbild dieser Region einem zunehmenden Wandel. Dort, wo bis vor kurzem noch Eis war, breitet sich die Vegetation aus und schafft neue Lebensräume. '
   ],
   route: [{
 	  details: {
@@ -34,13 +34,13 @@ export default {
       type: 'Lange Wanderung im Hochgebirge ohne besondere Schwierigkeiten'
     },
     description: [
-      'Die Route beginnt am Grimselpass und führt nach Westen in Richtung Sidelhorn. Nach einem steilen Anstieg kommen wir an der Husegghütte vorbei und wandern weiter am Hang entlang, bevor es zum Triebtenseewli hinabgeht.',
-      'Der Weg steigt wieder leicht an, bis er plötzlich die Sicht auf den Oberaarsee mit dem Finsteraarhornmassiv im Hintergrund freigibt.',
-      'Wir passieren das Bergrestaurant Oberaar, um zum Nordufer des Sees zu gelangen.',
-      'Die Weg führt über die Staumauer und schliesslich entlang der gesamten Längsseite des Sees.',
-      'Nach einigen hundert Metern verlassen wir den Weg, der zur Oberaarjochhütte führt, und gehen flussaufwärts bis zur Flussmündung am Gletschertor.',
-      'Der Abstieg erfolgt auf demselben Weg.',
-      'Wer den Aufstieg per Auto oder Fahrrad machen möchte, kann vom Berghaus Oberaar aus starten und somit die Wanderung abkürzen.'
+      'Die Route beginnt am Grimselpass und führt nach Westen in Richtung Sidelhorn. Nach einem steilen Anstieg kommen wir an der Husegghütte vorbei und wandern weiter am Hang entlang, bevor es zum Triebtenseewli hinabgeht. ',
+      'Der Weg steigt wieder leicht an, bis er plötzlich die Sicht auf den Oberaarsee mit dem Finsteraarhornmassiv im Hintergrund freigibt. ',
+      'Wir passieren das Bergrestaurant Oberaar, um zum Nordufer des Sees zu gelangen. ',
+      'Die Weg führt über die Staumauer und schliesslich entlang der gesamten Längsseite des Sees. ',
+      'Nach einigen hundert Metern verlassen wir den Weg, der zur Oberaarjochhütte führt, und gehen flussaufwärts bis zur Flussmündung am Gletschertor. ',
+      'Der Abstieg erfolgt auf demselben Weg. ',
+      'Wer den Aufstieg per Auto oder Fahrrad machen möchte, kann vom Berghaus Oberaar aus starten und somit die Wanderung abkürzen. '
     ]
   },
   ],
@@ -63,10 +63,10 @@ export default {
 	  cover: 'img-2.jpg',
       sumary: '',
       description: [
-        'Der Unteraargletscher ist aus der Vereinigung mehrerer grosser Gletscherzungen entstanden. Er erstreckt sich über etwa sechs Kilometer, bevor er in den Grimselsee mündet. Der Gletscher, der heute infolge häufiger Felsstürze mit Moränen und Gesteinsschutt bedeckt ist, hat sich im vergangenen Jahrhundert um mehr als zwei Kilometer zurückgezogen. Zur Zeit der Belle Époque bot er eines der berühmtesten Panoramen der Schweiz.',
-        'Aufgrund des Gletscherschwunds unterliegt die Aarquelle einem ständigen Wandel.Der Temperaturanstieg führt zu einer Schwächung der verschiedenen Gletscherhöhlen der Quelle, die jetzt sehr instabil geworden sind.Vor allem während der warmen Jahreszeit stürzen regelmässig Eis - und Moränebrocken herunter und lassen, je nach Wasserverlauf unter dem Gletscher, bestehende Quellaustritte verschwinden und neue erscheinen.',
-        'Ein Projekt zur Erhöhung der Grimselstaumauer wird von Umweltschutzverbänden angefochten.Die geplante Erhöhung der Staumauer um 23 Meter würde den Seespiegel erhöhen und beinahe einen Quadratkilometer des Gletschervorlandes überfluten.Dieser Teil des Tals beherbergt alte Kiefernwälder und Sumpfgebiete mit einem besonderen Ökosystem.Der Kanton Bern hat das Projekt aufgrund des Energiebedarfs des Landes dennoch genehmigt.',
-        'Es wurde bislang aber nicht umgesetzt, da sich grössere Investitionen in die Wasserkraft – zumindest gegenwärtig - nicht rentieren.'
+        'Der Unteraargletscher ist aus der Vereinigung mehrerer grosser Gletscherzungen entstanden. Er erstreckt sich über etwa sechs Kilometer, bevor er in den Grimselsee mündet. Der Gletscher, der heute infolge häufiger Felsstürze mit Moränen und Gesteinsschutt bedeckt ist, hat sich im vergangenen Jahrhundert um mehr als zwei Kilometer zurückgezogen. Zur Zeit der Belle Époque bot er eines der berühmtesten Panoramen der Schweiz. ',
+        'Aufgrund des Gletscherschwunds unterliegt die Aarquelle einem ständigen Wandel. Der Temperaturanstieg führt zu einer Schwächung der verschiedenen Gletscherhöhlen der Quelle, die jetzt sehr instabil geworden sind. Vor allem während der warmen Jahreszeit stürzen regelmässig Eis-und Moränebrocken herunter und lassen, je nach Wasserverlauf unter dem Gletscher, bestehende Quellaustritte verschwinden und neue erscheinen. ',
+        'Ein Projekt zur Erhöhung der Grimselstaumauer wird von Umweltschutzverbänden angefochten. Die geplante Erhöhung der Staumauer um 23 Meter würde den Seespiegel erhöhen und beinahe einen Quadratkilometer des Gletschervorlandes überfluten. Dieser Teil des Tals beherbergt alte Kiefernwälder und Sumpfgebiete mit einem besonderen Ökosystem. Der Kanton Bern hat das Projekt aufgrund des Energiebedarfs des Landes dennoch genehmigt. ',
+        'Es wurde bislang aber nicht umgesetzt, da sich grössere Investitionen in die Wasserkraft – zumindest gegenwärtig-nicht rentieren. '
       ],
       images: [
         {
