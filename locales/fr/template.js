@@ -74,7 +74,7 @@ export default {
     name: 'Nom et prénom',
     content: 'Message',
     send: 'Envoyer',
-    success_message_sent: 'Votre message a bien été envoyée, nous vous en remercions !'
+    success_message_sent: 'Votre message a bien été envoyé, nous vous en remercions !'
   },
   about: {
     title: 'A propos',

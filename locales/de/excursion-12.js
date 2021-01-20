@@ -1,40 +1,44 @@
 export default {
-  title: 'Die Covatannaz-Schlucht',
-  subtitle: 'Ste-Croix, VD',
+  title: 'Die Bäder von Craveggia',
+  subtitle: 'Val d’Onsernone, TI',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'covatannaz_de.pdf'
+    download_file: 'craveggia_de.pdf'
   },
-  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp;land=wanderland&amp;route=all&amp;photos=yes&amp;bgLayer=pk&amp;logo=yes&amp;season=summer&amp;resolution=5.18&amp;E=2530152&amp;N=1184093&amp;layers=Wanderland&amp;trackId=7059416',
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=1.85&amp%3BE=2686079&amp%3BN=1116819&amp%3Blayers=Wanderland&amp%3BtrackId=7007583&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=1.15&E=2686079&N=1116819&trackId=7007583',
 
   source: {
-    coordinates: [2531000, 1185000],
+    coordinates: [2685300, 1116900],
     position: {
-      x: 531,
-      y: 1355,
-      r: 50
+      x: 2007,
+      y: 1885,
+      r: 82
     },
-    name: 'Die Quellen der Covatannaz-Schlucht',
-    canton: 'VD'
+    name: 'Bagni di Craveggia',
+    canton: 'TI'
   },
   description: [
-    'Auf dieser Wanderung vom Mittelland bis zu den Jurahöhen werden Sie eine der schönsten Quellen des Jura entdecken. ',
-    'Während wir die Schlucht von unten nach oben durchqueren und dem Arnon flussaufwärts folgen, treffen wir auf Kalkbänke, über die unterirdisches Wasser von der Südflanke des Chasseron und dem Gebiet des Col de l‘Aiguillon abfliesst. Je nach Witterung kann man am Südufer des Arnon einige schöne Quellen in der Felswand beobachten, insbesondere diejenige von Le Fontanet de Covatannaz. '
+    'Die Wanderung zu den ehemaligen Bädern von Craveggia ist in mehrfacher Hinsicht bemerkenswert. Alleine das Onsernonetal ist den Ausflug wert. Um zu den ehemaligen Bädern von Craveggia zu gelangen, müssen wir zunächst eine Reihe von Weilern und Dörfern durchqueren, die an den steilen Flanken des wilden Tals hängen. ',
+    'Die Besichtigung der Therme von Craveggia taucht uns in eine längst vergangene Zeit ein, als Gäste zu diesem abgeschiedenen Ort kamen, um von den Heilkräften des Wassers einer Quelle zu profitieren, die sich eigentlich auf italienischem Gebiet befindet, jedoch nur über die Schweiz zugänglich ist. ',
+    'Vor einigen Jahren wurde das alte Kurhaus oberflächlich restauriert, und in dieser – glücklicherweise – fast intakten Naturumgebung werden nun Kneipp-Anwendungen praktiziert. '
   ],
   route: [{
     details: {
-      start: 'Baulmes',
-      end: 'Ste-Croix',
-      distance: '7,3 km',
-      delta_height: '+ 495 m / – 59 m',
-      duration: '2h30',
-      type: 'Wanderung im Mittelgebirge ohne besondere Schwierigkeiten'
+      start: 'Spruga',
+      end: 'Spruga',
+      distance: '6,3 km',
+      delta_height: '+ 468 m / – 468 m',
+      duration: '2h30 (ohne Baden!)',
+      restauration: 'Spruga',
+      type: 'Einfache Wanderung am linken Ufer des Isorno entlang(Hinweg), danach ein wenig sportlicher auf dem Rückweg dem rechten Ufer entlang'
     },
     description: [
-      'Die Wanderung beginnt am Bahnhof von Baulmes. Dem Waldrand folgend geht es am Fuss der Rapilles entlang, deren weithin sichtbares Geröllfeld reich an regionaltypischen Pflanzenarten ist. ',
-      'Nachdem wir die hübschen Windungen des Baches La Baumine passiert haben, geht es auf dem Waldweg weiter, der links ansteigt. Bald gelangen wir in die Schlucht, die wir auf der rechten Uferseite hinaufsteigen. Nehmen Sie sich ruhig etwas Zeit, um sich abseits des Weges dem Bachufer zu nähern. Dort finden Sie eine schöne Kalktuffformation, die von ehemaligen Abflüssen zeugt; und wenn Le Fontanet de Covattanaz Hochwasser führt, lohnt sich der Abstecher allemal. Hier befindet sich auch die perennierende Austrittsstelle des hydrogeologischen Systems von Covatannaz. ',
-      'Wenn Sie aus der Schlucht herauskommen und sich Sainte-Croix nähern, ist der Weg links Richtung La Sagne angenehmer als derjenige, der zur Kantonsstrasse führt. '
+      'Vom Dorf Spruga aus folgen wir etwa drei Kilometer weit der(für den Verkehr gesperrten) Hangstrasse. Kurz bevor die Strasse endet, verlassen wir sie und überqueren die Brücke über den Isorno, der hier die Grenze zwischen der Schweiz und Italien bildet. ',
+      'Halten wir ein bemerkenswertes Detail fest: Der auf dem Schweizer Gebiet Isorno genannte Fluss trägt flussaufwärts auf italienischem Boden den Namen Rio dei Bagni(Bach der Bäder). ',
+      'Nach der Brücke steigen wir in den Wald hinauf bis zur leerstehenden Caserma Onsernone. Anschliessend geht es wieder zum Fluss hinunter, wo sich die ehemaligen Thermalbäder von Craveggia befinden. ',
+      'Wenn der Fluss nur wenig Wasser führt, können Sie sich den Umweg über die Brücke auch sparen und den Bach auf Höhe der Bäder durchwaten. ',
+      'Wir empfehlen den Rückweg nach Spruga auf der rechten Uferseite, der allerdings beschwerlicher als der Hinweg ist. Der Weg durchquert einen Bach, was sich je nach Schüttung als mehr oder weniger heikel erweist. Anschliessend müssen wir den Berg wieder hochsteigen, bevor wir zum Isorno zurückkehren. Wir überqueren den Fluss beim Punkt 904, um dann wieder Richtung Spruga aufzusteigen. '
     ]
   },
     ],
@@ -49,54 +53,40 @@ export default {
     }
   ],
   cff: {
-    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Baulmes',
-    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=Ste-Croix'
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Spruga',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=Spruga'
   },
   extras: [
     {
-      title: 'Höhlen und Quellen der Covatannaz- Schlucht',
-      cover: 'img-1_de.jpg',
+      title: 'Nahezu vergessene Thermalbäder',
+	  cover: 'img-2.jpg', 
       sumary: '',
       description: [
-        'In der Covatannaz-Schlucht gibt es zahlreiche bekannte natürliche Höhlen. Die wichtigste, das Réseau de Covatannaz, wurde von Speläologen über 5 Kilometer erforscht. Dieses Höhlennetz hat vier Eingänge: Le Fontanet de Covatannaz(oder Grotte du Vertige), die Höhlen des Echelles, die Grotte des Lacs und die Grotte de la Grande-Poule. ',
-        'Bei Hochwasser füllen sich die unterirdischen Gänge. Die Grotten von Le Fontanet und Echelles dienen dann als Überlauf mit gewaltiger Schüttung, die sich als spektakuläre Wasserfälle über den Fuss der Felswand ergiesst. ',
-        'All diese Abflüsse mit einer maximalen Schüttung von 5 m3/s gehören zu demselben Abflusssystem, das in mehreren Gängen des unterirdischen Flussnetzes präsent ist. ',
-        'Der Eingang zur Höhle de la Grande-Poule auf 800 m ü. M. schüttet nur bei starkem Hochwasser, wenn die darunter liegenden Gänge das Wasser nicht mehr ableiten können. Da sich die ganzjährige des Systems Quelle auf 560 m Höhe befindet, wird davon ausgegangen, dass die Flutung im Inneren der Risse und unterirdischen Stollen bis zu 240 m ansteigen kann. '
+        'Die Bäder von Craveggia befinden sich auf der Grenze zwischen Italien und der Schweiz, zwischen den geomorphologisch aneinander grenzenden, historisch jedoch getrennten Tälern von Onsernone und Vigezzo. ',
+        'Sie sind Schauplatz einer bewegte Geschichte, die mit den Partisanen der italienischen Partisanen während des Zweiten Weltkriegs verbunden ist. Aus der Thermalquelle fliesst konstant 28 °C warmes Wasser, das im Kontrast mit dem eisigen Wasser des Flusses steht, der einige Meter weiter unten fliesst. ',
+        'Erstmals wurde die Thermalquelle im Onsernonetal im Jahr 406 erwähnt. Dem zwischen 1818 und 1823 erbauten Kurhaus wurde 1881 ein kleines Hotel hinzugefügt. Die ursprünglichen Mauern sind noch heute sichtbar. Aufgrund ihrer geografischen Abgeschiedenheit und der schwachen Schüttung (12 Liter pro Minute) der Thermalquelle wurde die Therme von Craveggia nie so bekannt wie diejenigen von Acquarossa im Brenno-Tal. ',
+        '1951 stürzte eine Lawine auf die Bäder nieder und zerstörte sie fast vollständig. Da das Kurhaus kürzlich restauriert wurde, kann man jetzt in eines der beiden neuen Granitbecken steigen und somit die Erlebnisse der Adligen des 19. Jahrhunderts teilweise nachempfinden. Die wohlhabenden Gäste wurden einst in der Kutsche hergefahren oder auf den Schultern der Bergbauern von Onsernone getragen. '
       ],
       images: [
         {
-          legend: 'Lage des Höhlensystems vonCovatannaz relativ zur Oberfläche.Die am weitesten vom Eingangentfernten Gänge verlaufen unterder Strasse, die Ste- Croix mit Bulletverbindet.',
-          name: 'img-1_de.jpg'
-        },
-      ],
-      onTheRoad: true,
-      position: {
-        x: 1249,
-        y: 273
-      }
-    },
-    {
-      title: 'Woher stammt das Wasser der Covatannaz-Quellen?',
-      cover: 'img-1.jpg',
-      sumary: '',
-      description: [
-        'Verschiedene Studien zum Wasserverlauf ergaben, dass das Wasser der Quellen der Covattanaz-Schlucht hauptsächlich aus der Synklinale von Sainte-Croix stammt. Das Einzugsgebiet scheint nach Süden und Nordwesten hin durch klare geologische Grenzen limitiert zu sein. Im Westen erstreckt sich die Synklinale von Sainte-Croix bis nach Jougne und scheint ihren Höhepunkt am Aiguillon-Pass zu erreichen; eine weitere Ausdehnung nach Westen ist aber nicht ausgeschlossen. Im Osten fällt die Flanke des Chasseron gleichmässig ins Schweizer Mittelland ab, und nur vom südwestlichen Teil muss das Wasser zu den Covatannaz-Quellen fliessen. Es ist anzunehmen, dass sich die Grenze des Einzugsgebiets auf Höhe des Skilifts zwischen Les Rasses und Petites-Roches befindet. In diesem Bereich dürfte die Senke der Synklinale von Sainte-Croix enden, die sich nach Nordosten nur durch eine weniger ausgeprägte Faltung verlängert. ',
-        '<h5>Ein See unter dem Chasseron?</h5>',
-        'Was hat es eigentlich mit dem Gerücht auf sich, dass sich ein See unter dem Chasseron befindet? Dazu sollten zunächst einmal einige Begriffe geklärt werden. Unter einem See versteht man im Allgemeinen ein offenes Gewässer von mehreren Hektar oder sogar Quadratkilometern Fläche. Für einen Speläologen ist ein unterirdischer See ein Gang, möglicherweise ein Raum, der teilweise mit Wasser gefüllt ist. Es handelt sich also durchaus um ein Gewässer mit offener Fläche. Die grössten bekannten unterirdischen Seen erreichen jedoch allenfalls eine Fläche von zwei oder drei Hektar. Im Jura gilt ein unterirdischer See als gross, wenn er 50 Meter lang und 10 Meter breit ist! Auch in dieser Region mögen unterirdische Seen dieser Grössenordnung existieren, doch die einzigen bislang bekannten Seen gehören zum Netz von Covatannaz. Für einen Hydrogeologen ist Karstgrundwasser (oder Karstaquifer) ein Gesteinsvolumen, das sich über mehrere Quadratkilometer erstrecken kann und in dem alle Gesteinsporen mit Wasser gefüllt sind. Dabei sei angemerkt, dass das Porenvolumen maximal 1 bis 2 % des Gesteinsvolumen ausmacht. Auch wenn das Vorhandensein von Karstgrundwasser unter dem Chasseron als gesichert gilt, sollte man das Wort unterirdischer See als Bezeichnung für ein solches Wasservorkommen vermeiden. ',
-        'Ein richtiger See unter dem Chasseron ist also ein Mythos!',
-        '<i>(Auszug aus dem Speläologischen Schweizer Inventar „Inventaire spéléologique de la Suisse“, Band V, Waadt Nord)</i>'
-	  ],
-      images: [
-        {
-          legend: 'Einzugsgebiet der Quellen von Covatannaz.',
+          legend: 'Blick in das Onsernone Tal.',
           name: 'img-1.jpg'
         },
+        {
+          legend: 'Das alte Badehaus.',
+          name: 'img-2.jpg'
+        },
+        {
+          legend: 'Überreste aus der Zeit, als Bäder die Kurgäste anzogen',
+          name: 'img-3.jpg'
+        }
       ],
       onTheRoad: true,
       position: {
-        x: 1207,
-        y: 234
+        x: 667,
+        y: 379
       }
     },
+    
   ]
 }

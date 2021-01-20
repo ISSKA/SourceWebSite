@@ -1,73 +1,49 @@
 export default {
-  title: '3 Wanderungen im Hölloch',
-  subtitle: 'Muotathal, SZ',
+  title: 'Quelle von Bad Pfäfers',
+  subtitle: 'Pfäfers, SG',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'holloch_de.pdf'
+    download_file: 'bad_pfafers_de.pdf'
   },
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=6.9&amp%3BE=2757047&amp%3BN=1206359&amp%3Blayers=Wanderland&amp%3BtrackId=6974305&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=5.38&E=2757047&N=1206359&trackId=6974305',
+
   source: {
-    coordinates: [2703000, 1203000],
+    coordinates: [2756000, 1202500],
     position: {
-      x: 2177,
-      y: 1097,
-      r: 75
+      x: 2639,
+      y: 1054,
+      r: 55
     },
-    name: 'Trois randonnées autour du Hölloch',
-    canton: 'SZ'
+    name: 'Source thermale de Bad Pfäfers',
+    canton: 'SG'
   },
   description: [
-    'In einer Talsohle nahe des Dorfes Muotathal befindet sich eine schöne Karstquelle: die Schlichenden Brünnen. Sie sind der Austritt des Wassers, das durch das Kalkmassiv abfliesst, welches sich östlich bis zum Gipfel des Silberen (2318 m ü. M. ) und zum Pragelpass ausdehnt. ',
-    'Zwischen der Quelle und der Silberen kann man den Bödmerenwald in einer schroffen, zerklüfteten Berglandschaft durchwandern, ohne auf einen einzigen Bach zu treffen. ',
-    'Unterhalb dieses Gebietes breitet sich eines der grössten Höhlensysteme der Welt aus: das Hölloch. Speläologen haben bereits mehr als 220 km dieses riesigen unterirdischen Labyrinths erforscht! Die Gänge des Höllochs entwässern das Massiv bis zu den Schlichenden Brünnen. ',
-    'Die Wanderroute <b>„Schlichenden Brünnen & Hölloch“</b> führt Sie zur Quelle und zum Haupteingang des Höllochs(Besichtigung optional). ',
-    'Der Rundwanderweg im <b>Bödmerenwald</b> ist ein Klassiker in der Region und führt ebenfalls durch den Bolwald. ',
-    'Die <b>Urwaldspur</b> führt Sie durch ein aussergewöhnliches Waldgebiet in die Nähe des Karrenfelds, das sich in der Ferne bis zu der Silberen erstreckt. '
+    'Bad Pfäfers ist weniger bekannt als das für seine Thermalbäder berühmte Bad Ragaz. Und dennoch ist es der Quelle von Bad Pfäfers zu verdanken, dass sich der Ort am Rheinufer zu einem so attraktiven Thermalbad entwickeln konnte. ',
+    'Die Wanderung, die wir hier vorstellen, führt zur historischen Quelle von Bad Pfäfers. ',
+    'Um dorthin zu gelangen, muss man sich in eine tiefe und eindrückliche Schlucht begeben. Bei der Besichtigung des Ortes sollten Sie sich vergegenwärtigen, unter welchen Bedingungen die Patienten damals bis zur Quelle geschafft wurden: Die Kurgäste wurden mithilfe von notdürftig zwischen den Wänden der Schlucht befestigten Leitern und Seilzügen heruntergelassen... ',
+    'Auch heute noch wird das Quellwasser zu therapeutischen Zwecken genutzt, sei es in der orthopädischen Klinik von Valens oder den Bädern von Bad Ragaz. '
   ],
   route: [{
-    title: 'Schlichenden Brünnen / Hölloch',
-    details: {
-      start: 'Husky Lodge (Muotathal)',
-      end: 'Husky Lodge (Muotathal)',
-      distance: '4 km',
-      delta_height: '+ 128 m / – 128 m',
-      duration: '1h15',
-      restauration: '',
-      type: ''
+	 details: {
+      start: 'Bad Ragaz',
+      end: 'Bad Ragaz',
+      distance: '14 km',
+      delta_height: '+ 506 m / – 506 m',
+      duration: '4h15 (ohne Pausen)',
+      restauration: 'Altes Bad Pfäfers, Pfäfers',
+      type: 'Wanderung ohne besondere Schwierigkeiten in abwechslungsreichem Gelände'
     },
-    description: ['Die Wanderung beginnt bei der Husky Lodge östlich des Dorfzentrums von Muotathal. Auf der gegenüberliegenden Strassenseite sind die Schlichenden Brünnen zu sehen, aus denen das Wasser ganzjährig aus dem Hölloch-System abläuft. ',
-      'Wir umwandern die Anhöhe des Charen von Westen durch Töbeli. Danach begeben wir uns auf die Strasse des Pragelpasses; weiter unten ist der Haupteingang des Höhlensystems zu erkennen. ',
-      'Ein Stück weiter verlassen wir die Strasse und folgen dem Pfad, der in den Wald und dann Richtung Ausgangspunkt zurückführt. ']
+    description: [
+      'Vom Bahnhof Bad Ragaz aus begeben wir uns zu der einen Kilometer entfernten Schlucht. ',
+      'Von dort geht es weiter bis zum alten Bad Pfäfers, das heute als Restaurant und Museum dient. ',
+      'Von da aus führt ein 750 m langer ausgebauter Wanderweg oberhalb des Flusses bis zum Eingang der eigentlichen Höhle. Der Eintritt ist kostenpflichtig(Fr. 5. -). ',
+      'Nach dem Abstecher zur Grotte und der Rückkehr nach Bad Pfäfers setzen wir die Wanderung auf dem aufsteigenden Pfad Richtung Valens fort. Auf halbem Wege verlassen wir den Weg und passieren links die Naturbrücke, die uns auf die andere Uferseite führt. An dieser Stelle wurden früher die Kurgäste hinuntergelassen, um zu baden. ',
+      'Nach weiterem Aufstieg gelangen wir bald aus der Schlucht heraus und schliesslich nach Pfäfers. Anschliessend erfolgt der Abstieg durch die Weinberge bis zur Rheinebene. Dort folgen wir dem Rhein, bis wir zum Ausgangspunkt zurückgelangen. '
+    ]
   },
-  {
-    title: 'Bödmerenwald',
-    details: {
-      start: 'Route Muotathal > Pragelpass',
-      end: 'Route Muotathal > Pragelpass',
-      distance: '10 km',
-      delta_height: '+ 470 m / – 470 m',
-      duration: '3 Stunden',
-      restauration: '',
-      type: ''
-    },
-    description: ['Rundwanderweg von 10 km Länge in einem prachtvollen, weitgehend unbewirtschafteten Wald. Hier gibt es keine Spur von Wasser. Es versickert nämlich durch eine Vielzahl von Ritzen und Spalten im Boden. Und genau unter diesem Wald befindet sich das gigantische Höhlenlabyrinth des Höllochs. ',
-      'Anfahrt per Auto von Muotathal. ']
-  },
-  {
-    title: 'Themenweg „Urwaldspur“',
-    details: {
-      start: 'Urwaldpavillion',
-      end: 'Urwaldpavillion',
-      distance: '3,6 km',
-      delta_height: '+ 170 m / – 170 m',
-      duration: '1 Stunde',
-      restauration: '',
-      type: ''
-    },
-    description: ['Themenweg rund um das Roggenstöckli auf den Spuren der Naturschätze des Urwald-Reservats Bödmeren. ',
-      'Anfahrt per Auto von Muotathal bis zum Urwaldpavillon. ']
-  },
-  ],
+    ],
+
   more: [
     {
       text: 'xxx',
@@ -78,37 +54,34 @@ export default {
     }
   ],
   cff: {
-    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Muotathal,Balm',
-    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=Muotathal,Balm'
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=BadRagaz',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=BadRagaz'
   },
   extras: [
     {
-      title: 'Hölloch + Schlichenden Brünnen',
-      cover: 'img-1.jpg',
+	cover: 'cover.jpg',
+      title: 'Eine heilsame Quelle an einem unwirtlichen Ort',
       sumary: '',
-      description: [
-        'Das Hölloch ist aus verschiedenen Gründen berühmt: Das Höhlenlabyrinth galt einst als die längste Höhle weltweit und steht auch heute noch weit oben auf der Weltrangliste (aktuell mehr als 200 km Gänge); das umliegende Karstgelände wurde aufgrund seiner komplexen unterirdischen Wasserwege in zahlreichen hydrogeologischen Studien erforscht; in dieser Höhle wurden wiederholt Höhlenforscher eingeschlossen, nachdem plötzlich eindringendes Wasser den Eingang überflutet hatte. ',
-        'Auf beiden Seiten des Muotatals entspringen zwei Gruppen von Quellen, die das Grundwasser der Region entwässern: diejenigen der Fugglen haben eine durchschnittliche Schüttung von 0, 2 m3/s, die der Schlichenden Brünnen 2 m3/s. Letztere stellen ganzjährige Abläufe des Grundwassernetzes dar, zu dem auch einige temporäre Quellen gehören, darunter der Hölloch-Eingang, der bei grossen Hochwassern bis zu 5 m3/s – bei der Hochwasserkatastrophe im August 2005 waren es sogar mehr als 8 m3/s – ausspeien kann. Es leuchtet daher ein, dass die Erforschung dieses riesigen Höhlensystems schwierig und gefährlich ist. ',
-        'Und es ist auch kein Zufall, dass die Höhlenforscher des Höllochs eigene Pegeldatenlogger zum Schutz vor Hochwasser entwickelt haben, welche die Daten jederzeit über das Internet übermitteln können. Aus den einfachen Wassermeldern der Anfänge entwickelten sich mit der Zeit echte kleine Messstationen für Druck, Temperatur, Leitfähigkeit und Geschwindigkeit des Wasseranstiegs. Zur Datenübertragung werden Telefonfrequenzen benutzt. Niederschlagsmessstationen, die auf dieselbe Weise abgerufen werden können, haben die Anlage vervollständigt. Es ist nun möglich, von zu Hause aus zu entscheiden, ob eine geplante Hölloch-Erforschung durchgeführt werden kann oder aufgrund der Witterungsbedingungen oder des unterirdischen Wasserstands verschoben werden muss. '
-      ],
+      description: ['nicht weit entfernt vom Rhein eine Thermalquelle in der tiefen, dunklen Taminaschlucht entdeckten. Die ersten Anlagen wurden um 1240 gebaut und waren eher bescheiden, denn der Ort war damals nur schwer über Leitern und Seilzüge erreichbar, an denen die Kurgäste heruntergelassen wurden. Bald wurden Gästehäuser entlang der Felswände hoch über dem Fluss errichtet. ',
+        'Der Ruhm der Thermalquelle beruht auf einem Gutachten von Paracelsus, dem berühmten Basler Arzt und Alchemisten des 16. Jahrhunderts. Erst im 17. Jahrhundert wurden Holzleitungen installiert, um das Wasser an einen gastlicheren Ort zu leiten, an dem bald danach zwei grosse Gasthäuser sowie ein Trinkbrunnen, eine Metzgerei und eine Sägerei entstanden. Diese Anlagen wurden während der Unruhen der Französischen Revolution zerstört. ',
+        'Im 18. Jahrhundert erreichte Bad Pfäfers, wie auch andere Thermalbäder der Schweiz, seine Blütezeit und wurde zu einer Hochburg für Gesundheit und gesellschaftliches Leben. Nach der Schliessung der Benediktinerabtei im Jahr 1838 gingen die Quelle und das Thermalbad in das Eigentum des Kantons St. Gallen über. Dieser machte die Schlucht durch den Bau einer Strasse zugänglich. Ab 1840 wurde das Thermalwasser nach Ragaz geführt, das darauf in Bad Ragaz umbenannt wurde. Hier entstanden Kurbäder mit renommierten Hotels. Die ursprüngliche Therme von Pfäfers wurde 1969 definitiv geschlossen und dann in den 80er-und 90er-Jahren restauriert, um vorwiegend touristischen Zwecken zu dienen. '],
       images: [
         {
-          legend: '',
+          legend: 'Die ersten Installationen des Ortes sind eher bescheiden, denn er ist nur schwer über Leitern und Aufzüge zugänglich, mit denen man die Kurgäste hinunter lässt.',
           name: 'img-1.jpg'
         },
         {
-          legend: 'Übersichtplan des Höllochs. Die Gänge erstrecken sich über mehr als 1000 Höhenmeter.',
-          name: 'img-2_de.jpg'
+          legend: 'Das «Wunderliche Bad zu Pfäfers», tief eingebettet in der steilen Schlucht der Tamina, wie es 1630 von Matthäus Merian dargestellt wurde.',
+          name: 'img-2.jpg'
         },
-
+      
       ],
       onTheRoad: true,
-      position: {
-        x: 678,
-        y: 324,
-
-      },
-     
-    }
+	  position: {
+		  x: 738,
+		  y: 645,
+	  }
+    },
+    
   ]
 }

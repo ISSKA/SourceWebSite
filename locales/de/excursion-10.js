@@ -1,240 +1,155 @@
 export default {
-  title: 'Die Areuse-Schlucht',
-  subtitle: 'NE',
+  title: 'Die Quelle von Buchelieule',
+  subtitle: 'Val-d’Illiez, VS',
   summary: {
-    difficulty: 'Modérée',
-    duration: '4 heures',
-    download_file: 'areuse_de.pdf'
+    difficulty: 'xxx',
+    duration: 'xxx heures',
+    download_file: 'buchelieule_de.pdf'
   },
-  link_swissmobile:
-    'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=no&season=summer&resolution=5&E=2548863&N=1200929&trackId=6400923&layers=Wanderland',
-  link_geoadmin: 'https://s.geo.admin.ch/8726200db1',
-  link_geoadmin_admin: 'https://s.geo.admin.ch/8726200dae',
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=6.9&amp%3BE=2757047&amp%3BN=1206359&amp%3Blayers=Wanderland&amp%3BtrackId=6974305&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=9.98&E=2561653&N=1113334&trackId=7057611',
+
   source: {
-    coordinates: [2546800, 1200500],
+    coordinates: [2558500, 1117500],
     position: {
-      x: 708,
-      y: 1060,
-      r: 38
+      x: 860,
+      y: 1841,
+      r: 65
     },
-    name: 'Wanderung rund um die Areuse',
-    canton: 'NE'
+    name: 'Les Dents du Midi et la source thermale de Buchelieule',
+    canton: 'VS'
   },
   description: [
-    'Die <b>Areuse-Schlucht</b> ist unter Wanderern gut bekannt. Dank ihrer zahlreichen Quellen stellt sie das Wasserschloss des Kantons Neuenburg dar. Auf diesem Ausflug entdecken Sie die Quellen und erfahren, wie es den Menschen am Ende des 19. Jahrhunderts gelang, das Quellwasser zu fassen, um die 500 m höher und 20 km entfernt liegende Stadt La Chaux-de-Fonds zu speisen. ',
-    'Die <b>Quelle von Noiraigue</b> ist eine besonders schöne Quelle, die das Prinzip des Grundwasserkreislaufs in einem Karstmassiv sehr anschaulich darstellt. ',
-    'Als Ergänzung zu diesem Ausflug empfehlen wir Ihnen die Besichtigung zweier weiterer Quellen in der Region: die <b>Areuse-Quelle</b> und die <b>Grotte von Môtiers. </b>'
-
+    'Das Bergmassiv der Dents du Midi bietet dem Wanderer zahlreiche Wanderrouten mit unterschiedlichen Längen und Schwierigkeitsgraden. Nur schon die unter Wanderern gut bekannte Tour des Dents du Midi gibt es in mehreren Varianten, um in zwei, drei oder vier Tagesetappen rund um die Bergkette zu wandern. ',
+    'Die hier vorgeschlagene Tour beschäftigt sich mit Wasser, sichtbarem wie unsichtbarem! In zwei Tagen umwandern wir das Massiv von Westen her. Dabei entdecken wir abwechslungsreiche Landschaften, die von spektakulären geologischen Strukturen geprägt sind, und folgen auf der Erdoberfläche dem Verlauf des Wassers, das fast überall verblüffende unterirdische Wege nimmt... ',
+    'Die erste Etappe führt von Val-d’Illiez bis zur Berghütte von Susanfe. Zunächst begeben wir uns zur Quelle von Buchelieule, die sich am Ufer der Vièze befindet und deren Wasser mit grosser Wahrscheinlichkeit aus dem Salanfe-See stammt! Nach einem langen Aufstieg gelangen wir nach Bonavau und zur atemberaubenden Schlucht von Pas d‘Encel. Nachdem wir den Pass überquert haben, ist die SAC-Hütte schon bald in Sicht. ',
+    'Die zweite Etappe beginnt mit dem Anstieg(dem letzten!) bis zum Susanfepass. Es folgt ein langer Abstieg, zunächst zum Salanfe-See und anschliessend durch das beschauliche Vallon de Van. ',
+    'Als Ergänzung zu dieser Wanderung empfehlen wir Ihnen zwei Extratouren: die Abtei von St-Maurice und ihre Quelle, die wahrscheinlich der Ausgangspunkt für den Bau dieser bedeutenden Kultstätte war, und die Feengrotte, in der man einen unterirdischen Fluss bewundern kann. '
   ],
-  route: [
-    {
+  route: [{
     details: {
-        start: 'Bahnhof Noiraigue',
-        end: 'Bahnhof Chambrelien',
-      distance: '9,2 km',
-      delta_height: '+ 215 m / – 264 m',
-        duration: '2h30 (ohne Pausen)',
-      restauration: 'Noiraigue / Champ du Moulin / Chambrelien',
-        type: 'Wanderung auf Wegen und kleinen Strassen. Einfach. '
+      start: 'Van d’en Bas (Salvan)',
+      end: 'Val-d’Illiez',
+      distance: '31,8 km',
+      delta_height: '+ 2153 m / – 2479 m',
+      duration: 'Insgesamt 11h30 für die beiden Etappen',
+      restauration: 'Van d’en Bas / barrage de Salanfe / auberge de Bonavau / bains de Val-d’Illiez / Val-d’Illiez',
+      type: 'Wanderung im Gebirge, anspruchsvoll, aber ohne Risiken',
+      hebergement: 'Susanfe Hütte SAC',
     },
-    description: [
-      'Vom Bahnhof Noiraigue aus begeben wir uns zum Nordrand des Dorfes und gehen dann flussaufwärts bis zur Quelle, die sich am Fusse der Felsklippen von la Clusette befindet. ',
-      'Nach der Besichtigung der Quelle gehen wir etwa 100 Meter den gleichen Weg zurück und nehmen dann den Pfad, der entlang der SBB-Bahnstrecke in die Schlucht führt. Wir passieren das Wasserkraftwerk von Furcil und dann das von Plan de l‘Eau, vor dem wir die Fassung von Betriebswasser beobachten können, welches das Werk von les Moyats speist. Nun folgen wir linksufrig einer überdachten Wasserleitung, überqueren eine Brücke über den Fluss und kehren bald darauf über die prachtvolle Brücke von Saut de Brot wieder zum linken Ufer zurück. Wir gehen am Werk von les Moyats vorbei und bleiben bis zum Champ du Moulin auf dieser Uferseite. ',
-      'In Champ du Moulin überqueren wir die Brücke und wandern weiter die Schlucht hinunter. Nach einem Kilometer kehren wir über eine Metallbrücke zur linken Uferseite zurück und überqueren dann die Brücke der Verrerie(575). 600 m weiter gelangen wir über eine überdeckte Holzbrücke erneut zum linken Ufer zurück und kommen am Werk von Combe Garot vorbei, das sich auf der anderen Uferseite befindet. ',
-      '200 m nach dem Werk gelangen wir auf die Strasse(rechtes Ufer), der wir folgen, bis sie beginnt anzusteigen. Hier biegen wir links in den Forstweg ein, der am Flussufer entlangführt. Wir überqueren die Pont de Vert und gehen unter dem grossen Felsabri(Baume du Four) entlang. ',
-      'Nach dem hohen Weg über dem rechten Ufer überqueren wir die Brücke und steigen in Richtung Bahnhof Chambrelien hinauf. '
-    ]
+    description:
+      ['<h3>Erste Etappe</h3>',
+        'Vom Dorf Val-d’Illiez aus begeben wir uns zur Thermalstätte von Val-d’Illiez. Hier befindet sich, kurz vor der Brücke etwa dreissig Meter links, die Quelle von Buchelieule. ',
+        'Über Prabys folgen wir der Vièze auf der rechten Uferseite flussaufwärts. Bevor wir Draversat erreichen, kommen wir durch einen sehr schönen Waldabschnitt, wo der Fluss gleich neben dem Weg sprudelt. ',
+        'In Draversat schlagen wir die Richtung Lacs d‘Antème ein. Wir passieren die Bergschluchten von Frassenaye und Frâche und umrunden den Chaux d‘Antème, wobei wir die gleichnamigen Seen auf der linken Seite lassen. ',
+        'Bei der Mettecui-Alp führt der Weg hinunter zum Felsenkessel von Bonavau. Hier kann man den schönen Wasserfall der Quelle von Fontaine Blanche bewundern(wenn sie zufällig gerade Wasser führt...). ',
+        'Gönnen Sie sich vor der etwas heiklen Passage des Pas d‘Encel eine wohlverdiente Rast im Gasthaus von Bonavau. Der Aufstieg aus dieser Schlucht erfordert eine gewisse Vorsicht. Die Passage ist zwar luftig, bietet jedoch stets ausreichend Platz, um gut Fuss zu fassen. ',
+        'Oberhalb der Schlucht erreichen wir das Susanfe-Tal und bald auch die Berghütte. ',
+	'<h3>Zweite Etappe</h3>',
+        'Vom Tal steigen wir hinauf bis zum Pass. Von dort beginnt der Abstieg durch einen riesigen Geröllhang bis zum Salanfe-See. ',
+        'Es lohnt sich, den See auf der Südseite zu umwandern. Diese Route ist zwar länger als die der Nordseite, bietet jedoch die Möglichkeit, das Zusammentreffen von Gneis und Kalkstein zu beobachten. Am Ende des Sees durchqueren wir ein Schwemmlandgebiet, das vom heute fast vollständig verschwundenen Gletscher «Glacier Noir» zeugt. Auf dem Weg zum Staudamm können wir mehrere Wasseraustritte nahe des Sees beobachten. ',
+        'Wir überqueren den Damm und beginnen dann, ins Tal von Van hinabzusteigen, vorzugsweise auf den hübsch gewundenen Pfaden, auch wenn sie etwas weniger direkt verlaufen als die Strasse. ',
+        'Wenn Sie, in Van d‘en Bas noch ein wenig Energie haben, nehmen Sie sich die Zeit, einen Blick in die Dailley-Schlucht gleich unterhalb der Ortschaft zu werfen; der Abstecher lohnt sich. ',
+]
   },
     ],
+
   more: [
     {
-      text: 'Gorges de l’Areuse. Guide d’excursions hydrogéologiques, Ed. ISSKA, 2011.',
+      text: 'xxx',
       link: {
-        name: 'www.isska.ch',
-        url: 'https://www.isska.ch'
+        name: 'The link is optionnal !',
+        url: 'https://www.xxx.ch'
       }
     }
   ],
   cff: {
-    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=noiraigue',
-    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=chambrelien%2C+gare'
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Salvan,Van-d’en-Bas',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=Val-d’Illiez'
   },
   extras: [
     {
-      title: 'Die Quelle der Noiraigue',
+      title: 'Führt die Quelle von Buchelieule Wasser aus dem Salanfe-See?',
       sumary: '',
-      cover: 'img-2.jpg',
+	  cover: 'img-1.jpg',
       description: [
-        'Zwischen Noiraigue und Boudry gibt es entlang der Schlucht etwa zwanzig Karstquellen, von denen elf gefasst sind. Die oben im Ort gelegene Quelle der Noiraigue ist mit Sicherheit die eindrücklichste.',
-        'Zahlreiche Tests zum Grundwasserverlauf(mithilfe verschiedener Substanzen, oftmals Farbmitteln, die an den Austrittsstellen in kleinsten Mengen nachweisbar sind) wurden in der Region durchgeführt, um die Herkunft des Wassers zu bestimmen. Äusserst spektakulär war der Nachweis der hydraulischen Verbindungen zwischen dem Taillères-See und der Areuse-Quelle sowie zwischen dem Tal von La Sagne und der Quelle der Noiraigue. Anhand der Ergebnisse dieser Recherchen konnten die Grundwasserschutzzonen festgelegt werden.'
+        'Der 1950 erbaute Salanfe-Staudamm fasst ein Volumen von etwa 40 Millionen Kubikmetern. Sein Wasser stammt grösstenteils vom Südhang des Bergmassivs der Dents du Midi. ',
+        'Schon bei der Inbetriebnahme des Dammes wurden grosse Verluste(mehr als ein Kubikmeter pro Sekunde) festgestellt. Da das Problem andauerte, wurde Beton in die Spalten des linken Seeufers eingespritzt um den See besser abzudichten. ',
+        'Ausserdem wurden mehrere hydrogeologische Studien durchgeführt, um zu verstehen, wie das Wasser in den Tiefen des Bergmassivs zirkuliert und um die Abflüsse am Seegrund zu finden, die für den Verlust verantwortlich waren. ',
+        'Verschiedene Tests, bei denen Farbstoffe in den See und seine Umgebung eingespritzt wurden, deuteten darauf hin, dass es eine hydrogeologische Verbindung zwischen dem Salanfe-See und der Quelle von Buchelieule gibt. Diese Hypothese konnte(bislang ?) nicht wissenschaftlich belegt werden. Die Faltung der Felsen im Massiv der Dents du Midi und des Tour Salière lassen diese Verbindung jedoch durchaus plausibel erscheinen. Die Durchlaufzeit des Wassers zwischen dem See und der Quelle wird auf ein bis fünf Jahre geschätzt. Das Wasser der etwa zehn Kilometer weiter östlich gelegenen Quelle von Lavey-les-Bains benötigt nach C14-Datierung 8. 000 bis 10. 000 Jahre für diesen Weg. Dieser Zeitunterschied lässt sich damit erklären, dass das Wasser der Quelle von Buchelieule durch die Risse in den Kalksteinschichten fliesst, ohne tief in den Untergrund einzudringen, während das Wasser von Lavay bis zu einer Tiefe von 3. 000 Metern in das kristalline Gestein eindringt. ',
+        'Der Vergleich der Wassertemperatur der beiden Quellen untermauert diese Hypothese, denn in Buchelieule entspringt das Wasser mit einer Temperatur von 20 bis 32 °C, während die Quelle von Lavey 60 bis 75 °C erreicht und somit die heisseste Quelle der Schweiz ist. ',
+        'Die Quelle von Buchelieule ist erst seit den 50er-Jahren bekannt. Diese Entdeckung erfolgte zeitgleich mit der Befüllung des Salanfe-Sees und mehreren ungewöhnlich starken, erdbebenartigen Erschütterungen, welche die Bewohner des Tals damals verspürten. ',
+        'Auch wenn der kausale Zusammenhang nicht formell belegt wurde, kann man doch davon ausgehen, dass die Ansammlung solcher Wassermassen im Tal von Salanfe zu einer erhöhten seismischen Aktivität geführt und Auswirkungen auf die unterirdische Wasserzirkulation bis ins Tal von Val-d’Illiez gehabt haben könnte. '
       ],
       images: [
         {
-          legend: 'Lage der Quelle der Noiraigue in Bezug auf das Tal der Sagne, in dem der Bied fliesst.',
-          name: 'img-1_de.jpg'
-        },
-        {
-          legend: 'Die Quelle der Noiraigue',
-          name: 'img-2.jpg'
-        },
-        {
-          legend: 'Die unterirdische Wasserzirkulation zwischen dem Bied des Ponts und der Quelle der Noiraigue wurde bereits 1864 durch zahlreiche Färbungsversuche nachgewiesen. Es dauert etwa 60 Stunden, bis das Wasser die 4 Kilometer zwischen der Versickerung und der Quelle zurückgelegt hat.In der Realität ist der Weg des Wassers zwischen der Versickerung und der Quelle ganz sicher nicht gerade.',
-          name: 'img-3_de.jpg'
-        }
-      ],
-      onTheRoad: true,
-      position: {
-        x: 545,
-        y: 457
-      }
-    },
-    {
-      title: 'Trinkwasserfassung und Energieerzeugung',
-      sumary: '',
-      cover: 'img-3.jpg',
-      description: [
-        'Die Wasserwerke von Moyats und Combe Garot stehen im Herzen eines ausgedehnten Trinkwassernetzes, zu dem elf Quellfassungen und neun Pumpbrunnen gehören. ',
-        'Das Werk Moyats sammelt Wasser aus Quellen und Pumpschächten auf der linken Uferseite der Areuse flussaufwärts von Champ-du-Moulin. Dieses Wasser wird mit Wasserturbinen auf über 1100 m Höhe nach La Chaux-de-Fonds gepumpt. ',
-        'Die Quellen und Pumpbrunnen auf der rechten Uferseite gegenüber von Moyats speisen die Wasserleitung, die Richtung Osten nach Neuenburg verläuft. Die Quellen, die sich auf beiden Uferseiten flussabwärts von Champ-du-Moulin befinden, sind ebenfalls an diese Leitung angeschlossen; da sie jedoch tiefer liegen, muss ihr Wasser vom Werk Combe Garot dorthin gefördert werden. ',
-        'Die entlang des Wasserlaufs liegenden fünf Werke bilden eine vierstufige Wasserkraftanlage. Zwischen Furcil und Chanet beträgt der Höhenunterschied nur 240 m. Es erfolgt praktisch kein Druckverlust von einer Zweigleitung zur anderen, da nach der ersten Entnahme das zum Fluss zurückfliessende Wasser sofort wieder gefasst wird. Auf diese Weise wird das Energiepotenzial des Flusses optimal genutzt, ausser bei Hochwasser, wo ein Grossteil des Wassers frei durch die Schlucht fliesst. '
-      ],
-      images: [
-        {
-          legend: 'Die Pump- und Stromerzeugungsanlagen in der Areuse-Schlucht.',
+          legend: 'Der See von Salanfe.',
           name: 'img-1.jpg'
         },
         {
-          legend: 'Der Jogne-Stollen, in dem das Wasser von der Schlucht der Areuse zu den Neuenburger Bergen geführt wird.',
+          legend: 'Seit dem Zeitpunkt ihrer Entdeckung hat die Thermalquelle Buchelieule einen Rückgang ihres Abflusses erlebt. Im Jahr 2019 wurden Bohrungen durchgeführt, um eine vielversprechende Ader zu erreichen.',
+          name: 'img-2.jpg'
+        },
+      ],
+      onTheRoad: true,
+      position: {
+        x: 890,
+        y: 685,
+      },
+    },
+    {
+      title: 'Die Quelle von Fontaine Blanche',
+	  cover: 'img-2.jpg',
+      sumary: '',
+      description: [
+        'Im Gebiet zwischen Bonavau und Pas d‘Encel gibt es mehr als zwanzig Quellen.  Einige von ihnen, die mit Flysch und Kalkstein in Berührung kommen, quellen zwischen Geröllblöcken hervor. Andere sprudeln beeindruckend aus den Felswänden. ',
+        'So auch die Quelle von Fontaine Blanche(siehe nebenstehendes Foto). ',
+        'Wenn die Quelle nicht aktiv ist, kann man einen Teil der Höhlengänge erkunden, die das Wasser zur Quelle führen. Die Gänge entwickeln sich im Kalkgestein des Schrattenkalks über einer sehr undurchlässige Schicht, die Gault(Kreideformation) genannt wird. ',
+        'Diese schöne Quelle ist nur während der Schneeschmelze und bei starken Niederschlägen aktiv und kann dann bis zu 700 Liter pro Sekunde ausstossen. Doch die Wahrscheinlichkeit, sie bewundern zu dürfen, ist gering, da sie nur etwa fünzehn Tage pro Jahr aktiv ist. Sie behält uns jedoch noch gewisse Geheimnisse vor, denn es kommt vor, dass sie plötzlich zu fliessen beginnt, um anschliessend, aufgrund eines offensichtlich komplizierten Entleerungssystems des Karstgrundwassers einem eigenwilligen Zeitplan folgend, wieder zu versiegt. ',
+        'Recherchen zum Wasserverlauf haben ergeben, dass die Quelle wahrscheinlich von dem Wasser gespeist wird, das im Boden der Karstgebiete versickert, die sich auf dem Westhang des Susanfe-Passes oder sogar weiter östlich um die Dents du Midi befinden. Das Wasser der Quellen auf der linken Uferseite der Saufla stammt hingegen aus der Region Giétroz oberhalb des Pas d‘Encel. ',
+        'Einspritzungen von Tracern werden in der Zukunft vielleicht Aufschluss über die Funktionsweise der Quelle von Fontaine Blanche und ihrem Einzugsgebiet geben. '
+      ],
+      images: [
+        {
+          legend: '',
+          name: 'img-1.jpg'
+        },
+        {
+          legend: 'Blick auf die spektakuläre Faltung der Kalksteinschichten an der Westflanke des Massivs der Dents du Midi mit der Quelle von Fontaine Blanche. Fotos: Oben bei Niederigwasser, unten aktiv!',
+          name: 'img-2.jpg'
+        },
+
+      ],
+      onTheRoad: true,
+      position: {
+        x: 434,
+        y: 598
+      },
+      
+    },
+	{
+      title: 'Die Quelle der Abtei St-Maurice d‘Agaune',
+	  cover: 'img-2.jpg',
+      sumary: '',
+    description: [
+      'Die 515 gegründete Abtei St-Maurice d‘Agaune ist eines der ältesten Klöster der Welt. Die Abtei wurde genau an der Stelle gebaut, an der die Römer einen den Nymphen geweihten Altar errichtet hatten. Die Legende besagt auch, dass an diesem Ort einst Hygieia verehrt wurde, die nach der griechischen Mythologie die Göttin der Gesundheit, Sauberkeit und Hygiene war. Das rege Interesse an dem Ort zeigt, dass dies eine wirklich aussergewöhnliche Quelle ist. ',
+      'Eine heilige Quelle, Nymphen, ein Fischteich voller Fische, deren Tod den der Kanoniker ankündigte: In St-Maurice d‘Agaune finden wir alle Elemente für einen Mythos. ',
+      'Kommen wir zunächst zur Quelle! Als der Heilige Mauritius geköpft wurde, prallte sein Kopf laut Überlieferung auf den Felsen ab, aus dem eine Ölquelle hervorquoll, die jedoch versiegte, als die Mönche aufhörten zu beten. Daraufhin entsprang etwas weiter unten eine lebhafte Quelle, deren Wasser die Pilger für gut befanden. ',
+      'Jetzt kommen wir zum Fischteich mit seinen Fischen! Ab 1251 floss das Wasser der heiligen Quelle durch einen Kanal, dessen Seitenarm klares, frisches Wasser in den Fischteich leitete und ihn im Sommer mit kühlem, im Winter mit temperiertem Wasser versorgte. Das restliche Wasser folgte einem unterirdischen Abfluss unter den Abteigebäuden, um schliesslich in die Rhone zu münden. Das kristalline Wasser war für die Forellen der Rhone jedoch nicht geeignet, sie überlebten darin nicht. Die Fische des Fischteichs wurden gut beschrieben: fast schwarz auf dem Rücken, oben grau, etwa ein Pfund schwer. Über ihre mystischen Kräfte wurde viel berichtet: <i>„Im Jahr 1732 starb Monsieur Riche, Regularkanoniker in diesem Haus. Ungefähr zur gleichen Zeit fand man im Fischteich einen der schönsten Fische tot auf. Im Jahr 1733 starb Bruder Pierre, Eremit von Notre Dame Du Sex. Am Tage vor seinem Tod wurde ebenfalls ein kleiner Fisch tot in unserem Fischteich aufgefunden. “</i> Somit gab der Tod eines Fisches den Kanonikern die Möglichkeit, sich im Frieden Gottes auf den Tod vorzubereiten. Interessanterweise wird diese Legende noch im The Angler’s Vade Mecum erwähnt, einem berühmten Fischerei-Lehrbuch, das 1681 vom Engländer James Chetham veröffentlicht wurde. ',
+      'Und was ist mit den Nymphen ? Bei umfassenden Restaurationsarbeiten der einige Jahre zuvor durch einen Felssturz beschädigten Basilika wurde Anfang 1947 nahe des Friedhofs der Altar Nymphis Sacrum entdeckt. Dieses Denkmal, das später in die Vorhalle der Abtei verlegt wurde, scheint dasselbe zu sein, das am Hof von Saint-Joseph in der Nähe der sprudelnden Quelle beschrieben wurde. ',
+      'Die Nymphen waren die keltischen Gottheiten dieser üppigen, ergiebigen Quelle, die weithin bekannt ist. '
+    ],
+      images: [
+        {
+          legend: 'Um die Quelle der Abtei zu sehen, müssen Sie zwischen den Gebäuden des Kollegiums hindurchgehen und dann nach rechts in Richtung Abtei gehen.',
+          name: 'img-1.jpg'
+        },
+        {
+          legend: ' ',
           name: 'img-2.jpg'
         },
         {
-          legend: '',
+          legend: 'Der Fischteich und die Gärten der Abtei von Saint-Maurice. Detail eines um 1885 gedruckten Tiefdrucks.',
           name: 'img-3.jpg'
-        }
-      ],
-      onTheRoad: true,
-      position: {
-        x: 963,
-        y: 608
-      }
-    },
-    {
-      title: 'Der Wasserturm des Kantons Neuenburg',
-      sumary: '',
-      cover: 'img-2.jpg',
-      description: [
-        'Bis Mitte des 19. Jahrhunderts bot das Areusetal den Wanderern und Besuchern ein unversehrtes Naturerlebnis. Die idyllische Ruhe wurde 1858 durch den Bau der französisch-schweizerischen Eisenbahnlinie gestört. ',
-        'Im Laufe des 19. Jahrhunderts gewann die Frage der Trinkwasserversorgung der Städte Neuenburg und La Chaux-de-Fonds zunehmend an Wichtigkeit, denn die Bevölkerung wuchs und die Wasserqualität war mangelhaft. 1882 brach in Neuenburg eine Typhusepidemie aus und verursachte mehrere Todesopfer. ',
-        'Als ab 1885 grosse Bauprojekte zur Wasserversorgung der beiden Städte in Angriff genommen wurden, kam Leben in die Schlucht. Mehrere Lösungsvorschläge wurden untersucht, um Wasser in ausreichender Menge und Qualität zu finden. Die Einwohner von',
-        'La Chaux-de-Fonds stimmten 1885 der Finanzierung von Wasserleitungen aus der Areuseschlucht zu, für Neuenburg trat dies im Folgejahr ein. ',
-        'Aktuell werden etwa 80. 000 Einwohner aus über 20 Gemeinden des Kantons mit dem Wasser der Areuseschlucht versorgt. Jeden Tag werden dort durchschnittlich 25. 000 m3 Wasser gefasst. '
-      ],
-      images: [
-        {
-          legend: 'Im Herzen des Trinkwasserversorgungsnetzes des Kantons Neuenburg versorgen zwei unterirdische Wasserleitungen den oberen Teil des Kantons und die Region Neuenburg von den Quellen der Areuse-Schluchten aus. Dieses 1887 erbaute Netz wurde 1995 durch eine Leitung (hellblau) vervollständigt, die durch den Strassentunnel unter der Vue-des-Alpes verläuft und Wasser aus dem See zuführt.',
-          name: 'img-1.jpg'
-        },
-        {
-          legend: 'Der Bau eines Reservoirs in La Chaux-de-Fonds im Jahr 1886. Die mechanischen Mittel waren gering, aber die Arbeitskräfte waren reichlich vorhanden...',
-          name: 'img-2.jpg'
-        }
-      ],
-      onTheRoad: true,
-      position: {
-        x: 1143,
-        y: 597
-      }
-    },
-    {
-      title: 'Ein aussergewöhnliches Krebstier',
-      sumary: '',
-      cover: 'img-2.jpg',
-      description: [
-        'Der vielleicht älteste Bewohner der Region versteckt sich im Grundwasser der Areuseschlucht. Beim Filtrieren der Quelle Combe Garot entdeckte der Biologe Pascal Moeschler 1985 eine bis dahin unbekannte Krebstierart, die Gelyella Monardi. ',
-        'Dieses einen halben Millimeter lange Schalentier ist nirgendwo sonst bekannt und lebt seit Millionen von Jahren eingeschlossen in diesem karstigen Grundwasserspeicher. ',
-        'Es ist ein direkter Nachfahre der Krebstiere, die im Meer lebten, das im Tertiär die Region bedeckte. ',
-        'Als sich das Meer vor 20 Millionen Jahren zurückzog, floh dieses mikroskopische Krebstier vor der Trockenheit und zog sich in die mit Grundwasser gefüllten Karstspalten zurück. Die Gelyella hat sich daraufhin weiterentwickelt und an das neue Süsswassermilieu angepasst, wodurch es die Eiszeiten überleben konnte. Daher kann man es wohl zu Recht als lebendes Fossil und als die schützenswerteste Tierart der Schweiz betrachten. ',
-        'Eine weitere Gelyella-Spezies desselben Ursprungs wurde im Grundwasser der Region Montpellier gefunden. Sie hat seit dem Rückzug des Meeres eine ähnliche Entwicklung durchlaufen wie ihre Schwester aus der Areuseschlucht. Diese beiden Arten sind die einzigen Vertreter einer neuen Krebstierordnung, den Gelyelloida. '
-      ],
-      images: [
-        {
-          legend: 'Westeuropa in der Tertiärzeit. In Gelb: die Gebiete ausserhalb des Wassers.',
-          name: 'img-1.jpg'
-        },
-        {
-          legend: 'Die Gelyelle de Monard (Grösse: 1/3 eines Millimeters).',
-          name: 'img-2.jpg'
-        },
-        {
-          legend: '',
-          name: 'img-3.jpg'
-        },
-        {
-          legend: '',
-          name: 'img-4.jpg'
-        },
-        {
-          legend: 'Erfassungsstollen der Quelle der Combe Garot.',
-          name: 'img-5.jpg'
-        }
-      ],
-      onTheRoad: true,
-      position: {
-        x: 2029,
-        y: 361
-      }
-    },
-    {
-      title: 'So wird das Wasser am Rande der Areuse gefasst',
-      sumary: '',
-      cover: 'img-3.jpg',
-      description: [
-        'Um täglich Tausende von Kubikmetern Trinkwasser zu fassen und von der Umgebung des Werks Moyats in 20 Gemeinden des Kantons zu befördern, kommen verschiedene Techniken zum Einsatz:',
-        '<h5>Filterbrunnen am Ufer der Areuse</h5 >',
-        'Bei einer Wanderung entlang der Areuse sieht man zahlreiche Metallpilze am Wegesrand. Diese Pilze markieren den Ort eines Pumpbrunnes oder einer Wasserleitung. Mit den Brunnen kann Grundwasser aus 10 bis 20 m Tiefe aus dem Schwemmboden, der das Flussbett bildet (Grundwasser), gepumpt werden. ',
-        '<h5>Wassersammelstollen im Herzen des Massivs</h5 >',
-        'Im Berginneren werden zwei Quellen gefasst: die Quelle Bossy und die Quelle Dalle Nacrée, in der ein schweres Eisentor (Staudamm) den Grundwasserdruck des Doggers aufrechterhält. Diese beiden Wasserstollen fördern allein mehr als die Hälfte (> 100 l/s) der durchschnittlichen Wassermenge aller Fassungen. ',
-        '<h5>Fassungen aus Karstquellen</h5 >',
-        'Einige kleine Quellen in Kalkgestein werden zwischen Plan de l‘Eau und Les Moyats gefasst. '
-      ],
-      images: [
-        {
-          legend: '',
-          name: 'img-1.jpg'
-        },
-        {
-          legend: 'Pumpen durch Filterbrunnen in der phreatische Zone.',
-          name: 'img-2.jpg'
-        },
-        {
-          legend: 'Ein Filterbrunnen, wenige Meter vom Flussbett entfernt.',
-          name: 'img-3.jpg'
-        },
-        {
-          legend: 'Profil der Erfassungsstollen von Les Moyats.',
-          name: 'img-4.jpg'
-        }
-      ],
-      onTheRoad: false
-    },
-    {
-      title: 'Trinkwasserversorgung der Stadt La Chaux-de-Fonds',
-      sumary: '',
-      cover: 'cover.jpg',
-      description: [
-        'Die Stadt La Chaux-de-Fonds befindet sich auf 1000 m Höhe inmitten einer Karstregion, wo das Oberflächenwasser oft im Boden versickert. Bis zur Mitte des 19. Jahrhunderts begnügten sich die Einwohner notgedrungen mit dem Wasser aus Bohrbrunnen und Wassertanks, in denen das Regenwasser von den Dächern gesammelt wurde. Doch mit der Entwicklung der Uhrenindustrie wuchs die Stadt rasch. Zwischen 1850 und 1885 stieg die Einwohnerzahl von 12. 000 auf 25. 000, und es mussten unbedingt Lösungen zur Wasserversorgung gefunden werden. ',
-        'Mehrere Studien wurden unternommen. Es wurde in Betracht gezogen, Wasser aus dem Doubs oder dem Lac des Taillières zu entnehmen, doch schliesslich war es der Ingenieur Guillaume Ritter, der das kühne Projekt vorstellte, das Wasser nach dem Neuenburger Vorbild aus der Areuseschlucht zu holen. ',
-        'Der monumentale Bau wurde Anfang 1886 begonnen, und die Inbetriebnahme der Anlage erfolgte im November des Folgejahres! Eine beachtliche Leistung, die ohne Erdöl vollbracht wurde, aber mit einer kollektiven Motivation, die heute schwer vorstellbar ist. ',
-        'In 18 Monaten wurde das Werk von Moyats erbaut, eine 20 km lange unterirdische Wasserleitung zum 490 m oberhalb von Les Moyats gelegenen Jogne, ein Staubecken von 4600 m3 sowie mehr als 20 km Wasserleitungen in der Stadt. Gleich beim ersten Versuch lief alles störungsfrei!'
-      ],
-      images: [
-        {
-          legend: 'Die Leitung, welche die Schlucht der Areuse mit La Chaux-de-Fonds verbindet',
-          name: 'img-1.jpg'
-        },
-        {
-          legend: 'Längsprofil des Wasserversorgungssystems in La Chaux-de-Fonds',
-          name: 'img-2.jpg'
         }
       ],
       onTheRoad: false

@@ -118,10 +118,10 @@ export default {
       description:[
 	  '<h3>Die Gefahren für die Quellen</h3>',
 	  'Quellen, ihre Funktion als Biotope und die darin lebenden Arten sind gefährdet. Mehrere der in Quellen lebenden Arten stehen auf der Roten Liste gefährdeter Arten der Schweiz; das Biotop selbst steht unter dem Schutz des Bundesnaturschutzgesetzes. ',
-	  '<h3>Die Zerstörung des Biotops</h3>',
+	  '<h5>Die Zerstörung des Biotops</h5>',
         'Die grösste Gefahr besteht in der unwiderruflichen Zerstörung des Biotops. Ursache hierfür sind oft künstlich angelegte Drainagen oder Viehtränken sowie Trinkwasserfassungen. Wenn eine Quelle zerstört wird, stirbt auch die gesamte darin lebende Tier- und Pflanzenwelt, da sie nicht in eine andere Quelle in der Nähe umsiedeln kann. Mit der zunehmenden Zerstörung der Schweizer Quellen werden bestimmte Arten völlig isoliert. Die Populationen können ihr Habitat nicht wechseln oder austauschen, und sie sterben aus. Wenn eine Quelle zerstört wird, ist es sehr schwierig, sie anschliessend wieder zu revitalisieren. Oft kann man sich gar nicht mehr an ihre Existenz erinnern oder es treten Konflikte in der Bewirtschaftung der betroffenen Parzelle auf. ',
         'Soulce verdankt es seiner hohen Anzahl und Dichte intakter Quellen, dass hier noch grosse Populationen seltener, für Quellen typischer Arten präsent sind. Somit trägt Soulce eine grosse Verantwortung für den Artenschutz in seinen Quellen. Dies trifft im Übrigen auch auf die Magerwiesen zu. ',
-	  '<h3>Die Störfaktoren des Biotops</h3>',
+	  '<h5>Die Störfaktoren des Biotops</h5>',
 	  'Es gibt noch weitere Faktoren, die die Quellen – wenn auch nicht unwiderruflich – bedrohen. Dazu gehören in erster Linie: Trittschäden durch das Vieh, die Folgen unangemessener Forstwirtschaft (z. B. intensive Fichtenkulturen oder die Holzabfuhr ausserhalb von Rückegassen) sowie vereinzelte oder kontinuierliche Wasserverschmutzung. ',
 	  '<h3>Welche Schutzmassnahmen?</h3>',
 	  '<h5>Unterschutzstellung</h5>',

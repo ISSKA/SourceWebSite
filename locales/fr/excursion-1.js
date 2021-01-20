@@ -1,196 +1,99 @@
 export default {
-  title: 'Source de l’Orbe',
-  subtitle: 'Vallorbe, VD',
+  title: 'Sources de Porrentruy',
+  subtitle: 'JU',
   summary: {
-    difficulty: 'Modéré',
-    duration: '3h30 (sans compter la visite des grottes)',
-    download_file: 'orbe_fr.pdf'
+    difficulty: 'xxx',
+    duration: 'xxx heures',
+    download_file: 'porrentruy_fr.pdf'
   },
-  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=no&season=summer&resolution=6.34&E=2516382&N=1171457&layers=Wanderland&trackId=7068364',
-
   source: {
-    coordinates: [2515870, 1171700],
+    coordinates: [2572700, 1251900],
     position: {
-      x: 401,
-      y: 1392,
-      r: 55
+      x: 922,
+      y: 592,
+      r: 46
     },
-    name: 'Source de l’Orbe',
-    canton: 'VD'
+    name: 'Sources de Porrentruy',
+    canton: 'JU'
   },
   description: [
-    '<b>La source de l’Orbe</b> se situe à l’ouest de Vallorbe. Mais, en fait, plus en amont, il existe une autre source de l’Orbe, située au niveau du Lac des Rousses (France). Après un parcours sinueux, l’Orbe «supérieure» se jette dans le Lac de Joux puis le Lac Brenet au fond duquel... elle disparaît! Après un parcours souterrain, on la retrouve près de Vallorbe (Orbe inférieure). L’excursion proposée ici permet de suivre en surface le parcours emprunté, sous terre, par la rivière entre le Lac Brenet et les grottes de Vallorbe. '
+    'Le toponyme Porrentruy semble avoir plusieurs origines possibles.L’une d’elles explique que la ville pourrait tirer son nom du Bruntrutum qui signifie « pays des sources abondantes ». Et il est bien vrai que l’eau est omniprésente dans cette petite ville du Jura tabulaire.',
+    'La rivière la plus importante, et la plus visible, qui traverse la ville est <b>l’Allaine</b > qui trouve sa source dans la région de La Baroche, à l’est.',
+    'Mais d’autres cours d’eau et plusieurs sources existent:',
+    '<ul><li><b>Le Creugenat</b>. Rivière temporaire, trop-plein de l’Ajoulote souterraine, venant de la région de Chevenez–Courtedoux.</li><li><b>Le Bacavoine</b> qui trouve sa source à Fontenais.</li><li><b>La source Chaumont</b>, située dans la vieille ville, au pied du château.</li><li><b>La source de la Beuchire</b> qui est la résurgence pérenne de la rivière souterraine l’Ajoulote.</li><li><b>La source de la Boucherie</b>, située non loin de la précédente (aujourd’hui invisible).</li></ul>',
+    'Au gré des rues de la vieille ville, la promenade proposée permet de découvrir ce système complexe de la circulation de l’eau en milieu urbain. ',
+    'En complément à cette balade, il est possible d’aller jeter un coup d’œil à l’estavelle du Creugenat située à 5 km au sud-ouest de Porrentruy. Cette cavité est un regard sur l’Ajoulote, qui est la rivière souterraine pérenne dont l’émergence est la source de la Beuchire.',
+    'Une visite à la source du Bacavoine, située en centre du village de Fontenais est également conseillée.'
   ],
   route: [{
     details: {
-      start: 'Gare du Pont',
-      end: 'Gare de Vallorbe',
-      distance: '11,7 km',
-      delta_height: '+ 212 m / - 413 m',
-      duration: '3h30 (sans compter la visite des grottes)',
-      restauration: 'Le Pont / Juraparc / La Dernier / Vallorbe',
-      type: 'Randonnée sans difficultés particulières'
+      start: 'Parking du Centre (entre les rues de la Colombière et du Creugenat)',
+      end: 'Parking du Centre',
+      distance: '2,5 km',
+      delta_height: '+ 30 m / – 30 m',
+      duration: '45 min.',
+      restauration: '',
+      type: 'Balade urbaine'
     },
     description: [
-      'De la gare du Pont, suivre le sentier qui fait le tour du lac Brenet en passant par le village des Charbonnières. ',
-      'Parvenu sur la rive opposée, on découvre, entre la falaise et le lac, plusieurs grandes dépressions. Ce sont les Entonnoirs par lesquels l’eau s’infiltre sous terre pour partir en direction des grottes de Vallorbe. ',
-      'Après environ 1 km, on passe à côté de la prise d’eau du système hydroélectrique Tornaz–usine de La Dernier. C’est par là que, depuis plus d’un siècle, l’eau est évacuée en direction de Vallorbe, assurant du même coup la régulation du niveau du lac. ',
-      'Quitter le bord du lac pour se diriger en direction du Col du Mont d’Orzeires. Un petit kilomètre plus loin, on parvient au parc animalier Juraparc. Continuer en entamant la descente en direction de Vallorbe. Parvenus au pt. 922, suivre la route sur environ 200 m et prendre le sentier assez raide qui descend sur la droite vers la Grotte aux Fées puis rejoindre l’Orbe et prendre sur la droite pour parvenir à l’entrée des grottes de Vallorbe : point d’intérêt C. ',
-      'Au niveau du parking des grottes, rester en rive droite pour suivre un sentier qui longe la rivière. Rejoindre ensuite la gare. '
-    ]
+	'La balade débute en traversant la passerelle pour piétons qui enjambe le lit du Creugenat <b>( A )</b>. Cette rivière ne coule que lors de périodes pluvieuses. ',
+	'En se placant au milieu du pont et en regardant vers l’amont, on peut observer les deux petites sources du Gravier <b>( B )</b> situées dans le lit du Creugenat. Ces arrivées d’eau discrètes sont pourtant pérennes contrairement au Creugenat lui-même.',
+	'Suivre la rue du Creugenat avant de tourner à gauche pour s’engager dans le Faubourg de France. Quelques mètres avant de franchir la porte homonyme et d’entrer dans la vieille ville, faire un petit crochet jusqu’au bord du Creugenat. En portant le regard vers l’aval, on voit, en rive droite, une arrivée d’eau : c’est la source Chaumont <b>( C )</b>. Cette source a été durant longtemps le principal point d’alimentation en eau de la ville, car située intra-muros. A l’heure actuelle, la ville est alimentée par la source de la Betteraz qui se trouve à l’aval de Porrentruy, en bord de forêt du Pont d’Able. Son eau est traitée dans une installation conséquente car polluée par les activités industrielles passées.',
+	'La balade se poursuit  par le Faubourg de France, puis en remontant successivement la rue Pierre Péquignat et la rue des Malvoisins. On continue toujours de monter en s’engageant dans la rue des Annonciades dans laquelle se trouve la Fontaine du Suisse <b>( D )</b>, datant de 1564. ',
+	'Au haut de la rue des Annonciades, on atteint la rue des Baîches où se trouvaient plusieurs puits <b>( E )</b>. Le toponyme Baîche provient du patois et signifie... puits!',
+	'Tourner à gauche pour s’engager dans la Grand-Rue où l’on découvre la fontaine de La Samaritaine <b>( F )</b>. ',
+	'Poursuivre la balade en descendant la rue Pierre Péquignat dans l’autre sens puis tourner à droite par la rue Joseph Trouillat. Contourner la maison qui se trouve à l’angle de ces deux rues et longer le parc par sa droite. Prêter attention au mur du bâtiment à côté duquel on passe : on peut y observer la trace d’une grande roue à aubes qui fut installée ici jadis <b>( G )</b>. Le ruisseau qui passait par là est aujourd’hui canalisé dans une conduite souterraine.',
+	'Sur la gauche, dans le parc, se trouve la source (non visible) de la Boucherie <b>( H )</b> qui est connectée avec le Creugenat.',
+	'On parvient ensuite à la source de la Beuchire <b>( I )</b> qui est l’exutoire permanent du système hydrogéologique de l’Ajoulote (ou du Creugenat). L’eau qui sourd de cette source est divisée en trois branches ; l’une s’en va vers le lit du Creugenat par la conduite évoquée ci-dessus; l’autre est canalisée et dirigée vers l’Allaine et une troisième branche est aussi canalisée pour rejoindre le cours du Bacavoine.',
+	'On retrouve cette troisième branche quelques dizaines de mètres plus loin peu avant la confluence <b>( J )</b> entre cet écoulement et le Bacavoine qui s’en vont, par une galerie souterraine, rejoindre L’Allaine.'
+	]
   },
     ],
-  
+
   more: [
     {
-      text: 'Au fil de l’Orbe. À la découverte d’une rivière d’exception. Guide d’excursions, Ed. ISSKA, 2015.',
+      text: 'xxx',
       link: {
-        name: 'www.isska.ch',
-        url: 'https://www.isska.ch'
-      }
-    },
-    {
-      text: 'Site internet :',
-      link: {
-        name: 'arnexhistoire.blogspot.com',
-        url: 'https://arnexhistoire.blogspot.com'
+        name: 'The link is optionnal !',
+        url: 'https://www.xxx.ch'
       }
     }
   ],
   cff: {
-    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=le+pont%2C+gare',
-    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=vallorbe%2C+gare'
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Porrentruy',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=Porrentruy'
   },
   extras: [
     {
-      title: 'Les entonnoirs du lac Brenet',
+      title: 'L’estavelle du Creugenat',
+	  cover: 'img-4.jpg',
       sumary: '',
-      cover: 'cover.jpg',
       description: [
-        'Avant que l’homme n’entreprenne des travaux pour réguler le niveau de ces deux lacs et utiliser son potentiel énergétique, de nombreux entonnoirs jouaient le rôle d’exutoires.La plupart de ces pertes(ou emposieux) se situaient en rive nord - ouest des lacs.Aujourd’hui, seule une partie d’entre eux sont encore visibles.',
-        'Ces entonnoirs se présentent sous l’aspect de dépressions larges et profondes de plusieurs mètres, connectées avec les fissures de la roche calcaire.Pour comprendre leur fonctionnement, il suffit d’imaginer une baignoire en cours de remplissage.Si l’on oublie de fermer le robinet, son débordement sera empêché par le trop - plein.Dans le cas des lacs de la Vallée de Joux, c’est le même principe : les entonnoirs fonctionnent comme déversoirs.',
-        'En plus de la dizaine d’entonnoirs connus – et qui aujourd’hui ne sont plus actifs, il existe sans doute plusieurs fissures au fond du lac, par lesquelles l’eau continue de s’écouler en direction de la résurgence de l’Orbe.'
-      ],
+	  'Le Creugenat est une rivière qui ne sait pas très bien si elle veut couler au soleil ou se cacher sous terre. Elle hésite entre ombre et lumière, entre secret et grand-jour. L’eau est toujours là, tapie sous terre, et ce n’est qu’épisodiquement qu’elle déborde de son lit souterrain pour envahir les pâturages et les transformer en pataugeoires. ',
+	  'Les traditions locales, solidement ancrées en terre jurassienne, vous diront que, quelques fois par année, dans leur grande bonté, les sorcières du Creugenat permettent à la rivière cachée de prendre du bon temps à l’air libre. Mais bientôt, lassée du soleil éblouissant, la rivière retourne couler tranquillement dans les ténèbres. ',
+	  'Qu’en est-il de la réalité telle que l’hydrogéologie la décrit ? La vallée de la Haute-Ajoie, qui va de Damvant à Porrentruy, est longue de 15 km. Ses 48 km2alimentent la source de la Beuchire, qui coule en permanence en ville de Porrentruy, pour y nourrir l’Allaine. Plusieurs cavités ont été recensées dans la vallée ; elles permettent d’accéder à des tronçons d’une circulation d’eau souterraine bien identifiée et décrite dès 1915 sous le nom d’Ajoulote souterraine. ',
+	  'La Beuchire débite en moyenne 800 l/s, mais peut évacuer jusqu’à 3,5 m3/s d’eau. C’est alors que la vallée change d’aspect : l’eau monte plus ou moins rapidement dans l’entonnoir du Creugenat, la marmite des sorcières, et déborde pour envahir la plaine de Courtedoux où rien ne peut la contenir. Ce n’est qu’aux abords de la ville de Porrentruy qu’elle est dirigée jusqu’à l’Allaine dans un lit artificiel. En de rares occasions, le débit est si fort qu’une autre cavité, le Creux-des-Prés devient émissive en amont du Creugenat. ',
+	  'Lors de ces épisodes, plusieurs fois l’an, le Creugenat vomit habituellement une dizaine de mètres cubes à la seconde, et peut dépasser les 30 m3/s dans les grandes occasions. On rapporte la situation exceptionnelle du 1er août 1804 où le débit total de l’Ajoulote a brièvement atteint 100 m3/s. Ajoutons encore que la situation régionale, aux yeux des études hydrogéologiques les plus récentes, est plus complexe car deux bassins d’alimentation contigus, qui alimentent les sources de Bonnefontaine et de Voyebœuf, pourraient communiquer sous terre avec l’Ajoulote en hautes eaux, ajoutant ainsi temporairement 30 km2 au bassin d’alimentation.'
+	  ],
       images: [
         {
-          legend: 'Les principaux entonnoirs du lac Brenet',
+          legend: 'L’estavelle du Creugenat est un regard sur l’Ajoulote, le cours d’eau souterrain pérenne qui draine la vallée de la Haute Ajoie. En période d’étiage, il demeure inactif mais, lors de périodes de pluies prolongées, cette grande dépression est capable d’absorber un ruissellement aérien. En hautes eaux, il devient émissif, recrachant toute l’eau que les conduits souterrains ne peuvent véhiculer.',
           name: 'img-1.jpg'
         },
         {
-          legend: 'Situation des entonnoirs par rapport à la source de l’Orbe',
+          legend: 'Débordement de l’estavelle du Creugenat le 4 janvier 1948. Une crue de cette ampleur ne se produit, en principe, que quelques fois par siècle.',
           name: 'img-2.jpg'
         },
         {
-          legend: 'L’entonnoir de Bon Port',
-          name: 'img-3.jpg'
-        }
-      ],
-      onTheRoad: true,
-      position: {
-        x: 849,
-        y: 711
-      }
-    },
-    {
-      title: 'Entonnoirs maudits... ou bénits!',
-      sumary: '',
-      cover: 'img-2.jpg',
-      description: [
-        'Jusqu’au début du XXe siècle, la gestion des entonnoirs était une préoccupation pour les habitants de la Vallée de Joux.',
-        'Lors de fortes pluies, il arrivait que les entonnoirs refoulent l’eau au lieu de l’absorber...Les habitants de la vallée profitaient donc des périodes de basses eaux pour curer les entonnoirs ou même pour ouvrir d’autres fissures afin de mettre fin à l’inondation périodique des maisons situées près des lacs.',
-        'En compensation des tracas qu’ils provoquaient, les entonnoirs présentaient aussi un avantage non négligeable : celui de pouvoir profiter de l’énergie hydraulique.Ainsi, durant les XVIIIe et XIXe siècles, plusieurs d’entre eux ont été aménagés en scierie, moulin, aciérie, affinerie...',
-        'Au début du XXe siècle, tous les entonnoirs sont endigués et une galerie est creusée entre l’extrémité est du lac Brenet et les hauteurs de Vallorbe afin d’alimenter l’usine hydro - électrique de La Dernier.C’est désormais cette galerie qui assure la régulation du niveau des lacs.'
-      ],
-      images: [
-        {
-          legend:
-            'L’Entonnoir de Bon Port en 1816 (dessin de H.-C. Escher). On y voit le moulin (à droite), la scierie ainsi que la digue séparant l’exutoire du lac.',
-          name: 'img-1.jpg'
-        },
-        {
-          legend:
-            'L’Entonnoir de Bon Port au début du XXe siècle. Quelques années auparavant, il avait été approfondi de plusieurs mètres dans l’espoir d’améliorer l’évacuation de l’eau. Un vœu pieux, puisque l’importance de l’absorbtion de l’eau au travers du karst dépend avant tout de la configuration des fissures du calcaire en profondeur et non pas uniquement de la grandeur du déversoir.',
-          name: 'img-2.jpg'
-        },
-        {
-          legend:
-            'L’entonnoir de Bon Port - Parmi les entonnoirs du lac Brenet encore visibles de nos jours, celui de Bon Port est le plus spectaculaire. Sa base se situe une vingtaine de mètres au-dessous du niveau du lac.',
-          name: 'img-3.jpg'
-        }
-      ],
-      onTheRoad: true,
-      position: {
-        x: 1178,
-        y: 171
-      }
-    },
-    {
-      title: 'Les grottes de l’Orbe',
-      sumary: '',
-      cover: 'img-1.jpg',
-      description: [
-        'Les galeries aménagées pour les visites touristiques ne représentent qu’une petite partie du réseau souterrain exploré par les spéléologues depuis une cinquantaine d’années.',
-        'À ce jour, plus de six kilomètres de galeries ont été découverts et des possibilités de continuation existent encore. Cependant, l’Orbe souterraine ne se laisse pas dompter si facilement et les difficultés ne manquent pas. En particulier, la présence de plusieurs passages noyés (siphons) complique les recherches.',
-        'Le terminus actuel des explorations se situe à 2 km de l’entrée de la grotte, au bas d’une salle aux dimensions impressionnantes (200 x 50 x 30 m). Pour parvenir à cet endroit reculé dans la montagne, il faut franchir trois siphons, dont un profond de 56 m. La salle en question se situe à l’aplomb exact du parc animalier du Mont d’Orzeires. Deux mondes si différents, mais pourtant si proches!'
-      ],
-      images: [
-        {
-          legend: 'La source de l’Orbe.',
-          name: 'img-1.jpg'
-        },
-        {
-          legend: 'L’Orbe souterraine.',
-          name: 'img-2.jpg'
-        },
-        {
-          legend: 'Forêt de fistuleuses dans une galerie latérale à la rivière souterraine.',
+          legend: 'Exploration en scaphandrier en 1934.',
           name: 'img-3.jpg'
         },
-        {
-          legend: 'Le réseau des grottes de l’Orbe',
+		    {
+          legend: 'Un aspect de la conduite principale de la galerie souterraine photographiée ici en période d’étiage.',
           name: 'img-4.jpg'
         }
       ],
-      onTheRoad: true,
-      position: {
-        x: 1251,
-        y: 227
-      }
+      onTheRoad: false
     },
-    {
-      title: 'La renaissance de l’Orbe',
-      sumary: '',
-      cover: 'img-1.jpg',
-      description: [
-        '3 km à vol d’oiseau de l’Entonnoir du Bon Port et 230 m plus bas, l’Orbe retrouve la lumière du jour pour poursuivre son étonnant parcours.',
-        'La résurgence de l’Orbe est l’une des plus remarquables et des plus importantes de la chaîne du Jura.En basses eaux, son débit est de 2 m3 / sec, mais, lors de grandes crues, il peut dépasser les 100 m3/sec(ou 360’000 m3/heure).',
-        'Insolite, la source de l’Orbe a fait l’objet de narrations de voyageurs dès le XVIIIe siècle.En 1893, l’envie de savoir ce qui se passe sous la montagne titille les hommes et une première plongée est réalisée jusqu’à 11 m de profondeur.Puis, au milieu du siècle dernier, les explorateurs s’enhardissent et c’est en 1964 que des plongeurs genevois parviennent à franchir le siphon : l’Orbe souterraine est découverte!',
-        'Au - delà du verrou d’entrée, on découvre de vastes galeries parcourues par la rivière, de magnifiques concrétions et de grandes salles...Rapidement, le projet d’aménager la cavité prend forme et, en 1973, un tunnel artificiel est percé.Dès l’année suivante, le public peut découvrir ces beautés souterraines.'
-      ],
-      images: [
-        {
-          legend: 'La résurgence de l’Orbe; fin du parcours souterrain de la rivière.',
-          name: 'img-1.jpg'
-        },
-        {
-          legend:
-            'Débits annuels maximaux de l’Orbe mesurés à la station du Chalet, près de Montcherand, à l’aval des gorges. Au niveau de la source elle-même, tous les 10 ans environ, une crue exceptionnelle a pour conséquence l’inondation de la partie touristique des grottes de Vallorbe.',
-          name: 'img-2.jpg'
-        },
-        {
-          legend: 'La rivière un peu en contrebas de sa source.',
-          name: 'img-3.jpg'
-        },
-        {
-          legend: 'La rivière un peu en contrebas de sa source lors d’une forte crue.',
-          name: 'img-4.jpg'
-        }
-      ],
-      onTheRoad: true,
-      position: {
-        x: 1298,
-        y: 177
-      }
-    }
   ]
 }

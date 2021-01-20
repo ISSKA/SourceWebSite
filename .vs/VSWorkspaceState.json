@@ -2,6 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\locales",
+    "\\locales\\de",
     "\\locales\\fr",
     "\\pages",
     "\\pages\\excursions",
@@ -11,6 +12,6 @@
     "\\static",
     "\\static\\docs"
   ],
-  "SelectedNode": "\\locales\\de\\excursion-12.js",
+  "SelectedNode": "\\locales\\de\\excursion-2.js",
   "PreviewInSolutionExplorer": false
 }

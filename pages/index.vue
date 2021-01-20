@@ -21,7 +21,7 @@
       </map>
 
       <!-- excursion selection -->
-      <h2 style="margin-bottom: 30px; margin-top: 30px;" class="text-center title-section">
+      <h2 style="margin-bottom: 30px; margin-top: 30px; font-size: 55px" class="text-center title-section">
         {{ $t('home.excursions_list') }}
       </h2>
 

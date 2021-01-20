@@ -1,52 +1,41 @@
 export default {
-  title: 'Sources de Porrentruy',
-  subtitle: 'JU',
+  title: 'Gorges de Covatannaz',
+  subtitle: 'Ste-Croix, VD',
   summary: {
     difficulty: 'xxx',
     duration: 'xxx heures',
-    download_file: 'porrentruy_fr.pdf'
+    download_file: 'covatannaz_fr.pdf'
   },
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=5.18&amp%3BE=2530152&amp%3BN=1184093&amp%3Blayers=Wanderland&amp%3BtrackId=7059416&photos=yes&bgLayer=pk&logo=yes&season=summer&resolution=3.91&E=2530152&N=1184093&trackId=7059416',
+
   source: {
-    coordinates: [2572700, 1251900],
+    coordinates: [2531000, 1185000],
     position: {
-      x: 922,
-      y: 592,
-      r: 46
+      x: 531,
+      y: 1355,
+      r: 50
     },
-    name: 'Sources de Porrentruy',
-    canton: 'JU'
+    name: 'Sources des gorges de Covatannaz',
+    canton: 'VD'
   },
   description: [
-    'Le toponyme Porrentruy semble avoir plusieurs origines possibles.L’une d’elles explique que la ville pourrait tirer son nom du Bruntrutum qui signifie « pays des sources abondantes ». Et il est bien vrai que l’eau est omniprésente dans cette petite ville du Jura tabulaire.',
-    'La rivière la plus importante, et la plus visible, qui traverse la ville est <b>l’Allaine</b > qui trouve sa source dans la région de La Baroche, à l’est.',
-    'Mais d’autres cours d’eau et plusieurs sources existent:',
-    '<ul><li><b>Le Creugenat</b>. Rivière temporaire, trop-plein de l’Ajoulote souterraine, venant de la région de Chevenez–Courtedoux.</li><li><b>Le Bacavoine</b> qui trouve sa source à Fontenais.</li><li><b>La source Chaumont</b>, située dans la vieille ville, au pied du château.</li><li><b>La source de la Beuchire</b> qui est la résurgence pérenne de la rivière souterraine l’Ajoulote.</li><li><b>La source de la Boucherie</b>, située non loin de la précédente (aujourd’hui invisible).</li></ul>',
-    'Au gré des rues de la vieille ville, la promenade proposée permet de découvrir ce système complexe de la circulation de l’eau en milieu urbain. ',
-    'En complément à cette balade, il est possible d’aller jeter un coup d’œil à l’estavelle du Creugenat située à 5 km au sud-ouest de Porrentruy. Cette cavité est un regard sur l’Ajoulote, qui est la rivière souterraine pérenne dont l’émergence est la source de la Beuchire.',
-    'Une visite à la source du Bacavoine, située en centre du village de Fontenais est également conseillée.'
+    'Cette randonnée permet de découvrir l’une des plus belles gorges du Jura en passant du Plateau aux hauteurs jurassiennes. ',
+    'En traversant les gorges de bas en haut, on remonte non seulement le cours de l’Arnon, mais aussi les bancs calcaires dans lesquels s’écoule l’eau souterraine provenant du flanc sud de Chasseron et de la région du col de l’Aiguillon. Selon les conditions météo, on peut voir de belles sources en rive gauche de l’Arnon, en particulier, celle du Fontanet de Covatannaz. '
   ],
   route: [{
     details: {
-      start: 'Parking du Centre (entre les rues de la Colombière et du Creugenat)',
-      end: 'Parking du Centre',
-      distance: '2,5 km',
-      delta_height: '+ 30 m / – 30 m',
-      duration: '45 min.',
-      restauration: '',
-      type: 'Balade urbaine'
+      start: 'Baulmes',
+      end: 'Ste-Croix',
+      distance: '7,3 km',
+      delta_height: '+ 495 m / – 59 m',
+      duration: '2h30',
+      type: 'Randonnée en moyenne montagne, sans difficultés particulières'
     },
     description: [
-	'La balade débute en traversant la passerelle pour piétons qui enjambe le lit du Creugenat <b>( A )</b>. Cette rivière ne coule que lors de périodes pluvieuses. ',
-	'En se placant au milieu du pont et en regardant vers l’amont, on peut observer les deux petites sources du Gravier <b>( B )</b> situées dans le lit du Creugenat. Ces arrivées d’eau discrètes sont pourtant pérennes contrairement au Creugenat lui-même.',
-	'Suivre la rue du Creugenat avant de tourner à gauche pour s’engager dans le Faubourg de France. Quelques mètres avant de franchir la porte homonyme et d’entrer dans la vieille ville, faire un petit crochet jusqu’au bord du Creugenat. En portant le regard vers l’aval, on voit, en rive droite, une arrivée d’eau : c’est la source Chaumont <b>( C )</b>. Cette source a été durant longtemps le principal point d’alimentation en eau de la ville, car située intra-muros. A l’heure actuelle, la ville est alimentée par la source de la Betteraz qui se trouve à l’aval de Porrentruy, en bord de forêt du Pont d’Able. Son eau est traitée dans une installation conséquente car polluée par les activités industrielles passées.',
-	'La balade se poursuit  par le Faubourg de France, puis en remontant successivement la rue Pierre Péquignat et la rue des Malvoisins. On continue toujours de monter en s’engageant dans la rue des Annonciades dans laquelle se trouve la Fontaine du Suisse <b>( D )</b>, datant de 1564. ',
-	'Au haut de la rue des Annonciades, on atteint la rue des Baîches où se trouvaient plusieurs puits <b>( E )</b>. Le toponyme Baîche provient du patois et signifie... puits!',
-	'Tourner à gauche pour s’engager dans la Grand-Rue où l’on découvre la fontaine de La Samaritaine <b>( F )</b>. ',
-	'Poursuivre la balade en descendant la rue Pierre Péquignat dans l’autre sens puis tourner à droite par la rue Joseph Trouillat. Contourner la maison qui se trouve à l’angle de ces deux rues et longer le parc par sa droite. Prêter attention au mur du bâtiment à côté duquel on passe : on peut y observer la trace d’une grande roue à aubes qui fut installée ici jadis <b>( G )</b>. Le ruisseau qui passait par là est aujourd’hui canalisé dans une conduite souterraine.',
-	'Sur la gauche, dans le parc, se trouve la source (non visible) de la Boucherie <b>( H )</b> qui est connectée avec le Creugenat.',
-	'On parvient ensuite à la source de la Beuchire <b>( I )</b> qui est l’exutoire permanent du système hydrogéologique de l’Ajoulote (ou du Creugenat). L’eau qui sourd de cette source est divisée en trois branches ; l’une s’en va vers le lit du Creugenat par la conduite évoquée ci-dessus; l’autre est canalisée et dirigée vers l’Allaine et une troisième branche est aussi canalisée pour rejoindre le cours du Bacavoine.',
-	'On retrouve cette troisième branche quelques dizaines de mètres plus loin peu avant la confluence <b>( J )</b> entre cet écoulement et le Bacavoine qui s’en vont, par une galerie souterraine, rejoindre L’Allaine.'
-	]
+      'L’excursion débute à la gare de Baulmes. En longeant la lisière de la forêt, on passe sous les Rapilles, dont le grand éboulis, visible de loin, est riche en espèces végétales particulières pour la région. ',
+      'Après être passé à côté de jolis méandres formé par la Baumine, il faut s’engager sur la route forestière qui monte sur la gauche. On parvient bientôt dans les gorges que l’on remonte en rive droite. Ne pas hésiter à prendre un peu de temps pour s’écarter du chemin et s’approcher de la rivière. On y rencontrera une belle formation de tuf, témoignage d’anciens écoulements et, si le Fontanet de Covatannaz est en crue, le détour vaut particulièrement l’effort consenti. C’est également là que se trouve l’émergence pérenne du système hydrogéologique de Covatannaz',
+      'A l’approche de Ste-Croix, une fois sorti des gorges, privilégier l’itinéraire passant par La Sagne qui, pour rejoindre la gare, est plus agréable que celui qui aboutit à la route cantonale. '
+    ]
   },
     ],
 
@@ -60,40 +49,52 @@ export default {
     }
   ],
   cff: {
-    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Porrentruy',
-    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=Porrentruy'
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Baulmes',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=Ste-Croix'
   },
   extras: [
     {
-      title: 'L’estavelle du Creugenat',
-	  cover: 'img-4.jpg',
+      title: 'Grottes et sources des gorges de Covatannaz',
+      cover: 'img-1.jpg',
       sumary: '',
       description: [
-	  'Le Creugenat est une rivière qui ne sait pas très bien si elle veut couler au soleil ou se cacher sous terre. Elle hésite entre ombre et lumière, entre secret et grand-jour. L’eau est toujours là, tapie sous terre, et ce n’est qu’épisodiquement qu’elle déborde de son lit souterrain pour envahir les pâturages et les transformer en pataugeoires. ',
-	  'Les traditions locales, solidement ancrées en terre jurassienne, vous diront que, quelques fois par année, dans leur grande bonté, les sorcières du Creugenat permettent à la rivière cachée de prendre du bon temps à l’air libre. Mais bientôt, lassée du soleil éblouissant, la rivière retourne couler tranquillement dans les ténèbres. ',
-	  'Qu’en est-il de la réalité telle que l’hydrogéologie la décrit ? La vallée de la Haute-Ajoie, qui va de Damvant à Porrentruy, est longue de 15 km. Ses 48 km2alimentent la source de la Beuchire, qui coule en permanence en ville de Porrentruy, pour y nourrir l’Allaine. Plusieurs cavités ont été recensées dans la vallée ; elles permettent d’accéder à des tronçons d’une circulation d’eau souterraine bien identifiée et décrite dès 1915 sous le nom d’Ajoulote souterraine. ',
-	  'La Beuchire débite en moyenne 800 l/s, mais peut évacuer jusqu’à 3,5 m3/s d’eau. C’est alors que la vallée change d’aspect : l’eau monte plus ou moins rapidement dans l’entonnoir du Creugenat, la marmite des sorcières, et déborde pour envahir la plaine de Courtedoux où rien ne peut la contenir. Ce n’est qu’aux abords de la ville de Porrentruy qu’elle est dirigée jusqu’à l’Allaine dans un lit artificiel. En de rares occasions, le débit est si fort qu’une autre cavité, le Creux-des-Prés devient émissive en amont du Creugenat. ',
-	  'Lors de ces épisodes, plusieurs fois l’an, le Creugenat vomit habituellement une dizaine de mètres cubes à la seconde, et peut dépasser les 30 m3/s dans les grandes occasions. On rapporte la situation exceptionnelle du 1er août 1804 où le débit total de l’Ajoulote a brièvement atteint 100 m3/s. Ajoutons encore que la situation régionale, aux yeux des études hydrogéologiques les plus récentes, est plus complexe car deux bassins d’alimentation contigus, qui alimentent les sources de Bonnefontaine et de Voyebœuf, pourraient communiquer sous terre avec l’Ajoulote en hautes eaux, ajoutant ainsi temporairement 30 km2 au bassin d’alimentation.'
+        'De nombreuses cavités naturelles sont connues dans les gorges de Covatannaz. La principale, nommée Réseau de Covatannaz a été explorée sur plus de 5 kilomètres par les spéléologues. Ce réseau compte quatre entrées : le Fontanet de Covatannaz (ou Grotte du Vertige), la Grotte des Echelles, la Grotte des Lacs et la Grotte de la Grande-Poule.',
+        'En hautes eaux, les galeries souterraines se mettent en charge. La grotte du Fontanet et celle des Echelles se mettent à fonctionner comme exutoires de crue. Elles déversent alors un débit imposant en formant des cascades spectaculaires au pied de la falaise.',
+        'Tous ces exutoires, d’un débit total maximal de 5 m3/s, font partie d’un même système d’écoulement que l’on retrouve dans plusieurs galeries du réseau souterrain.',
+        'Lors de très fortes crues, il peut arriver que la Grotte de la Grande-Poule, dont l’entrée se trouve à 800 m d’altitude, se mette également à débiter l’eau que le réseau sous-jacent ne peut plus évacuer. Sachant que la source pérenne se trouve à 560 m d’altitude, on en déduit que la mise en charge à l’intérieur des fissures et des galeries souterraines peut atteindre 240 m.'],
+      images: [
+        {
+          legend: 'Position du réseau de grottes de Covatannaz par rapport à la surface. Les galeries les plus éloignées de l’entrée passent à l’aplomb de la route qui relie Ste-Croix à Bullet.',
+          name: 'img-1.jpg'
+        },
+      ],
+      onTheRoad: true,
+      position: {
+      x: 1249,
+        y: 273
+    }
+    },
+    {
+      title: 'D’où vient l’eau des sources de Covatannaz ?',
+      cover: 'img-1.jpg',
+      sumary: '',
+      description: ['Les eaux des sources des gorges de Covatannaz proviennent principalement du synclinal de Sainte-Croix, comme l’ont montré différents essais de traçage. La bordure du bassin d’alimentation semble assez bien définie au sud et au nord-ouest où des limites géologiques claires existent. A l’ouest, le synclinal de Sainte-Croix se prolonge vers Jougne et semble culminer au niveau du col de l’Aiguillon, mais une prolongation plus à l’ouest n’est pas exclue. Vers l’est, le flanc du Chasseron plonge régulièrement vers le Plateau suisse et seule la partie sud-ouest doit être drainée vers les sources de Covatannaz. On peut estimer que la limite du bassin d’alimentation se trouve approximativement sous le téléski reliant Les Rasses aux Petites-Roches. C’est en effet dans ce secteur que semble se terminer la cuvette du synclinal de Sainte-Croix, qui n’est prolongée vers le nord-est que par un replat moins marqué.',
+        '<h5>Un lac sous le Chasseron?</h5>',
+        'Qu’en est-il de la rumeur populaire faisant état d’un Lac sous le Chasseron ? Il convient ici de préciser quelques éléments de vocabulaire. Pour tout un chacun, un lac est une étendue d’eau à surface libre mesurant plusieurs hectares, voire km2 de superficie. Pour un spéléologue, un lac souterrain est une galerie, éventuellement une salle, partiellement remplie d’eau. Il s’agit donc bien d’une étendue d’eau à surface libre. Toutefois les plus grands lacs souterrains connus au monde atteignent au mieux deux ou trois hectares de superficie. Dans le Jura, un lac souterrain est grand lorsqu’il mesure 50 mètres de long par 10 de large ! Des lacs souterrains de cet ordre peuvent certainement exister dans la région, toutefois, les seuls connus actuellement se trouvent dans le réseau de Covatannaz. Pour un hydrogéologue, une nappe karstique (ou aquifère karstique) est un volume de roche pouvant s’étendre sur plusieurs kilomètres carrés et dans lequel tous les pores de la roche sont remplis d’eau. Précisons cependant que le volume des pores représente au maximum 1 à 2 % du volume de roche. S’il est certain que des nappes karstiques existent sous le Chasseron, il est préférable d’éviter d’utiliser le mot lac souterrain pour décrire une telle réserve d’eau.',
+        'Le lac sous le Chasseron, au sens où l’entendent la plupart des gens de la région, est donc un mythe !',
+        '<i>(extraits de l’Inventaire spéléologique de la Suisse, Tome V, Nord vaudois)</i>'
 	  ],
       images: [
         {
-          legend: 'L’estavelle du Creugenat est un regard sur l’Ajoulote, le cours d’eau souterrain pérenne qui draine la vallée de la Haute Ajoie. En période d’étiage, il demeure inactif mais, lors de périodes de pluies prolongées, cette grande dépression est capable d’absorber un ruissellement aérien. En hautes eaux, il devient émissif, recrachant toute l’eau que les conduits souterrains ne peuvent véhiculer.',
+          legend: 'Bassin d’alimentation des sources de Covatannaz.',
           name: 'img-1.jpg'
         },
-        {
-          legend: 'Débordement de l’estavelle du Creugenat le 4 janvier 1948. Une crue de cette ampleur ne se produit, en principe, que quelques fois par siècle.',
-          name: 'img-2.jpg'
-        },
-        {
-          legend: 'Exploration en scaphandrier en 1934.',
-          name: 'img-3.jpg'
-        },
-		    {
-          legend: 'Un aspect de la conduite principale de la galerie souterraine photographiée ici en période d’étiage.',
-          name: 'img-4.jpg'
-        }
       ],
-      onTheRoad: false
+      onTheRoad: true,
+      position: {
+        x: 1207,
+        y: 234
+      }
     },
   ]
 }

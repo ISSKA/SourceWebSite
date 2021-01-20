@@ -1,92 +1,193 @@
 export default {
-  title: 'Die Bäder von Craveggia',
-  subtitle: 'Val d’Onsernone, TI',
+  title: 'Die Quelle der Orbe',
+  subtitle: 'Vallorbe, VD',
   summary: {
-    difficulty: 'xxx',
-    duration: 'xxx heures',
-    download_file: 'craveggia_de.pdf'
+    difficulty: 'Modéré',
+    duration: '3h30 (sans compter la visite des grottes)',
+    download_file: 'orbe_de.pdf'
   },
-  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&amp%3Bland=wanderland&amp%3Broute=all&amp%3Bphotos=yes&amp%3BbgLayer=pk&amp%3Blogo=yes&amp%3Bseason=summer&amp%3Bresolution=1.85&amp%3BE=2686079&amp%3BN=1116819&amp%3Blayers=Wanderland&amp%3BtrackId=7007583&photos=yes&logo=yes&season=summer&bgLayer=pk&resolution=1.15&E=2686079&N=1116819&trackId=7007583',
+  link_swissmobile: 'https://map.schweizmobil.ch/?lang=fr&land=wanderland&route=all&photos=no&bgLayer=pk&logo=no&season=summer&resolution=6.34&E=2516382&N=1171457&layers=Wanderland&trackId=7068364',
 
   source: {
-    coordinates: [2685300, 1116900],
+    coordinates: [2515870, 1171700],
     position: {
-      x: 2007,
-      y: 1885,
-      r: 82
+      x: 401,
+      y: 1392,
+      r: 55
     },
-    name: 'Bagni di Craveggia',
-    canton: 'TI'
+    name: 'Die Quelle der Orbe',
+    canton: 'VD'
   },
   description: [
-    'Die Wanderung zu den ehemaligen Bädern von Craveggia ist in mehrfacher Hinsicht bemerkenswert. Alleine das Onsernonetal ist den Ausflug wert. Um zu den ehemaligen Bädern von Craveggia zu gelangen, müssen wir zunächst eine Reihe von Weilern und Dörfern durchqueren, die an den steilen Flanken des wilden Tals hängen. ',
-    'Die Besichtigung der Therme von Craveggia taucht uns in eine längst vergangene Zeit ein, als Gäste zu diesem abgeschiedenen Ort kamen, um von den Heilkräften des Wassers einer Quelle zu profitieren, die sich eigentlich auf italienischem Gebiet befindet, jedoch nur über die Schweiz zugänglich ist. ',
-    'Vor einigen Jahren wurde das alte Kurhaus oberflächlich restauriert, und in dieser – glücklicherweise – fast intakten Naturumgebung werden nun Kneipp-Anwendungen praktiziert. '
+    '<b>Die Quelle der Orbe</b> befindet sich westlich von Vallorbe, doch weiter flussaufwärts entspringt am Lac des Rousses(Frankreich) eine weitere Quelle der Orbe. Die obere Orbe schlängelt in Mäandern, bevor sie in den Lac de Joux und schliesslich in den Lac Brenet mündet, auf dessen Grund sie versickert! Nach einem unterirdischen Fliessweg tritt die untere Orbe bei Vallorbe wieder zu Tage. Die hier vorgestellte Wanderung ermöglicht es Ihnen, den unterirdischen Flusslauf zwischen dem Lac Brenet und den Grotten von Vallorbe oberirdisch zu verfolgen. '
   ],
   route: [{
     details: {
-      start: 'Spruga',
-      end: 'Spruga',
-      distance: '6,3 km',
-      delta_height: '+ 468 m / – 468 m',
-      duration: '2h30 (ohne Baden!)',
-      restauration: 'Spruga',
-      type: 'Einfache Wanderung am linken Ufer des Isorno entlang(Hinweg), danach ein wenig sportlicher auf dem Rückweg dem rechten Ufer entlang'
+      start: 'Bahnhof Le Pont',
+      end: 'Bahnhof Vallorbe',
+      distance: '11,7 km',
+      delta_height: '+ 212 m / - 413 m',
+      duration: '3h30 (OHNE Besuch der Höhlen)',
+      restauration: 'Le Pont / Juraparc / La Dernier / Vallorbe',
+      type: 'Wanderung ohne besondere Schwierigkeiten'
     },
     description: [
-      'Vom Dorf Spruga aus folgen wir etwa drei Kilometer weit der(für den Verkehr gesperrten) Hangstrasse. Kurz bevor die Strasse endet, verlassen wir sie und überqueren die Brücke über den Isorno, der hier die Grenze zwischen der Schweiz und Italien bildet. ',
-      'Halten wir ein bemerkenswertes Detail fest: Der auf dem Schweizer Gebiet Isorno genannte Fluss trägt flussaufwärts auf italienischem Boden den Namen Rio dei Bagni(Bach der Bäder). ',
-      'Nach der Brücke steigen wir in den Wald hinauf bis zur leerstehenden Caserma Onsernone. Anschliessend geht es wieder zum Fluss hinunter, wo sich die ehemaligen Thermalbäder von Craveggia befinden. ',
-      'Wenn der Fluss nur wenig Wasser führt, können Sie sich den Umweg über die Brücke auch sparen und den Bach auf Höhe der Bäder durchwaten. ',
-      'Wir empfehlen den Rückweg nach Spruga auf der rechten Uferseite, der allerdings beschwerlicher als der Hinweg ist. Der Weg durchquert einen Bach, was sich je nach Schüttung als mehr oder weniger heikel erweist. Anschliessend müssen wir den Berg wieder hochsteigen, bevor wir zum Isorno zurückkehren. Wir überqueren den Fluss beim Punkt 904, um dann wieder Richtung Spruga aufzusteigen. '
+      'Vom Bahnhof Le Pont folgen wir dem Pfad, der über das Dorf Les Charbonnières um den Lac Brenet herumführt. ',
+      'Auf der anderen Uferseite angekommen, sehen wir zwischen der Felswand und dem See mehrere tiefe Senken. Es sind die Entonnoirs, natürliche Trichter, in die das Wasser in den Boden versickert und Richtung Höhlen von Vallorbe abfliesst. ',
+      'Nach etwa einem Kilometer kommen wir an der Wasserfassung des Wasserkraftwerks Tornaz La Dernier vorbei. An dieser Stelle wird das Wasser seit über einem Jahrhundert nach Vallorbe abgeleitet, wodurch gleichzeitig der Seespiegel reguliert wird. ',
+      'Wir verlassen das Seeufer und gehen in Richtung Mont d‘Orzeires. Einen knappen Kilometer weiter gelangen wir zum Tierpark Juraparc. Wir gehen weiter und steigen in Richtung Vallorbe hinab. Ab dem Punkt 922 folgen wir der Strasse noch etwa 200 m und biegen dann rechts in den ziemlich steilen Pfad ab, der zur Feengrotte hinab führt. Anschliessend begeben wir uns zur Orbe und gelangen auf der rechten Seite zum Eingang der Höhle von Vallorbe(Ausflugsziel C). ',
+      'Am Parkplatz der Höhle bleiben wir auf der rechten Uferseite und folgen dem Fluss nach Vallorbe, wo wir zum Bahnhof aufsteigen. '
     ]
   },
     ],
-
+  
   more: [
     {
-      text: 'xxx',
+      text: 'Au fil de l’Orbe. À la découverte d’une rivière d’exception. Guide d’excursions, Ed. ISSKA, 2015.',
       link: {
-        name: 'The link is optionnal !',
-        url: 'https://www.xxx.ch'
+        name: 'www.isska.ch',
+        url: 'https://www.isska.ch'
+      }
+    },
+    {
+      text: 'Site internet :',
+      link: {
+        name: 'arnexhistoire.blogspot.com',
+        url: 'https://arnexhistoire.blogspot.com'
       }
     }
   ],
   cff: {
-    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=Spruga',
-    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=Spruga'
+    link_begin: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?nach=le+pont%2C+gare',
+    link_end: 'https://www.sbb.ch/fr/acheter/pages/fahrplan/fahrplan.xhtml?von=vallorbe%2C+gare'
   },
   extras: [
     {
-      title: 'Nahezu vergessene Thermalbäder',
-	  cover: 'img-2.jpg', 
+      title: 'Die Entonnoirs des Lac Brenet',
       sumary: '',
+      cover: 'cover.jpg',
       description: [
-        'Die Bäder von Craveggia befinden sich auf der Grenze zwischen Italien und der Schweiz, zwischen den geomorphologisch aneinander grenzenden, historisch jedoch getrennten Tälern von Onsernone und Vigezzo. ',
-        'Sie sind Schauplatz einer bewegte Geschichte, die mit den Partisanen der italienischen Partisanen während des Zweiten Weltkriegs verbunden ist. Aus der Thermalquelle fliesst konstant 28 °C warmes Wasser, das im Kontrast mit dem eisigen Wasser des Flusses steht, der einige Meter weiter unten fliesst. ',
-        'Erstmals wurde die Thermalquelle im Onsernonetal im Jahr 406 erwähnt. Dem zwischen 1818 und 1823 erbauten Kurhaus wurde 1881 ein kleines Hotel hinzugefügt. Die ursprünglichen Mauern sind noch heute sichtbar. Aufgrund ihrer geografischen Abgeschiedenheit und der schwachen Schüttung (12 Liter pro Minute) der Thermalquelle wurde die Therme von Craveggia nie so bekannt wie diejenigen von Acquarossa im Brenno-Tal. ',
-        '1951 stürzte eine Lawine auf die Bäder nieder und zerstörte sie fast vollständig. Da das Kurhaus kürzlich restauriert wurde, kann man jetzt in eines der beiden neuen Granitbecken steigen und somit die Erlebnisse der Adligen des 19. Jahrhunderts teilweise nachempfinden. Die wohlhabenden Gäste wurden einst in der Kutsche hergefahren oder auf den Schultern der Bergbauern von Onsernone getragen. '
+        'Bis zum menschlichen Eingreifen, um den Wasserstand der beiden Seen zu regulieren und ihr Energiepotenzial zu nutzen, floss das Seewasser durch zahlreiche Trichter ab. Der Grossteil dieser Schwinden (oder Dolinen) befanden sich auf der Nordwestseite der Seen. Heute sind nur noch einige wenige von ihnen sichtbar. ',
+        'Die Trichter sind wie breite, mehrere Meter tiefe Senken, die mit den Rissen im darunter liegenden Kalkgestein verbunden sind. Um ihre Funktionsweise zu verstehen, muss man sich nur eine Badewanne vorstellen, die gefüllt wird. Wenn man vergisst, den Wasserhahn zuzudrehen, sorgt der Überlauf dafür, dass die Badewanne nicht überläuft. In den Seen des Vallée de Joux ist es dasselbe Prinzip: Die Trichter dienen als Überläufe. ',
+        'Zusätzlich zu den etwa zehn bekannten Entonnoirs, die heute nicht mehr aktiv sind, gibt es mit Sicherheit mehrere Spalten am Seegrund, durch die das Wasser der Orbe weiterhin in Richtung ihres Quellaustritts abfliesst. '
       ],
       images: [
         {
-          legend: 'Blick in das Onsernone Tal.',
+          legend: 'Lage der Versickerungstrichter in Relation zur Orbequelle.',
+          name: 'img-2_de.jpg'
+        },
+        {
+          legend: 'Der Versickerungstrichter von Bon Port',
+          name: 'img-3_de.jpg'
+        }
+      ],
+      onTheRoad: true,
+      position: {
+        x: 992,
+        y: 835
+      }
+    },
+    {
+      title: 'Die Entonnoirs: verflucht... oder gesegnet',
+      sumary: '',
+      cover: 'img-2.jpg',
+      description: [
+        'Bis zum Anfang des 20. Jahrhunderts bereiteten die Entonnoirs den Bewohnern des Vallée de Joux reichlich Sorgen. ',
+        'Bei starken Niederschlägen passierte es, dass die Trichter das Wasser ausstiessen anstatt es zu absorbieren... Die Talbewohner nutzten die Niedrigwasserzeiten, um die Trichter freizulegen oder sogar neue Spalten zu öffnen, um der periodisch wiederkehrenden Überschwemmung der seenahen Häuser vorzubeugen. ',
+        'Als Entschädigung für diese Unannehmlichkeiten boten die Entonnoirs jedoch auch einen erheblichen Vorteil, nämlich die Nutzung ihrer Wasserkraft. Während des 18. und 19. Jahrhunderts wurden zahlreiche Trichter für Sägereien, Mühlen, Stahlwerke, Raffinerien usw. genutzt. ',
+        'Am Anfang des 20. Jahrhunderts wurden die Entonnoirs abgedichtet, und zwischen dem Ostende des Lac Brenet und Vallorbe wurde ein Stollen gegraben, um das Wasserkraftwerk',
+        'La Dernier zu speisen. Gleichzeitig dient der Stollen heute zur Wasserstandsregulierung der Seen. '
+      ],
+      images: [
+        {
+          legend:
+            'Der Versickerungstrichter von Bon Port im Jahre 1816 (Zeichnung von H.C. Escher). Man sieht die Mühle(rechts), das Sägewerk sowie den Damm, der den Abfluss vom See trennt.',
           name: 'img-1.jpg'
         },
         {
-          legend: 'Das alte Badehaus.',
+          legend:
+            'Der Versickerungstrichter von Bon Port zu Beginn des 20. Jahrhunderts. Einige Jahre zuvor war er in der Hoffnung, den Wasserabfluss zu verbessern, um mehrere Meter vertieft worden. Ein frommer Wunsch, denn das Ausmass der Wasseraufnahme durch den Karst hängt vor allem von der Konfiguration der Risse im Kalkstein in der Tiefe ab und nicht nur von der Grösse des Überlaufs.',
           name: 'img-2.jpg'
         },
         {
-          legend: 'Überreste aus der Zeit, als Bäder die Kurgäste anzogen',
+          legend:
+            'Der Versickerungstrichter von Bon Port.',
           name: 'img-3.jpg'
         }
       ],
       onTheRoad: true,
       position: {
-        x: 667,
-        y: 379
+        x: 1380,
+        y: 202
       }
     },
-    
+    {
+      title: 'Die Höhle von Vallorbe',
+      sumary: '',
+      cover: 'img-1.jpg',
+      description: [
+        'Die für die Besucher speziell eingerichteten Gänge stellen nur einen kleinen Teil des von den Speläologen schon seit rund fünzig Jahren erschlossenen Höhlensystems dar.',
+        'Bislang wurden mehr als sechs Kilometer Galerien entdeckt, und weitere Entdeckungen sind nicht ausgeschlossen.Da sich die unterirdische Orbe jedoch nicht so leicht zähmen lässt, gibt es zahlreiche Hindernisse zu überwinden. Insbesondere erschweren die überfluteten Gänge(Siphons) die Forschungsarbeiten.',
+        'Der aktuelle Endpunkt der Erkundungen befindet sich zwei Kilometer vom Eingang der Höhle in den Tiefen eines immens grossen Saals(200 x 50 x 30 m). Um zu diesem abgelegen Ort im Berg vorzudringen, muss man drei Siphons durchtauchen, von denen einer 56 m tief ist. Der Saal befindet sich genau unterhalb des Tierparks von Mont d‘Orzeires.Zwei verschiedene Welten ...und doch so nah!'
+      ],
+      images: [
+        {
+          legend: 'Die Quelle der Orbe.',
+          name: 'img-1.jpg'
+        },
+        {
+          legend: 'Die unterirdische Orbe.',
+          name: 'img-2.jpg'
+        },
+        {
+          legend: 'Sinterröhrchen in einem Seitentunnel zum unterirdischen Fluss.',
+          name: 'img-3.jpg'
+        },
+        {
+          legend: 'Das Höhlensystem der Orbe.',
+          name: 'img-4_de.jpg'
+        }
+      ],
+      onTheRoad: true,
+      position: {
+        x: 1459,
+        y: 266
+      }
+    },
+    {
+      title: 'Der Quellaustritt der Orbe',
+      sumary: '',
+      cover: 'img-1.jpg',
+      description: [
+        '3 km Luftlinie vom Entonnoir du Bon Port entfernt und 230 m tiefer kommt die Orbe wieder ans Tageslicht, bevor sie ihren erstaunlichen Weg fortsetzt.',
+        'Der Quellaustritt der Orbe gehört zu den wichtigsten und bemerkenswertesten des Juragebirges. Ihre Schüttung beträgt bei Niedrigwasser 2 m3/s, bei Hochwasser bis zu mehr als 100 m3/s(d.h. 360.000 m3/h).',
+        'Die aussergewöhnliche Orbe-Quelle wurde von Wanderern bereits im 18. Jahrhundert erwähnt. Die Menschen wurden von der Neugier gepackt und wollten herausfinden, was sich im Berg verbarg. Im Jahr 1893 fand der erste Tauchgang bis in 11 Meter Tiefe statt. In der Mitte des vergangenen Jahrhunderts wurden die Höhlenforscher dann mutiger, und 1964 gelang es Tauchern aus Genf, den Siphon zu durchqueren: Es war die Entdeckung der unterirdischen Orbe!',
+        'Hinter dem Eingangssiphon wurden auch ausgedehnte Gänge, durch die der Fluss fliesst, sowie prachtvolle Sinter und grosse Säle entdeckt...Bald nahm das Projekt, die Höhle zugänglich zu machen, Form an. 1973 wurde ein künstlicher Tunnel gebohrt. Schon im folgenden Jahr konnte diese unterirdische Schönheit für Besucher freigegeben werden.'
+      ],
+      images: [
+        {
+          legend: 'Hier tritt die Orbe wieder hervor; Ende des unterirdischen Verlaufs des Flusses.',
+          name: 'img-1.jpg'
+        },
+        {
+          legend:
+            'Maximale jährliche Abflüsse der Orbe. An der Quelle selbst kommt es etwa alle 10 Jahre zu einem aussergewöhnlichen Hochwasser, das zur Überflutung des touristischen Teils der Höhlen von Vallorbe führt.',
+          name: 'img-2_de.jpg'
+        },
+        {
+          legend: 'Der Fluss etwas unterhalb der Quelle.',
+          name: 'img-3.jpg'
+        },
+        {
+          legend: 'Derselbe Abschnitt während eines starken Hochwassers (30. März 2015).',
+          name: 'img-4.jpg'
+        }
+      ],
+      onTheRoad: true,
+      position: {
+        x: 1519,
+        y: 209
+      }
+    }
   ]
 }
