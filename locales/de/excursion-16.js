@@ -69,7 +69,14 @@ export default {
       description: [
         'Bis zum menschlichen Eingreifen, um den Wasserstand der beiden Seen zu regulieren und ihr Energiepotenzial zu nutzen, floss das Seewasser durch zahlreiche Trichter ab. Der Grossteil dieser Schwinden (oder Dolinen) befanden sich auf der Nordwestseite der Seen. Heute sind nur noch einige wenige von ihnen sichtbar. ',
         'Die Trichter sind wie breite, mehrere Meter tiefe Senken, die mit den Rissen im darunter liegenden Kalkgestein verbunden sind. Um ihre Funktionsweise zu verstehen, muss man sich nur eine Badewanne vorstellen, die gefüllt wird. Wenn man vergisst, den Wasserhahn zuzudrehen, sorgt der Überlauf dafür, dass die Badewanne nicht überläuft. In den Seen des Vallée de Joux ist es dasselbe Prinzip: Die Trichter dienen als Überläufe. ',
-        'Zusätzlich zu den etwa zehn bekannten Entonnoirs, die heute nicht mehr aktiv sind, gibt es mit Sicherheit mehrere Spalten am Seegrund, durch die das Wasser der Orbe weiterhin in Richtung ihres Quellaustritts abfliesst. '
+        'Zusätzlich zu den etwa zehn bekannten Entonnoirs, die heute nicht mehr aktiv sind, gibt es mit Sicherheit mehrere Spalten am Seegrund, durch die das Wasser der Orbe weiterhin in Richtung ihres Quellaustritts abfliesst. ',
+        '<h3>Die Entonnoirs: verflucht... oder gesegnet</h3>',
+        'Bis zum Anfang des 20. Jahrhunderts bereiteten die Entonnoirs den Bewohnern des Vallée de Joux reichlich Sorgen. ',
+        'Bei starken Niederschlägen passierte es, dass die Trichter das Wasser ausstiessen anstatt es zu absorbieren... Die Talbewohner nutzten die Niedrigwasserzeiten, um die Trichter freizulegen oder sogar neue Spalten zu öffnen, um der periodisch wiederkehrenden Überschwemmung der seenahen Häuser vorzubeugen. ',
+        'Als Entschädigung für diese Unannehmlichkeiten boten die Entonnoirs jedoch auch einen erheblichen Vorteil, nämlich die Nutzung ihrer Wasserkraft. Während des 18. und 19. Jahrhunderts wurden zahlreiche Trichter für Sägereien, Mühlen, Stahlwerke, Raffinerien usw. genutzt. ',
+        'Am Anfang des 20. Jahrhunderts wurden die Entonnoirs abgedichtet, und zwischen dem Ostende des Lac Brenet und Vallorbe wurde ein Stollen gegraben, um das Wasserkraftwerk',
+        'La Dernier zu speisen. Gleichzeitig dient der Stollen heute zur Wasserstandsregulierung der Seen. '
+
       ],
       images: [
         {
@@ -79,6 +86,21 @@ export default {
         {
           legend: 'Der Versickerungstrichter von Bon Port',
           name: 'img-3_de.jpg'
+        },
+        {
+          legend:
+            'Der Versickerungstrichter von Bon Port im Jahre 1816 (Zeichnung von H.C. Escher). Man sieht die Mühle(rechts), das Sägewerk sowie den Damm, der den Abfluss vom See trennt.',
+          name: 'img-4.jpg'
+        },
+        {
+          legend:
+            'Der Versickerungstrichter von Bon Port zu Beginn des 20. Jahrhunderts. Einige Jahre zuvor war er in der Hoffnung, den Wasserabfluss zu verbessern, um mehrere Meter vertieft worden. Ein frommer Wunsch, denn das Ausmass der Wasseraufnahme durch den Karst hängt vor allem von der Konfiguration der Risse im Kalkstein in der Tiefe ab und nicht nur von der Grösse des Überlaufs.',
+          name: 'img-5.jpg'
+        },
+        {
+          legend:
+            'Der Versickerungstrichter von Bon Port.',
+          name: 'img-6.jpg'
         }
       ],
       onTheRoad: true,
@@ -88,32 +110,25 @@ export default {
       }
     },
     {
-      title: 'Die Entonnoirs: verflucht... oder gesegnet',
+      title: 'Das Höhlensystem der Feen',
       sumary: '',
       cover: 'img-2.jpg',
       description: [
-        'Bis zum Anfang des 20. Jahrhunderts bereiteten die Entonnoirs den Bewohnern des Vallée de Joux reichlich Sorgen. ',
-        'Bei starken Niederschlägen passierte es, dass die Trichter das Wasser ausstiessen anstatt es zu absorbieren... Die Talbewohner nutzten die Niedrigwasserzeiten, um die Trichter freizulegen oder sogar neue Spalten zu öffnen, um der periodisch wiederkehrenden Überschwemmung der seenahen Häuser vorzubeugen. ',
-        'Als Entschädigung für diese Unannehmlichkeiten boten die Entonnoirs jedoch auch einen erheblichen Vorteil, nämlich die Nutzung ihrer Wasserkraft. Während des 18. und 19. Jahrhunderts wurden zahlreiche Trichter für Sägereien, Mühlen, Stahlwerke, Raffinerien usw. genutzt. ',
-        'Am Anfang des 20. Jahrhunderts wurden die Entonnoirs abgedichtet, und zwischen dem Ostende des Lac Brenet und Vallorbe wurde ein Stollen gegraben, um das Wasserkraftwerk',
-        'La Dernier zu speisen. Gleichzeitig dient der Stollen heute zur Wasserstandsregulierung der Seen. '
-      ],
+        'Unweit der Höhle von Vallorbe liegt die Feengrotte, das längste Höhlensystem im Jura. ',
+  'Vor einigen Jahren entdeckten Waadtländer Höhlenforscher nach intensiven Forschungen ungeahnte Ausläufer in dieser Höhle. ',
+  'Anfang 2020 zählt das Höhlensystem fast 32 km erschlossener Gänge! Und die Erforschung geht weiter ... ',
+  'Vom hydrogeologischen Standpunkt aus ist das Höhlensystem der Orbe völlig von jenem der Feen getrennt. Das in die Feengrotte versickernde Wasser stammt aus einem grossen Einzugsgebiet, das sich bis ins benachbarte Frankreich erstreckt und einen Teil des Risoux-Waldes umfasst. Das Wasser tritt an den Quellen von Gerlette, die in die Orbe münden, wieder an die Oberfläche.' 
+  ],
       images: [
         {
-          legend:
-            'Der Versickerungstrichter von Bon Port im Jahre 1816 (Zeichnung von H.C. Escher). Man sieht die Mühle(rechts), das Sägewerk sowie den Damm, der den Abfluss vom See trennt.',
-          name: 'img-1.jpg'
+          legend: 'Plan des Höhlensystems der Feen mit den unterirdischen Flüssen, dargestellt in Blau, die an der Quelle der Gerletten wieder zu Tage kommen',
+          name: 'img-1_de.jpg'
         },
         {
-          legend:
-            'Der Versickerungstrichter von Bon Port zu Beginn des 20. Jahrhunderts. Einige Jahre zuvor war er in der Hoffnung, den Wasserabfluss zu verbessern, um mehrere Meter vertieft worden. Ein frommer Wunsch, denn das Ausmass der Wasseraufnahme durch den Karst hängt vor allem von der Konfiguration der Risse im Kalkstein in der Tiefe ab und nicht nur von der Grösse des Überlaufs.',
+          legend: 'Im unterirdischen Höhlensystem der Feen.',
           name: 'img-2.jpg'
         },
-        {
-          legend:
-            'Der Versickerungstrichter von Bon Port.',
-          name: 'img-3.jpg'
-        }
+        
       ],
       onTheRoad: true,
       position: {

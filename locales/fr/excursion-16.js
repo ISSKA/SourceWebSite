@@ -69,7 +69,13 @@ export default {
       description: [
         'Avant que l’homme n’entreprenne des travaux pour réguler le niveau de ces deux lacs et utiliser son potentiel énergétique, de nombreux entonnoirs jouaient le rôle d’exutoires.La plupart de ces pertes(ou emposieux) se situaient en rive nord - ouest des lacs.Aujourd’hui, seule une partie d’entre eux sont encore visibles.',
         'Ces entonnoirs se présentent sous l’aspect de dépressions larges et profondes de plusieurs mètres, connectées avec les fissures de la roche calcaire.Pour comprendre leur fonctionnement, il suffit d’imaginer une baignoire en cours de remplissage.Si l’on oublie de fermer le robinet, son débordement sera empêché par le trop - plein.Dans le cas des lacs de la Vallée de Joux, c’est le même principe : les entonnoirs fonctionnent comme déversoirs.',
-        'En plus de la dizaine d’entonnoirs connus – et qui aujourd’hui ne sont plus actifs, il existe sans doute plusieurs fissures au fond du lac, par lesquelles l’eau continue de s’écouler en direction de la résurgence de l’Orbe.'
+        'En plus de la dizaine d’entonnoirs connus – et qui aujourd’hui ne sont plus actifs, il existe sans doute plusieurs fissures au fond du lac, par lesquelles l’eau continue de s’écouler en direction de la résurgence de l’Orbe.',
+        '<h3>Entonnoirs maudits... ou bénits!</h3>',
+        'Jusqu’au début du XXe siècle, la gestion des entonnoirs était une préoccupation pour les habitants de la Vallée de Joux.',
+        'Lors de fortes pluies, il arrivait que les entonnoirs refoulent l’eau au lieu de l’absorber...Les habitants de la vallée profitaient donc des périodes de basses eaux pour curer les entonnoirs ou même pour ouvrir d’autres fissures afin de mettre fin à l’inondation périodique des maisons situées près des lacs.',
+        'En compensation des tracas qu’ils provoquaient, les entonnoirs présentaient aussi un avantage non négligeable : celui de pouvoir profiter de l’énergie hydraulique.Ainsi, durant les XVIIIe et XIXe siècles, plusieurs d’entre eux ont été aménagés en scierie, moulin, aciérie, affinerie...',
+        'Au début du XXe siècle, tous les entonnoirs sont endigués et une galerie est creusée entre l’extrémité est du lac Brenet et les hauteurs de Vallorbe afin d’alimenter l’usine hydro - électrique de La Dernier.C’est désormais cette galerie qui assure la régulation du niveau des lacs.'
+
       ],
       images: [
         {
@@ -83,6 +89,21 @@ export default {
         {
           legend: 'L’entonnoir de Bon Port',
           name: 'img-3.jpg'
+        },
+        {
+          legend:
+            'L’Entonnoir de Bon Port en 1816 (dessin de H.-C. Escher). On y voit le moulin (à droite), la scierie ainsi que la digue séparant l’exutoire du lac.',
+          name: 'img-4.jpg'
+        },
+        {
+          legend:
+            'L’Entonnoir de Bon Port au début du XXe siècle. Quelques années auparavant, il avait été approfondi de plusieurs mètres dans l’espoir d’améliorer l’évacuation de l’eau. Un vœu pieux, puisque l’importance de l’absorbtion de l’eau au travers du karst dépend avant tout de la configuration des fissures du calcaire en profondeur et non pas uniquement de la grandeur du déversoir.',
+          name: 'img-5.jpg'
+        },
+        {
+          legend:
+            'L’entonnoir de Bon Port - Parmi les entonnoirs du lac Brenet encore visibles de nos jours, celui de Bon Port est le plus spectaculaire. Sa base se situe une vingtaine de mètres au-dessous du niveau du lac.',
+          name: 'img-6.jpg'
         }
       ],
       onTheRoad: true,
@@ -91,32 +112,27 @@ export default {
         y: 711
       }
     },
-    {
-      title: 'Entonnoirs maudits... ou bénits!',
+      {
+        title: 'Le réseau souterrain des Fées',
       sumary: '',
       cover: 'img-2.jpg',
       description: [
-        'Jusqu’au début du XXe siècle, la gestion des entonnoirs était une préoccupation pour les habitants de la Vallée de Joux.',
-        'Lors de fortes pluies, il arrivait que les entonnoirs refoulent l’eau au lieu de l’absorber...Les habitants de la vallée profitaient donc des périodes de basses eaux pour curer les entonnoirs ou même pour ouvrir d’autres fissures afin de mettre fin à l’inondation périodique des maisons situées près des lacs.',
-        'En compensation des tracas qu’ils provoquaient, les entonnoirs présentaient aussi un avantage non négligeable : celui de pouvoir profiter de l’énergie hydraulique.Ainsi, durant les XVIIIe et XIXe siècles, plusieurs d’entre eux ont été aménagés en scierie, moulin, aciérie, affinerie...',
-        'Au début du XXe siècle, tous les entonnoirs sont endigués et une galerie est creusée entre l’extrémité est du lac Brenet et les hauteurs de Vallorbe afin d’alimenter l’usine hydro - électrique de La Dernier.C’est désormais cette galerie qui assure la régulation du niveau des lacs.'
-      ],
+          'Voisin des grottes de Vallorbe, le réseau souterrain des Fées est le plus long du Jura. ',
+    'Il y a quelques années, suite à des recherches assidues, les spéléologues vaudois ont découvert des prolongements inespérés à cette cavité. ',
+    'Début 2020, ce système souterrain totalise près de 32 km de galeries ! Et l’exploration se poursuit... ',
+     'D’un point de vue hydrogéologique, le système de l’Orbe est totalement séparé de celui des Fées. Les galeries du réseau des Fées drainent l’eau provenant d’un grand bassin versant qui s’étend en France voisine et inclut une partie de la forêt du Risoux. L’eau réapparaît en surface aux sources des Gerlettes, qui vont grossir l’Orbe. '
+    ],
       images: [
         {
           legend:
-            'L’Entonnoir de Bon Port en 1816 (dessin de H.-C. Escher). On y voit le moulin (à droite), la scierie ainsi que la digue séparant l’exutoire du lac.',
+            '',
           name: 'img-1.jpg'
         },
         {
           legend:
-            'L’Entonnoir de Bon Port au début du XXe siècle. Quelques années auparavant, il avait été approfondi de plusieurs mètres dans l’espoir d’améliorer l’évacuation de l’eau. Un vœu pieux, puisque l’importance de l’absorbtion de l’eau au travers du karst dépend avant tout de la configuration des fissures du calcaire en profondeur et non pas uniquement de la grandeur du déversoir.',
+            'Dans le réseau souterrain des Fées.',
           name: 'img-2.jpg'
         },
-        {
-          legend:
-            'L’entonnoir de Bon Port - Parmi les entonnoirs du lac Brenet encore visibles de nos jours, celui de Bon Port est le plus spectaculaire. Sa base se situe une vingtaine de mètres au-dessous du niveau du lac.',
-          name: 'img-3.jpg'
-        }
       ],
       onTheRoad: true,
       position: {

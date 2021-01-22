@@ -30,9 +30,9 @@ export default {
         start: 'Bahnhof Noiraigue',
         end: 'Bahnhof Chambrelien',
       distance: '9,2 km',
-      delta_height: '+ 215 m / – 264 m',
+      delta_height: '+ 215 m/– 264 m',
         duration: '2h30 (ohne Pausen)',
-      restauration: 'Noiraigue / Champ du Moulin / Chambrelien',
+      restauration: 'Noiraigue/Champ du Moulin/Chambrelien',
         type: 'Wanderung auf Wegen und kleinen Strassen. Einfach. '
     },
     description: [
@@ -248,58 +248,40 @@ export default {
     {
       title: 'Die Areuse-Quelle',
       sumary: '',
-      cover: 'img-2.jpg',
+      cover: 'img-1.jpg',
       description: [
-        '„Die Reuse hat ihre Quelle oberhalb eines Dorfes namens Saint Sulpice am äusseren Westrand des Tales [...]. Sie entspringt ihrer Quelle unvermittelt, nicht in Form einer kleinen Fontäne oder eines Bachs, sondern schon als mächtiger Fluss, wie die Quelle in Fontaine-de-Vaucluse, und sprudelt über die Felsen. Da die Quelle tief in den schroffen Felsen eines Berges eingebettet liegt, ist es dort immer schattig. Im Sommer zieht es mich in die beständige Kühle, das Rauschen, den Wasserfall, die Bäche zwischen den glühenden Felsen; ich suche Abkühlung in der Nähe dieses Murmelns oder eher dieses Getöses, das meinem Ohr schmeichelhafter ist als das der Rue Saint Martin“. So schrieb der berühmte Jean-Jacques Rousseau in einem Briefe an den Marschall von Luxemburg.',
-        'Man kann diesen abgelegenen, mysteriösen, jedoch leicht zugänglichen Ort nicht besser beschreiben: Er ist von Saint - Sulpice aus in 10 Minuten zu Fuss auf einem guten Wanderweg zu erreichen.Die Areuse, deren Wasser zu 2 / 3 aus dem Tal von Brévine und zu 1 / 3 aus dem von Verrières stammt, führt Wasser aus einem Einzugsgebiet von über 100 km2.Es ist eine typische, spektakuläre Karstquelle.Mit einer durchschnittlichen Schüttung von 4, 6 m3 / s gehört sie zu den grössten Quellen des Landes.Was sie jedoch kennzeichnet, sind die extremen Schwankungen der Schüttung: von 270 l / s bei niedrigstem Wasserstand bis zu 50 m3 / s – fast 200 Mal so viel – bei Hochwasser.Verständlich, dass Rousseau von Murmeln oder Getöse sprach.Das Geheimnis des unterirdischen Wasserverlaufs zwischen den genannten Hochebenen und der Quelle wird allmählich durch die Erforschung einer Höhle oberhalb von Saint - Sulpice gelüftet, welche bei der Bohrung des Tunnels von Bois des Rutelins freigelegt wurde.'
+        '<i>„Die Reuse hat ihre Quelle oberhalb eines Dorfes namens Saint Sulpice am äusseren Westrand des Tales [...]. Sie entspringt ihrer Quelle unvermittelt, nicht in Form einer kleinen Fontäne oder eines Bachs, sondern schon als mächtiger Fluss, wie die Quelle in Fontaine-de-Vaucluse, und sprudelt über die Felsen. Da die Quelle tief in den schroffen Felsen eines Berges eingebettet liegt, ist es dort immer schattig. Im Sommer zieht es mich in die beständige Kühle, das Rauschen, den Wasserfall, die Bäche zwischen den glühenden Felsen; ich suche Abkühlung in der Nähe dieses Murmelns oder eher dieses Getöses, das meinem Ohr schmeichelhafter ist als das der Rue Saint Martin“.</i> So schrieb der berühmte Jean-Jacques Rousseau in einem Briefe an den Marschall von Luxemburg. ',
+        'Man kann diesen abgelegenen, mysteriösen, jedoch leicht zugänglichen Ort nicht besser beschreiben: Er ist von Saint-Sulpice aus in 10 Minuten zu Fuss auf einem guten Wanderweg zu erreichen. Die Areuse, deren Wasser zu 2/3 aus dem Tal von Brévine und zu 1/3 aus dem von Verrières stammt, führt Wasser aus einem Einzugsgebiet von über 100 km2. Es ist eine typische, spektakuläre Karstquelle. Mit einer durchschnittlichen Schüttung von 4, 6 m3/s gehört sie zu den grössten Quellen des Landes. Was sie jedoch kennzeichnet, sind die extremen Schwankungen der Schüttung: von 270 l/s bei niedrigstem Wasserstand bis zu 50 m3/s – fast 200 Mal so viel – bei Hochwasser. Verständlich, dass Rousseau von Murmeln oder Getöse sprach. Das Geheimnis des unterirdischen Wasserverlaufs zwischen den genannten Hochebenen und der Quelle wird allmählich durch die Erforschung einer Höhle oberhalb von Saint-Sulpice gelüftet, welche bei der Bohrung des Tunnels von Bois des Rutelins freigelegt wurde. '
       ],
       images: [
         {
-          legend: 'Westeuropa in der Tertiärzeit. In Gelb: die Gebiete ausserhalb des Wassers.',
+          legend: 'Die Quelle der Areuse mit dem Tal von La Brévine im Hintergrund.',
           name: 'img-1.jpg'
         },
         {
-          legend: 'Die Gelyelle de Monard (Grösse: 1/3 eines Millimeters).',
+          legend: '',
           name: 'img-2.jpg'
         },
-        {
-          legend: '',
-          name: 'img-3.jpg'
-        },
-        {
-          legend: '',
-          name: 'img-4.jpg'
-        },
-        {
-          legend: 'Erfassungsstollen der Quelle der Combe Garot.',
-          name: 'img-5.jpg'
-        }
       ],
       onTheRoad: false,
     },
     {
-      title: 'Ein aussergewöhnliches Krebstier',
+      title: 'Die Grotte de Môtiers und die Quelle der Sourde',
       sumary: '',
-      cover: 'img-2.jpg',
+      cover: 'img-1.jpg',
       description: [
-        'Der vielleicht älteste Bewohner der Region versteckt sich im Grundwasser der Areuseschlucht. Beim Filtrieren der Quelle Combe Garot entdeckte der Biologe Pascal Moeschler 1985 eine bis dahin unbekannte Krebstierart, die Gelyella Monardi. ',
-        'Dieses einen halben Millimeter lange Schalentier ist nirgendwo sonst bekannt und lebt seit Millionen von Jahren eingeschlossen in diesem karstigen Grundwasserspeicher. ',
-        'Es ist ein direkter Nachfahre der Krebstiere, die im Meer lebten, das im Tertiär die Region bedeckte. ',
-        'Als sich das Meer vor 20 Millionen Jahren zurückzog, floh dieses mikroskopische Krebstier vor der Trockenheit und zog sich in die mit Grundwasser gefüllten Karstspalten zurück. Die Gelyella hat sich daraufhin weiterentwickelt und an das neue Süsswassermilieu angepasst, wodurch es die Eiszeiten überleben konnte. Daher kann man es wohl zu Recht als lebendes Fossil und als die schützenswerteste Tierart der Schweiz betrachten. ',
-        'Eine weitere Gelyella-Spezies desselben Ursprungs wurde im Grundwasser der Region Montpellier gefunden. Sie hat seit dem Rückzug des Meeres eine ähnliche Entwicklung durchlaufen wie ihre Schwester aus der Areuseschlucht. Diese beiden Arten sind die einzigen Vertreter einer neuen Krebstierordnung, den Gelyelloida. '
-      ],
+        'Jean-Jacques Rousseau, der zwischen 1762 und 1765 einsame Wanderungen im Val de Travers unternahm, suchte oft die malerische Idylle am Fusse der Cascade de Môtier auf. Eine Gedenktafel auf dem grossen dreieckigen Stein vor dem Eingang der Höhle, der „Pierre à Jean-Jacques“ getauft wurde, erinnert an diese Begebenheit. ',
+  '<i>„Ich habe vor meinen Fenstern einen herrlichen Wasserfall, der vom Gipfel des Berges aus einem felsigen Steilhang ins Tal stürzt und dessen Rauschen, vor allem bei Hochwasser, aus weiter Ferne zu hören ist. Der Wasserfall ist sehr auffällig, weniger sichtbar ist jedoch die Höhle neben seinem Becken, die schwer zugänglich, in ihrem Inneren aber recht geräumig und von einem natürlichen Fenster erhellt ist. Sie wölbt sich in einem gleichmässigen Bogen und ist von einer Architektur geprägt, die weder toskanischer noch dorischer Art, sondern ein Werk der Natur ist, die in ihrer scheinbaren Unregelmässigkeit selbst Proportionen und Harmonie zu schaffen weiss“. </i>',
+  'Die Besichtigung des Höhleneingangs und des angrenzenden schönen Wasserfalls beginnt am Roche du Château, ganz am Ende der Rue de Fontaines in Môtiers. Folgt man dem Bach Ruisseau du Breuil, der aus der schmalen Schlucht von Pouetta Raisse kommt, flussabwärts, erkennt man zunächst auf der rechten Seite die Quelle, die je nach Jahreszeit und aktueller Witterung den Breuil mehr oder weniger stark anschwellen lässt. Es ist die Sourde, eine ständige Quelle der unterirdischen Wasserläufe der Höhle, zu der wir uns jetzt begeben. Der Weg dorthin benötigt einige Minuten auf einem steilen Pfad. Das Tosen des Wasserfalls neben der Höhle signalisiert uns, dass wir an ihrem Eingang angekommen sind. Der sportliche Wanderer kann sich, mit einer zuverlässigen Beleuchtung ausgestattet und möglichst in Begleitung, in ihr Inneres wagen, sofern ihn lehmverschmierte, evtl. sogar beschädigte Kleider nicht stören. Aber Vorsicht, wagen Sie sich nicht zu weit hinein: Es braucht kaum länger als eine Viertelstunde, um die Stimmung und das Ambiente des Orts auf sich wirken zu lassen. Für die Speläologen und insbesondere die Taucher beginnt das Abenteuer erst hier, denn die Grotte führt zu einem Siphon – ein mit Wasser gefüllter Höhlengang – der sich tief in den Berg gräbt. Die bis heute durchgeführten Tauchgänge führen bis zu einer beachtlichen Tiefe von 134 Metern, wobei der absolute Tiefpunkt noch nicht erreicht wurde. Diese Abenteuer werden im Referenzwerk erzählt. '
+ ],
       images: [
         {
-          legend: 'Westeuropa in der Tertiärzeit. In Gelb: die Gebiete ausserhalb des Wassers.',
+          legend: 'Ein Taucher taucht aus dem Siphon in der Höhle von Môtiers auf.',
           name: 'img-1.jpg'
         },
         {
-          legend: 'Die Gelyelle de Monard (Grösse: 1/3 eines Millimeters).',
-          name: 'img-2.jpg'
-        },
-        {
           legend: '',
-          name: 'img-3.jpg'
+          name: 'img-2.jpg'
         },
       ],
       onTheRoad: false,
