@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2515870, 1171700],
     position: {
-      x: 401,
-      y: 1392,
+      x: 185,
+      y: 699,
       r: 55
     },
     name: 'Source de l’Orbe',

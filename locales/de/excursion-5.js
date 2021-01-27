@@ -9,8 +9,8 @@ export default {
   source: {
     coordinates: [2687000, 1159000],
     position: {
-      x: 2013,
-      y: 1500,
+      x: 971,
+      y: 690,
       r: 72
     },
     name: 'Der Vier-Quellen-Weg',

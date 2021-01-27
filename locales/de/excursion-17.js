@@ -10,8 +10,8 @@ export default {
   source: {
     coordinates: [2598200, 1115000],
     position: {
-      x: 1207,
-      y: 1931,
+      x: 563,
+      y: 953,
       r: 55
     },
     name: 'Sources chaudes de Combioule',

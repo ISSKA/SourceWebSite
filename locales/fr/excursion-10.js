@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2558500, 1117500],
     position: {
-      x: 860,
-      y: 1841,
+      x: 398,
+      y: 920,
       r: 65
     },
     name: 'Les Dents du Midi et la source thermale de Buchelieule',

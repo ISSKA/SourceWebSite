@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2740500, 1189200],
     position: {
-      x: 2580,
-      y: 1215,
+      x: 1211,
+      y: 584,
       r: 56
     },
     name: 'Sources de Flims',

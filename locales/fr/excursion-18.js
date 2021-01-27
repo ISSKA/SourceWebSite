@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2660000, 1154000],
     position: {
-      x: 1852,
-      y: 1459,
+      x: 861,
+      y: 735,
       r: 70
     },
     name: 'Sources l’Aar',

@@ -10,8 +10,8 @@ export default {
   source: {
     coordinates: [2603800, 1140500],
     position: {
-      x: 1083,
-      y: 1752,
+      x: 498,
+      y: 842,
       r: 52
     },
     name: 'Sibe Brünne',

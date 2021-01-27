@@ -10,8 +10,8 @@ export default {
   source: {
     coordinates: [2583800, 1239100],
     position: {
-      x: 1095,
-      y: 729,
+      x: 530,
+      y: 378,
       r: 45
     },
     name: 'Soulce-Quellen',

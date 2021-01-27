@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2546800, 1200500],
     position: {
-      x: 708,
-      y: 1060,
+      x: 307,
+      y: 543,
       r: 38
     },
     name: 'Sources des gorges de l’Areuse',

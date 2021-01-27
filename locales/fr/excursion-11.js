@@ -10,8 +10,8 @@ export default {
   source: {
     coordinates: [2632300, 1153800],
     position: {
-      x: 1319,
-      y: 1631,
+      x: 641,
+      y: 770,
       r: 66
     },
     name: 'Source de Chilchbalm',

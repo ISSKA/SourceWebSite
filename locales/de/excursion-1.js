@@ -9,8 +9,8 @@ export default {
   source: {
     coordinates: [2572700, 1251900],
     position: {
-      x: 922,
-      y: 592,
+      x: 462,
+      y: 278,
       r: 46
     },
     name: 'Pruntrut: eine Stadt am Wasser',

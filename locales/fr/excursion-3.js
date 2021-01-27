@@ -10,8 +10,8 @@ export default {
   source: {
     coordinates: [2598200, 1115000],
     position: {
-      x: 671,
-      y: 1522,
+      x: 337,
+      y: 728,
       r: 55
     },
     name: 'Chemin des fontaines des Bois du Jorat',

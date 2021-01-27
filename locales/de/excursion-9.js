@@ -11,8 +11,8 @@ export default {
   source: {
     coordinates: [2531000, 1185000],
     position: {
-      x: 531,
-      y: 1355,
+      x: 289,
+      y: 636,
       r: 50
     },
     name: 'Die Quellen der Covatannaz-Schlucht',

@@ -9,8 +9,8 @@ export default {
   source: {
     coordinates: [2703000, 1203000],
     position: {
-      x: 2177,
-      y: 1097,
+      x: 1041,
+      y: 534,
       r: 75
     },
     name: 'Trois randonnées autour du Hölloch',
