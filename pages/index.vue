@@ -2,7 +2,7 @@
   <div>
     <b-container style="margin-top: 40px;">
       <div class="text-left">
-        <p v-for="(description, index) in $t('home.text')" :key="index">{{ description }}</p>
+        <p v-for="(description, index) in $t('home.text')" :key="index" style="font-size: 140%">{{ description }}</p>
       </div>
 
       <img src="/img/swiss_map.jpg" style="width: 100%;" usemap="#swissmap" />

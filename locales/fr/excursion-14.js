@@ -158,7 +158,7 @@ export default {
       onTheRoad: false
     },
 	{
-      title: 'La source minérale du Val Sinestra(Sent, GR)',
+      title: 'La source minérale du Val Sinestra (Sent, GR)',
 	  cover: 'img-1.jpg',
       sumary: '',
       description: [

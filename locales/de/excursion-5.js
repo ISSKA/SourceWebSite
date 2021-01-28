@@ -100,28 +100,36 @@ export default {
       },
     },
     {
-      title: 'Ursprung des Vier-Quellen-Wegs',
+      title: 'Die Aare-Quelle',
       cover: 'img-2.jpg',
       sumary: '',
       description: [
-        'Paul Dubacher ist ein unermüdlicher Wanderer, der mehrere Wanderrouten durch unser Land initiiert hat. Nach dem Weg der Schweiz entlang des Vierwaldstättersees schien er für die Zahl 4 vorbestimmt zu sein und gründete den Vier-Quellen-Weg im Gotthardmassiv. Um eine für die Wanderer ausgeglichene Route zu entwickeln, fiel seine Wahl auf die Quellen des Rhein, der Reuss, des Tessin und der Rhone. Die Route ermöglicht eine abwechslungsreiche, eindrückliche Wanderung durch Teile der Kantone Uri, Graubünden, Tessin und Wallis. Diese Bergwanderung und die damit verbundenen Anstrengungen lassen sich anhand einiger Zahlen veranschaulichen: 85 Kilometer Gesamtroute, 32 Stunden Marschzeit insgesamt, 6161 Meter Aufstieg gefolgt von 5932 Metern Abstieg. Der Rundwanderweg startet und endet in Andermatt, wobei er von einem Pass zum nächsten, von einer Hütte zur nächsten und von einer Quelle zur nächsten führt. Im letzten Kapitel dieses Werkes finden Sie die Referenz dieses wunderschönen Wanderwegs mit einem Hinweis auf die Stiftung, die sich um seine Instandhaltung kümmert und den Wanderer über die kulturellen Besonderheiten informiert. Die Route bietet abwechslungsreiche natürliche Perspektiven: Alpwiesen, Bergwälder, von Bächen durchflossene Feuchtwiesen, Teiche, kleine Seen, Torfmoore, Trockengebiete und felsige Geröllhänge. Ein wahres geologisches Kaleidoskop. Und der Vielfalt der Böden entspricht auch die Vielfalt der Bewohner, der Flora und Fauna. Biodiversität wird auf dieser Route gross geschrieben. Sie führt über grosse, geschichtsträchtige Alpenpässe: Oberalp, Gotthard, Nufenen und Furka. Sie erzählen die Geschichte der Völker und ihres Austauschs, aber auch die Geschichte des Verkehrs. Sie sind Zeugen der kulturellen und wirtschaftlichen Entwicklungsstufen Europas, in dessen Herzen diese fünf Tagesetappen verlaufen. Was die Quellen betrifft, so gehören sie nicht zu den spektakulärsten Quellen, die in diesem Buch beschrieben werden, doch sie zeichnen sich dadurch aus, dass sie der Ursprung bedeutender Flüsse sind und Meilensteine auf dieser umfassenden Wanderrouteim mythischen Gotthardmassiv setzen. ',
+        'Der Unteraargletscher ist aus der Vereinigung mehrerer grosser Gletscherzungen entstanden. Er erstreckt sich über etwa sechs Kilometer, bevor er in den Grimselsee mündet. Der Gletscher, der heute infolge häufiger Felsstürze mit Moränen und Gesteinsschutt bedeckt ist, hat sich im vergangenen Jahrhundert um mehr als zwei Kilometer zurückgezogen. Zur Zeit der Belle Époque bot er eines der berühmtesten Panoramen der Schweiz. ',
+        'Aufgrund des Gletscherschwunds unterliegt die Aarquelle einem ständigen Wandel. Der Temperaturanstieg führt zu einer Schwächung der verschiedenen Gletscherhöhlen der Quelle, die jetzt sehr instabil geworden sind. Vor allem während der warmen Jahreszeit stürzen regelmässig Eis-und Moränebrocken herunter und lassen, je nach Wasserverlauf unter dem Gletscher, bestehende Quellaustritte verschwinden und neue erscheinen. ',
+        'Ein Projekt zur Erhöhung der Grimselstaumauer wird von Umweltschutzverbänden angefochten. Die geplante Erhöhung der Staumauer um 23 Meter würde den Seespiegel erhöhen und beinahe einen Quadratkilometer des Gletschervorlandes überfluten. Dieser Teil des Tals beherbergt alte Kiefernwälder und Sumpfgebiete mit einem besonderen Ökosystem. Der Kanton Bern hat das Projekt aufgrund des Energiebedarfs des Landes dennoch genehmigt. ',
+        'Es wurde bislang aber nicht umgesetzt, da sich grössere Investitionen in die Wasserkraft – zumindest gegenwärtig-nicht rentieren. '
       ],
       images: [
         {
-          legend: 'An der Quelle des Rheins, dem Tomasee.',
+          legend: 'Das Gletschertor des Oberaargletschers und die obere Quelle der Aare.',
           name: 'img-1.jpg'
         },
         {
-          legend: 'Die Quelle der Rhone.',
+          legend: 'Der Unteraargletscher und die untere Quelle der Aare.',
           name: 'img-2.jpg'
         },
         {
-          legend: 'Die Quelle der Rhone.',
-          name: 'img-3.jpg'
-        }
+          legend: 'Profil einer glazialen Quelle',
+          name: 'img-3_de.jpg'
+        },
       ],
-      onTheRoad: false
+      onTheRoad: true,
+      position: {
+        x: 448,
+        y: 540,
+      },
     },
+    
 	{
     title: 'Die Rhone-Quelle',
 	  cover: 'img-1.jpg',
@@ -151,6 +159,29 @@ export default {
       x: 835,
       y: 391,
     },
+    },
+    {
+      title: 'Ursprung des Vier-Quellen-Wegs',
+      cover: 'img-2.jpg',
+      sumary: '',
+      description: [
+        'Paul Dubacher ist ein unermüdlicher Wanderer, der mehrere Wanderrouten durch unser Land initiiert hat. Nach dem Weg der Schweiz entlang des Vierwaldstättersees schien er für die Zahl 4 vorbestimmt zu sein und gründete den Vier-Quellen-Weg im Gotthardmassiv. Um eine für die Wanderer ausgeglichene Route zu entwickeln, fiel seine Wahl auf die Quellen des Rhein, der Reuss, des Tessin und der Rhone. Die Route ermöglicht eine abwechslungsreiche, eindrückliche Wanderung durch Teile der Kantone Uri, Graubünden, Tessin und Wallis. Diese Bergwanderung und die damit verbundenen Anstrengungen lassen sich anhand einiger Zahlen veranschaulichen: 85 Kilometer Gesamtroute, 32 Stunden Marschzeit insgesamt, 6161 Meter Aufstieg gefolgt von 5932 Metern Abstieg. Der Rundwanderweg startet und endet in Andermatt, wobei er von einem Pass zum nächsten, von einer Hütte zur nächsten und von einer Quelle zur nächsten führt. Im letzten Kapitel dieses Werkes finden Sie die Referenz dieses wunderschönen Wanderwegs mit einem Hinweis auf die Stiftung, die sich um seine Instandhaltung kümmert und den Wanderer über die kulturellen Besonderheiten informiert. Die Route bietet abwechslungsreiche natürliche Perspektiven: Alpwiesen, Bergwälder, von Bächen durchflossene Feuchtwiesen, Teiche, kleine Seen, Torfmoore, Trockengebiete und felsige Geröllhänge. Ein wahres geologisches Kaleidoskop. Und der Vielfalt der Böden entspricht auch die Vielfalt der Bewohner, der Flora und Fauna. Biodiversität wird auf dieser Route gross geschrieben. Sie führt über grosse, geschichtsträchtige Alpenpässe: Oberalp, Gotthard, Nufenen und Furka. Sie erzählen die Geschichte der Völker und ihres Austauschs, aber auch die Geschichte des Verkehrs. Sie sind Zeugen der kulturellen und wirtschaftlichen Entwicklungsstufen Europas, in dessen Herzen diese fünf Tagesetappen verlaufen. Was die Quellen betrifft, so gehören sie nicht zu den spektakulärsten Quellen, die in diesem Buch beschrieben werden, doch sie zeichnen sich dadurch aus, dass sie der Ursprung bedeutender Flüsse sind und Meilensteine auf dieser umfassenden Wanderrouteim mythischen Gotthardmassiv setzen. ',
+      ],
+      images: [
+        {
+          legend: 'An der Quelle des Rheins, dem Tomasee.',
+          name: 'img-1.jpg'
+        },
+        {
+          legend: 'Die Quelle der Rhone.',
+          name: 'img-2.jpg'
+        },
+        {
+          legend: 'Die Quelle der Rhone.',
+          name: 'img-3.jpg'
+        }
+      ],
+      onTheRoad: false
     },
   ]
 }

@@ -100,29 +100,34 @@ export default {
         y: 337,
       },
     },
-
     {
-      title: 'L’origine du Chemin des quatre sources',
+      title: 'La source de l´Aar',
       cover: 'img-2.jpg',
       sumary: '',
       description: [
-        'Paul Dubacher est un randonneur infatigable, inspirateur de plusieurs trajets pédestres à travers notre pays. Après la voie suisse, le long du lac des Quatre-Cantons, prédestiné semble-t-il au chiffre 4, il a fondé le Chemin des quatre sources du massif du Gothard. Son choix, déterminé par l’équilibre du tracé pour la randonneuse ou le randonneur, s’est porté sur les sources du Rhin, de la Reuss, du Tessin et du Rhône. Cela permet de parcourir en cinq jours un itinéraire varié et spectaculaire à cheval sur Uri, les Grisons, le Tessin et le Valais. Cette randonnée alpine peut être résumée par quelques chiffres évocateurs des efforts à accomplir : 85 kilomètres au total, 32 heures de temps de marche cumulés, 6161 mètres d’ascension et 5932 mètres de descentes successives. Il s’agit d’une boucle depuis et jusqu’à Andermatt, de cols en cols, de cabanes en cabanes, de sources en sources bien sûr. Vous trouverez la référence de cette splendide randonnée au dernier chapitre de l’ouvrage, avec une mention pour la fondation qui veille à son entretien et documente le promeneur soucieux de se cultiver en marchant. Le parcours offre des horizons naturels variés : prairies alpines, forêts de montagne, prés humides parcourus par des ruisseaux, étangs, petits lacs, tourbières, zones arides et rocailleuse parmi les éboulis de pente. Tout un kaléidoscope géologique. A la variété des sols correspond une variété des habitants, flore ou faune, la biodiversité est de mise au long du parcours. Les grands cols alpins franchis sont marqués par l’histoire : Oberalp, Gothard, Nufenen, Furka. Histoire des peuples et de leurs échanges mais aussi histoire des transports. Témoignages des étapes du développement culturel et économique de l’Europe au cœur de laquelle se déroulent ces cinq étapes. Quant aux sources, ce ne sont pas les plus spectaculaires parmi celles dont on parlera dans cet ouvrage, mais elles ont cette vertu d’être à l’origine de fleuves importants et elles jalonnent harmonieusement une randonnée complète au sein de ce massif mythique qu’est le Gothard. ',
+        'Le glacier de l’Unteraar est issu de la jonction de plusieurs importantes langues glaciaires et s’étend sur environ 6 kilomètres avant de déboucher sur le lac du Grimsel. Maintenant recouvert de moraines et de débris rocheux à cause de fréquentes chutes de pierre depuis les versants, le glacier s’est retiré de plus de deux kilomètres durant le dernier siècle. Durant la Belle Époque, il faisait partie des panoramas les plus renommés de Suisse.',
+        'A cause du retrait glaciaire, la source de l’Aar est en constante évolution.L’élévation des températures fragilise les diverses cavernes glaciaires constituant la source, qui s’avèrent très instables.Des morceaux de glace et des blocs morainiques chutent régulièrement au sol, surtout à la belle saison et des résurgences sont abandonnées au profit de nouvelles en fonction du cheminement de l’eau sous le glacier.',
+        'Un projet de rehaussement du barrage du Grimsel est contesté par les organisations écologistes.L’élévation de 23 mètres prévue pour le barrage provoquerait l’augmentation du niveau du lac et l’inondation de la zone proche de la langue du glacier sur près d’un kilomètre carré.Cette partie de la vallée comprend de vieilles forêts d’arolles et des zones marécageuses avec un écosystème particulier.Le canton de Berne a toutefois approuvé le projet en raison des besoins énergétiques du pays. À l’heure actuelle, le projet n’est pas mis en oeuvre car les investissements majeurs dans l’hydroélectricité ne sont pas rentables - du moins pour le moment.'
       ],
       images: [
         {
-          legend: 'A la source du Rhin, le lac Toma.',
+          legend: 'Le front de l’Oberaargletscher et la source supérieure de l’Aar.',
           name: 'img-1.jpg'
         },
         {
-          legend: 'La source du Rhône.',
+          legend: 'L’Unteraargletscher et la source inférieure de l’Aar.',
           name: 'img-2.jpg'
         },
         {
-          legend: 'La source du Ticino.',
+          legend: 'Profil d’une source glaciaire',
           name: 'img-3.jpg'
-        }
+        },
       ],
-      onTheRoad: false
+      onTheRoad: true,
+      position: {
+        x: 448,
+        y: 542,
+      },
     },
 
 	{
@@ -154,6 +159,29 @@ export default {
       x: 835,
       y: 391,
     },
+    },
+    {
+      title: 'L’origine du Chemin des quatre sources',
+      cover: 'img-2.jpg',
+      sumary: '',
+      description: [
+        'Paul Dubacher est un randonneur infatigable, inspirateur de plusieurs trajets pédestres à travers notre pays. Après la voie suisse, le long du lac des Quatre-Cantons, prédestiné semble-t-il au chiffre 4, il a fondé le Chemin des quatre sources du massif du Gothard. Son choix, déterminé par l’équilibre du tracé pour la randonneuse ou le randonneur, s’est porté sur les sources du Rhin, de la Reuss, du Tessin et du Rhône. Cela permet de parcourir en cinq jours un itinéraire varié et spectaculaire à cheval sur Uri, les Grisons, le Tessin et le Valais. Cette randonnée alpine peut être résumée par quelques chiffres évocateurs des efforts à accomplir : 85 kilomètres au total, 32 heures de temps de marche cumulés, 6161 mètres d’ascension et 5932 mètres de descentes successives. Il s’agit d’une boucle depuis et jusqu’à Andermatt, de cols en cols, de cabanes en cabanes, de sources en sources bien sûr. Vous trouverez la référence de cette splendide randonnée au dernier chapitre de l’ouvrage, avec une mention pour la fondation qui veille à son entretien et documente le promeneur soucieux de se cultiver en marchant. Le parcours offre des horizons naturels variés : prairies alpines, forêts de montagne, prés humides parcourus par des ruisseaux, étangs, petits lacs, tourbières, zones arides et rocailleuse parmi les éboulis de pente. Tout un kaléidoscope géologique. A la variété des sols correspond une variété des habitants, flore ou faune, la biodiversité est de mise au long du parcours. Les grands cols alpins franchis sont marqués par l’histoire : Oberalp, Gothard, Nufenen, Furka. Histoire des peuples et de leurs échanges mais aussi histoire des transports. Témoignages des étapes du développement culturel et économique de l’Europe au cœur de laquelle se déroulent ces cinq étapes. Quant aux sources, ce ne sont pas les plus spectaculaires parmi celles dont on parlera dans cet ouvrage, mais elles ont cette vertu d’être à l’origine de fleuves importants et elles jalonnent harmonieusement une randonnée complète au sein de ce massif mythique qu’est le Gothard. ',
+      ],
+      images: [
+        {
+          legend: 'A la source du Rhin, le lac Toma.',
+          name: 'img-1.jpg'
+        },
+        {
+          legend: 'La source du Rhône.',
+          name: 'img-2.jpg'
+        },
+        {
+          legend: 'La source du Ticino.',
+          name: 'img-3.jpg'
+        }
+      ],
+      onTheRoad: false
     },
   ]
 }

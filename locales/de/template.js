@@ -51,6 +51,7 @@ export default {
       link_swissmobile: 'Route auf SchweizMobil anzeigen',
       link_geoadmin: 'Das Grundstück in GeoAdmin anzeigen'
     },
+    link_swissmobile: 'die Route auf SchweizMobil zeigen',
     point_of_interest: 'Sehenswürdigkeiten entlang der Route',
     extras: 'Auch in der Region zu sehen',
     more: 'Referenzen',
