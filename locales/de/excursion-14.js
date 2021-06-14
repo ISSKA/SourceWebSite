@@ -57,9 +57,7 @@ export default {
       'Der Mineralwasserweg Tras il god führt zu einer Quelle auf der gleichen Höhe wie Scuol, aber auf der rechten Uferseite des Inn. Auf dieser Wanderung entdecken wir ausserdem eine prachtvolle Tuff-Formation. ',
       'Der Mineralwasserweg Tras il god verläuft im Wald bis zum „San Jon“. Die Wanderung beginnt beim Fremdenverkehrsamt von Scuol und führt über die Brücke von Gurlaina hinauf in Richtung Reitstall „San Jon“. Nach einer kurzen Rast geht es noch einige Höhenmeter weiter hinauf bis zum Brunnen Funtana Cotschna, wo wir unseren Durst mit leicht mineralhaltigem Wasser löschen können. In der Felswand hinter dem Bach sieht man den Wasserfall des Ausflusses der Quelle. Nun geht es ein paar Schritte zurück, bevor wir rechts in einen lichten Wald abbiegen. Hier finden wir die Quelle von San Jon Dadaint, die aus mehreren kleinen Wasserlachen besteht und eine wunderschöne treppenförmige Tuff-Formation bildet. Wir passieren die Quelle, um zum tiefsten Punkt unserer Wanderung, der Lischana-Quelle, zu gelangen. Diese stark magnesiumhaltige Quelle ist unter Sportlern sehr beliebt. ',
       'Der Pfad steigt oberhalb des Gasthauses (Strasse nach rechts nehmen) bis zur Postauto-Haltestelle Scuol Serras. Nach etwa 400 Metern können Sie oberhalb der Wiese zu Ihrer Linken in der Nähe eines Bauernhofes den riesigen Quelltuff der Runà-Quelle erblicken. Der Weg führt zurück zur Bushaltestelle und durchquert dann das alte Dorf von Scuol Sot. An den Brunnen Plaz und Bügl Grond können Sie die Mineralwässer Sotsass und Chalzina/Tulai probieren. Schliesslich endet der Rundwanderweg mit der Rückkehr zum Ausgangspunkt. ',
-      'Der Mineralwasserweg Tras il god ist auch für das Mountainbike geeignet; nehmen Sie den leichteren Aufstieg über die Strasse von San Jon. Der Abschnitt bis zur Quelle San Jon Dadaint ist jedoch nicht mit dem Velo befahrbar. Velofahrer müssen ihr Rad hier stehen lassen, sich zu Fuss zur Quelle begeben und anschliessend auf dem unteren Wegabschnitt weiterfahren. ',
-      '<h5>Tipp</h5>',
-      'Nehmen Sie Ihre eigene Trinkflasche oder Tasse mit, um das Wasser der Mineralquellen zu probieren. '
+      'Der Mineralwasserweg Tras il god ist auch für das Mountainbike geeignet; nehmen Sie den leichteren Aufstieg über die Strasse von San Jon. Der Abschnitt bis zur Quelle San Jon Dadaint ist jedoch nicht mit dem Velo befahrbar. Velofahrer müssen ihr Rad hier stehen lassen, sich zu Fuss zur Quelle begeben und anschliessend auf dem unteren Wegabschnitt weiterfahren. '
     ]
   },
   {
@@ -168,7 +166,11 @@ export default {
       description: [
         'Wenn Sie im Unterengadin zu Besuch sind, lohnt sich ein Tagesausflug ins Val Sinestra, um seine gleichnamige Quelle zu erkunden. Sie können mit dem Postauto von Scuol oder Sent aus dorthin fahren, aber die schöne Gegend lädt auch zu einem gemächlichen Fussmarsch ein. ',
         'Dieses Seitental mit seinen steilen Berghängen ist weitgehend naturbelassen und vermittelt den Eindruck, am Ende der Welt zu liegen. Der Anblick des mächtigen Hotels im Talgrund, das Anfang des 20. Jahrhunderts hier errichtet wurde, löst oft Erstaunen aus. Der Weg dorthin lässt durch nichts vermuten, dass er zu einem solch imposanten Gebäude führt. Es ist erstaunlicht dass dieses grosse Kurhotel am Ufer der Brancla sein Dasein einer äusserst bescheidenen Quelle verdankt. ',
-        'Das Hotel wird immer noch betrieben, auch wenn es heute seinen Kurbetrieb eingestellt hat. Einige Relikte zeugen jedoch von einer Zeit, als das Val Sinestra ein beliebtes Ziel für Thermalkuren war. '
+        'Das Hotel wird immer noch betrieben, auch wenn es heute seinen Kurbetrieb eingestellt hat. Einige Relikte zeugen jedoch von einer Zeit, als das Val Sinestra ein beliebtes Ziel für Thermalkuren war. ',
+				'<h4>Wegbeschreibung</h4>',
+				'Sie können mit dem Bus ins Val Sinestra fahren, doch zu Fuss wird der Ausflug perfekt. Dazu umwandern wir den Mot da Set Mezdis, um ins Tal zu gelangen und bis zur Quelle aufzusteigen.',
+				'Diese sehr diskrete Quelle ist erst ab der kleinen Brücke, die unterhalb des Hotels über die Brancla führt, sichtbar. Sie sprudelt aus einem Rohr in der Stützmauer der Brücke. Unsere Wanderung setzt sich auf der linken Uferseite fort, wo der Weg am Hang weiter durch die Schlucht führt.',
+				'Nachdem wir bis nach Ramosch gewandert sind, kehren wir nach Sent zurück: zunächst auf der Strasse, dann auf dem Weg, der zu den Weiden von Plan da Schombra aufsteigt, von wo aus Sie eine atemberaubende Sicht auf das Massiv von Piz Lischana geniessen dürfen.'
     ],
       images: [
         {

@@ -20,7 +20,8 @@ export default {
   },
   description: [
     '<b>La source de la Noiraigue</b> est une très belle source qui illustre idéalement le principe de la circulation souterraine des eaux dans un massif karstique. ',
-    '<b>Les gorges de l’Areuse</b> sont bien connues des randonneurs. Grâce aux nombreuses sources qui s’y trouvent, elles sont le château d’eau du canton de Neuchâtel. Cette excursion permet de les découvrir et de comprendre comment, vers la fin du XIXème siècle, les hommes ont su les capter pour alimenter la ville de La Chaux-de-Fonds, située 500 m plus haut et 20 km plus loin. '
+    '<b>Les gorges de l’Areuse</b> sont bien connues des randonneurs. Grâce aux nombreuses sources qui s’y trouvent, elles sont le château d’eau du canton de Neuchâtel. Cette excursion permet de les découvrir et de comprendre comment, vers la fin du XIXème siècle, les hommes ont su les capter pour alimenter la ville de La Chaux-de-Fonds, située 500 m plus haut et 20 km plus loin. ',
+		'En complément à cette excursion, nous proposons de visiter deux autres sources situées dans la région : <b>la source de l’Areuse</b> et celle de <b>la grotte de Môtiers</b>.'
 
   ],
   route: [
@@ -69,8 +70,8 @@ export default {
       images: [
         {
           legend:
-            'Deux traceurs (triangles oranges) injectés sur la Montagne de Boudry n’ont jamais réapparu dans les sources environnantes. Ceci traduit l’existence d’écoulements souterrains lents, un élément qui assure une meilleure protection des captages. On estime, par exemple, que l’eau des sources de la région des Moyats est restée de 15 à 25 ans sous terre !',
-          name: 'img-1.jpg'
+            'Situation de la source de la Noiraigue par rapport à la vallée de la Sagne dans laquelle s’écoule Le Bied.',
+          name: 'img-1.png'
         },
         {
           legend: 'La source de la Noiraigue',
@@ -99,11 +100,11 @@ export default {
       ],
       images: [
         {
-          legend: '',
-          name: 'img-1.jpg'
+          legend: 'Le réseau de distribution de l’eau des sources des gorges de l’Areuse.',
+          name: 'img-1.png'
         },
         {
-          legend: '',
+          legend: 'La construction d’un réservoir à La Chaux-de-Fonds en 1886. Les moyens mécaniques étaient faibles mais la main d’œuvre abondante...',
           name: 'img-2.jpg'
         }
       ],
@@ -125,16 +126,12 @@ export default {
       ],
       images: [
         {
-          legend: '',
-          name: 'img-1.jpg'
+          legend: 'La galerie de Jogne, sur le parcours des eaux entre les gorges de l’Areuse et les Montagnes neuchâteloises.',
+          name: 'Installations_pompages_F.png'
         },
         {
-          legend: '',
+          legend: 'Les installations de pompage et de production d’énergie électrique dans les gorges de l’Areuse.',
           name: 'img-2.jpg'
-        },
-        {
-          legend: '',
-          name: 'img-3.jpg'
         }
       ],
       onTheRoad: true,
@@ -156,11 +153,11 @@ export default {
       ],
       images: [
         {
-          legend: '',
+          legend: 'L’aqueduc qui relie les gorges de l’Areuse à La Chaux-de-Fonds.',
           name: 'img-1.jpg'
         },
         {
-          legend: '',
+          legend: 'Profil en long du système d’alimentation en eau de La Chaux-de-Fonds.',
           name: 'img-2.jpg'
         }
       ],
@@ -188,19 +185,15 @@ export default {
       ],
       images: [
         {
-          legend: '',
-          name: 'img-1.jpg'
-        },
-        {
-          legend: '',
+          legend: ' ',
           name: 'img-2.jpg'
         },
         {
-          legend: '',
+          legend: 'Puits filtrant creusé à quelques mètres du lit de la rivière.',
           name: 'img-3.jpg'
         },
         {
-          legend: '',
+          legend: ' ',
           name: 'img-4.jpg'
         }
       ],
@@ -222,24 +215,20 @@ export default {
       ],
       images: [
         {
-          legend: '',
+          legend: 'L’Europe occidentale à l’époque tertiaire. En jaune : les terres émergées.',
           name: 'img-1.jpg'
         },
         {
-          legend: '',
+          legend: 'La Gelyelle de Monard (taille 1/3 de millimètre).',
           name: 'img-2.jpg'
         },
         {
-          legend: '',
+          legend: 'Situation de la source de Combe Garot (derrière l’usine).',
           name: 'img-3.jpg'
         },
         {
-          legend: '',
+          legend: 'Galerie de captage de la source de Combe Garot.',
           name: 'img-4.jpg'
-        },
-        {
-          legend: '',
-          name: 'img-5.jpg'
         }
       ],
       onTheRoad: true,
@@ -263,7 +252,7 @@ export default {
           name: 'img-1.jpg'
         },
         {
-          legend: '',
+          legend: ' ',
           name: 'img-2.jpg'
         },
       ],
@@ -285,7 +274,7 @@ export default {
           name: 'img-1.jpg'
         },
         {
-          legend: '',
+          legend: ' ',
           name: 'img-2.jpg'
         },
       ],

@@ -62,13 +62,9 @@ export default {
       ],
       images: [
         {
-          legend: 'Der Brunnen Chalet à Gobet wird durch die Netzwerkleitung gespeist.',
+          legend: ' ',
           name: 'img-1.jpg'
-        },
-        {
-          legend: 'Wasserleitung vom Reservoir des Vers-Chez-les-Blanc',
-          name: 'img-2.jpg'
-        },
+        }
       ],
       onTheRoad: true,
       position: {
@@ -87,13 +83,9 @@ export default {
       ],
       images: [
         {
-          legend: 'Der Präsidenten-Brunnen wird von einer Quelle gespeist',
+          legend: ' ',
           name: 'img-1.jpg'
-        },
-        {
-          legend: 'Infiltrationswasser macht etwa 20% des Wassers aus, das als Niederschlag auf die Erde fällt. Dieses Wasser sickert in den Boden und gelangt zum Grundwasserspiegel. Bevor dieses Wasser das Einzugsgebiet erreicht, wird es einige Tage lang filtriert und durch den Boden mineralisiert worden sein.',
-  name: 'img-2.jpg'
-        },
+        }
       ],
       onTheRoad: true,
       position: {
@@ -111,13 +103,9 @@ export default {
       ],
       images: [
         {
-          legend: 'Der Brunnen Moille Saugeon wird von einer Quelle gespeist',
+          legend: ' ',
           name: 'img-1.jpg'
-        },
-        {
-          legend: 'Infiltrationswasser macht etwa 20% des Wassers aus, das als Niederschlag auf die Erde fällt. Dieses Wasser sickert in den Boden und gelangt zum Grundwasserspiegel. Bevor dieses Wasser das Einzugsgebiet erreicht, wird es einige Tage lang gefiltert und durch den Boden mineralisiert.',
-          name: 'img-2.jpg'
-        },
+        }
       ],
       onTheRoad: true,
       position: {
@@ -134,13 +122,9 @@ export default {
       ],
       images: [
         {
-          legend: 'Der Brunnen des Lohnes wird von einer Quelle gespeist',
+          legend: ' ',
           name: 'img-1.jpg'
-        },
-        {
-          legend: 'Infiltrationswasser macht etwa 20% des Wassers aus, das als Niederschlag auf die Erde fällt. Dieses Wasser sickert in den Boden und gelangt zum Grundwasserspiegel. Bevor dieses Wasser das Einzugsgebiet erreicht, wird es einige Tage lang gefiltert und durch den Boden mineralisiert.',
-          name: 'img-2.jpg'
-        },
+        }
       ],
       onTheRoad: true,
       position: {
@@ -157,13 +141,9 @@ export default {
       ],
       images: [
         {
-          legend: 'Der Brunnen Trois Moineaux (Drei Spatzen) wird von einer Quelle gespeist',
+          legend: ' ',
           name: 'img-1.jpg'
-        },
-        {
-          legend: 'Infiltrationswasser macht etwa 20% des Wassers aus, das als Niederschlag auf die Erde fällt. Dieses Wasser sickert in den Boden und gelangt zum Grundwasserspiegel. Bevor dieses Wasser das Einzugsgebiet erreicht, wird es einige Tage lang gefiltert und durch den Boden mineralisiert.',
-          name: 'img-2.jpg'
-        },
+        }
       ],
       onTheRoad: true,
       position: {
@@ -181,7 +161,7 @@ export default {
       ],
       images: [
         {
-          legend: 'Infiltrationswasser macht etwa 20% des Wassers aus, das als Niederschlag auf die Erde fällt. Dieses Wasser sickert in den Boden und gelangt zum Grundwasserspiegel. Bevor dieses Wasser das Einzugsgebiet erreicht, wird es einige Tage lang gefiltert und durch den Boden mineralisiert.',
+          legend: ' ',
           name: 'img-1.jpg'
         },
       ],
@@ -200,13 +180,9 @@ export default {
       ],
       images: [
         {
-          legend: 'Die Fontaine des Gollies wird vom Leitungsnetzwerk gespeist.',
+          legend: ' ',
           name: 'img-1.jpg'
-        },
-        {
-          legend: 'Der Fontaine des Gollies wird vom Leitungsnetzwerk gespeist',
-          name: 'img-2.jpg',
-        },
+        }
       ],
       onTheRoad: true,
       position: {
@@ -224,13 +200,9 @@ export default {
       ],
       images: [
         {
-          legend: 'Die Fontaine du Chalet des Enfants wird vom Leitungsnetz gespeist.',
+          legend: ' ',
           name: 'img-1.jpg'
-        },
-        {
-          legend: 'Leitungsnetz von Vers-Chez-les-Blanc',
-          name: 'img-2.jpg',
-        },
+        }
       ],
       onTheRoad: true,
       position: {
@@ -247,13 +219,9 @@ export default {
       ],
       images: [
         {
-          legend: 'Die Fontaine des Meules wird vom Leitungsnetzwerk gespeist.',
+          legend: ' ',
           name: 'img-1.jpg'
-        },
-        {
-          legend: 'Leitungsnetz von Vers-Chez-les-Blanc',
-          name: 'img-2.jpg',
-        },
+        }
       ],
       onTheRoad: true,
       position: {
@@ -272,13 +240,9 @@ export default {
       ],
       images: [
         {
-          legend: 'Der Militär-Brunnen wird von einer Quelle gespeist.',
+          legend: ' ',
           name: 'img-1.jpg'
-        },
-        {
-          legend: '',
-          name: 'img-2.jpg',
-        },
+        }
       ],
       onTheRoad: true,
       position: {

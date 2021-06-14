@@ -61,7 +61,7 @@ export default {
 
   more: [
     {
-      text: 'xxx',
+      text: ' ',
       link: {
         name: 'The link is optionnal !',
         url: 'https://www.xxx.ch'
@@ -89,7 +89,7 @@ export default {
 	  ],
       images: [
         {
-          legend: 'xxx',
+          legend: ' ',
           name: 'img-1.jpg'
         },
 		

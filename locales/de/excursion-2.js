@@ -100,7 +100,7 @@ export default {
       images: [
         {
           legend: 'Im Herzen des Trinkwasserversorgungsnetzes des Kantons Neuenburg versorgen zwei unterirdische Wasserleitungen den oberen Teil des Kantons und die Region Neuenburg von den Quellen der Areuse-Schluchten aus. Dieses 1887 erbaute Netz wurde 1995 durch eine Leitung (hellblau) vervollständigt, die durch den Strassentunnel unter der Vue-des-Alpes verläuft und Wasser aus dem See zuführt.',
-          name: 'img-1.jpg'
+          name: 'img-1.png'
         },
         {
           legend: 'Der Bau eines Reservoirs in La Chaux-de-Fonds im Jahr 1886. Die mechanischen Mittel waren gering, aber die Arbeitskräfte waren reichlich vorhanden...',
@@ -126,15 +126,11 @@ export default {
       images: [
         {
           legend: 'Die Pump- und Stromerzeugungsanlagen in der Areuse-Schlucht.',
-          name: 'img-1.jpg'
+          name: 'Installations_pompages_D.png'
         },
         {
           legend: 'Der Jogne-Stollen, in dem das Wasser von der Schlucht der Areuse zu den Neuenburger Bergen geführt wird.',
           name: 'img-2.jpg'
-        },
-        {
-          legend: '',
-          name: 'img-3.jpg'
         }
       ],
       onTheRoad: true,
@@ -156,11 +152,11 @@ export default {
       images: [
         {
           legend: 'Die Leitung, welche die Schlucht der Areuse mit La Chaux-de-Fonds verbindet',
-          name: 'img-1.jpg'
+          name: 'Aqueduc_Aeruse_D.png'
         },
         {
           legend: 'Längsprofil des Wasserversorgungssystems in La Chaux-de-Fonds',
-          name: 'img-2.jpg'
+          name: 'Profil_Chx-Fds.png'
         }
       ],
       onTheRoad: true,
@@ -184,12 +180,8 @@ export default {
       ],
       images: [
         {
-          legend: '',
-          name: 'img-1.jpg'
-        },
-        {
           legend: 'Pumpen durch Filterbrunnen in der phreatische Zone.',
-          name: 'img-2.jpg'
+          name: 'Puits_filtrants_D.png'
         },
         {
           legend: 'Ein Filterbrunnen, wenige Meter vom Flussbett entfernt.',
@@ -197,7 +189,7 @@ export default {
         },
         {
           legend: 'Profil der Erfassungsstollen von Les Moyats.',
-          name: 'img-4.jpg'
+          name: 'Captage_Moyats_D.png'
         }
       ],
       onTheRoad: true,
@@ -227,14 +219,6 @@ export default {
           name: 'img-2.jpg'
         },
         {
-          legend: '',
-          name: 'img-3.jpg'
-        },
-        {
-          legend: '',
-          name: 'img-4.jpg'
-        },
-        {
           legend: 'Erfassungsstollen der Quelle der Combe Garot.',
           name: 'img-5.jpg'
         }
@@ -259,7 +243,7 @@ export default {
           name: 'img-1.jpg'
         },
         {
-          legend: '',
+          legend: ' ',
           name: 'img-2.jpg'
         },
       ],
@@ -280,7 +264,7 @@ export default {
           name: 'img-1.jpg'
         },
         {
-          legend: '',
+          legend: ' ',
           name: 'img-2.jpg'
         },
       ],

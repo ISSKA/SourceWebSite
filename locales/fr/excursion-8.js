@@ -99,11 +99,11 @@ export default {
 	  
       images: [
         {
-          legend: 'xxx',
+          legend: 'Synagapetus dubitans.',
           name: 'img-1.jpg'
         },
         {
-          legend: 'xxx',
+          legend: 'La forme larvaire de l’espèce que vous voyez sur le panneau (Baetis sp.).',
           name: 'img-2.jpg'
         },
       ],
