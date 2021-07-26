@@ -17,6 +17,7 @@
 			<img src="/img/smart2.png" style="max-width:100%; max-height:300px;"></img>
 		 </div>
 	 </div>
-	 <p> Si la démarche suivant ne fonctionne pas sur votre appareil, veuillez consulter un guide plus complet <a href="https://fr.wikihow.com/cr%C3%A9er-un-raccourci-de-favori-sur-l%27%C3%A9cran-d%27accueil-d%27un-Android">ici</a>.</p>
+	 <p> Si la démarche suivant ne fonctionne pas sur votre appareil, veuillez consulter un guide plus complet <a href="https://fr.wikihow.com/cr%C3%A9er-un-raccourci-de-favori-sur-l%27%C3%A9cran-d%27accueil-d%27un-Android">pour android</a>
+	 ou <a href="https://www.clubic.com/tutoriels/article-889913-1-comment-ajouter-raccourci-web-page-accueil-iphone.html">pour Iphone</a>.</p>
 	</div>
 </template>
