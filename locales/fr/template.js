@@ -29,6 +29,23 @@ export default {
     excursions_selection: 'Sélection de randonnées',
     display_all_excursions: 'Afficher toutes les randonnées'
   },
+	smartphone_guide: {
+		link_smartphone: 'Utiliser ce site comme une application pour smartphone',
+		path_link: "/smartphone",
+		intro: "Il est possible de créer un raccourci vers une page web sur l'écran de notre smartphone. Ce site web sera ensuite accessible comme une application (vous pourrez également accéder aux pages précédemment visitées sans connexion internet). La manière d'importer ce raccourci peut changer suivant les smartphones, mais celà reste relativement simple.",
+		guide_title: "Démarche pour la plupart des appareils android :",
+		step_1: 'Ouvrir votre navigateur (Google Chrome si possible) et accéder au site randosources.',
+		step_2: 'Cliquer sur les 3 points pour accéder aux options du navigateur.',
+		step_3: 'Cliquer sur "Ajouter à l\'écran d\'accueil".',
+		img_1: "/img/smart1.png",
+		img_2: "/img/smart2.png",
+		concl_begin: "Si la démarche ci-dessus ne fonctionne pas sur votre appareil, veuillez consulter un guide plus complet",
+		concl_link1_1: "https://fr.wikihow.com/cr%C3%A9er-un-raccourci-de-favori-sur-l%27%C3%A9cran-d%27accueil-d%27un-Android",
+		concl_link1_2: "pour android",
+		between_links: "ou",
+		concl_link2_1: "https://www.clubic.com/tutoriels/article-889913-1-comment-ajouter-raccourci-web-page-accueil-iphone.html",
+		concl_link2_2: "pour Iphone"
+	},
   excursions_list: {
     title: 'Liste des randonnées'
   },

@@ -3,7 +3,7 @@
     <b-container style="margin-top: 40px;">
       <div class="text-left">
         <p v-for="(description, index) in $t('home.text')" :key="index" style="font-size: 140%">{{ description }}</p>
-				<NuxtLink to="/smartphone" style="font-size: 140%">Utiliser ce site comme une application pour smartphone</NuxtLink>
+				<NuxtLink v-bind:to="$t('smartphone_guide.path_link')" style="font-size: 140%">{{ $t('smartphone_guide.link_smartphone') }}</NuxtLink>
       </div>
 
       <img src="/img/swiss_map.jpg" style="width: 100%;" usemap="#swissmap" />

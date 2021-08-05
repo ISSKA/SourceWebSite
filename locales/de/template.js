@@ -29,6 +29,23 @@ export default {
     excursions_selection: 'Auswahl an Wanderungen',
     display_all_excursions: 'Alle Wanderungen anzeigen'
   },
+	smartphone_guide: {
+		link_smartphone: 'Nutzung der Site als Smartphone-App',
+		path_link: "/de/smartphone",
+		intro: "Es ist möglich, einen Verknüpfung einer Webseite mit dem Schirm unseres Smartphones zu kreieren. Diese Website ist sodann wie eine App zugänglich (Sie können auch auf die vorher besuchten Seiten zugreifen, ohne Internetverbindung zu haben). Die Art, diese Verknüpfung zu importieren, hängt vom verwendeten Smartphone ab, bleibt aber recht einfach.",
+		guide_title: "Vorgehen für die meisten Android-Geräte :",
+		step_1: 'Öffnen Sie Ihren Browser (mit Vorteil Google Chrome) und gehen sie auf randosources.ch',
+		step_2: 'Klicken Sie auf die 3 Punkte, um auf die Optionen des Browsers zuzugreifen',
+		step_3: 'Klicken Sie auf "Dem Empfangsschirm hinzufügen"',
+		img_1: "/img/smart1.png",
+		img_2: "/img/smart2.png",
+		concl_begin: "Falls dieses Vorgehen auf Ihrem Gerät nicht funktioniert, konsultieren Sie bitte eine komplettere Anleitung",
+		concl_link1_1: "https://de.wikihow.com/Eine-Verkn%C3%BCpfung-f%C3%BCr-ein-Lesezeichen-auf-deinen-Android-Homebildschirm-legen",
+		concl_link1_2: "für Android",
+		between_links: "oder",
+		concl_link2_1: "https://iphone-tricks.de/anleitung/2964-website-als-icon-am-homescreen",
+		concl_link2_2: "Iphone"
+	},
   excursions_list: {
     title: 'Liste der Wanderungen'
   },
