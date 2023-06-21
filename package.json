@@ -32,7 +32,7 @@
     "bootstrap-vue": "^2.21.2",
     "image-map": "^1.1.7",
     "jquery": "^3.4.1",
-    "nuxt": "^2.15.6",
+    "nuxt": "^3.4.3",
     "nuxt-i18n": "^6.17.0",
     "querystring": "^0.2.0",
     "vue-gallery": "^2.0.1"
